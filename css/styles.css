@@ -1,0 +1,893 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Dancing+Script:wght@700&family=Merriweather+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
+/* 
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'ubuntu', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(190deg 64% 22%);
+  border-radius: 5px;
+}
+
+.scroll-up-btn {
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: hsl(190deg 64% 22%);
+  right: 3px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.scroll-up-btn.show {
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 50px;
+  margin: auto;
+}
+
+.fa-times {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+  color: rgb(140, 140, 140);
+  font-size: 3rem;
+}
+
+.fa-times:hover {
+  color: rgb(228, 15, 15);
+}
+
+/* Navigation bar styling */
+/* .navbar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  background-color: #0000006e;
+}
+
+.navbar.sticky {
+  padding: 8px 0;
+  box-shadow: 0 0 5px rgba(14, 55, 63, 0.15);
+  background: #FAFEFF;
+}
+
+.navbar .max-width {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: #fff;
+}
+
+.navbar .logo i {
+  font-size: 40px;
+  color: #fff;
+}
+
+.navbar .logo a span {
+  color: crimson;
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo {
+  color: hsl(190deg 64% 22%);
+}
+
+.navbar.sticky .logo i {
+  color: hsl(190deg 64% 22%);
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: bolder;
+  padding: 12px 20px;
+  transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+  background-color: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color: #1a1a1a;
+}
+
+.navbar.sticky .menu li a {
+  color: hsl(190deg 64% 22%);
+}
+
+.navbar.sticky .menu li a:hover {
+  color: hsl(190deg 64% 22%);
+  padding: 12px 20px;
+  border-bottom: 3px solid hsl(190deg 64% 22%);
+  border-radius: 5px;
+}
+
+.navbar .sticky .logo {
+  color: hsl(190deg 64% 22%);
+}
+
+.navbar.sticky .menu li .last:hover {
+  background: #f75522;
+  color: #fff;
+}
+
+/* Menu btn styling */
+/* .menu-btn {
+  color: #111;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+.sticky .menu-btn {
+  color: #111;
+} */
+
+/* footer */
+/* .footer-distributed {
+  background: rgb(23, 23, 22);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 20px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+} */
+
+/* Footer left */
+/* .footer-distributed .footer-left {
+  width: 40%;
+} */
+
+/* The company logo */
+/* .footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: lightseagreen;
+} */
+
+/* Footer links */
+/* .footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: rgb(158, 154, 154);
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+} */
+
+/* Footer Center */
+/* .footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+  background-color: lightseagreen;
+}
+
+.footer-distributed .footer-center i.fa-map-marker {
+  background-color: lightseagreen;
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center i.fa-phone {
+  background-color: lightseagreen;
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  ;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+/* .footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  background-color: lightseagreen;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}*/
+ 
+
+/* Responsive styling */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'ubuntu', sans-serif;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(190deg 64% 22%);
+    border-radius: 5px;
+  }
+
+  .scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: hsl(190deg 64% 22%);
+    right: 3px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .scroll-up-btn.show {
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .max-width {
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: auto;
+  }
+
+  .fa-times {
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    color: rgb(140, 140, 140);
+    font-size: 3rem;
+  }
+
+  .fa-times:hover {
+    color: rgb(228, 15, 15);
+  }
+
+  /* Navigation bar styling */
+  .navbar {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+    background-color: #0000006e;
+  }
+
+  .navbar.sticky {
+    padding: 8px 0;
+    box-shadow: 0 0 5px rgba(14, 55, 63, 0.15);
+    background: #FAFEFF;
+  }
+
+  .navbar .max-width {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar .logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #fff;
+  }
+
+  .navbar .logo i {
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .navbar .logo a span {
+    color: crimson;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.sticky .logo {
+    color: hsl(190deg 64% 22%);
+  }
+
+  .navbar.sticky .logo i {
+    color: hsl(190deg 64% 22%);
+  }
+
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  .navbar .menu li a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 12px 20px;
+    transition: color 0.3s ease;
+  }
+
+  .navbar .menu li a:hover {
+    background-color: #fff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #1a1a1a;
+  }
+
+  .navbar.sticky .menu li a {
+    color: hsl(190deg 64% 22%);
+  }
+
+  .navbar.sticky .menu li a:hover {
+    color: hsl(190deg 64% 22%);
+    padding: 12px 20px;
+    border-bottom: 3px solid hsl(190deg 64% 22%);
+    border-radius: 5px;
+  }
+
+  .navbar .sticky .logo {
+    color: hsl(190deg 64% 22%);
+  }
+
+  .navbar.sticky .menu li .last:hover {
+    background: #f75522;
+    color: #fff;
+  }
+
+  /* Menu btn styling */
+  .menu-btn {
+    color: #111;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .sticky .menu-btn {
+    color: #111;
+  }
+
+  /* footer */
+  .footer-distributed {
+    background: rgb(23, 23, 22);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 20px 50px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  /* Footer left */
+  .footer-distributed .footer-left {
+    width: 40%;
+  }
+
+  /* The company logo */
+  .footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+  }
+
+  .footer-distributed h3 span {
+    color: lightseagreen;
+  }
+
+  /* Footer links */
+  .footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+
+  .footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .footer-distributed .footer-company-name {
+    color: rgb(158, 154, 154);
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  /* Footer Center */
+  .footer-distributed .footer-center {
+    width: 35%;
+  }
+
+  .footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+
+  .footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+    background-color: lightseagreen;
+  }
+
+  .footer-distributed .footer-center i.fa-map-marker {
+    background-color: lightseagreen;
+    font-size: 17px;
+    line-height: 38px;
+  }
+
+  .footer-distributed .footer-center i.fa-phone {
+    background-color: lightseagreen;
+    font-size: 17px;
+    line-height: 38px;
+  }
+
+  .footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+  }
+
+  .footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .footer-distributed .footer-center p a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    ;
+  }
+
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+
+  /* Footer Right */
+  .footer-distributed .footer-right {
+    width: 20%;
+  }
+
+  .footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .footer-distributed .footer-icons {
+    margin-top: 25px;
+  }
+
+  .footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    background-color: lightseagreen;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  /* Navigation bar*/
+  .navbar {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.sticky {
+    padding: 12px 0;
+    background: #fff;
+  }
+
+  .max-width {
+    padding: 0 25px;
+    margin: auto;
+  }
+
+  .navbar .logo a {
+    color: crimson;
+  }
+
+  /* side navigaion section start */
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+
+  .navbar .menu {
+    overflow-y: scroll;
+    position: absolute;
+    height: 100vh;
+    width: 320px;
+    left: -100%;
+    top: 0;
+    background: #fff;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu.active {
+    left: 0;
+  }
+
+  .navbar .menu li {
+    display: block;
+    line-height: 40px;
+  }
+
+  .navbar .menu li a,
+  .navbar .menu li .last,
+  .navbar.sticky .menu li a,
+  .navbar.sticky .menu li .last {
+    color: #736565db;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 22px;
+    width: 100%;
+    margin: 0px 5px;
+    padding: 0px 0px 0px 20px;
+    background: #fff;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu li a:hover {
+    background: hsl(190deg 64% 22%);
+    color: #fff;
+  }
+
+  .navbar .menu li .last:hover {
+    background: hsl(190deg 64% 22%);
+    color: #fff;
+  }
+
+  .navbar.sticky .menu li a:hover {
+    background: hsl(190deg 64% 22%);
+    color: #fff;
+  }
+
+  .navbar.sticky .menu li .last:hover {
+    background: hsl(190deg 64% 22%);
+    color: #fff;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  /* Navigation Bar*/
+  .navbar {
+    position: fixed;
+    width: 100%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.sticky {
+    padding: 12px 0;
+    background: #fff;
+  }
+
+  .max-width {
+    padding: 0 25px;
+    margin: auto;
+  }
+
+  /* side navigaion section start */
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+
+  .navbar .menu {
+    overflow-y: scroll;
+    position: absolute;
+    height: 100vh;
+    width: 150px;
+    left: -100%;
+    top: 0;
+    background: #fff;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu li {
+    display: block;
+    line-height: 30px;
+  }
+
+  .navbar .menu li a,
+  .navbar .menu li .last,
+  .navbar.sticky .menu li a,
+  .navbar.sticky .menu li .last {
+    color: #736565db;
+    background: #fff;
+    display: inline-block;
+    width: 90%;
+    margin: 0px 2px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 0px 0px 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menu li a:hover {
+    background: hsl(190deg 64% 22%);
+    color: #fff;
+  }
+
+  .navbar .menu li .last:hover {
+    background: hsl(190deg 64% 22%);
+    color: #fff;
+  }
+
+  .navbar.sticky .menu li a:hover {
+    background: hsl(190deg 64% 22%);
+    color: #fff;
+  }
+
+  .navbar.sticky .menu li .last:hover {
+    background: hsl(190deg 64% 22%);
+    color: #fff;
+  }
+
+  .navbar .menu.active {
+    left: 0;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
+  /* Navigation Bar */
+  .navbar .menu {
+    position: absolute;
+    height: 100vh;
+    width: 80%;
+    left: -100%;
+    top: 0;
+    background: #fff;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(image/pexels_Home.jpg);
+    background-size: cover;
+    height: 80vh;
+  }
+}
