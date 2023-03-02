@@ -1,0 +1,70 @@
+.image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/sub.png);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 110px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.image a:active {
+  color: #19d3c6;
+}
+
+.swiper-slide {
+  /* background-color: #9ea5bc; */
+  z-index: 1;
+  background-image: url(../Images/wall/wall7.jpg);
+  border-radius: 20px;
+  padding: 15px;
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  box-shadow: 7px 7px 0px rgba(27, 27, 27, 0.349);
+}
+
+.swiper-slide:hover {
+  background-color: #000000;
+  box-shadow: 7px 7px 7px rgba(0, 64, 86);
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  filter: brightness(100%);
+}
+.swiper-slide img:hover {
+  filter: brightness(120%);
+}
+.swiper-slide h1 {
+  font-size: 15pt;
+  color: rgb(12, 54, 68);
+  font-style: italic;
+}
+
+.swiper-slide:hover h1 {
+  color: black;
+  font-style: italic;
+}
+.swiper-pagination{
+  margin-top: 80px;
+}
+
+
+
+/* Responsive styling */
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 600px) {}
