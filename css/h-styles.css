@@ -82,7 +82,7 @@ section {
 }
 
 
-.start-page {
+.start-sell {
     margin-top: 5px;
     height: 100vh;
     padding: 0px 0;
@@ -90,24 +90,24 @@ section {
     background-image: url();
 }
 
-.start-page .start-page-content {
+.start-sell .start-sell-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.start-page .start-page-content .card-one,
+.start-sell .start-sell-content .card-one,
 .card-two {
     width: 50%;
     height: 500px;
 }
 
-.start-page .start-page-content .card-two {
+.start-sell .start-sell-content .card-two {
     display: flex;
 }
 
-.start-page .start-page-content .card-one .text2 {
+.start-sell .start-sell-content .card-one .text2 {
     font-size: 30px;
     font-weight: bold;
     color: hsl(190deg 64% 18%);
@@ -115,7 +115,7 @@ section {
 }
 
 
-.start-page .start-page-content .card-one p {
+.start-sell .start-sell-content .card-one p {
     font-size: 18px;
     font-family: Comic Sans MS;
     font-style: italic;
@@ -123,7 +123,7 @@ section {
     margin: 10px 10px 10px 80px;
 }
 
-.start-page .start-page-content .card-one a {
+.start-sell .start-sell-content .card-one a {
     display: inline-block;
     background: hsl(190deg 64% 22%);
     color: #fff;
@@ -135,7 +135,7 @@ section {
     transition: all 0.3s ease;
 }
 
-.start-page .start-page-content .card-one a:hover {
+.start-sell .start-sell-content .card-one a:hover {
     color: #fff;
     background: hsl(190deg 60% 10%);
 }
@@ -312,3 +312,39 @@ figcaption button {
 }
 
 
+
+/* Responsive styling */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+
+/* 
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+} */
