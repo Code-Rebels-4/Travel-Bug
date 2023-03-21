@@ -1,0 +1,59 @@
+.image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/wall/wall8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 43vh;
+    padding-top: 130px;
+    padding-left: 150px;
+    color: #939f8a;
+    font-size: 42px;
+    font-weight: 60;
+    text-align: left;
+}
+
+.image p {
+    color: #4c752c;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+.d1{
+    height: 90vh; 
+    /* background-image:linear-gradient(to right, #112434, #183439,#263f49, #586c7c) */
+    background-color:#939f8a;
+}
+.d1 h1{
+    margin-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.d1 table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.d1 td img{
+    width: 50%;
+}
+.d1 th{
+    width: 20%;
+    font-size:large;
+    padding: 5px;
+}
+.d1 td{
+    font-size:12pt;
+    font-style: italic;
+}
+
+
+/* Responsive styling */
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 600px) {}
