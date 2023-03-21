@@ -2,6 +2,23 @@ section {
     padding: 100px 200px;
 }
 
+.mapdiv{
+    width:28%;
+    margin: auto;
+    background-color: rgb(251, 251, 251);
+}
+
+.mapdiv path {
+    fill: #00c5cc;
+    stroke: #000000;
+    stroke-width:4px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill:#000;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -82,6 +99,13 @@ section {
     font-weight: 60;
 }
 
+.explore .card-one .text2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(190deg 64% 18%);
+    margin: -50px 10px 30px 80px;
+}
 
 /* second page*/
 .second-page {
@@ -156,7 +180,7 @@ figure {
     overflow: hidden;
     margin: 48px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 13px;
 
 }
 
