@@ -391,6 +391,8 @@ section {
 
 .explore h1 {
     font-size: 25px; /* Change the font size to your desired size */
+    -webkit-text-stroke: 1px black;
+    color: #ffffff;
   }
 
 
