@@ -113,12 +113,12 @@ section {
     font-size: 30px;
     font-weight: bold;
     color: hsl(190deg 64% 18%);
-    margin: 200px 10px 30px 80px;
+    margin: -110px 10px 30px 80px;
 }
 
 
 .second-page .second-page-content .card-one p {
-    font-size: 18px;
+    font-size: 16.5px;
     font-family: Comic Sans MS;
     font-style: italic;
     color: #44686F;
