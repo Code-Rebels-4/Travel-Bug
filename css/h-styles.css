@@ -2,12 +2,6 @@ section {
     padding: 100px 200px;
 }
 
-.crystal {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: red;
-  }
 
 .mapdiv{
     width:23%;
