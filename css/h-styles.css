@@ -160,6 +160,10 @@ section {
   margin: -100px 115px 60px 80px;
 }
 
+.ajax-loader2 {
+  margin-left: 30px;
+}
+
 .ajax-loader, .ajax-loader2, .ajax-loader3, .ajax-loader4 {
   position: absolute;
   transform-origin: 50% 50%;
