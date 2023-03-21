@@ -87,7 +87,7 @@ section {
     margin-top: 5px;
 
     height: 100vh;
-    padding: 0px 0;
+    padding: 75px 0;
     background-color: rgb(251, 251, 251);
     background-image: url();
 }
@@ -230,7 +230,7 @@ figure {
     overflow: hidden;
     margin: 48px;
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 
