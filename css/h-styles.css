@@ -82,7 +82,7 @@ section {
 }
 
 /* seller register section start */
-.start-sell {
+.start {
     margin-top: 5px;
     height: 100vh;
     padding: 0px 0;
@@ -90,24 +90,24 @@ section {
     background-image: url();
 }
 
-.start-sell .start-sell-content {
+.start .start-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.start-sell .start-sell-content .card-one,
+.start .start-content .card-one,
 .card-two {
     width: 50%;
     height: 500px;
 }
 
-.start-sell .start-sell-content .card-two {
+.start .start-content .card-two {
     display: flex;
 }
 
-.start-sell .start-sell-content .card-one .text2 {
+.start .start-content .card-one .text2 {
     font-size: 30px;
     font-weight: bold;
     color: hsl(190deg 64% 18%);
@@ -115,7 +115,7 @@ section {
 }
 
 
-.start-sell .start-sell-content .card-one p {
+.start .start-content .card-one p {
     font-size: 18px;
     font-family: Comic Sans MS;
     font-style: italic;
@@ -123,7 +123,7 @@ section {
     margin: 10px 10px 10px 80px;
 }
 
-.start-sell .start-sell-content .card-one a {
+.start .start-content .card-one a {
     display: inline-block;
     background: hsl(190deg 64% 22%);
     color: #fff;
@@ -135,7 +135,7 @@ section {
     transition: all 0.3s ease;
 }
 
-.start-sell .start-sell-content .card-one a:hover {
+.start .start-content .card-one a:hover {
     color: #fff;
     background: hsl(190deg 60% 10%);
 }
