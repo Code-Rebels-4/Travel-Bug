@@ -78,12 +78,18 @@ section {
 .text3 span {
     color: hsl(48, 76%, 61%);
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 60;
 }
+
 
 /* second page*/
 .second-page {
     margin-top: 0px;
+
+
+.start-sell {
+    margin-top: 5px;
+
     height: 100vh;
     padding: 0px 0;
     background-color: rgb(251, 251, 251);
@@ -312,3 +318,39 @@ figcaption button {
 }
 
 
+
+/* Responsive styling */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+
+/* 
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+} */
