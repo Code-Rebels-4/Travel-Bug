@@ -2,7 +2,6 @@ section {
     padding: 100px 200px;
 }
 
-
 .mapdiv{
     width:23%;
     margin: auto;
@@ -151,6 +150,14 @@ section {
     font-weight: bold;
     color: hsl(190deg 64% 18%);
     margin: -150px 115px 60px 80px;
+}
+
+.cards .card-one .text2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: hsl(190deg 64% 18%);
+  margin: -100px 115px 60px 80px;
 }
 
 .ajax-loader, .ajax-loader2, .ajax-loader3, .ajax-loader4 {
