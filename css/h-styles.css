@@ -86,8 +86,9 @@ section {
 /* second page*/
 .second-page {
     margin-top: 0px;
+
     height: 100vh;
-    padding: 0px 0;
+    padding: 75px 0;
     background-color: rgb(251, 251, 251);
     background-image: url();
 }
@@ -156,6 +157,7 @@ figure {
     margin: 48px;
     margin-top: 10px;
     margin-left: 10px;
+
 }
 
  
