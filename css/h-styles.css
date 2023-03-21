@@ -11,14 +11,57 @@ section {
 }
 
 .mapdiv path {
-    fill: #4b4b4b;
-    stroke: #000000;
     stroke-width:4px;
     transition: fill 0.3s;
 }
 
+.central {
+    fill: #FFA1A1;
+    stroke: #000000;
+}
+
+.eastern {
+    fill: #818100;
+    stroke: #000000;
+}
+
+.nothern {
+    fill: #FF9571;
+    stroke: #000000;
+}
+
+.northcentral {
+    fill: #FFFF91;
+    stroke: #000000;
+}
+
+.northwestern {
+    fill: #71A1FF;
+    stroke: #000000;
+}
+
+.southern {
+    fill: #B4FF3E;
+    stroke: #000000;
+}
+
+.sabara {
+    fill: #FF81C1;
+    stroke: #000000;
+}
+
+.uva {
+    fill: #00F0F0;
+    stroke: #000000;
+}
+
+.western {
+    fill: #FFC100;
+    stroke: #000000;
+}
+
 .mapdiv :hover {
-    fill:#15b2d5;
+    fill:#586266;
 }
 
 .home {
