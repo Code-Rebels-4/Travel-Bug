@@ -194,18 +194,6 @@ section {
 
 /* explore */
 
-/* $base-duration: 500ms;
-
-// Colors
-$color-1: #2c3e50;
-$color-2: #1abc9c;
-$color-3: #2ecc71;
-
-// Breakpoints
-$sm: new-breakpoint(min-width 320px);
-$med: new-breakpoint(min-width 768px);
-$lg: new-breakpoint(min-width 1024px); */
-
 *,
 *:before,
 *:after {
@@ -214,16 +202,17 @@ $lg: new-breakpoint(min-width 1024px); */
 }
 
 .explore {
-    background-color: #2b2a2a;
-    margin-top: 0px;
+    background-color: #d6d6d6;
+    margin-top: 5px;
     height: 100vh;
+    width: 100vw;
 }
 
 
 figure {
     position: relative;
-    display: inline-block;
-    width: 300px;
+    display:inline-block;
+    width: 315px;
     height: 567px;
     border-radius: 20px;
     overflow: hidden;
@@ -232,7 +221,7 @@ figure {
     margin-left: 10px;
 }
 
-
+ 
 figure:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -250,14 +239,14 @@ figure:hover figcaption {
     bottom: 0;
 }
 
-figure h1 {
-    position: absolute;
+figure h1{
+    position:absolute;
     top: 50px;
     left: 20px;
     margin: 0;
     padding: 0;
-    color: rgb(255, 250, 250);
-    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
     font-weight: 800;
     line-height: 1;
     opacity: 1;
@@ -276,7 +265,7 @@ figcaption {
     bottom: -44%;
     left: 0;
     width: 100%;
-    margin: 60;
+    margin: 0px;
     padding: 20px;
     color: rgb(255, 255, 255);
     line-height: 1;
@@ -294,7 +283,7 @@ figcaption h3 {
 figcaption p {
     font-size: 20px;
     line-height: 1.55;
-
+    
 }
 
 figcaption button {
@@ -312,40 +301,3 @@ figcaption button {
     cursor: pointer;
 }
 
-
-
-/* Responsive styling */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
-
-
-/* 
-@media (max-width: 880px) {
-    .footer-distributed {
-        font: bold 14px sans-serif;
-    }
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-center,
-    .footer-distributed .footer-right {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-    .footer-distributed .footer-center i {
-        margin-left: 0;
-    }
-} */
