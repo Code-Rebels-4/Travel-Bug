@@ -2,6 +2,25 @@ section {
     padding: 100px 200px;
 }
 
+.mapdiv{
+    width:23%;
+    margin: auto;
+    margin-top: -20px;
+    margin-left: 230px;
+    background-color: rgb(255, 255, 255);
+}
+
+.mapdiv path {
+    fill: #4b4b4b;
+    stroke: #000000;
+    stroke-width:4px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill:#15b2d5;
+}
+
 .home {
     position: relative;
     width: 100%;
@@ -82,6 +101,13 @@ section {
     font-weight: 60;
 }
 
+.explore .card-one .text2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(190deg 64% 18%);
+    margin: -50px 10px 30px 80px;
+}
 
 /* second page*/
 .second-page {
@@ -89,7 +115,7 @@ section {
 
     height: 100vh;
     padding: 75px 0;
-    background-color: rgb(251, 251, 251);
+    background-color: rgb(255, 255, 255);
     background-image: url();
 }
 
@@ -114,7 +140,7 @@ section {
     font-size: 30px;
     font-weight: bold;
     color: hsl(190deg 64% 18%);
-    margin: -50px 10px 30px 80px;
+    margin: -50px 10px 30px 180px;
 }
 
 
@@ -123,7 +149,7 @@ section {
     font-family: Comic Sans MS;
     font-style: italic;
     color: #44686F;
-    margin: 10px 10px 10px 80px;
+    margin: 10px 10px 10px 180px;
 }
 
 /* explore */
@@ -136,7 +162,7 @@ section {
 }
 
 .explore {
-    background-color: #edebeb;
+    background-color: #ffffff;
     margin-top: 5px;
     height: 100vh;
     width: 100vw;
@@ -156,7 +182,7 @@ figure {
     overflow: hidden;
     margin: 48px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 13px;
 
 }
 
