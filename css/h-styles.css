@@ -378,6 +378,10 @@ fill:#383c3e;
     width: 100vw;
 }
 
+h1 {
+    font-size: 25px; /* Change the font size to your desired size */
+  }
+
 
 figure {
     position: relative;
