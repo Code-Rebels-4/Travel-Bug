@@ -25,6 +25,14 @@
   text-align: center;
 }
 
+.text3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: hsl(190deg 64% 18%);
+  margin: 0px 10px -60px 0px;
+  text-align: center;
+}
+
 .image {
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,6 +177,9 @@ a #you {
 a #you:hover {
   color: #333;
 }
+
+
+/* email */
 
 .image #email table{
   background-image:url(../Images/wall/wall3.jfif); 
