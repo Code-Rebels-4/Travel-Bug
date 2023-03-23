@@ -2,72 +2,6 @@ section {
     padding: 100px 200px;
 }
 
-/* map */
-.mapdiv{
-    width:23%;
-    margin: auto;
-    margin-top: -130px;
-    margin-left: 180px;
-    background-color: rgb(255, 255, 255);
-}
-
-.mapdiv :hover {
-  fill:#383c3e;
-}
-
-.mapdiv path {
-    stroke-width:4px;
-    transition: fill 0.3s;
-}
-
-
-/* map provinces */
-.central {
-    fill: #FFA1A1;
-    stroke: #000000;
-}
-
-.eastern {
-    fill: #818100;
-    stroke: #000000;
-}
-
-.nothern {
-    fill: #FF9571;
-    stroke: #000000;
-}
-
-.northcentral {
-    fill: #FFFF91;
-    stroke: #000000;
-}
-
-.northwestern {
-    fill: #71A1FF;
-    stroke: #000000;
-}
-
-.southern {
-    fill: #B4FF3E;
-    stroke: #000000;
-}
-
-.sabara {
-    fill: #FF81C1;
-    stroke: #000000;
-}
-
-.uva {
-    fill: #00F0F0;
-    stroke: #000000;
-}
-
-.western {
-    fill: #FFC100;
-    stroke: #000000;
-}
-
-
 .home {
     position: relative;
     width: 100%;
@@ -169,6 +103,116 @@ section {
   font-size: 20px;
   font-weight: bold;
   color: hsl(190deg 64% 18%);
+}
+
+
+
+/* second page*/
+.second-page {
+    margin-top: 0px;
+
+    height: 100vh;
+    padding: 75px 0;
+    background-color: rgb(255, 255, 255);
+    background-image: url();
+}
+
+.second-page .second-page-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-page .second-page-content .card-one,
+.card-two {
+    width: 50%;
+    height: 500px;
+}
+
+.second-page .second-page-content .card-two {
+    display: flex;
+}
+
+.second-page .second-page-content .card-one .text2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(190deg 64% 18%);
+    margin: -130px 10px 30px 250px;
+}
+
+
+.second-page .second-page-content .card-one p {
+    font-size: 16.5px;
+    font-family: Comic Sans MS;
+    font-style: italic;
+    color: #44686F;
+    margin: 10px 10px 10px 250px;
+}
+
+/* map */
+.mapdiv{
+  width:23%;
+  margin: auto;
+  margin-top: -130px;
+  margin-left: 180px;
+  background-color: rgb(255, 255, 255);
+}
+
+.mapdiv :hover {
+fill:#383c3e;
+}
+
+.mapdiv path {
+  stroke-width:4px;
+  transition: fill 0.3s;
+}
+
+
+/* map provinces */
+.central {
+  fill: #FFA1A1;
+  stroke: #000000;
+}
+
+.eastern {
+  fill: #818100;
+  stroke: #000000;
+}
+
+.nothern {
+  fill: #FF9571;
+  stroke: #000000;
+}
+
+.northcentral {
+  fill: #FFFF91;
+  stroke: #000000;
+}
+
+.northwestern {
+  fill: #71A1FF;
+  stroke: #000000;
+}
+
+.southern {
+  fill: #B4FF3E;
+  stroke: #000000;
+}
+
+.sabara {
+  fill: #FF81C1;
+  stroke: #000000;
+}
+
+.uva {
+  fill: #00F0F0;
+  stroke: #000000;
+}
+
+.western {
+  fill: #FFC100;
+  stroke: #000000;
 }
 
 .ajax-loader2, .ajax-loader3 {
@@ -323,48 +367,7 @@ section {
   }
 }
 
-/* second page*/
-.second-page {
-    margin-top: 0px;
 
-    height: 100vh;
-    padding: 75px 0;
-    background-color: rgb(255, 255, 255);
-    background-image: url();
-}
-
-.second-page .second-page-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.second-page .second-page-content .card-one,
-.card-two {
-    width: 50%;
-    height: 500px;
-}
-
-.second-page .second-page-content .card-two {
-    display: flex;
-}
-
-.second-page .second-page-content .card-one .text2 {
-    font-size: 30px;
-    font-weight: bold;
-    color: hsl(190deg 64% 18%);
-    margin: -130px 10px 30px 250px;
-}
-
-
-.second-page .second-page-content .card-one p {
-    font-size: 16.5px;
-    font-family: Comic Sans MS;
-    font-style: italic;
-    color: #44686F;
-    margin: 10px 10px 10px 250px;
-}
 
 /* explore */
 
@@ -375,9 +378,9 @@ section {
     width: 100vw;
 }
 
-.explore .card-one h1 {
+h1 {
     font-size: 25px; /* Change the font size to your desired size */
-}
+  }
 
 
 figure {
