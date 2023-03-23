@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="css/a-styles.css">
     <link rel="stylesheet" href="page icon/web icon/css/all.css" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <script src="js/typed.min.js"></script>
@@ -40,32 +42,60 @@
     </nav>
 
     <div class="image">
-        <p style="font-size: 2.5rem;">Who We Are...</p>
-        Designers, Thinkers & Collaborators
+        <br><br><br>
+        <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="2000">About</h1>
+        <p style="font-size: 2.5rem;" data-aos="fade-left" data-aos-delay="600" data-aos-duration="2000">Who We Are...</p><br>
+        <div  data-aos="fade" data-aos-delay="1300" data-aos-duration="3000">Designers, Thinkers & Collaborators</div>
     </div>
 
     <div class="d1">
-        <h1>Our Team</h1>
-        <table>
-            <tr>
-                <td><img src="Images/team/tharindu.png"/></td>
-                <td><img src="Images/team/ishara.png"/></td>
-                <td><img src="Images/team/arun.png"/></td>
-                <td><img src="Images/team/imesha.png"/></td>
-            </tr>
-            <tr>
-                <th>K.T.N. Hettige</th>
-                <th>I.T. Stanley</th>
-                <th>K. Arun Kanai</th>
-                <th>I.G.I.U. Prasantha</th>
-            </tr>
-            <tr>
-                <td>Meyata mongal</td>
-                <td>Meyaatath mongal</td>
-                <td>Meyaaatath mongal</td>
-                <td>Meyaaaatath mongal</td>
-            </tr>
-        </table>
+        <h1 class="text2" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Meet Our Team</h1>
+        <div class="main">
+            <div class="ani" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                <div class="profile-card">
+                    <div class="img">
+                        <img src="Images\team\tharindu.png">
+                    </div>
+                    <div class="caption">
+                        <h3>T.N. Hettige</h3>
+                        <p>BSE (Hons) Undergraduate</p>
+                        <h4>The Open University of Sri Lanka</h4>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="img">
+                        <img src="Images\team\ishara.png">
+                    </div>
+                    <div class="caption">
+                        <h3>I.T. Stanley</h3>
+                        <p>BSE (Hons) Undergraduate</p>
+                        <h4>The Open University of Sri Lanka</h4>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="img">
+                        <img src="Images\team\arun.png">
+                    </div>
+                    <div class="caption">
+                        <h3>K. Arun Kanai</h3>
+                        <p>BSE (Hons) Undergraduate</p>
+                        <h4>The Open University of Sri Lanka</h4>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="img">
+                        <img src="Images\team\imesha.png">
+                    </div>
+                    <div class="caption">
+                        <h3>I.G. Prasantha</h3>
+                        <p>BSE (Hons) Undergraduate</p>
+                        <h4>The Open University of Sri Lanka</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="./Font-Awesome/all.min.js"></script>
     </div>
 
     <!--Footer-->
@@ -75,7 +105,7 @@
             <p class="footer-links">
                 <a href="home.html" class="link-1">Home</a>
                 <a href="home.html#explore">Explore</a>
-                <a href="#">About</a>
+                <a href="aboutUs.html">About</a>
                 <a href="contactUs.html">Contact</a>
             </p>
             <p class="footer-company-name">travelbug © 2022</p>
@@ -111,6 +141,11 @@
     </footer>
 
     <script src="js/mscript.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
