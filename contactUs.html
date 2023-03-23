@@ -106,7 +106,9 @@
                                     <input type="email" class="input-field" placeholder="Type your email address here..." required><br>
                                     <input type="text" class="input-field" placeholder="Type the subject here..." required><br>
                                     <textarea type="text" class="input-field textarea-field" placeholder="Type your message here..." required></textarea><br>
-                                    <button type="submit" class="btn" onclick="myFunction()">Send Message</button>
+                                    <button type="submit" class="btn" id="bt" onclick="myFunction()">Send Message
+                                        <span class="popuptext" id="myPopup">Thank you for your response!</span>
+                                    </button>
                                     <button type="reset" class="btn">Reset</button>
                                 </form>
                             </div>
@@ -141,7 +143,8 @@
 
     <script>
         function myFunction() {
-            alert("Thank You for your response!");
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
         }
     </script>
 </body>
