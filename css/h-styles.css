@@ -364,13 +364,6 @@ section {
 
 /* explore */
 
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-    outline: none;
-}
-
 .explore {
     background-color: #ffffff;
     margin-top: 5px;
@@ -378,7 +371,7 @@ section {
     width: 100vw;
 }
 
-.explore h1 {
+h1 {
     font-size: 25px; /* Change the font size to your desired size */
   }
 
@@ -473,4 +466,9 @@ figcaption button {
     font-size: 14px;
     cursor: pointer;
 }
+
+
+
+
+
 
