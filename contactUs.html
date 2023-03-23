@@ -106,7 +106,7 @@
                                     <input type="email" class="input-field" placeholder="Type your email address here..." required><br>
                                     <input type="text" class="input-field" placeholder="Type the subject here..." required><br>
                                     <textarea type="text" class="input-field textarea-field" placeholder="Type your message here..." required></textarea><br>
-                                    <button type="submit" class="btn">Send Message</button>
+                                    <button type="submit" class="btn" onclick="myFunction()">Send Message</button>
                                     <button type="reset" class="btn">Reset</button>
                                 </form>
                             </div>
@@ -137,6 +137,12 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <script>
+        function myFunction() {
+            alert("Thank You for your response!");
+        }
     </script>
 </body>
 
