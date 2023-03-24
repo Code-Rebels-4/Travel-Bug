@@ -235,6 +235,7 @@ a #you:hover {
   font-size: 15px;
   border: none;
   cursor: pointer;
+  font-weight: bold;
 }
 .image #email table td form .btn:hover{
   color: #ffff;
