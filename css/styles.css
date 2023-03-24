@@ -659,6 +659,7 @@ html {
   margin-top: 25px;
 }
 
+
 .footer-distributed .footer-icons a {
   display: inline-block;
   width: 35px;
@@ -673,4 +674,17 @@ html {
   margin-right: 3px;
   margin-bottom: 5px;
 }
+
+.footer-distributed .footer-icons a .fa-facebook:hover {
+  color: #0c52a1;
+}
+
+.footer-distributed .footer-icons a .fa-instagram:hover {
+  color: #b70e92;
+}
+
+.footer-distributed .footer-icons a .fa-youtube:hover {
+  color: #ff0000;
+}
+
 }
