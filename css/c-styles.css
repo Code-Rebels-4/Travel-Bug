@@ -156,7 +156,7 @@ a #ins:hover {
   color: #333;
 }
 
-a #twit {
+/* a #twit {
   color: #0084ff;
   margin-right: 8px;
   font-size: 21px;
@@ -165,7 +165,7 @@ a #twit {
 
 a #twit:hover {
   color: #333;
-}
+} */
 
 a #you {
   color: #ff0000;
