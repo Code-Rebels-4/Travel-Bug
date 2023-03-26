@@ -106,7 +106,7 @@
   transform: scale(1.05);
   filter:brightness(1.1);
 }
-.container .places-container .place h1{
+.container .places-container .place p{
   font-size: 10pt; 
   color: #fff;
   padding-bottom: 10px;
@@ -116,7 +116,7 @@
   width: 100%;
   border-radius: 0 0 10px 10px;
 }
-.container .places-container .place:hover h1 {
+.container .places-container .place:hover p {
   font-weight: bold;
   font-size: 12pt;
 }
