@@ -471,3 +471,14 @@ figcaption button {
     font-size: 14px;
     cursor: pointer;
 }
+figcaption button:hover{
+  color: white;
+  background-color: #7FC5F6;
+  /* box-shadow: 0px 0px 3px 3px #6e7679; */
+}
+figcaption button a{
+  color: rgb(0, 0, 0);
+}
+/* figcaption button:hover a{
+  color: white;
+} */
