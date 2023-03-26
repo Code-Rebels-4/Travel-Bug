@@ -99,12 +99,12 @@
 }
 
 .container .place:hover {
-  outline: .2rem solid #222;
   outline-offset: 0;
   padding: 0px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  transform: scale(1.05);
+  transform: scale(1.07);
   filter:brightness(1.1);
+
 }
 .container .places-container .place p{
   font-size: 10pt; 
