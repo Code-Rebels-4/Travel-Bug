@@ -1,3 +1,29 @@
+.back {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Images/wall/travel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 101vh;
+  padding-top: 130px;
+  padding-left: 150px;
+  color: #2e322d;
+  font-size: 42px;
+  font-weight: 60;
+  text-align: left;
+}
+
+.back p {
+  color: #265304;
+  font-size: 2.5rem;
+  margin-top: 30px;
+}
+
+.text2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: hsl(190deg 64% 18%);
+  margin: 60px 10px 80px 0px;
+  text-align: center;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
 :root {
@@ -10,11 +36,14 @@
 
 .mid {
    width: 100%;
-   height: 100vh;
+   height: 120vh;
    display: flex;
    justify-content: center;
    align-items: center;
    overflow: hidden;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border-radius: 40px;
 }
  button {
    border: none;
@@ -126,12 +155,12 @@
    right: -5%;
 }
  .cardList__btn .icon {
-   width: 100%;
-   height: 100%;
+   width: 140%;
+   height: 140%;
 }
  .cardList__btn .icon svg {
-   width: 100%;
-   height: 100%;
+   width: 140%;
+   height: 140%;
 }
  .cardList .cards__wrapper {
    position: relative;
