@@ -27,6 +27,7 @@
     font-size: 2.5rem; */
   margin-top: 7px;
   margin-right: 80px;
+  margin-left: -160px;
   width: 60px;
 }
 
@@ -35,6 +36,7 @@
   font-weight: bold;
   color: hsl(190deg 64% 18%);
   margin-left: 20px;
+  text-align: center;
 }
 
 /* @font-face {
