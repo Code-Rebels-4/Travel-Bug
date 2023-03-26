@@ -95,7 +95,7 @@
   transition: all 0.3s ease 0s;
   display: flex;
   align-items: flex-end;
-  filter:saturate(1.5);
+  filter:saturate(1.2);
 }
 
 .container .place:hover {
