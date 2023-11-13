@@ -484,3 +484,35 @@ figcaption button a{
 /* figcaption button:hover a{
   color: white;
 } */
+
+
+/* Map Popup */
+.my-swal-container {
+  font-family: 'Arial, sans-serif';
+}
+
+.my-swal-title {
+  color: #333;
+  font-size: 30px;
+}
+
+.my-swal-container .my-swal-text {
+color: #000000;
+font-size: 25px;
+height: 80%;
+width: 80%;
+}
+
+.my-swal-confirm-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 8px 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
