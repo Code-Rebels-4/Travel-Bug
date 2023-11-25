@@ -411,40 +411,40 @@
     <script src="js/mscript.js"></script>
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Add a click event listener to the "View More Details" button in Card 1
-        const button1 = document.getElementById("viewDetailsBtn1");
+        document.addEventListener("DOMContentLoaded", function () {
+            // Add a click event listener to the "View More Details" button in Card 1
+            const button1 = document.getElementById("viewDetailsBtn1");
 
-        button1.addEventListener("click", function() {
-            // Navigate to page1 (replace 'details.php' with the actual URL)
-            window.location.href = 'details.php';
+            button1.addEventListener("click", function () {
+                // Navigate to page1 (replace 'details.php' with the actual URL)
+                window.location.href = 'details.php';
+            });
         });
-    });
 
-    // If you have Card 2, you can add similar code for its button
-    document.addEventListener("DOMContentLoaded", function() {
-        const button2 = document.getElementById("viewDetailsBtn2");
+        // If you have Card 2, you can add similar code for its button
+        document.addEventListener("DOMContentLoaded", function () {
+            const button2 = document.getElementById("viewDetailsBtn2");
 
-        button2.addEventListener("click", function() {
-            window.location.href = 'details.php';
+            button2.addEventListener("click", function () {
+                window.location.href = 'details.php';
+            });
         });
-    });
     </script>
 
 
 
     <script>
-    // Example: Adding a click event listener to the button
-    document.addEventListener('DOMContentLoaded', function() {
-        var readMoreButton = document.getElementById('readMoreButton');
+        // Example: Adding a click event listener to the button
+        document.addEventListener('DOMContentLoaded', function () {
+            var readMoreButton = document.getElementById('readMoreButton');
 
-        if (readMoreButton) {
-            readMoreButton.addEventListener('click', function() {
-                // Handle the click event
-                window.location.href = 'details.php';
-            });
-        }
-    });
+            if (readMoreButton) {
+                readMoreButton.addEventListener('click', function () {
+                    // Handle the click event
+                    window.location.href = 'details.php';
+                });
+            }
+        });
     </script>
 
 
@@ -452,7 +452,7 @@
     <!-- AOS (Animate On Scroll) library initialization -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 
 </body>
