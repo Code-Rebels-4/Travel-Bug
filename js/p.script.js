@@ -338,6 +338,17 @@ const waitForImages = () => {
   });
 };
 
+// Add this inside your script, assuming you have a function named showDetails()
+const moreDetailsButtons = document.querySelectorAll(".info button");
+
+moreDetailsButtons.forEach((button) => {
+  button.addEventListener("click", showDetails);
+});
+
+function showDetails() {
+  // Your logic for displaying more details goes here
+}
+
 waitForImages();
 
 // console.clear();
