@@ -34,90 +34,6 @@
 }
 
 
-
-
-
-
-/* ------------------------------------------------Elephant section css------------------------------------------ */
-
-/* Information Box */
-.information-box {
-  background-color: #b9e3f0;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
-  max-width: 500px;
-  heightauto: true;
-  text-align: center;
-}
-
-.information-box p {
-  color: #000000;
-  font-size: 17px;
-}
-
-/* Add new styles for the container and the left-box, right-box, and center-box */
-.container {
-  display: flex;
-  justify-content: space-between;
-  margin: 30px auto;
-  max-width: 1400px; /* Adjust the max-width as needed */
-}
-
-.top-box,
-.left-box,
-.right-box,
-.center-box {
-  flex: 1;
-  margin: 0 10px; /* Adjust margin as needed */
-}
-
-.top-box {
-  text-align: center;
-}
-
-.left-box {
-  text-align: center;
-  margin-right: 150px;
-  heightauto: true;
-}
-
-.right-box {
-  text-align: center;
-  margin-left: 150px;
-  heightauto: true;
-}
-
-.center-box {
-  text-align: center;
-  align-self: center;
-}
-
-/* new styles for the animated image */
-.animated-image {
-  flex: 1;
-  text-align: center;
-  position: relative;
-}
-
-.animated-image img {
-  max-width: 70%;
-  height: auto;
-  heightauto: true;
-  border-radius: 10px;
-}
-
-/* ------------------------------------------------Elephant section css------------------------------------------ */
-
-
-
-
-
-
-
-/* ------------------------------------------------Slide Css Code ------------------------------------------------- */
-
 .mid {
   width: 100%;
   height: 120vh;
@@ -147,11 +63,6 @@
 }
 
 
-
-
-
-
-
 button {
   border: none;
   background: none;
@@ -179,17 +90,16 @@ button:focus {
   overflow: hidden;
 }
 .app__bg::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.2); /* White overlay with 80% opacity */
-    z-index: 1;
-    opacity: 0.8;
-    border-radius: 40px;
-    transition: opacity var(--card-transition-duration) var(--card-transition-easing);
+
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 1;
+  opacity: 0.8;
 }
 
 .app__bg__image {
@@ -297,20 +207,29 @@ button:focus {
     var(--card-transition-easing);
   user-select: none;
 }
+
 /* .card::before {
+
+
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 125%;
   height: 120%;
-  background: #ef0000;
+
+  background: #000;
+
   z-index: 1;
   transition: opacity var(--card-transition-duration)
     var(--card-transition-easing);
   opacity: calc(1 - var(--opacity));
   border-radius: 40px;
+
 } */
+
+}
+
 .card__image {
   position: relative;
   width: 125%;
@@ -469,3 +388,105 @@ button:focus {
   transform: scale(1.1);
 }
 
+/* Information Box */
+.information-box {
+  background-color: #b9e3f0;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 500px;
+  heightauto: true;
+  text-align: center;
+}
+
+.information-box p {
+  color: #000000;
+  font-size: 17px;
+}
+
+/* Add new styles for the container and the left-box, right-box, and center-box */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  max-width: 1400px; /* Adjust the max-width as needed */
+}
+
+.top-box,
+.left-box,
+.right-box,
+.center-box {
+  flex: 1;
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.top-box {
+  text-align: center;
+}
+
+.left-box {
+  text-align: center;
+  margin-right: 150px;
+  heightauto: true;
+}
+
+.right-box {
+  text-align: center;
+  margin-left: 150px;
+  heightauto: true;
+}
+
+.center-box {
+  text-align: center;
+  align-self: center;
+}
+
+/* new styles for the animated image */
+.animated-image {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.animated-image img {
+  max-width: 70%;
+  height: auto;
+  heightauto: true;
+  border-radius: 10px;
+}
+
+.blog-slider__button {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff; /* Set your desired background color */
+  color: #ffffff; /* Set your desired text color */
+  border-radius: 5px; /* Add rounded corners if desired */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.blog-slider__button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+.button-container {
+  position: relative;
+  z-index: 1000;
+}
+
+.blog-slider__button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.blog-slider__button:hover {
+  background-color: #0056b3;
+}

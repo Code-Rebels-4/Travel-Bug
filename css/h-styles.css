@@ -41,6 +41,7 @@ section {
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
+    justify-content: center;
 }
 
 @keyframes back {
@@ -115,6 +116,7 @@ section {
     font-weight: bold;
     color: hsl(190deg 64% 18%);
     margin: -130px 10px 30px 250px;
+    justify-content: center;
 }
 
 
@@ -484,9 +486,6 @@ figcaption button a{
   color: white;
 } */
 
-/* ------------------------------------------------------------------------------------------------------ */
-/* -----------------------------------------------Map Popup---------------------------------------------- */
-/* ------------------------------------------------------------------------------------------------------ */
 
 
 /* Map Popup */
@@ -505,7 +504,6 @@ font-size: 25px;
 height: 80%;
 width: 80%;
 }
-
 
 
 .my-swal-confirm-button {

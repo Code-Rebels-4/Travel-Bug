@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="Images/logo.png" type="image/x-icon"/>
+
+    <link rel="icon" href="Images/logo.png" type="image/x-icon" />
+
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" type="text/css" href="css/c-styles.css">
 
@@ -27,10 +29,13 @@
         <div class="max-width">
             <div class="logo"><i class="fa-solid fa-tents"></i>&nbsp;Travel Bug</div>
             <ul class="menu">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="home.html#explore">Explore</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php#explore">Explore</a></li>
+
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+
             </ul>
 
             <div class="menu-btn">
@@ -45,7 +50,10 @@
         <br><br><br>
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">Contact</h1>
         <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">If you have a question...</p><br>
-        <div style="font-size: 31px;"  data-aos="fade" data-aos-delay="1300" data-aos-duration="1600">Our team is available to assist you<br>with any inquiries or concerns you may have!</div>
+
+        <div style="font-size: 31px;" data-aos="fade" data-aos-delay="1300" data-aos-duration="1600">Our team is
+            available to assist you<br>with any inquiries or concerns you may have!</div>
+
     </div>
 
     <div class="image">
@@ -69,7 +77,10 @@
                         </div>
                         <div class="caption">
                             <h3>Email</h3>
-                            <p><a href="mailto:travelslbug@gmail.com"><img src="Images/page icons/email.png">travelslbug@gmail.com</a><br>
+
+                            <p><a href="mailto:travelbug.info.lk@gmail.com"><img
+                                        src="Images/page icons/email.png">travelbug.info.lk@gmail.com</a><br>
+
                             </p>
                         </div>
                     </div>
@@ -95,14 +106,21 @@
             <div id="email" data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000">
                 <table>
                     <tr>
-                        <td><img src="Images/contact/mail9.gif" alt="mailgif" width="300px" data-aos="fade-right" data-aos-delay="1500" data-aos-duration="600"></td>
+
+                        <td><img src="Images/contact/mail9.gif" alt="mailgif" width="300px" data-aos="fade-right"
+                                data-aos-delay="1500" data-aos-duration="600"></td>
                         <td>
                             <div style="padding: 10px; text-align: left;">
-                                <form action="mailto:travelslbug@gmail.com" method="post" enctype="text/plain">
-                                    <input type="text" class="input-field" placeholder="Type your name here..." required><br>
-                                    <input type="email" class="input-field" placeholder="Type your email address here..." required><br>
-                                    <input type="text" class="input-field" placeholder="Type the subject here..." required><br>
-                                    <textarea type="text" class="input-field textarea-field" placeholder="Type your message here..." required></textarea><br>
+                                <form action="mail.php" method="post" enctype="text/plain">
+                                    <input type="text" class="input-field" placeholder="Type your name here..."
+                                        required><br>
+                                    <input type="email" class="input-field"
+                                        placeholder="Type your email address here..." required><br>
+                                    <input type="text" class="input-field" placeholder="Type the subject here..."
+                                        required><br>
+                                    <textarea type="text" class="input-field textarea-field"
+                                        placeholder="Type your message here..." required></textarea><br>
+
                                     <button type="submit" class="btn" id="bt" onclick="myFunction()">Send Message
                                         <span class="popuptext" id="myPopup">Thank you for your response!</span>
                                     </button>
@@ -122,10 +140,13 @@
         <div class="footer-center" style="text-align: center; margin-left: 30%;">
             <h3>Travel<span>Bug</span></h3>
             <p class="footer-links">
-                <a href="home.html" class="link-1">Home</a>
-                <a href="home.html#explore">Explore</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
+
+                <a href="index.php" class="link-1">Home</a>
+                <a href="index.php#explore">Explore</a>
+
+                <a href="about.php">About</a>
+                <a href="contact.php">Contact</a>
+
             </p><br>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>

@@ -260,6 +260,7 @@
 .slider-box .slide .div1 {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .slider-box .slide .div1 .dir {
@@ -302,6 +303,7 @@ label::before {
   font-size: 22px;
   font-weight: 600;
 }
+
 
 input[type="radio"] {
   display: none;
@@ -397,4 +399,6 @@ input[type="radio"] {
   text-align: center;
   text-decoration: underline;
   color: #ffffff;
+
 }
+
