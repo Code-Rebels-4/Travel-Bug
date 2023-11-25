@@ -244,7 +244,7 @@
                     <div class="info card1info">
                         <h1 class="text name">Central Province</h1>
                         <p class="text description">Kandy <br> Nuwara Eliya <br> Matale <br>
-                            <a href="details.php" class="blog-slider__button" id="readMoreButton1">READ MORE</a>
+                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton1">READ MORE</a>
                         </p>
                     </div>
 
@@ -252,7 +252,7 @@
                     <div class="info card2info">
                         <h1 class="text name">Western Province</h1>
                         <p class="text description">Colombo <br> Gampaha <br> Kalutara <br>
-                            <a href="details.php" class="blog-slider__button" id="readMoreButton2">READ MORE</a>
+                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton2">READ MORE</a>
                         </p>
                     </div>
 
@@ -260,7 +260,7 @@
                     <div class="info card3info">
                         <h1 class="text name">Southern Province</h1>
                         <p class="text description">Galle <br> Matara <br> Hambantota <br>
-                            <a href="details.php" class="blog-slider__button" id="readMoreButton3">READ MORE</a>
+                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton3">READ MORE</a>
                         </p>
                     </div>
 
@@ -268,7 +268,7 @@
                     <div class="info card4info">
                         <h1 class="text name">Eastern Province</h1>
                         <p class="text description">Ampara <br> batticaloa <br> Trincomalee <br>
-                            <a href="details.php" class="blog-slider__button" id="readMoreButton4">READ MORE</a>
+                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton4">READ MORE</a>
                         </p>
                         </p>
                     </div>
@@ -279,7 +279,7 @@
                         <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br>
                             Vavuniya
                             <br>
-                            <a href="details.php" class="blog-slider__button" id="readMoreButton5">READ MORE</a>
+                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton5">READ MORE</a>
                         </p>
                         </p>
                     </div>
@@ -288,7 +288,7 @@
                     <div class="info card6info">
                         <h1 class="text name">Uva Province </h1>
                         <p class="text description">Badulla <br> Moneragala <br>
-                            <a href="details.php" class="blog-slider__button" id="readMoreButton6">READ MORE</a>
+                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton6">READ MORE</a>
                         </p>
                         </p>
                     </div>
@@ -297,7 +297,7 @@
                     <div class="info card7info">
                         <h1 class="text name">North Central <br>Province </h1>
                         <p class="text description">Anuradhapura <br> Polonnaruwa <br>
-                            <a href="details.php" class="blog-slider__button" id="readMoreButton7">READ MORE</a>
+                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton7">READ MORE</a>
                         </p>
                         </p>
                     </div>
@@ -306,7 +306,7 @@
                     <div class="info card8info">
                         <h1 class="text name">North Western <br>Province </h1>
                         <p class="text description">Kurunegala <br> Puttalam <br>
-                            <a href="details.php" class="blog-slider__button" id="readMoreButton8">READ MORE</a>
+                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton8">READ MORE</a>
                         </p>
                         </p>
                     </div>
@@ -315,7 +315,7 @@
                     <div class="info card9info">
                         <h1 class="text name">Sabaragamuwa <br>Province </h1>
                         <p class="text description">Ratnapura <br> Kegalle <br>
-                            <a href="details.php" class="blog-slider__button" id="readMoreButton9">READ MORE</a>
+                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton9">READ MORE</a>
                         </p>
                         </p>
                     </div>
@@ -326,7 +326,7 @@
     </div>
 
 
-    <a href="details.php" class="blog-slider__button" id="readMoreButton">READ MORE</a>
+    <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton">READ MORE</a>
 
     <button id="viewDetailsBtn1" class="view-details-btn">View More </button>
 
@@ -404,8 +404,8 @@
         const button1 = document.getElementById("viewDetailsBtn1");
 
         button1.addEventListener("click", function() {
-            // Navigate to page1 (replace 'details.php' with the actual URL)
-            window.location.href = 'details.php';
+            // Navigate to page1 (replace 'd-details-CP.php' with the actual URL)
+            window.location.href = 'd-details-CP.php';
         });
     });
 
@@ -414,7 +414,7 @@
         const button2 = document.getElementById("viewDetailsBtn2");
 
         button2.addEventListener("click", function() {
-            window.location.href = 'details.php';
+            window.location.href = 'd-details-CP.php';
         });
     });
     </script>
@@ -429,7 +429,7 @@
         if (readMoreButton) {
             readMoreButton.addEventListener('click', function() {
                 // Handle the click event
-                window.location.href = 'details.php';
+                window.location.href = 'd-details-CP.php';
             });
         }
     });
@@ -449,5 +449,5 @@
 
 
 
-<!-- <a href="details.php" class="blog-slider__button" id="readMoreButton">READ MORE</a> -->
+<!-- <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton">READ MORE</a> -->
 <!-- <button id="viewDetailsBtn1" class="view-details-btn">View More </button> -->
