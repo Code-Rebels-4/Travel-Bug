@@ -79,11 +79,6 @@
                     Province!
                 </h1>
 
-                <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">Embark on a journey
-                    of
-                    exploration and uncover the hidden gems <br> of travel destinations nestled in the heart of Central
-                    Province!</h1>
-
             </div>
 
 
