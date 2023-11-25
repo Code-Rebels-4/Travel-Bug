@@ -1,5 +1,6 @@
 .back {
   /* background-image: url(Images/wall/travel.jpg);
+
   background-size: cover;
   background-repeat: no-repeat;
   height: 101vh; */
@@ -10,10 +11,10 @@
     url(/Images/wall/travel.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 101vh;
-  padding-top: 130px;
+  height: 101vh; */
+  padding-top: 250px;
   padding-left: 150px;
-  color: #2e322d;
+  color: #ffffff;
   font-size: 42px;
   font-weight: 60;
   text-align: left;
@@ -51,6 +52,25 @@
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 0px;
+
+}
+
+/* Add this CSS to your existing stylesheet */
+
+.view-details-btn {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-details-btn:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+
   width: 100%;
   height: 120vh;
   display: flex;
@@ -61,6 +81,7 @@
   margin-bottom: 50px;
   border-radius: 40px;
 }
+
 button {
   border: none;
   background: none;
@@ -77,13 +98,13 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .app__bg {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: -5;
-
   pointer-events: none;
   user-select: none;
   overflow: hidden;
@@ -115,6 +136,167 @@ button:focus {
   object-fit: cover;
 }
 
+.app__bg__image.card1image {
+  opacity: 1;
+  --image-translate-offset: 0;
+}
+.app__bg__image.card3image,
+.app__bg__image.card2image,
+.app__bg__image.card4image,
+.app__bg__image.card5image,
+.app__bg__image.card6image,
+.app__bg__image.card7image .app__bg__image.card8image,
+.app__bg__image.card9image {
+  opacity: 0;
+}
+.app__bg__image.card3image {
+  --image-translate-offset: -100%;
+}
+.app__bg__image.card2image {
+  --image-translate-offset: -100%;
+}
+.app__bg__image.card4image {
+  --image-translate-offset: -100%;
+}
+.app__bg__image.card5image {
+  --image-translate-offset: -100%;
+}
+.app__bg__image.card6image {
+  --image-translate-offset: -100%;
+}
+.app__bg__image.card7image {
+  --image-translate-offset: -100%;
+}
+.app__bg__image.card8image {
+  --image-translate-offset: -100%;
+}
+.app__bg__image.card9image {
+  --image-translate-offset: -100%;
+
+}
+.app__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+
+
+.cardList {
+  position: absolute;
+  width: calc(3 * var(--card-width));
+  height: auto;
+  transform: translateZ(0); /* Remove the tilt effect */
+  pointer-events: none;
+}
+.cardList__btn {
+  --btn-size: 45px;
+  width: var(--btn-size);
+  height: var(--btn-size);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+}
+.cardList__btn.btn--left {
+  left: -5%;
+}
+.cardList__btn.btn--right {
+  right: -5%;
+}
+.cardList__btn .icon {
+  width: 140%;
+  height: 140%;
+}
+.cardList__btn .icon svg {
+  width: 140%;
+  height: 140%;
+}
+.cardList .cards__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+}
+.card {
+  --card-translateY-offset: 100vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-58%, -60%) translateX(var(--card-translateX-offset))
+    translateY(var(--card-translateY-offset))
+    rotateY(var(--card-rotation-offset)) scale(var(--card-scale-offset));
+  display: inline-block;
+  width: var(--card-width);
+  height: var(--card-height);
+  transition: transform var(--card-transition-duration)
+    var(--card-transition-easing);
+  user-select: none;
+}
+.card::before {
+
+  pointer-events: none;
+  user-select: none;
+  overflow: hidden;
+}
+.app__bg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 125%;
+  height: 120%;
+  background: #000;
+  z-index: 1;
+  transition: opacity var(--card-transition-duration)
+    var(--card-transition-easing);
+  opacity: calc(1 - var(--opacity));
+  border-radius: 40px;
+}
+.card__image {
+  position: relative;
+  width: 125%;
+  height: 120%;
+}
+.card__image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.card.card1 {
+  --current-card-rotation-offset: 0;
+  --card-translateX-offset: 0;
+  --card-rotation-offset: var(--current-card-rotation-offset);
+  --card-scale-offset: 1.3;
+  --opacity: 0.8;
+
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 1;
+  opacity: 0.8;
+}
+.app__bg__image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) translateX(var(--image-translate-offset, 0));
+  width: 180%;
+  height: 180%;
+  transition: transform 1000ms ease, opacity 1000ms ease;
+  overflow: hidden;
+}
+.app__bg__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Add this CSS to your existing stylesheet */
 
 .view-details-btn {
@@ -124,11 +306,86 @@ button:focus {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+
 }
 
 .view-details-btn:hover {
   background-color: #0056b3; /* Change background color on hover */
 }
+
+
+.card.card3 {
+  --card-translateX-offset: calc(2 * var(--card-width) * 1.2);
+  --card-rotation-offset: -20deg;
+}
+
+.card.card4 {
+  --card-translateX-offset: calc(3 * var(--card-width) * 1.3);
+  --card-rotation-offset: -30deg;
+}
+
+.card.card5 {
+  --card-translateX-offset: calc(4 * var(--card-width) * 1.3);
+  --card-rotation-offset: -40deg;
+}
+
+.card.card6 {
+  --card-translateX-offset: calc(-1 * var(--card-width) * 1.3);
+  --card-rotation-offset: 10deg;
+}
+
+.card.card7 {
+  --card-translateX-offset: calc(-2 * var(--card-width) * 1.2);
+  --card-rotation-offset: 20deg;
+}
+
+.card.card8 {
+  --card-translateX-offset: calc(-3 * var(--card-width) * 1.3);
+  --card-rotation-offset: 30deg;
+}
+
+.card.card9 {
+  --card-translateX-offset: calc(-4 * var(--card-width) * 1.3);
+  --card-rotation-offset: 40deg;
+}
+
+.card.card3,
+.card.card2,
+.card.card4,
+.card.card5,
+.card.card6,
+.card.card7,
+.card.card8,
+.card.card9 {
+  --card-scale-offset: 0.7;
+  --opacity: 0.6;
+}
+
+.infoList {
+  position: absolute;
+  width: calc(3 * var(--card-width));
+  height: var(--card-height);
+  pointer-events: none;
+}
+
+.infoList .info__wrapper {
+  position: static;
+  width: 100%;
+  height: 150%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.info {
+  margin-bottom: calc(var(--card-height) / 3.5);
+  margin-left: calc(var(--card-width) / 1.135);
+  transform: translateZ(0);
+  transition: transform var(--card-transition-duration)
+    var(--card-transition-easing);
+  position: fixed;
 
 button {
   border: none;
@@ -207,6 +464,7 @@ button:focus {
 }
 .app__bg__image.card5image {
   --image-translate-offset: -100%;
+
 }
 .app__bg__image.card6image {
   --image-translate-offset: -100%;
@@ -214,6 +472,33 @@ button:focus {
 .app__bg__image.card7image {
   --image-translate-offset: -100%;
 }
+
+
+.info.card1info {
+  opacity: 1;
+  display: inline-flexbox;
+}
+
+.info.card2info,
+.info.card3info,
+.info.card4info,
+.info.card5info,
+.info.card6info,
+.info.card7info,
+.info.card8info,
+.info.card9info {
+  opacity: 0;
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  :root {
+    --card-width: 250px;
+    --card-height: 400px;
+  }
+}
+.support {
+
 .app__bg__image.card8image {
   --image-translate-offset: -100%;
 }
@@ -222,6 +507,7 @@ button:focus {
 }
 
 .cardList {
+
   position: absolute;
   width: calc(3 * var(--card-width));
   height: auto;
@@ -554,4 +840,108 @@ button:focus {
   .blog-slider__button:hover {
     background-color: #0056b3;
   }
+}
+
+
+/* Information Box */
+.information-box {
+  background-color: #b9e3f0;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 500px;
+  heightauto: true;
+  text-align: center;
+}
+
+.information-box p {
+  color: #000000;
+  font-size: 17px;
+}
+
+/* Add new styles for the container and the left-box, right-box, and center-box */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  max-width: 1400px; /* Adjust the max-width as needed */
+}
+
+.top-box,
+.left-box,
+.right-box,
+.center-box {
+  flex: 1;
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.top-box {
+  text-align: center;
+}
+
+.left-box {
+  text-align: center;
+  margin-right: 150px;
+  heightauto: true;
+}
+
+.right-box {
+  text-align: center;
+  margin-left: 150px;
+  heightauto: true;
+}
+
+.center-box {
+  text-align: center;
+  align-self: center;
+}
+
+/* new styles for the animated image */
+.animated-image {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.animated-image img {
+  max-width: 70%;
+  height: auto;
+  heightauto: true;
+  border-radius: 10px;
+}
+
+.blog-slider__button {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff; /* Set your desired background color */
+  color: #ffffff; /* Set your desired text color */
+  border-radius: 5px; /* Add rounded corners if desired */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.blog-slider__button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+.button-container {
+  position: relative;
+  z-index: 1000;
+}
+
+.blog-slider__button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.blog-slider__button:hover {
+  background-color: #0056b3;
 }
