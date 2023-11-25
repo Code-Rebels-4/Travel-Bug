@@ -400,7 +400,12 @@ button:focus {
 
 .information-box p {
   color: #000000;
-  font-size: 17px;
+  font-size: 20px;
+}
+
+.information-box ul {
+  color: #000000;
+  font-size: 20px;
 }
 
 /* Add new styles for the container and the left-box, right-box, and center-box */
@@ -453,6 +458,8 @@ button:focus {
   heightauto: true;
   border-radius: 10px;
 }
+
+
 
 /* 
 ------------------------------------------------------------------------------ */
