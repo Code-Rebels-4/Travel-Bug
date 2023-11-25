@@ -568,7 +568,8 @@
         <div class="footer-right">
             <p class="footer-company-about">
                 <span>About the Team</span>
-                As a group of Software Engineering undergraduates, we engage in coding, website and software application design while navigating our way through the vast IT field.
+                As a group of Software Engineering undergraduates, we engage in coding, website and software application
+                design while navigating our way through the vast IT field.
             </p>
             <div class="footer-icons">
                 <a href="#"><i class="fa fa-facebook"></i></a>
