@@ -1,5 +1,5 @@
 .back {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Images/wall/wall10.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/wall/wall10.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 101vh;
@@ -48,7 +48,7 @@
   line-height: 1;
   font-size: 2.5rem;
   margin-top: 30px;
-} 
+}
 
 .main {
   width: 100%;
@@ -56,7 +56,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#ffff;
+  background-color: #ffff;
   margin-top: 0px;
 }
 
@@ -65,7 +65,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#ffff;
+  background-color: #ffff;
   margin-top: 50px;
 }
 
@@ -181,32 +181,32 @@ a #you:hover {
 
 /* email */
 
-.image #email table{ 
+.image #email table {
   background-color: rgb(245, 243, 243);
   box-shadow: 0 0 20px 0 rgb(74, 74, 74);
-  margin-left: auto; 
-  margin-right: auto; 
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 50px;
   padding: 20px;
-  vertical-align: middle; 
+  vertical-align: middle;
   border-radius: 20px;
 }
 
-.image #email table td form{
+.image #email table td form {
   margin: 35px;
   margin-top: -5px;
   margin-bottom: -5px;
-  font-size: 20px; 
-  font-weight:bold; 
+  font-size: 20px;
+  font-weight: bold;
   color: black;
 }
 
-.image #email table td img{
+.image #email table td img {
   margin-right: 40px;
   margin-left: 50px;
 }
 
-.image #email table td form .input-field{
+.image #email table td form .input-field {
   width: 400px;
   height: 40px;
   margin-top: 25px;
@@ -216,16 +216,16 @@ a #you:hover {
   outline: none;
 }
 
-.image #email table td form .input-field::placeholder{
+.image #email table td form .input-field::placeholder {
   font-size: 17px;
 }
 
-.image #email table td form .textarea-field{
+.image #email table td form .textarea-field {
   height: 150px;
   padding-top: 25px;
 }
 
-.image #email table td form .btn{
+.image #email table td form .btn {
   border-radius: 20px;
   color: #333;
   margin-top: 18px;
@@ -237,13 +237,14 @@ a #you:hover {
   cursor: pointer;
   font-weight: bold;
 }
-.image #email table td form .btn:hover{
+
+.image #email table td form .btn:hover {
   color: #ffff;
   background-color: #12395F;
-  transform: translate(1px ,1px);
+  transform: translate(1px, 1px);
 }
 
-.image #email table td form #bt{
+.image #email table td form #bt {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -287,13 +288,23 @@ a #you:hover {
 }
 
 @-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 
@@ -323,5 +334,3 @@ footer {
 @media only screen and (max-width: 768px) {}
 
 @media only screen and (max-width: 600px) {}
-
-

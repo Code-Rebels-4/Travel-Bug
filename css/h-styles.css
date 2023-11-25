@@ -37,7 +37,7 @@ section {
     line-height: 75px;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    background: url(/Images/back.png);
+    background: url(../Images/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
