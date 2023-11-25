@@ -36,6 +36,7 @@
                 <li><a href="index.php#explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+
             </ul>
 
             <div class="menu-btn">
@@ -403,6 +404,7 @@
                     <p>Explore Sri Lanka Like Never Before - Your One-Stop Guide to the Island's Diverse Destinations!
                     </p>
                     <button>
+
                         <a href="d-provinces.php">Click Here</a>
                     </button>
                 </figcaption>
@@ -417,7 +419,9 @@
                     </h3>
                     <p>Discover Sri Lanka's Best Hiking Trails - Experience Adventure Like Never Before!</p>
                     <button>
+
                         <a href="h-provinces.php">Click Here</a>
+
                     </button>
                 </figcaption>
             </figure>
@@ -434,7 +438,9 @@
                     <p>Pitch Your Tent and Explore Sri Lanka's Natural Wonders - Your Guide to Camping Grounds Across
                         the Island!</p>
                     <button>
+
                         <a href="c-provinces.php">Click Here</a>
+
                     </button>
                 </figcaption>
             </figure>
@@ -541,11 +547,11 @@
         <div class="footer-left">
             <h3>Travel<span>Bug</span></h3>
             <p class="footer-links">
+
                 <a href="index.php" class="link-1">Home</a>
                 <a href="index.php#explore">Explore</a>
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
-
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>
@@ -561,15 +567,18 @@
             </div>
             <div>
                 <i class="fa fa-envelope"></i>
+
                 <p><a href="mailto:travelbug.info.lk@gmail.com">travelbug.info.lk@gmail.com</a></p>
+
             </div>
         </div>
 
         <div class="footer-right">
             <p class="footer-company-about">
                 <span>About the Team</span>
+
                 As a group of Software Engineering undergraduates, we engage in coding, website and software application
-                design while navigating our way through the vast IT field.
+
             </p>
             <div class="footer-icons">
                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -581,22 +590,27 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
+
         var typed = new Typed(".auto-type", {
             strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true,
         })
+
     </script>
     <script src="js/mscript.js"></script>
     <script src="js/vanilla-tilt.min.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>AOS.init();</script>
+
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
+
         // Get all anchor tags inside the mapdiv
         const anchorTags = document.querySelectorAll('.mapdiv a');
 
@@ -631,6 +645,7 @@
             });
         });
     </script>
+
 
 </body>
 

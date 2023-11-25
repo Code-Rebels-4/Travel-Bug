@@ -1,4 +1,5 @@
         <?php
+
         // Include your database connection code here
         $servername = "localhost";
         $username = "root";
@@ -51,10 +52,12 @@
                     <div class="logo"><i class="fa-solid fa-tents"></i>&nbsp;Travel Bug</div>
                     <ul class="menu">
 
+
                         <li><a href="index.php">Home</a></li>
                         <li><a href="index.php#explore">Explore</a></li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact</a></li>
+
                     </ul>
 
                     <div class="menu-btn">
@@ -71,6 +74,7 @@
             </div>
 
             <div class="d1">
+
                 <a href="d-provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img
                         src="Images/arrow.png" title="Go back to Provinces"></a>
 
@@ -78,6 +82,7 @@
                     exploration and uncover the hidden gems <br> of travel destinations nestled in the heart of Central
                     Province!
                 </h1>
+
 
             </div>
 
@@ -91,7 +96,7 @@
                 <div class="places-container" data-aos="fade-up" data-aos-delay="650" data-aos-duration="400">
 
                     <div class="place" data-name="d-1" style="background-image: url(<?php
-                    // Assuming you want to display the image with ID = 2
+    // Assuming you want to display the image with ID = 2
                     $specificImageID = 1;
 
                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
@@ -108,11 +113,13 @@
                     }
 
                     ?>)">
+
                         <p>Temple of The Tooth Relic</p>
                     </div>
 
 
                     <div class="place" data-name="d-2" style="background-image: url(<?php
+
                     // Assuming you want to display the image with ID = 2
                     $specificImageID = 2;
 
@@ -130,11 +137,12 @@
                     }
 
                     ?>)">
+
                         <p>Horton Plains</p>
                     </div>
 
                     <div class="place" data-name="d-3" style="background-image: url(<?php
-                    // Assuming you want to display the image with ID = 3
+         // Assuming you want to display the image with ID = 3
                     $specificImageID = 3;
 
                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
@@ -151,10 +159,12 @@
                     }
 
                     ?>)">
+
                         <p>Royal Botanic Gardens</p>
                     </div>
 
                     <div class="place" data-name="d-4" style="background-image: url(<?php
+
                     // Assuming you want to display the image with ID = 4
                     $specificImageID = 4;
 
@@ -172,10 +182,12 @@
                     }
 
                     ?>)">
+
                         <p>Pinnawala Elephant Orphanage</p>
                     </div>
 
                     <div class="place" data-name="d-5" style="background-image: url(<?php
+
                     // Assuming you want to display the image with ID = 5
                     $specificImageID = 5;
 
@@ -193,10 +205,12 @@
                     }
 
                     ?>)">
+
                         <p>Bahirawakanda Temple</p>
                     </div>
 
                     <div class="place" data-name="d-6" style="background-image: url(<?php
+
                     // Assuming you want to display the image with ID = 31
                     $specificImageID = 31;
 
@@ -214,12 +228,13 @@
                     }
 
                     ?>)">
+
                         <p>Sigiriya</p>
                     </div>
 
 
                     <div class="place" data-name="d-7" style="background-image: url(<?php
-                    // Assuming you want to display the image with ID = 2
+         // Assuming you want to display the image with ID = 2
                     $specificImageID = 55;
 
                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
@@ -236,12 +251,14 @@
                     }
 
                     ?>)">
+
                         <p>Ambuluwawa Tower</p>
                     </div>
 
 
 
                     <div class="place" data-name="d-3" style="background-image: url(<?php
+
                     // Assuming you want to display the image with ID = 3
                     $specificImageID = 3;
 
@@ -259,12 +276,14 @@
                     }
 
                     ?>)">
+
                         <p>Royal Botanic Gardens</p>
                     </div>
 
 
 
                     <div class="place" data-name="d-4" style="background-image: url(<?php
+
                     // Assuming you want to display the image with ID = 4
                     $specificImageID = 4;
 
@@ -282,12 +301,14 @@
                     }
 
                     ?>)">
+
                         <p>Pinnawala Elephant Orphanage</p>
                     </div>
 
 
 
                     <div class="place" data-name="d-5" style="background-image: url(<?php
+
                     // Assuming you want to display the image with ID = 5
                     $specificImageID = 5;
 
@@ -305,6 +326,7 @@
                     }
 
                     ?>)">
+
                         <p>Bahirawakanda Temple</p>
                     </div>
                 </div>
@@ -329,7 +351,7 @@
                     <div class="preview" data-target="d-1">
                         <i class="fas fa-times"></i>
                         <img class="prewImg" src="data:image/jpeg;base64,<?php
-                        $specificImageID = 8;
+          $specificImageID = 8;
 
                         $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                         $result = $conn->query($sql);
@@ -434,6 +456,7 @@
                         }
 
                         ?>" alt="">
+
 
 
 
@@ -692,6 +715,7 @@
 
 
 
+
                         <h3>Horton Plains National Park</h3>
                         <h4>Center Province, Nuwara Eliya City</h4>
 
@@ -832,6 +856,7 @@
                     <div class="preview" data-target="d-3">
                         <i class="fas fa-times"></i>
                         <img class="prewImg" src="data:image/jpeg;base64,<?php
+
                         $specificImageID = 24;
 
                         $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
@@ -937,6 +962,7 @@
                         }
 
                         ?>" alt="">
+
 
 
 
@@ -1082,6 +1108,7 @@
                     <div class="preview" data-target="d-4">
                         <i class="fas fa-times"></i>
                         <img class="prewImg" src="data:image/jpeg;base64,<?php
+
                         $specificImageID = 38;
 
                         $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
@@ -1326,7 +1353,7 @@
                     <div class="preview" data-target="d-5">
                         <i class="fas fa-times"></i>
                         <img class="prewImg" src="data:image/jpeg;base64,<?php
-                        $specificImageID = 45;
+             $specificImageID = 45;
 
                         $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                         $result = $conn->query($sql);
@@ -1572,6 +1599,7 @@
                     <div class="preview" data-target="d-6">
                         <i class="fas fa-times"></i>
                         <img class="prewImg" src="data:image/jpeg;base64,<?php
+
                         $specificImageID = 31;
 
                         $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
@@ -1678,6 +1706,7 @@
 
 
                         ?>" alt="">
+
 
 
 
@@ -1816,6 +1845,7 @@
                     <div class="preview" data-target="d-7">
                         <i class="fas fa-times"></i>
                         <img class="prewImg" src="data:image/jpeg;base64,<?php
+
                         $specificImageID = 52;
 
                         $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
@@ -2081,10 +2111,12 @@
                     <h3>Travel<span>Bug</span></h3>
                     <p class="footer-links">
 
+
                         <a href="index.php" class="link-1">Home</a>
                         <a href="index.php#explore">Explore</a>
                         <a href="about.php">About</a>
                         <a href="contact.php">Contact</a>
+
                     </p>
                     <p class="footer-company-name">TravelBug © 2022</p>
                 </div>
@@ -2100,7 +2132,9 @@
                     </div>
                     <div>
                         <i class="fa fa-envelope"></i>
+
                         <p><a href="mailto:travelbug.info.lk@gmail.com">travelbug.info.lk@gmail.com</a></p>
+
                     </div>
                 </div>
 
@@ -2188,11 +2222,13 @@
             </script>
 
             <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
             <script>
             AOS.init();
             </script>
 
             <script async src="https://app2.weatherwidget.org/js/?id=ww_6c16ac5251888"></script>
+
 
         </body>
 

@@ -153,6 +153,7 @@ fill:#383c3e;
   stroke: #000000;
 }
 
+
 .eastern {
   fill: #818100;
   stroke: #000000;
@@ -350,7 +351,7 @@ fill:#383c3e;
 /* explore */
 
 .explore {
-    background-color: #ffffff;
+    background-color: #c4c4c4;
     margin-top: 5px;
     height: 100vh;
     width: 100vw;
@@ -486,6 +487,7 @@ figcaption button a{
 } */
 
 
+
 /* Map Popup */
 .my-swal-container {
   font-family: 'Arial, sans-serif';
@@ -502,6 +504,7 @@ font-size: 25px;
 height: 80%;
 width: 80%;
 }
+
 
 .my-swal-confirm-button {
   background-color: #4CAF50;

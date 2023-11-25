@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
+
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" type="text/css" href="css/a-styles.css">
 
@@ -27,10 +29,12 @@
         <div class="max-width">
             <div class="logo"><i class="fa-solid fa-tents"></i>&nbsp;Travel Bug</div>
             <ul class="menu">
+
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php#explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+
             </ul>
 
             <div class="menu-btn">
@@ -43,7 +47,9 @@
         <br><br><br>
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">About</h1>
         <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">Who We Are...</p><br>
+
         <div data-aos="fade" data-aos-delay="1300" data-aos-duration="1600">Designers, Thinkers & Collaborators</div>
+
     </div>
 
     <div class="d1">
@@ -92,7 +98,6 @@
                 </div>
             </div>
         </div>
-
         <script src="./Font-Awesome/all.min.js"></script>
     </div>
 
@@ -101,6 +106,7 @@
         <div class="footer-left">
             <h3>Travel<span>Bug</span></h3>
             <p class="footer-links">
+
                 <a href="index.php" class="link-1">Home</a>
                 <a href="index.php#explore">Explore</a>
                 <a href="about.php">About</a>
@@ -121,6 +127,7 @@
             </div>
             <div>
                 <i class="fa fa-envelope"></i>
+
                 <p><a href="mailto:travelbug.info.lk@gmail.com">travelbug.info.lk@gmail.com</a></p>
             </div>
         </div>
@@ -135,6 +142,7 @@
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
                 <a href="#"><i class="fa fa-youtube"></i></a>
+
             </div>
         </div>
     </footer>
