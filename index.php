@@ -550,14 +550,8 @@
 
                 <a href="index.php" class="link-1">Home</a>
                 <a href="index.php#explore">Explore</a>
-
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
-
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-
-
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>
@@ -583,7 +577,7 @@
             <p class="footer-company-about">
                 <span>About the Team</span>
 
-                As a group of Software Engineering undergraduates, we engage in coding, website and software application design while navigating our way through the vast IT field.
+                As a group of Software Engineering undergraduates, we engage in coding, website and software application
 
             </p>
             <div class="footer-icons">

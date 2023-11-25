@@ -54,7 +54,7 @@
 
 
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="index.html#explore">Explore</a></li>
+                        <li><a href="index.php#explore">Explore</a></li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact</a></li>
 
