@@ -103,7 +103,6 @@
             <p class="footer-links">
                 <a href="index.php" class="link-1">Home</a>
                 <a href="index.php#explore">Explore</a>
-
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
 

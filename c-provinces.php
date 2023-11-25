@@ -350,8 +350,8 @@
             <p class="footer-links">
                 <a href="index.php" class="link-1">Home</a>
                 <a href="index.php#explore">Explore</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
+                <a href="about.php">About</a>
+                <a href="contact.php">Contact</a>
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>

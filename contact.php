@@ -29,7 +29,6 @@
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php#explore">Explore</a></li>
-
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
 
@@ -133,7 +132,6 @@
             <p class="footer-links">
                 <a href="index.php" class="link-1">Home</a>
                 <a href="index.php#explore">Explore</a>
-
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
             </p><br>

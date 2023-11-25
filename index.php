@@ -547,9 +547,6 @@
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
 
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>
