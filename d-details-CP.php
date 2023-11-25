@@ -33,7 +33,7 @@ $result = $conn->query($sql);
     <script src=" https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <script src="js/3.5.1.min.js"></script>
 
-    <title>Details</title>
+    <title>Travel Destinations - CP</title>
 </head>
 
 <body>
@@ -59,7 +59,7 @@ $result = $conn->query($sql);
     </nav>
 
     <!--Banner-->
-    <div class="image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/kandy.jpg);">
+    <div class="image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/D-CP.jpg);">
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
             Central Province
         </h1>
@@ -70,9 +70,8 @@ $result = $conn->query($sql);
     <div class="d1">
         <a href="d-provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img src="Images/arrow.png" title="Go back to Provinces"></a>
 
-        <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">Embark on a journey of
-            exploration and uncover the hidden gems <br> of travel destinations nestled in the heart of Central
-            Province!
+        <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">
+            Embark on a journey of exploration and uncover the hidden gems <br> of travel destinations nestled in the heart of Central Province!
         </h1>
     </div>
 
