@@ -50,10 +50,17 @@
                 <div class="max-width">
                     <div class="logo"><i class="fa-solid fa-tents"></i>&nbsp;Travel Bug</div>
                     <ul class="menu">
+
                         <li><a href="index.php">Home</a></li>
                         <li><a href="index.html#explore">Explore</a></li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact</a></li>
+
+                        <li><a href="home.php">Home</a></li>
+                        <li><a href="home.html#explore">Explore</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+
                     </ul>
 
                     <div class="menu-btn">
@@ -72,10 +79,17 @@
             <div class="d1">
                 <a href="d-provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img
                         src="Images/arrow.png" title="Go back to Provinces"></a>
+
                 <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">Embark on a journey of
                     exploration and uncover the hidden gems <br> of travel destinations nestled in the heart of Central
                     Province!
                 </h1>
+
+                <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">Embark on a journey
+                    of
+                    exploration and uncover the hidden gems <br> of travel destinations nestled in the heart of Central
+                    Province!</h1>
+
             </div>
 
 
@@ -2077,10 +2091,17 @@
                 <div class="footer-left">
                     <h3>Travel<span>Bug</span></h3>
                     <p class="footer-links">
+
                         <a href="index.php" class="link-1">Home</a>
                         <a href="index.php#explore">Explore</a>
                         <a href="about.php">About</a>
                         <a href="contact.php">Contact</a>
+
+                        <a href="home.html" class="link-1">Home</a>
+                        <a href="home.html#explore">Explore</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+
                     </p>
                     <p class="footer-company-name">TravelBug © 2022</p>
                 </div>
