@@ -336,7 +336,7 @@ input[type="radio"] {
   display: inline-block;
   top: 30px;
   margin-inline: 90px;
-  width: 350px;
+  width: 330px;
   height: 180px;
   background: #00443f;
   border-radius: 20px;
@@ -383,14 +383,13 @@ input[type="radio"] {
   color: #ffffff;
   line-height: 1.2em;
 }
-.card .cont .details .data {
-  margin: 20px 0;
-}
+
 .card .cont .details .data h3 {
   font-size: 1em;
   line-height: 1.2em;
   font-weight: 600;
   text-align: center;
+  padding-top: 5px;
 }
 .card .cont .details .data a {
   font-size: 1em;
