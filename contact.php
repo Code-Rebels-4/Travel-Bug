@@ -1,3 +1,21 @@
+<?php
+
+// Include your database connection code here
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "travelbug";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$result = $conn->query($sql);
+
+?>
+
 <!DOCTYPE html>
 <html>
 
