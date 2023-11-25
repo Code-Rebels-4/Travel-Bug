@@ -29,8 +29,8 @@
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php#explore">Explore</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
 
             <div class="menu-btn">
@@ -131,8 +131,8 @@
             <p class="footer-links">
                 <a href="index.php" class="link-1">Home</a>
                 <a href="index.php#explore">Explore</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
+                <a href="about.php">About</a>
+                <a href="contact.php">Contact</a>
             </p><br>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>

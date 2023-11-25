@@ -43,8 +43,8 @@
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php#explore">Explore</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
 
             <!-- Menu button for small screens -->
@@ -348,10 +348,10 @@
         <div class="footer-left">
             <h3>Travel<span>Bug</span></h3>
             <p class="footer-links">
-                <a href="home.html" class="link-1">Home</a>
-                <a href="home.html#explore">Explore</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
+                <a href="index.php" class="link-1">Home</a>
+                <a href="index.php#explore">Explore</a>
+                <a href="about.php">About</a>
+                <a href="contact.php">Contact</a>
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>
