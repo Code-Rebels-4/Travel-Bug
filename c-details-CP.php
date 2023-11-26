@@ -68,7 +68,7 @@ $result = $conn->query($sql);
 
     <!--Back Arrow / Quote-->
     <div class="d1">
-        <a href="d-provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img src="Images/arrow.png" title="Go back to Provinces"></a>
+        <a href="c-provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img src="Images/arrow.png" title="Go back to Provinces"></a>
 
         <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">
             Set up camp in Central Province's serene grounds, where nature's embrace<br> and starlit skies create unforgettable camping experiences.        
