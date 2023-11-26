@@ -499,10 +499,9 @@ figcaption button a{
 }
 
 .my-swal-container .my-swal-text {
-color: #000000;
-font-size: 25px;
-height: 80%;
-width: 80%;
+  color: #000000;
+  font-size: 16px;
+  padding: 20px;
 }
 
 
@@ -520,12 +519,13 @@ width: 80%;
   border-radius: 4px;
 }
 
+
 /* Festival Slider */
 .container{
   position: relative;
   border-radius: 30px;
   transform: translate(-50%,-50%);
-  width:1100px;
+  width:1150px;
   height:550px;
   padding:50px;
   background-color: #ffffff;
