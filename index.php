@@ -45,6 +45,8 @@
         </div>
     </nav>
 
+
+
     <section class="home">
         <video class="video" src="Videos/beach.mp4" autoplay muted loop></video>
         <div class="content">
@@ -549,14 +551,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-
-        var typed = new Typed(".auto-type", {
-            strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-        })
-
+    var typed = new Typed(".auto-type", {
+        strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+    })
     </script>
     <script src="js/mscript.js"></script>
     <script src="js/fest-script.js"></script>
@@ -564,46 +564,47 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-    <script>AOS.init();</script>
+    <script>
+    AOS.init();
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
+    // Get all anchor tags inside the mapdiv
+    const anchorTags = document.querySelectorAll('.mapdiv a');
 
-        // Get all anchor tags inside the mapdiv
-        const anchorTags = document.querySelectorAll('.mapdiv a');
+    // Add a click event listener to each anchor tag
+    anchorTags.forEach(anchor => {
+        anchor.addEventListener('click', function(event) {
+            event.preventDefault();
 
-        // Add a click event listener to each anchor tag
-        anchorTags.forEach(anchor => {
-            anchor.addEventListener('click', function (event) {
-                event.preventDefault();
+            // Get the district name from the data-district attribute
+            const districtName = anchor.getAttribute('data-district');
 
-                // Get the district name from the data-district attribute
-                const districtName = anchor.getAttribute('data-district');
+            // Get the district description from the data-description attribute
+            const districtDescription = anchor.getAttribute('data-description');
 
-                // Get the district description from the data-description attribute
-                const districtDescription = anchor.getAttribute('data-description');
-
-                // Display a styled popup message with SweetAlert
-                Swal.fire({
-                    title: 'District: ' + districtName,
-                    text: districtDescription,
-                    icon: 'success',
-                    width: '40%',
-                    height: '80%',
-                    heightAuto: false,
-                    imageWidth: 50,
-                    imageHeight: 50,
-                    customClass: {
-                        container: 'my-swal-container',
-                        title: 'my-swal-title',
-                        text: 'my-swal-text',
-                        confirmButton: 'my-swal-confirm-button'
-                    }
-                });
+            // Display a styled popup message with SweetAlert
+            Swal.fire({
+                title: 'District: ' + districtName,
+                text: districtDescription,
+                icon: 'success',
+                width: '40%',
+                height: '80%',
+                heightAuto: false,
+                imageWidth: 50,
+                imageHeight: 50,
+                customClass: {
+                    container: 'my-swal-container',
+                    title: 'my-swal-title',
+                    text: 'my-swal-text',
+                    confirmButton: 'my-swal-confirm-button'
+                }
             });
         });
+    });
     </script>
 
 
