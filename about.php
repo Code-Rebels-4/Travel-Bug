@@ -94,7 +94,7 @@ if ($conn->connect_error) {
                 </div>
                 <div class="profile-card">
                     <div class="img">
-                        <img src="Images\team\arun.png">
+                        <img src="Images/team/arun.png">
                     </div>
                     <div class="caption">
                         <h3>K. Arun Kanai</h3>
@@ -167,7 +167,7 @@ if ($conn->connect_error) {
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+    AOS.init();
     </script>
 </body>
 
