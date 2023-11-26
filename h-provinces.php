@@ -61,8 +61,10 @@
         <br><br><br>
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Hiking Places</h1>
-        <p style="color: aquamarine;" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Embark on the exhilarating trails of your cherished hiking destinations, 
-            <br> meticulously arranged by their associated provinces!</p><br>
+        <p style="color: aquamarine;" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Embark on the
+            exhilarating trails of your cherished hiking destinations,
+            <br> meticulously arranged by their associated provinces!
+        </p><br>
     </div>
 
     <!-- Additional content sections with animations -->
@@ -276,7 +278,8 @@
 
                     <div class="info card5info">
                         <h1 class="text name">Northen Province</h1>
-                        <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br> Vavuniya <br><br>
+                        <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br> Vavuniya
+                            <br><br>
                             <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
                         </p>
                         </p>
@@ -399,7 +402,7 @@
     <!-- AOS (Animate On Scroll) library initialization -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 
 </body>
