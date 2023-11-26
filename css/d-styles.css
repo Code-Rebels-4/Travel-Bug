@@ -1,5 +1,5 @@
 .image {
-  
+
   background-size: cover;
   background-repeat: no-repeat;
   height: 101vh;
@@ -45,13 +45,13 @@
 /* Search container styling */
 .container .search {
   display: flex;
-  padding: 40px 0; /* Increased top and bottom padding for better spacing */
+  padding: 40px 0;
+  /* Increased top and bottom padding for better spacing */
   justify-content: center;
-  background: linear-gradient(
-    to bottom,
-    #3498db,
-    #2980b9
-  ); /* Gradient background */
+  background: linear-gradient(to bottom,
+      #3498db,
+      #2980b9);
+  /* Gradient background */
 }
 
 /* Search input styling */
@@ -59,18 +59,21 @@
   width: 60%;
   height: 50px;
   padding: 10px 20px;
-  background: #fff; /* White background */
+  background: #fff;
+  /* White background */
   font-size: 18px;
   text-transform: capitalize;
   border: 2px solid #3498db;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.08);
-  border-radius: 25px; /* Slightly larger border-radius */
+  border-radius: 25px;
+  /* Slightly larger border-radius */
   transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 /* Search input hover effect */
 .container .search input:hover {
-  border-color: #2ecc71; /* Green border color on hover */
+  border-color: #2ecc71;
+  /* Green border color on hover */
 }
 
 /* Search input focus styling */
@@ -85,7 +88,8 @@
 .container .search input::placeholder {
   color: #a0a0a0;
   font-weight: 600;
-  opacity: 0.8; /* Slightly reduced opacity for a subtle effect */
+  opacity: 0.8;
+  /* Slightly reduced opacity for a subtle effect */
 }
 
 .container .places-container {
@@ -117,6 +121,7 @@
   transform: scale(1.07);
   filter: brightness(1.1);
 }
+
 .container .places-container .place p {
   font-size: 10pt;
   color: #fff;
@@ -127,6 +132,7 @@
   width: 100%;
   border-radius: 0 0 10px 10px;
 }
+
 .container .places-container .place:hover p {
   font-weight: bold;
   font-size: 12pt;
@@ -181,6 +187,7 @@
   font-size: 3rem;
   margin-top: 10px;
 }
+
 .container .places-preview .preview h4 {
   color: rgb(164, 164, 164);
   text-align: center;
@@ -214,6 +221,7 @@
   padding: 18px;
   cursor: pointer;
 }
+
 .tab-box .tab-btn.active2 {
   color: #008a81;
 }
@@ -221,6 +229,7 @@
 .slider-box {
   padding: 20px;
 }
+
 .slider-box .slide {
   display: none;
   color: #000;
@@ -228,19 +237,23 @@
   font-size: 1.6rem;
   animation: moving 0.5s ease;
 }
+
 @keyframes moving {
   from {
     transform: translateX(50px);
     opacity: 0;
   }
+
   to {
     transform: translateX(0px);
     opacity: 1;
   }
 }
+
 .slider-box .slide.active2 {
   display: block;
 }
+
 .slider-box .slide h2 {
   margin-bottom: 10px;
 }
@@ -316,17 +329,18 @@ input[type="radio"] {
   overflow: hidden;
   transition: max-height 0.7s, padding 0.7s;
 }
+
 .accordian a {
   color: rgb(255, 255, 255);
   font-style: italic;
 }
 
-.accordian input[type="radio"]:checked + label + .content {
+.accordian input[type="radio"]:checked+label+.content {
   max-height: 300px;
   padding: 5px;
 }
 
-.accordian input[type="radio"]:checked + label::before {
+.accordian input[type="radio"]:checked+label::before {
   content: "-";
 }
 
@@ -342,6 +356,7 @@ input[type="radio"] {
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
   transition: 0.5s;
 }
+
 .card:hover {
   height: 200px;
 }
@@ -350,6 +365,7 @@ input[type="radio"] {
   width: 90px;
   transform: translate(-50%, -50%);
 }
+
 .card img {
   position: absolute;
   top: 10px;
@@ -360,6 +376,7 @@ input[type="radio"] {
   overflow: hidden;
   transition: 0.5s;
 }
+
 .card .cont {
   position: absolute;
   width: 100%;
@@ -367,15 +384,18 @@ input[type="radio"] {
   justify-content: center;
   overflow: hidden;
 }
+
 .card .cont .details {
   text-align: center;
   width: 100%;
   transition: 0.5s;
   transform: translateY(140px);
 }
+
 .card:hover .cont .details {
   transform: translateY(60px);
 }
+
 .card .cont .details h2 {
   font-size: 1.25em;
   font-weight: 600;
@@ -390,6 +410,7 @@ input[type="radio"] {
   text-align: center;
   padding-top: 5px;
 }
+
 .card .cont .details .data a {
   font-size: 1em;
   font-style: italic;
@@ -399,4 +420,3 @@ input[type="radio"] {
   color: #ffffff;
 
 }
-
