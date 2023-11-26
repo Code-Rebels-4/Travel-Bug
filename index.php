@@ -395,7 +395,7 @@
             <div class="text2" data-aos="flip-up" data-aos-delay="600" data-aos-duration="1000">Discover the Most
                 Attractive Places</div>
 
-            <figure class="image-block" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+            <figure class="image-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 <h1>Travel <br> Destinations</h1>
 
                 <img src="Images/home/destination.png" alt="An image of temple of the tooth" />
@@ -412,7 +412,7 @@
                 </figcaption>
             </figure>
 
-            <figure class="image-block" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">
+            <figure class="image-block" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
                 <h1>Hiking <br> Places</h1>
                 <img src="Images/home/hiking places.jpg" alt="An image of people hiking on a mountain" />
                 <figcaption>
@@ -428,7 +428,7 @@
                 </figcaption>
             </figure>
 
-            <figure class="image-block" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+            <figure class="image-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 <h1>Camping <br> Grounds</h1>
 
                 <img src="Images/home/camping.png" alt="An image of a person in a tent" />
@@ -457,7 +457,7 @@
 
         </div>
         
-        <div class="container" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+        <div class="container" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
             <div id="slide">
                 <div class="item" style="background-image: url(Images/home/ny.jpg);">
                     <div class="content">
@@ -572,39 +572,37 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
-    // Get all anchor tags inside the mapdiv
-    const anchorTags = document.querySelectorAll('.mapdiv a');
 
-    // Add a click event listener to each anchor tag
-    anchorTags.forEach(anchor => {
-        anchor.addEventListener('click', function(event) {
-            event.preventDefault();
+        // Get all anchor tags inside the mapdiv
+        const anchorTags = document.querySelectorAll('.mapdiv a');
 
-            // Get the district name from the data-district attribute
-            const districtName = anchor.getAttribute('data-district');
+        // Add a click event listener to each anchor tag
+        anchorTags.forEach(anchor => {
+            anchor.addEventListener('click', function (event) {
+                event.preventDefault();
 
-            // Get the district description from the data-description attribute
-            const districtDescription = anchor.getAttribute('data-description');
+                const districtName = anchor.getAttribute('data-district');
+                const districtDescription = anchor.getAttribute('data-description');
 
-            // Display a styled popup message with SweetAlert
-            Swal.fire({
-                title: 'District: ' + districtName,
-                text: districtDescription,
-                icon: 'success',
-                width: '40%',
-                height: '80%',
-                heightAuto: false,
-                imageWidth: 50,
-                imageHeight: 50,
-                customClass: {
-                    container: 'my-swal-container',
-                    title: 'my-swal-title',
-                    text: 'my-swal-text',
-                    confirmButton: 'my-swal-confirm-button'
-                }
+                Swal.fire({
+                    title: 'District: ' + districtName,
+                    html: '<p class="my-swal-text">' + districtDescription + '</p>',
+                    icon: 'success',
+                    width: '40%',
+                    height: '80%',
+                    heightAuto: false,
+                    imageWidth: 50,
+                    imageHeight: 50,
+                    customClass: {
+                        container: 'my-swal-container',
+                        title: 'my-swal-title',
+                        text: 'my-swal-text',
+                        confirmButton: 'my-swal-confirm-button'
+                    }
+                });
             });
         });
-    });
+
     </script>
 
 
