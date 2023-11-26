@@ -72,14 +72,13 @@
     <!-- Information box at the top -->
     <br><br><br><br><br><br>
     <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="450" data-aos-duration="400">
-        <h1>Essentials for Safety and Navigation:</h1>
-        <p>Embark on an unforgettable hiking adventure through mesmerizing destinations like Torres del Paine in
+        <p><b>Embark on an unforgettable hiking adventure through mesmerizing destinations like Torres del Paine in
             Patagonia, Banff National Park in the Canadian Rockies, Fiordland National Park in New Zealand, and the
             Swiss Alps. These landscapes blend rugged beauty with pristine wilderness, offering breathtaking vistas,
             alpine meadows, and the allure of ancient wonders. Traverse through towering peaks, emerald lakes, and
             mystical fjords, immersing yourself in the natural symphony of these extraordinary locations. Brace yourself
             for an experience that transcends time, captivates your soul, and leaves an indelible mark on your journey
-            through the great outdoors.</p>
+            through the great outdoors.</b></p>
     </div>
 
     <!-- Three boxes in the container section -->
