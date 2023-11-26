@@ -45,6 +45,8 @@
         </div>
     </nav>
 
+
+
     <section class="home">
         <video class="video" src="Videos/beach.mp4" autoplay muted loop></video>
         <div class="content">
@@ -549,14 +551,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-
-        var typed = new Typed(".auto-type", {
-            strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-        })
-
+    var typed = new Typed(".auto-type", {
+        strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+    })
     </script>
     <script src="js/mscript.js"></script>
     <script src="js/fest-script.js"></script>
@@ -564,7 +564,9 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-    <script>AOS.init();</script>
+    <script>
+    AOS.init();
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
