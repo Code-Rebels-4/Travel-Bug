@@ -72,19 +72,49 @@
     <!-- Information box at the top -->
     <br><br><br><br><br><br>
     <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="450" data-aos-duration="400">
-        <p><b>Embark on an unforgettable journey through the mesmerizing travel destinations of Sri Lanka, a land where
-                ancient wonders and natural beauty converge in perfect harmony. Brace yourself for an adventure that
-                transcends time and captivates your soul.</b></p>
+        <h1>Essentials for Safety and Navigation:</h1>
+        <p>Embark on an unforgettable hiking adventure through mesmerizing destinations like Torres del Paine in
+            Patagonia, Banff National Park in the Canadian Rockies, Fiordland National Park in New Zealand, and the
+            Swiss Alps. These landscapes blend rugged beauty with pristine wilderness, offering breathtaking vistas,
+            alpine meadows, and the allure of ancient wonders. Traverse through towering peaks, emerald lakes, and
+            mystical fjords, immersing yourself in the natural symphony of these extraordinary locations. Brace yourself
+            for an experience that transcends time, captivates your soul, and leaves an indelible mark on your journey
+            through the great outdoors.</p>
     </div>
 
     <!-- Three boxes in the container section -->
     <div class="container">
         <!-- Left box -->
         <div class="left-box information-box" data-aos="fade-right" data-aos-delay="450" data-aos-duration="400">
-            <h1>Discover Historical and Cultural Odyssey:</h1>
-            <p>Uncover the secrets of Sri Lanka's rich heritage as you explore the ancient marvels of Sigiriya and the
-                cultural significance of Kandy's Temple of the Tooth Relic. Immerse yourself in centuries-old stories
-                etched in stone and tradition.</p>
+            <h1>Personal Gear and Clothing:</h1>
+            <p>
+            <ul type="none">
+                <li>
+                    1.5-liter bottle of water
+                </li>
+                <li>
+                    Hiking boots and thick outdoor socks
+                </li>
+                <li>
+                    Trousers for warmth and quick-drying
+                </li>
+                <li>
+                    Waterproof jacket
+                </li>
+                <li>
+                    Head torch for poorly lit sections of the trail
+                </li>
+                <li>
+                    Small bottle of Dettol for hygiene
+                </li>
+                <li>
+                    Sunscreen and light covering for sun protection
+                </li>
+                <li>
+                    Snacks for energy during the journey
+                </li>
+            </ul>
+            </p>
         </div>
 
         <!-- Animated image -->
@@ -94,19 +124,47 @@
 
         <!-- Right box -->
         <div class="right-box information-box" data-aos="fade-left" data-aos-delay="450" data-aos-duration="400">
-            <h1>Traverse Diverse Landscapes and Tranquil Escapes:</h1>
-            <p>Traverse the emerald hills of Ella, breathe in the crisp mountain air, and lose yourself in the
-                mist-covered beauty of Ella Gap. From rolling hills to tropical beaches, Sri Lanka's landscapes promise
-                a symphony of visual delights and tranquil retreats.</p>
+            <h1>Essentials for Safety and Navigation:</h1>
+            <p>
+            <ul type="none">
+                <li>
+                    Wear appropriate clothing and footwear
+                </li>
+                <li>
+                    Bring adequate water, food, and first aid supplies
+                </li>
+                <li>
+                    Carry raincoats, warm clothes, and umbrellas, regardless of the weather
+                </li>
+                <li>
+                    Always have a mobile phone, extra batteries, power banks, flashlight, GPS devices, and a compass
+                </li>
+            </ul>
+            </p>
         </div>
+    </div>
     </div>
 
     <!-- Bottom box with coastal allure and wildlife adventures -->
     <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="450" data-aos-duration="400">
-        <h1>Observe Coastal Allure and Wildlife Adventures:</h1>
-        <p>Immerse yourself in the colonial charm of Galle, where cobbled streets wind through a historic fort, offering
-            boutique shops and the scent of the sea. Then, relax on Mirissa's golden sands and embark on a wildlife
-            adventure in Yala National Park, where untamed beauty and exotic creatures await.</p>
+        <h1>Miscellaneous Tips and Extras:</h1>
+        <p>
+        <ul type="none">
+            <li>
+                Ensure appropriate behavior by refraining from smoking, alcohol, or drug use
+            </li>
+            <li>
+                Emphasize the importance of adhering to guidelines for a safe and enjoyable experience
+            </li>
+            <li>
+                Highlight the need to capture the journey with a camera
+            </li>
+            <li>
+                Stress the importance of respecting the environment by carrying plastic bags for rubbish disposal
+            </li>
+        </ul>
+        </p>
+    </div>
     </div>
 
     <!-- Additional heading -->
