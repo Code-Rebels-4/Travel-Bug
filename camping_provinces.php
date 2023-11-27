@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta tags for character set, compatibility, and viewport -->
     <meta charset="utf-8">

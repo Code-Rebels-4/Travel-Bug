@@ -12,5 +12,4 @@ $headers = "From: noreply@travelbug.lk" . "\r\n" .
 if ($email != null) {
     mail($to, $subject, $txt, $headers);
 }
-
 header("Location:../contact.html");
