@@ -32,7 +32,6 @@ if ($conn->connect_error) {
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <script src="js/3.5.1.min.js"></script>
-
     <title>Contact</title>
 </head>
 
@@ -155,12 +154,10 @@ if ($conn->connect_error) {
         <div class="footer-center" style="text-align: center; margin-left: 30%;">
             <h3>Travel<span>Bug</span></h3>
             <p class="footer-links">
-
                 <a href="index.php" class="link-1">Home</a>
                 <a href="index.php#explore">Explore</a>
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
-
             </p><br>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>
@@ -170,14 +167,14 @@ if ($conn->connect_error) {
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+    AOS.init();
     </script>
 
     <script>
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
     </script>
 </body>
 
