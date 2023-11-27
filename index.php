@@ -453,7 +453,7 @@
     <section id="cards" class="cards">
         <div class="card-one">
 
-            <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">Dscover some of the Most
+            <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">Discover some of the Most
                 Popular Festivals in Sri Lanka</div>
 
         </div>
