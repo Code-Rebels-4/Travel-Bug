@@ -26,6 +26,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+
 :root {
   --card-width: 200px;
   --card-height: 300px;
@@ -48,16 +49,20 @@
 /* Add this CSS to your existing stylesheet */
 
 .view-details-btn {
-  background-color: #007bff; /* Button background color */
-  color: #fff; /* Button text color */
-  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #007bff;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
+  padding: 10px 20px;
+  /* Adjust padding as needed */
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .view-details-btn:hover {
-  background-color: #0056b3; /* Change background color on hover */
+  background-color: #0056b3;
+  /* Change background color on hover */
 }
 
 button {
@@ -65,10 +70,12 @@ button {
   background: none;
   cursor: pointer;
 }
+
 button:focus {
   outline: none;
   border: none;
 }
+
 .app {
   position: relative;
   width: 100%;
@@ -109,6 +116,7 @@ button:focus {
   transition: transform 1000ms ease, opacity 1000ms ease;
   overflow: hidden;
 }
+
 .app__bg__image img {
   width: 100%;
   height: 100%;
@@ -119,6 +127,7 @@ button:focus {
   opacity: 1;
   --image-translate-offset: 0;
 }
+
 .app__bg__image.card3image,
 .app__bg__image.card2image,
 .app__bg__image.card4image,
@@ -128,27 +137,35 @@ button:focus {
 .app__bg__image.card9image {
   opacity: 0;
 }
+
 .app__bg__image.card3image {
   --image-translate-offset: -100%;
 }
+
 .app__bg__image.card2image {
   --image-translate-offset: -100%;
 }
+
 .app__bg__image.card4image {
   --image-translate-offset: -100%;
 }
+
 .app__bg__image.card5image {
   --image-translate-offset: -100%;
 }
+
 .app__bg__image.card6image {
   --image-translate-offset: -100%;
 }
+
 .app__bg__image.card7image {
   --image-translate-offset: -100%;
 }
+
 .app__bg__image.card8image {
   --image-translate-offset: -100%;
 }
+
 .app__bg__image.card9image {
   --image-translate-offset: -100%;
 }
@@ -169,26 +186,32 @@ button:focus {
   transform: translateY(-50%);
   z-index: 100;
 }
+
 .cardList__btn.btn--left {
   left: -5%;
 }
+
 .cardList__btn.btn--right {
   right: -5%;
 }
+
 .cardList__btn .icon {
   width: 140%;
   height: 140%;
 }
+
 .cardList__btn .icon svg {
   width: 140%;
   height: 140%;
 }
+
 .cardList .cards__wrapper {
   position: relative;
   width: 100%;
   height: 100%;
   perspective: 1000px;
 }
+
 .card {
   --card-translateY-offset: 100vh;
   position: absolute;
@@ -230,6 +253,7 @@ button:focus {
   width: 125%;
   height: 120%;
 }
+
 .card__image img {
   position: absolute;
   left: 0;
@@ -364,6 +388,7 @@ button:focus {
     --card-height: 400px;
   }
 }
+
 .support {
   position: absolute;
   right: 10px;
@@ -371,6 +396,7 @@ button:focus {
   padding: 10px;
   display: flex;
 }
+
 .support a {
   margin: 0 10px;
   color: #fff;
@@ -378,6 +404,7 @@ button:focus {
   backface-visibility: hidden;
   transition: all 150ms ease;
 }
+
 .support a:hover {
   transform: scale(1.1);
 }
@@ -413,7 +440,8 @@ button:focus {
   display: flex;
   justify-content: space-between;
   margin: 30px auto;
-  max-width: 1400px; /* Adjust the max-width as needed */
+  max-width: 1400px;
+  /* Adjust the max-width as needed */
 }
 
 .top-box,
@@ -421,7 +449,8 @@ button:focus {
 .right-box,
 .center-box {
   flex: 1;
-  margin: 0 10px; /* Adjust margin as needed */
+  margin: 0 10px;
+  /* Adjust margin as needed */
 }
 
 .top-box {
@@ -459,25 +488,30 @@ button:focus {
   border-radius: 10px;
 }
 
-
-
 /* 
 ------------------------------------------------------------------------------ */
 
 .blog-slider__button {
   display: inline-block;
-  padding: 10px 20px; /* Adjust the padding as needed */
-  font-size: 16px; /* Adjust the font size as needed */
+  padding: 10px 20px;
+  /* Adjust the padding as needed */
+  font-size: 16px;
+  /* Adjust the font size as needed */
   text-align: center;
   text-decoration: none;
-  background-color: #007bff; /* Set your desired background color */
-  color: #ffffff; /* Set your desired text color */
-  border-radius: 5px; /* Add rounded corners if desired */
-  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  background-color: #007bff;
+  /* Set your desired background color */
+  color: #ffffff;
+  /* Set your desired text color */
+  border-radius: 5px;
+  /* Add rounded corners if desired */
+  transition: background-color 0.3s ease;
+  /* Add a smooth transition effect */
 }
 
 .blog-slider__button:hover {
-  background-color: #0056b3; /* Change the background color on hover */
+  background-color: #0056b3;
+  /* Change the background color on hover */
 }
 
 .button-container {

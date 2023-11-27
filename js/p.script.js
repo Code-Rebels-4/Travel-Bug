@@ -227,7 +227,7 @@ function changeInfo(direction) {
   }
 }
 
-function updateCard(e) {}
+function updateCard(e) { }
 
 function resetCardTransforms(e) {
   const card = e.currentTarget;

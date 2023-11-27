@@ -146,9 +146,9 @@
             <div class="second-page-content">
 
                 <div class="card-one">
-                    <div class="text2" data-aos="fade-right" data-aos-delay="300" data-aos-duration="2000">More
+                    <div class="text2" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">More
                         Information <br>About Sri Lanka</div>
-                    <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                    <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">
                         Sri Lanka is a stunning island nation situated in the Indian Ocean, known for its incredible
                         natural beauty and rich cultural heritage. The country's diverse landscapes offer something for
                         every kind of traveler, from golden sandy beaches to misty mountains, ancient ruins, and
@@ -407,7 +407,7 @@
                     </p>
                     <button>
 
-                        <a href="d-provinces.php">Click Here</a>
+                        <a href="destination_provinces.php">Click Here</a>
                     </button>
                 </figcaption>
             </figure>
@@ -422,7 +422,7 @@
                     <p>Discover Sri Lanka's Best Hiking Trails - Experience Adventure Like Never Before!</p>
                     <button>
 
-                        <a href="h-provinces.php">Click Here</a>
+                        <a href="hiking_provinces.php">Click Here</a>
 
                     </button>
                 </figcaption>
@@ -441,7 +441,7 @@
                         the Island!</p>
                     <button>
 
-                        <a href="c-provinces.php">Click Here</a>
+                        <a href="camping_provinces.php">Click Here</a>
 
                     </button>
                 </figcaption>
@@ -453,40 +453,84 @@
     <section id="cards" class="cards">
         <div class="card-one">
 
-            <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">Dscover some of the Most Popular Festivals in Sri Lanka</div>
+            <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">Dscover some of the Most
+                Popular Festivals in Sri Lanka</div>
 
         </div>
-        
+
         <div class="container" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
             <div id="slide">
                 <div class="item" style="background-image: url(Images/home/ny.jpg);">
                     <div class="content">
                         <div class="name" style="color: black;">Sinhala and Tamil New Year</div>
-                        <div class="des" style="font-size: 15px; color: black;">Sinhala and Tamil New Year, locally known as Aluth Avurudda, is a significant celebration in Sri Lanka, embracing the traditional New Year of both the Sinhalese and Tamil communities. Widely observed by people of diverse backgrounds, this festive occasion aligns with the new year festivities of various South and Southeast Asian calendars. The festival, marked by the sighting of the new moon, is a public holiday in Sri Lanka, often observed on either April 13 or 14. During this time, many businesses close for about a week, creating a vibrant and joyous atmosphere across the country. Join in the festivities as Sri Lankans come together to usher in the New Year with cultural richness and traditional customs.</div>
+                        <div class="des" style="font-size: 15px; color: black;">Sinhala and Tamil New Year, locally
+                            known as Aluth Avurudda, is a significant celebration in Sri Lanka, embracing the
+                            traditional New Year of both the Sinhalese and Tamil communities. Widely observed by people
+                            of diverse backgrounds, this festive occasion aligns with the new year festivities of
+                            various South and Southeast Asian calendars. The festival, marked by the sighting of the new
+                            moon, is a public holiday in Sri Lanka, often observed on either April 13 or 14. During this
+                            time, many businesses close for about a week, creating a vibrant and joyous atmosphere
+                            across the country. Join in the festivities as Sri Lankans come together to usher in the New
+                            Year with cultural richness and traditional customs.</div>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(Images/home/vesak.jpg);">
                     <div class="content">
                         <div class="name">Vesak</div>
-                        <div class="des" style="font-size: 15px;">Vesak, also known as Buddha Jayanti or Buddha Purnima, is the most important Buddhist festival celebrated across South Asia, Southeast Asia, Tibet, and Mongolia. It honors the birth, enlightenment, and passing of Gautama Buddha in Theravada, Tibetan Buddhism, and Navayana traditions. The festival's name is derived from the lunar month of Vaisakha, corresponding to Buddha's birth month. While East Asian traditions celebrate Buddha's Birthday around Vesak, other holidays like Bodhi Day and Nibbāna Day mark separate events in his life. In South Asia, Vesak aligns with the full moon day of Vaisakha, symbolizing the Buddha's significant life events. Join Buddhists in commemorating Vesak, a time of cultural and spiritual reflection on the teachings and legacy of Gautama Buddha.</div>
+                        <div class="des" style="font-size: 15px;">Vesak, also known as Buddha Jayanti or Buddha Purnima,
+                            is the most important Buddhist festival celebrated across South Asia, Southeast Asia, Tibet,
+                            and Mongolia. It honors the birth, enlightenment, and passing of Gautama Buddha in
+                            Theravada, Tibetan Buddhism, and Navayana traditions. The festival's name is derived from
+                            the lunar month of Vaisakha, corresponding to Buddha's birth month. While East Asian
+                            traditions celebrate Buddha's Birthday around Vesak, other holidays like Bodhi Day and
+                            Nibbāna Day mark separate events in his life. In South Asia, Vesak aligns with the full moon
+                            day of Vaisakha, symbolizing the Buddha's significant life events. Join Buddhists in
+                            commemorating Vesak, a time of cultural and spiritual reflection on the teachings and legacy
+                            of Gautama Buddha.</div>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(Images/home/diwali.jpg);">
                     <div class="content">
                         <div class="name">Deepavali</div>
-                        <div class="des" style="font-size: 15px;">Diwali, the Hindu festival of lights, signifies the triumph of good over evil and knowledge over ignorance. Celebrated between mid-September and mid-November, it spans five to six days and is associated with events like Rama's return and revered deities like Lakshmi and Ganesha. While rooted in Hinduism, Diwali is embraced by Jains, Sikhs, Buddhists, and others. The festivities include illuminating spaces with lamps, ritual oil baths, fireworks, rangoli designs, and communal feasts. Diwali fosters family and community bonds, with diverse communities coming together for parades, fairs, and shared celebrations. It is a joyous occasion transcending religious boundaries, symbolizing light, unity, and cultural richness.</div>
+                        <div class="des" style="font-size: 15px;">Diwali, the Hindu festival of lights, signifies the
+                            triumph of good over evil and knowledge over ignorance. Celebrated between mid-September and
+                            mid-November, it spans five to six days and is associated with events like Rama's return and
+                            revered deities like Lakshmi and Ganesha. While rooted in Hinduism, Diwali is embraced by
+                            Jains, Sikhs, Buddhists, and others. The festivities include illuminating spaces with lamps,
+                            ritual oil baths, fireworks, rangoli designs, and communal feasts. Diwali fosters family and
+                            community bonds, with diverse communities coming together for parades, fairs, and shared
+                            celebrations. It is a joyous occasion transcending religious boundaries, symbolizing light,
+                            unity, and cultural richness.</div>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(Images/home/kep.jpg);">
                     <div class="content">
                         <div class="name">Kandy Esala Perahera</div>
-                        <div class="des" style="font-size: 15px;">The Kandy Esala Perahera, also known as the Festival of the Tooth, is a grand annual event held in July and August in Kandy, Sri Lanka. This historic procession pays homage to the Sacred Tooth Relic of Buddha housed at the Sri Dalada Maligawa. A symbol of Sri Lankan culture, the procession features traditional dances, including mesmerizing fire dances, and performances in unique whip-dance garments. The festival culminates with the Diya-kepeema ritual, a water-cutting ceremony held at the Mahaweli River in Getambe, Kandy. Experience the cultural richness and reverence surrounding this significant festival that brings together tradition, spirituality, and vibrant performances.</div>
+                        <div class="des" style="font-size: 15px;">The Kandy Esala Perahera, also known as the Festival
+                            of the Tooth, is a grand annual event held in July and August in Kandy, Sri Lanka. This
+                            historic procession pays homage to the Sacred Tooth Relic of Buddha housed at the Sri Dalada
+                            Maligawa. A symbol of Sri Lankan culture, the procession features traditional dances,
+                            including mesmerizing fire dances, and performances in unique whip-dance garments. The
+                            festival culminates with the Diya-kepeema ritual, a water-cutting ceremony held at the
+                            Mahaweli River in Getambe, Kandy. Experience the cultural richness and reverence surrounding
+                            this significant festival that brings together tradition, spirituality, and vibrant
+                            performances.</div>
                     </div>
                 </div>
                 <div class="item" style="background-image: url(Images/home/pongal.jpg);">
                     <div class="content">
                         <div class="name">Thai Pongal</div>
-                        <div class="des" style="font-size: 15px;">Pongal, also called Thai Pongal, is a multi-day Hindu harvest festival celebrated by Tamils in the month of Thai. Typically occurring on January 14 or 15, it honors the Sun God, Surya, and corresponds to the broader Indian harvest festival of Makar Sankranti. The festival includes three main days: Bhogi Pongal, Surya Pongal, and Mattu Pongal, with some also observing a fourth day known as Kanum Pongal. Traditionally symbolizing the end of winter solstice, Pongal involves preparing a ceremonial dish of rice boiled in milk with jaggery. Mattu Pongal highlights the celebration of cattle, involving bathing and adorning them. The festival is marked by decorative kolam artworks, prayers, family gatherings, and gift exchanges, fostering social bonds and renewal. Discover the vibrant traditions and cultural richness of Pongal, a joyful celebration of harvest and community.</div>
+                        <div class="des" style="font-size: 15px;">Pongal, also called Thai Pongal, is a multi-day Hindu
+                            harvest festival celebrated by Tamils in the month of Thai. Typically occurring on January
+                            14 or 15, it honors the Sun God, Surya, and corresponds to the broader Indian harvest
+                            festival of Makar Sankranti. The festival includes three main days: Bhogi Pongal, Surya
+                            Pongal, and Mattu Pongal, with some also observing a fourth day known as Kanum Pongal.
+                            Traditionally symbolizing the end of winter solstice, Pongal involves preparing a ceremonial
+                            dish of rice boiled in milk with jaggery. Mattu Pongal highlights the celebration of cattle,
+                            involving bathing and adorning them. The festival is marked by decorative kolam artworks,
+                            prayers, family gatherings, and gift exchanges, fostering social bonds and renewal. Discover
+                            the vibrant traditions and cultural richness of Pongal, a joyful celebration of harvest and
+                            community.</div>
                     </div>
                 </div>
             </div>
@@ -572,37 +616,35 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
+    // Get all anchor tags inside the mapdiv
+    const anchorTags = document.querySelectorAll('.mapdiv a');
 
-        // Get all anchor tags inside the mapdiv
-        const anchorTags = document.querySelectorAll('.mapdiv a');
+    // Add a click event listener to each anchor tag
+    anchorTags.forEach(anchor => {
+        anchor.addEventListener('click', function(event) {
+            event.preventDefault();
 
-        // Add a click event listener to each anchor tag
-        anchorTags.forEach(anchor => {
-            anchor.addEventListener('click', function (event) {
-                event.preventDefault();
+            const districtName = anchor.getAttribute('data-district');
+            const districtDescription = anchor.getAttribute('data-description');
 
-                const districtName = anchor.getAttribute('data-district');
-                const districtDescription = anchor.getAttribute('data-description');
-
-                Swal.fire({
-                    title: 'District: ' + districtName,
-                    html: '<p class="my-swal-text">' + districtDescription + '</p>',
-                    icon: 'success',
-                    width: '40%',
-                    height: '80%',
-                    heightAuto: false,
-                    imageWidth: 50,
-                    imageHeight: 50,
-                    customClass: {
-                        container: 'my-swal-container',
-                        title: 'my-swal-title',
-                        text: 'my-swal-text',
-                        confirmButton: 'my-swal-confirm-button'
-                    }
-                });
+            Swal.fire({
+                title: 'District: ' + districtName,
+                html: '<p class="my-swal-text">' + districtDescription + '</p>',
+                icon: 'success',
+                width: '40%',
+                height: '80%',
+                heightAuto: false,
+                imageWidth: 50,
+                imageHeight: 50,
+                customClass: {
+                    container: 'my-swal-container',
+                    title: 'my-swal-title',
+                    text: 'my-swal-text',
+                    confirmButton: 'my-swal-confirm-button'
+                }
             });
         });
-
+    });
     </script>
 
 

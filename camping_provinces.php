@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Title for the webpage -->
-    <title>Travel Destinations Provinces</title>
+    <title>Camping Grounds Provinces</title>
 
     <!-- External CSS and Font Awesome stylesheets -->
     <link rel="stylesheet" type="text/css"
@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/p-styles.css" />
+    <link rel="stylesheet" href="css/province_styles.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Font Awesome script -->
@@ -57,12 +57,14 @@
 
     <!-- Main Content Section -->
     <div class="back"
-        style="background-image: url('Images/wall/travel.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+        style="background-image: url('Images/wall/camp.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
         <br><br><br>
         <!-- Main heading and subheading -->
-        <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Travel Destinations</h1>
-        <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Explore the wonders of your treasured
-            travel spots, <br> neatly organized by their respective provinces!</p><br>
+        <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Camping Grounds</h1>
+        <p style="color: aquamarine" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Discover the
+            enchanting allure of your favorite camping grounds,
+            <br> thoughtfully categorized by their corresponding provinces!
+        </p><br>
     </div>
 
     <!-- Additional content sections with animations -->
@@ -70,41 +72,100 @@
     <!-- Information box at the top -->
     <br><br><br><br><br><br>
     <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="450" data-aos-duration="400">
-        <p><b>Embark on an unforgettable journey through the mesmerizing travel destinations of Sri Lanka, a land where
-                ancient wonders and natural beauty converge in perfect harmony. Brace yourself for an adventure that
-                transcends time and captivates your soul.</b></p>
+        <h1>Shelter and Comfort:</h1>
+        <p>
+        <ul type="none">
+            <li>
+                Tent
+            </li>
+            <li>
+                Tent Poles
+            </li>
+            <li>
+                Sleeping bags
+            </li>
+            <li>
+                Flashlights (with extra batteries)
+            </li>
+            <li>
+                Lantern
+            </li>
+        </ul>
+        </p>
     </div>
 
     <!-- Three boxes in the container section -->
     <div class="container">
         <!-- Left box -->
         <div class="left-box information-box" data-aos="fade-right" data-aos-delay="450" data-aos-duration="400">
-            <h1>Discover Historical and Cultural Odyssey:</h1>
-            <p>Uncover the secrets of Sri Lanka's rich heritage as you explore the ancient marvels of Sigiriya and the
-                cultural significance of Kandy's Temple of the Tooth Relic. Immerse yourself in centuries-old stories
-                etched in stone and tradition.</p>
+            <h1>Tools and Repair:</h1>
+            <p>
+            <ul type="none">
+                <li>
+                    Multi-Tool Kit
+                </li>
+                <li>
+                    Duct Tape
+                </li>
+                <li>
+                    Tent-pole repair sleeve
+                </li>
+                <li>
+                    Mallet or hammer
+                </li>
+                <li>
+                    Saw or axe
+                </li>
+            </ul>
+            </p>
         </div>
 
         <!-- Animated image -->
         <div class="animated-image" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="400">
-            <img src="Images/prov/elephant.gif" alt="Animated Image">
+            <img src="Images/prov/camping.gif" alt="Animated Image">
         </div>
 
         <!-- Right box -->
         <div class="right-box information-box" data-aos="fade-left" data-aos-delay="450" data-aos-duration="400">
-            <h1>Traverse Diverse Landscapes and Tranquil Escapes:</h1>
-            <p>Traverse the emerald hills of Ella, breathe in the crisp mountain air, and lose yourself in the
-                mist-covered beauty of Ella Gap. From rolling hills to tropical beaches, Sri Lanka's landscapes promise
-                a symphony of visual delights and tranquil retreats.</p>
+            <h1>Cooking and Eating:</h1>
+            <p>
+            <ul type="none">
+                <li>
+                    Stove and fuel
+                </li>
+                <li>
+                    Matches/light/firestarter
+                </li>
+                <li>
+                    Cook pots
+                </li>
+                <li>
+                    Sharp knife
+                </li>
+                <li>
+                    Plates and Cups
+                </li>
+                <li>
+                    Water bottles
+                </li>
+                <li>
+                    Recycling bags
+                </li>
+            </ul>
+            </p>
         </div>
     </div>
 
     <!-- Bottom box with coastal allure and wildlife adventures -->
     <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="450" data-aos-duration="400">
-        <h1>Observe Coastal Allure and Wildlife Adventures:</h1>
-        <p>Immerse yourself in the colonial charm of Galle, where cobbled streets wind through a historic fort, offering
-            boutique shops and the scent of the sea. Then, relax on Mirissa's golden sands and embark on a wildlife
-            adventure in Yala National Park, where untamed beauty and exotic creatures await.</p>
+        <h1>Miscellaneous:</h1>
+        <p>
+        <ul type="none">
+            <li>
+                Firewood sourced near campsite
+            </li>
+        </ul>
+        </p>
     </div>
 
     <!-- Additional heading -->
@@ -244,7 +305,7 @@
                     <div class="info card1info">
                         <h1 class="text name">Central Province</h1>
                         <p class="text description">Kandy <br> Nuwara Eliya <br> Matale <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton1">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton1">VIEW</a>
                         </p>
                     </div>
 
@@ -252,7 +313,7 @@
                     <div class="info card2info">
                         <h1 class="text name">Western Province</h1>
                         <p class="text description">Colombo <br> Gampaha <br> Kalutara <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
                         </p>
                     </div>
 
@@ -260,7 +321,7 @@
                     <div class="info card3info">
                         <h1 class="text name">Southern Province</h1>
                         <p class="text description">Galle <br> Matara <br> Hambantota <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton3">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton3">VIEW</a>
                         </p>
                     </div>
 
@@ -268,7 +329,7 @@
                     <div class="info card4info">
                         <h1 class="text name">Eastern Province</h1>
                         <p class="text description">Ampara <br> batticaloa <br> Trincomalee <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -276,8 +337,9 @@
 
                     <div class="info card5info">
                         <h1 class="text name">Northen Province</h1>
-                        <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br> Vavuniya <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
+                        <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br> Vavuniya
+                            <br><br>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -286,7 +348,7 @@
                     <div class="info card6info">
                         <h1 class="text name">Uva Province </h1>
                         <p class="text description">Badulla <br> Moneragala <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -295,7 +357,7 @@
                     <div class="info card7info">
                         <h1 class="text name">North Central <br>Province </h1>
                         <p class="text description">Anuradhapura <br> Polonnaruwa <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -304,7 +366,7 @@
                     <div class="info card8info">
                         <h1 class="text name">North Western <br>Province </h1>
                         <p class="text description">Kurunegala <br> Puttalam <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -313,7 +375,7 @@
                     <div class="info card9info">
                         <h1 class="text name">Sabaragamuwa <br>Province </h1>
                         <p class="text description">Ratnapura <br> Kegalle <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton9">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton9">READ MORE</a>
                         </p>
                         </p>
                     </div>
@@ -398,8 +460,8 @@
         const button1 = document.getElementById("viewDetailsBtn1");
 
         button1.addEventListener("click", function() {
-            // Navigate to page1 (replace 'd-details-CP.php' with the actual URL)
-            window.location.href = 'd-details-CP.php';
+            // Navigate to page1 (replace 'c-details-CP.php' with the actual URL)
+            window.location.href = 'c-details-CP.php';
         });
     });
 
@@ -408,7 +470,7 @@
         const button2 = document.getElementById("viewDetailsBtn2");
 
         button2.addEventListener("click", function() {
-            window.location.href = 'd-details-CP.php';
+            window.location.href = 'c-details-CP.php';
         });
     });
     </script>
@@ -423,7 +485,7 @@
         if (readMoreButton) {
             readMoreButton.addEventListener('click', function() {
                 // Handle the click event
-                window.location.href = 'd-details-CP.php';
+                window.location.href = 'c-details-CP.php';
             });
         }
     });
@@ -443,5 +505,5 @@
 
 
 
-<!-- <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton">READ MORE</a> -->
+<!-- <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton">READ MORE</a> -->
 <!-- <button id="viewDetailsBtn1" class="view-details-btn">View More </button> -->
