@@ -1,5 +1,4 @@
 .image {
-
   background-size: cover;
   background-repeat: no-repeat;
   height: 101vh;
@@ -48,9 +47,7 @@
   padding: 40px 0;
   /* Increased top and bottom padding for better spacing */
   justify-content: center;
-  background: linear-gradient(to bottom,
-      #3498db,
-      #2980b9);
+  background: linear-gradient(to bottom, #3498db, #2980b9);
   /* Gradient background */
 }
 
@@ -272,7 +269,6 @@
 .slider-box .slide .div1 {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .slider-box .slide .div1 .dir {
@@ -316,7 +312,6 @@ label::before {
   font-weight: 600;
 }
 
-
 input[type="radio"] {
   display: none;
 }
@@ -335,12 +330,12 @@ input[type="radio"] {
   font-style: italic;
 }
 
-.accordian input[type="radio"]:checked+label+.content {
+.accordian input[type="radio"]:checked + label + .content {
   max-height: 300px;
   padding: 5px;
 }
 
-.accordian input[type="radio"]:checked+label::before {
+.accordian input[type="radio"]:checked + label::before {
   content: "-";
 }
 
@@ -418,5 +413,4 @@ input[type="radio"] {
   text-align: center;
   text-decoration: underline;
   color: #ffffff;
-
 }
