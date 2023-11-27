@@ -57,12 +57,14 @@
 
     <!-- Main Content Section -->
     <div class="back"
-        style="background-image: url('Images/wall/travel.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+        style="background-image: url('Images/wall/hike.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
         <br><br><br>
         <!-- Main heading and subheading -->
-        <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Travel Destinations</h1>
-        <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Explore the wonders of your treasured
-            travel spots, <br> neatly organized by their respective provinces!</p><br>
+        <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Hiking Places</h1>
+        <p style="color: aquamarine;" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Embark on the
+            exhilarating trails of your cherished hiking destinations,
+            <br> meticulously arranged by their associated provinces!
+        </p><br>
     </div>
 
     <!-- Additional content sections with animations -->
@@ -70,41 +72,99 @@
     <!-- Information box at the top -->
     <br><br><br><br><br><br>
     <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="450" data-aos-duration="400">
-        <p><b>Embark on an unforgettable journey through the mesmerizing travel destinations of Sri Lanka, a land where
-                ancient wonders and natural beauty converge in perfect harmony. Brace yourself for an adventure that
-                transcends time and captivates your soul.</b></p>
+        <p><b>Embark on an unforgettable hiking adventure through the mesmerizing landscapes of Sri Lanka. Explore the
+                stunning peaks of Ella Rock, traverse the lush trails of Horton Plains National Park, and immerse
+                yourself in the pristine wilderness of Knuckles Mountain Range. These Sri Lankan terrains blend rugged
+                beauty with rich biodiversity, offering breathtaking views, lush tea plantations, and the allure of
+                ancient cultural sites. Hike through towering peaks, verdant valleys, and mystical waterfalls, allowing
+                yourself to be enveloped by the natural symphony of this extraordinary island. Brace yourself for an
+                experience that transcends time, captivates your soul, and leaves an indelible mark on your journey
+                through the great outdoors of Sri Lanka.</b></p>
     </div>
 
     <!-- Three boxes in the container section -->
     <div class="container">
         <!-- Left box -->
         <div class="left-box information-box" data-aos="fade-right" data-aos-delay="450" data-aos-duration="400">
-            <h1>Discover Historical and Cultural Odyssey:</h1>
-            <p>Uncover the secrets of Sri Lanka's rich heritage as you explore the ancient marvels of Sigiriya and the
-                cultural significance of Kandy's Temple of the Tooth Relic. Immerse yourself in centuries-old stories
-                etched in stone and tradition.</p>
+            <h1>Personal Gear and Clothing:</h1>
+            <p>
+            <ul type="none">
+                <li>
+                    1.5-liter bottle of water
+                </li>
+                <li>
+                    Hiking boots and thick outdoor socks
+                </li>
+                <li>
+                    Trousers for warmth and quick-drying
+                </li>
+                <li>
+                    Waterproof jacket
+                </li>
+                <li>
+                    Head torch for poorly lit sections of the trail
+                </li>
+                <li>
+                    Small bottle of Dettol for hygiene
+                </li>
+                <li>
+                    Sunscreen and light covering for sun protection
+                </li>
+                <li>
+                    Snacks for energy during the journey
+                </li>
+            </ul>
+            </p>
         </div>
 
         <!-- Animated image -->
         <div class="animated-image" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="400">
-            <img src="Images/prov/elephant.gif" alt="Animated Image">
+            <img src="Images/prov/hiking.gif" alt="Animated Image">
         </div>
 
         <!-- Right box -->
         <div class="right-box information-box" data-aos="fade-left" data-aos-delay="450" data-aos-duration="400">
-            <h1>Traverse Diverse Landscapes and Tranquil Escapes:</h1>
-            <p>Traverse the emerald hills of Ella, breathe in the crisp mountain air, and lose yourself in the
-                mist-covered beauty of Ella Gap. From rolling hills to tropical beaches, Sri Lanka's landscapes promise
-                a symphony of visual delights and tranquil retreats.</p>
+            <h1>Essentials for Safety and Navigation:</h1>
+            <p>
+            <ul type="none">
+                <li>
+                    Wear appropriate clothing and footwear
+                </li>
+                <li>
+                    Bring adequate water, food, and first aid supplies
+                </li>
+                <li>
+                    Carry raincoats, warm clothes, and umbrellas, regardless of the weather
+                </li>
+                <li>
+                    Always have a mobile phone, extra batteries, power banks, flashlight, GPS devices, and a compass
+                </li>
+            </ul>
+            </p>
         </div>
+    </div>
     </div>
 
     <!-- Bottom box with coastal allure and wildlife adventures -->
     <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="450" data-aos-duration="400">
-        <h1>Observe Coastal Allure and Wildlife Adventures:</h1>
-        <p>Immerse yourself in the colonial charm of Galle, where cobbled streets wind through a historic fort, offering
-            boutique shops and the scent of the sea. Then, relax on Mirissa's golden sands and embark on a wildlife
-            adventure in Yala National Park, where untamed beauty and exotic creatures await.</p>
+        <h1>Miscellaneous Tips and Extras:</h1>
+        <p>
+        <ul type="none">
+            <li>
+                Ensure appropriate behavior by refraining from smoking, alcohol, or drug use
+            </li>
+            <li>
+                Emphasize the importance of adhering to guidelines for a safe and enjoyable experience
+            </li>
+            <li>
+                Highlight the need to capture the journey with a camera
+            </li>
+            <li>
+                Stress the importance of respecting the environment by carrying plastic bags for rubbish disposal
+            </li>
+        </ul>
+        </p>
+    </div>
     </div>
 
     <!-- Additional heading -->
@@ -243,32 +303,32 @@
                     <!-- Info for Card 1, Info for Card 2, ..., Info for Card 9 -->
                     <div class="info card1info">
                         <h1 class="text name">Central Province</h1>
-                        <p class="text description">Kandy <br> Nuwara Eliya <br> Matale <br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton1">READ MORE</a>
+                        <p class="text description">Kandy <br> Nuwara Eliya <br> Matale <br><br>
+                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton1">VIEW</a>
                         </p>
                     </div>
 
 
                     <div class="info card2info">
                         <h1 class="text name">Western Province</h1>
-                        <p class="text description">Colombo <br> Gampaha <br> Kalutara <br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton2">READ MORE</a>
+                        <p class="text description">Colombo <br> Gampaha <br> Kalutara <br><br>
+                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
                         </p>
                     </div>
 
 
                     <div class="info card3info">
                         <h1 class="text name">Southern Province</h1>
-                        <p class="text description">Galle <br> Matara <br> Hambantota <br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton3">READ MORE</a>
+                        <p class="text description">Galle <br> Matara <br> Hambantota <br><br>
+                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton3">VIEW</a>
                         </p>
                     </div>
 
 
                     <div class="info card4info">
                         <h1 class="text name">Eastern Province</h1>
-                        <p class="text description">Ampara <br> batticaloa <br> Trincomalee <br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton4">READ MORE</a>
+                        <p class="text description">Ampara <br> batticaloa <br> Trincomalee <br><br>
+                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -276,10 +336,9 @@
 
                     <div class="info card5info">
                         <h1 class="text name">Northen Province</h1>
-                        <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br>
-                            Vavuniya
-                            <br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton5">READ MORE</a>
+                        <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br> Vavuniya
+                            <br><br>
+                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -287,8 +346,8 @@
 
                     <div class="info card6info">
                         <h1 class="text name">Uva Province </h1>
-                        <p class="text description">Badulla <br> Moneragala <br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton6">READ MORE</a>
+                        <p class="text description">Badulla <br> Moneragala <br><br>
+                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -296,8 +355,8 @@
 
                     <div class="info card7info">
                         <h1 class="text name">North Central <br>Province </h1>
-                        <p class="text description">Anuradhapura <br> Polonnaruwa <br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton7">READ MORE</a>
+                        <p class="text description">Anuradhapura <br> Polonnaruwa <br><br>
+                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -305,8 +364,8 @@
 
                     <div class="info card8info">
                         <h1 class="text name">North Western <br>Province </h1>
-                        <p class="text description">Kurunegala <br> Puttalam <br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton8">READ MORE</a>
+                        <p class="text description">Kurunegala <br> Puttalam <br><br>
+                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -314,8 +373,8 @@
 
                     <div class="info card9info">
                         <h1 class="text name">Sabaragamuwa <br>Province </h1>
-                        <p class="text description">Ratnapura <br> Kegalle <br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton9">READ MORE</a>
+                        <p class="text description">Ratnapura <br> Kegalle <br><br>
+                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton9">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -401,7 +460,7 @@
     <!-- AOS (Animate On Scroll) library initialization -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 
 </body>

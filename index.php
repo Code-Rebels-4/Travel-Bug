@@ -45,6 +45,8 @@
         </div>
     </nav>
 
+
+
     <section class="home">
         <video class="video" src="Videos/beach.mp4" autoplay muted loop></video>
         <div class="content">
@@ -393,7 +395,7 @@
             <div class="text2" data-aos="flip-up" data-aos-delay="600" data-aos-duration="1000">Discover the Most
                 Attractive Places</div>
 
-            <figure class="image-block" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+            <figure class="image-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 <h1>Travel <br> Destinations</h1>
 
                 <img src="Images/home/destination.png" alt="An image of temple of the tooth" />
@@ -410,7 +412,7 @@
                 </figcaption>
             </figure>
 
-            <figure class="image-block" data-aos="fade-down" data-aos-delay="1000" data-aos-duration="1000">
+            <figure class="image-block" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
                 <h1>Hiking <br> Places</h1>
                 <img src="Images/home/hiking places.jpg" alt="An image of people hiking on a mountain" />
                 <figcaption>
@@ -426,7 +428,7 @@
                 </figcaption>
             </figure>
 
-            <figure class="image-block" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+            <figure class="image-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                 <h1>Camping <br> Grounds</h1>
 
                 <img src="Images/home/camping.png" alt="An image of a person in a tent" />
@@ -447,94 +449,113 @@
         </div>
     </section>
 
+    <br><br><br><br><br>
     <section id="cards" class="cards">
         <div class="card-one">
 
-            <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">Suggestions for the Most
-                Popular Places</div>
+            <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">Dscover some of the Most
+                Popular Festivals in Sri Lanka</div>
 
         </div>
-        <div class="container">
-            <div class="card-left" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="Images/home/destination.png" />
+
+        <div class="container" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
+            <div id="slide">
+                <div class="item" style="background-image: url(Images/home/ny.jpg);">
+                    <div class="content">
+                        <div class="name" style="color: black;">Sinhala and Tamil New Year</div>
+                        <div class="des" style="font-size: 15px; color: black;">Sinhala and Tamil New Year, locally
+                            known as Aluth Avurudda, is a significant celebration in Sri Lanka, embracing the
+                            traditional New Year of both the Sinhalese and Tamil communities. Widely observed by people
+                            of diverse backgrounds, this festive occasion aligns with the new year festivities of
+                            various South and Southeast Asian calendars. The festival, marked by the sighting of the new
+                            moon, is a public holiday in Sri Lanka, often observed on either April 13 or 14. During this
+                            time, many businesses close for about a week, creating a vibrant and joyous atmosphere
+                            across the country. Join in the festivities as Sri Lankans come together to usher in the New
+                            Year with cultural richness and traditional customs.</div>
+                    </div>
                 </div>
-                <div class="card-text">
-                    <p>Galle Face</p>
+                <div class="item" style="background-image: url(Images/home/vesak.jpg);">
+                    <div class="content">
+                        <div class="name">Vesak</div>
+                        <div class="des" style="font-size: 15px;">Vesak, also known as Buddha Jayanti or Buddha Purnima,
+                            is the most important Buddhist festival celebrated across South Asia, Southeast Asia, Tibet,
+                            and Mongolia. It honors the birth, enlightenment, and passing of Gautama Buddha in
+                            Theravada, Tibetan Buddhism, and Navayana traditions. The festival's name is derived from
+                            the lunar month of Vaisakha, corresponding to Buddha's birth month. While East Asian
+                            traditions celebrate Buddha's Birthday around Vesak, other holidays like Bodhi Day and
+                            Nibbāna Day mark separate events in his life. In South Asia, Vesak aligns with the full moon
+                            day of Vaisakha, symbolizing the Buddha's significant life events. Join Buddhists in
+                            commemorating Vesak, a time of cultural and spiritual reflection on the teachings and legacy
+                            of Gautama Buddha.</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Images/home/diwali.jpg);">
+                    <div class="content">
+                        <div class="name">Deepavali</div>
+                        <div class="des" style="font-size: 15px;">Diwali, the Hindu festival of lights, signifies the
+                            triumph of good over evil and knowledge over ignorance. Celebrated between mid-September and
+                            mid-November, it spans five to six days and is associated with events like Rama's return and
+                            revered deities like Lakshmi and Ganesha. While rooted in Hinduism, Diwali is embraced by
+                            Jains, Sikhs, Buddhists, and others. The festivities include illuminating spaces with lamps,
+                            ritual oil baths, fireworks, rangoli designs, and communal feasts. Diwali fosters family and
+                            community bonds, with diverse communities coming together for parades, fairs, and shared
+                            celebrations. It is a joyous occasion transcending religious boundaries, symbolizing light,
+                            unity, and cultural richness.</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Images/home/kep.jpg);">
+                    <div class="content">
+                        <div class="name">Kandy Esala Perahera</div>
+                        <div class="des" style="font-size: 15px;">The Kandy Esala Perahera, also known as the Festival
+                            of the Tooth, is a grand annual event held in July and August in Kandy, Sri Lanka. This
+                            historic procession pays homage to the Sacred Tooth Relic of Buddha housed at the Sri Dalada
+                            Maligawa. A symbol of Sri Lankan culture, the procession features traditional dances,
+                            including mesmerizing fire dances, and performances in unique whip-dance garments. The
+                            festival culminates with the Diya-kepeema ritual, a water-cutting ceremony held at the
+                            Mahaweli River in Getambe, Kandy. Experience the cultural richness and reverence surrounding
+                            this significant festival that brings together tradition, spirituality, and vibrant
+                            performances.</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Images/home/pongal.jpg);">
+                    <div class="content">
+                        <div class="name">Thai Pongal</div>
+                        <div class="des" style="font-size: 15px;">Pongal, also called Thai Pongal, is a multi-day Hindu
+                            harvest festival celebrated by Tamils in the month of Thai. Typically occurring on January
+                            14 or 15, it honors the Sun God, Surya, and corresponds to the broader Indian harvest
+                            festival of Makar Sankranti. The festival includes three main days: Bhogi Pongal, Surya
+                            Pongal, and Mattu Pongal, with some also observing a fourth day known as Kanum Pongal.
+                            Traditionally symbolizing the end of winter solstice, Pongal involves preparing a ceremonial
+                            dish of rice boiled in milk with jaggery. Mattu Pongal highlights the celebration of cattle,
+                            involving bathing and adorning them. The festival is marked by decorative kolam artworks,
+                            prayers, family gatherings, and gift exchanges, fostering social bonds and renewal. Discover
+                            the vibrant traditions and cultural richness of Pongal, a joyful celebration of harvest and
+                            community.</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Images/home/kataragama.jpg);">
+                    <div class="content">
+                        <div class="name">Kataragama Perahera</div>
+                        <div class="des" style="font-size: 15px;">The Sri Lanka Kataragama Perahera is an annual
+                            two-week festival in July/August honoring the Hindu God Skanda. It takes place in
+                            Kataragama, Southern Sri Lanka, involving a grand procession from the Kataragama Temple to
+                            the Valli Amman Temple. The event attracts participants of all religions and Veddahs
+                            (aboriginals) who engage in rituals, cleanse themselves in the Menik River, and make
+                            offerings. The festival includes unique acts like hook swinging and walking on hot embers.
+                            Kavadi Dancing, with a two-piece structure on a pole, symbolizes gratitude for vows or
+                            favors. Tailored travel programs in Sri Lanka can include the Kataragama Perahera, along
+                            with diverse cultural, natural, wildlife, archaeological, and beach experiences. July/August
+                            is an ideal beach season on the Eastern coast (e.g., Nilaveli, Trincomalee) and pleasant on
+                            the Western coast (e.g., Unawatuna, Hikkaduwa).</div>
+                    </div>
                 </div>
             </div>
-            <div class="card-top" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="images/home/camping.png" />
-                </div>
-                <div class="card-text" style="margin-top: 50px;">
-                    <p>Temple of the Tooth</p>
-                </div>
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="next"><i class="fa-solid fa-angle-right"></i></button>
             </div>
-            <div class="card-right" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="Images/home/destination.png" />
-                </div>
-                <div class="card-text">
-                    <p>Galle Fort</p>
-                </div>
-            </div>
-            <div class="card-left" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="images/home/camping.png" />
-                </div>
-                <div class="card-text">
-                    <p>Nallur Kandaswamy Kovil</p>
-                </div>
-            </div>
-            <div class="card-bottom" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="Images/home/destination.png" />
-                </div>
-                <div class="card-text" style="margin-bottom: 50px;">
-                    <p>Pigeon Island</p>
-                </div>
-            </div>
-            <div class="card-top" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="Images/home/destination.png" />
-                </div>
-                <div class="card-text" style="margin-top: 50px;">
-                    <p>Ruwanwelisaya</p>
-                </div>
-            </div>
-            <div class="card-right" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="Images/home/destination.png" />
-                </div>
-                <div class="card-text">
-                    <p>Polonnaruwa Archaeological Site</p>
-                </div>
-            </div>
-            <div class="card-bottom" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="images/home/camping.png" />
-                </div>
-                <div class="card-text" style="margin-bottom: 50px;">
-                    <p>Ella Rock</p>
-                </div>
-            </div>
-            <div class="card-left" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="Images/home/destination.png" />
-                </div>
-                <div class="card-text">
-                    <p>Kitulgala Adventure Sports</p>
-                </div>
-            </div>
-            <div class="card-left" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-                <div class="card-image">
-                    <img src="images/home/camping.png" />
-                </div>
-                <div class="card-text">
-                    <p>The Lotus Tower</p>
-                </div>
-            </div>
+        </div>
+
 
     </section>
 
@@ -590,21 +611,22 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-
         var typed = new Typed(".auto-type", {
             strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true,
         })
-
     </script>
     <script src="js/mscript.js"></script>
-    <script src="js/vanilla-tilt.min.js"></script>
+    <script src="js/fest-script.js"></script>
+
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-    <script>AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -619,16 +641,12 @@
             anchor.addEventListener('click', function (event) {
                 event.preventDefault();
 
-                // Get the district name from the data-district attribute
                 const districtName = anchor.getAttribute('data-district');
-
-                // Get the district description from the data-description attribute
                 const districtDescription = anchor.getAttribute('data-description');
 
-                // Display a styled popup message with SweetAlert
                 Swal.fire({
                     title: 'District: ' + districtName,
-                    text: districtDescription,
+                    html: '<p class="my-swal-text">' + districtDescription + '</p>',
                     icon: 'success',
                     width: '40%',
                     height: '80%',
@@ -644,6 +662,7 @@
                 });
             });
         });
+
     </script>
 
 

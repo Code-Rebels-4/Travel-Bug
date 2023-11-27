@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Dancing+Script:wght@700&family=Merriweather+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
- 
+@import url("https://fonts.googleapis.com/css2?family=Assistant&family=Dancing+Script:wght@700&family=Merriweather+Sans:wght@300&family=Roboto:wght@400;500&display=swap");
+
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -11,7 +11,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'ubuntu', sans-serif;
+  font-family: "ubuntu", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -67,7 +67,7 @@ html {
 }
 
 /* Navigation bar styling */
- .navbar {
+.navbar {
   position: fixed;
   z-index: 2;
   width: 100%;
@@ -79,7 +79,7 @@ html {
 .navbar.sticky {
   padding: 8px 0;
   box-shadow: 0 0 5px rgba(14, 55, 63, 0.15);
-  background: #FAFEFF;
+  background: #fafeff;
 }
 
 .navbar .max-width {
@@ -92,7 +92,7 @@ html {
 }
 
 .navbar .logo {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 50px;
   color: #fff;
 }
@@ -157,7 +157,7 @@ html {
 }
 
 /* Menu btn styling */
- .menu-btn {
+.menu-btn {
   color: #111;
   font-size: 23px;
   cursor: pointer;
@@ -166,10 +166,10 @@ html {
 
 .sticky .menu-btn {
   color: #111;
-} 
+}
 
 /* footer */
- .footer-distributed {
+.footer-distributed {
   background: rgb(245, 243, 243);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
@@ -184,26 +184,26 @@ html {
 .footer-distributed .footer-right {
   display: inline-block;
   vertical-align: top;
-} 
+}
 
 /* Footer left */
- .footer-distributed .footer-left {
+.footer-distributed .footer-left {
   width: 40%;
-} 
+}
 
 /* The company logo */
- .footer-distributed h3 {
+.footer-distributed h3 {
   color: #000000;
-  font: normal 36px 'Open Sans', cursive;
+  font: normal 36px "Open Sans", cursive;
   margin: 0;
 }
 
 .footer-distributed h3 span {
   color: lightseagreen;
-} 
+}
 
 /* Footer links */
- .footer-distributed .footer-links {
+.footer-distributed .footer-links {
   color: #000000;
   margin: 20px 0 12px;
   padding: 0;
@@ -222,10 +222,10 @@ html {
   font-size: 14px;
   font-weight: normal;
   margin: 0;
-} 
+}
 
 /* Footer Center */
- .footer-distributed .footer-center {
+.footer-distributed .footer-center {
   width: 35%;
 }
 
@@ -278,7 +278,6 @@ html {
 .footer-distributed .footer-center p a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  ;
 }
 
 .footer-distributed .footer-links a:before {
@@ -296,7 +295,7 @@ html {
 }
 
 /* Footer Right */
- .footer-distributed .footer-right {
+.footer-distributed .footer-right {
   width: 20%;
 }
 
@@ -346,11 +345,10 @@ html {
 .footer-distributed .footer-icons a .fa-youtube:hover {
   color: #ff0000;
 }
- 
 
 @media all and (min-width: 0px) and (max-width: 10000px) {
-  @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Dancing+Script:wght@700&family=Merriweather+Sans:wght@300&family=Roboto:wght@400;500&display=swap');
- 
+  @import url("https://fonts.googleapis.com/css2?family=Assistant&family=Dancing+Script:wght@700&family=Merriweather+Sans:wght@300&family=Roboto:wght@400;500&display=swap");
+
   html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -362,7 +360,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'ubuntu', sans-serif;
+    font-family: "ubuntu", sans-serif;
   }
 
   ::-webkit-scrollbar {
@@ -430,7 +428,7 @@ html {
   .navbar.sticky {
     padding: 8px 0;
     box-shadow: 0 0 5px rgba(14, 55, 63, 0.15);
-    background: #FAFEFF;
+    background: #fafeff;
   }
 
   .navbar .max-width {
@@ -443,7 +441,7 @@ html {
   }
 
   .navbar .logo {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 50px;
     color: #fff;
   }
@@ -517,7 +515,7 @@ html {
 
   .sticky .menu-btn {
     color: #111;
-  } 
+  }
 
   /* footer */
   .footer-distributed {
@@ -535,23 +533,23 @@ html {
   .footer-distributed .footer-right {
     display: inline-block;
     vertical-align: top;
-  } 
+  }
 
   /* Footer left */
   .footer-distributed .footer-left {
     width: 40%;
-  } 
+  }
 
   /* The company logo */
   .footer-distributed h3 {
     color: #000000;
-    font: normal 36px 'Open Sans', cursive;
+    font: normal 36px "Open Sans", cursive;
     margin: 0;
   }
 
   .footer-distributed h3 span {
     color: lightseagreen;
-  } 
+  }
 
   /* Footer links */
   .footer-distributed .footer-links {
@@ -573,7 +571,7 @@ html {
     font-size: 14px;
     font-weight: normal;
     margin: 0;
-  } 
+  }
 
   /* Footer Center */
   .footer-distributed .footer-center {
@@ -629,7 +627,6 @@ html {
   .footer-distributed .footer-center p a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    ;
   }
 
   .footer-distributed .footer-links a:before {
@@ -671,7 +668,6 @@ html {
     margin-top: 25px;
   }
 
-
   .footer-distributed .footer-icons a {
     display: inline-block;
     width: 35px;
@@ -686,5 +682,4 @@ html {
     margin-right: 3px;
     margin-bottom: 5px;
   }
-
 }
