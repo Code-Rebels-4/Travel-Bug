@@ -283,7 +283,6 @@
                         </p>
                     </div>
 
-
                     <div class="info card6info">
                         <h1 class="text name">Uva Province </h1>
                         <p class="text description">Badulla <br> Moneragala <br><br>
