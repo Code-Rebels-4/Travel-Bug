@@ -36,7 +36,6 @@
 }
 
 .container {
-  /* width: 90%; */
   height: auto;
   margin: auto;
   padding: 0px 0px 90px 0px;
@@ -215,7 +214,8 @@
   cursor: pointer;
 }
 .tab-box .tab-btn.active2 {
-  color: #008a81;
+  color: #00443f;
+  text-shadow: 0 0 3px #01b1a6;
 }
 
 .slider-box {
@@ -243,17 +243,7 @@
 }
 .slider-box .slide h2 {
   margin-bottom: 10px;
-}
-
-.line {
-  position: absolute;
-  top: 50px;
-  left: 120px;
-  width: 69px;
-  height: 5px;
-  background-color: #008a81;
-  border-radius: 10px;
-  transition: all 0.3s ease-in-out;
+  color: #00443f;
 }
 
 .slider-box .slide .div1 {
@@ -271,63 +261,32 @@
   flex: 1;
 }
 
-.accordian {
-  width: 100%;
+.acc-item {
+  width: 100%; 
+  margin: 15px; 
+  padding:10px; 
+  border-radius: 8px; 
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.648); 
+  background: linear-gradient(to bottom right, #01b1a6, #00443f);
 }
-
-.accordian li {
-  list-style: none;
-  /* width: 100%; */
-  margin: 15px;
-  padding: 10px;
-  border-radius: 8px;
-  background: #008a81;
-  border: black solid 2px;
-  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.648);
+.acc-item h5{
+  color: #a1fff9; 
+  text-align:left; 
+  font-weight:bold; 
+  font-size:20px;
 }
-
-.accordian li label {
-  display: flex;
-  color: #00443f;
-  align-items: center;
-  padding: 5px;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
+.acc-item p{
+  color: white; 
+  text-align:left; 
+  margin: 15px 0 5px 20px
 }
-
-label::before {
-  content: "+";
-  margin-right: 10px;
-  font-size: 22px;
-  font-weight: 600;
+.acc-item p iconify-icon{
+  font-size: 20px; 
+  color:#a1fff9; 
+  margin-right:5px;
 }
-
-
-input[type="radio"] {
-  display: none;
-}
-
-.accordian .content {
+.acc-item p a{
   color: white;
-  line-height: 26px;
-  margin-left: 20px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.7s, padding 0.7s;
-}
-.accordian a {
-  color: rgb(255, 255, 255);
-  font-style: italic;
-}
-
-.accordian input[type="radio"]:checked + label + .content {
-  max-height: 300px;
-  padding: 5px;
-}
-
-.accordian input[type="radio"]:checked + label::before {
-  content: "-";
 }
 
 .card {
@@ -337,10 +296,9 @@ input[type="radio"] {
   margin-inline: 90px;
   width: 330px;
   height: 180px;
-  background: #00443f;
   border-radius: 20px;
-  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
   transition: 0.5s;
+  background: linear-gradient(to right, #005f59 0%, #005f59 50%, #00443f 50%, #00443f 100%);
 }
 .card:hover {
   height: 200px;
@@ -399,4 +357,3 @@ input[type="radio"] {
   color: #ffffff;
 
 }
-

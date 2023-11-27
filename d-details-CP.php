@@ -20,7 +20,6 @@ $result = $conn->query($sql);
 <html>
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,7 +62,6 @@ $result = $conn->query($sql);
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
             Central Province
         </h1>
-
     </div>
 
     <!--Back Arrow / Quote-->
@@ -127,7 +125,7 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Horton Plains</p>
+                <p>Horton Plains National Park</p>
             </div>
 
             <div class="place" data-name="d-3" style="background-image: url(<?php
@@ -172,7 +170,7 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Pinnawala Elephant Orphanage</p>
+                <p>Kandy Viewpoint</p>
             </div>
 
             <div class="place" data-name="d-5" style="background-image: url(<?php
@@ -218,7 +216,7 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Sigiriya</p>
+                <p>Sigiriya Rock Fortress</p>
             </div>
 
             <div class="place" data-name="d-7" style="background-image: url(<?php
@@ -240,10 +238,10 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Ambuluwawa Tower</p>
+                <p>Aluvihare Rock Temple</p>
             </div>
 
-            <div class="place" data-name="d-3" style="background-image: url(<?php
+            <div class="place" data-name="d-8" style="background-image: url(<?php
 
                                                                             // Assuming you want to display the image with ID = 3
                                                                             $specificImageID = 3;
@@ -263,10 +261,10 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Royal Botanic Gardens</p>
+                <p>Dambulla Cave Temple</p>
             </div>
 
-            <div class="place" data-name="d-4" style="background-image: url(<?php
+            <div class="place" data-name="d-9" style="background-image: url(<?php
 
                                                                             // Assuming you want to display the image with ID = 4
                                                                             $specificImageID = 4;
@@ -286,30 +284,30 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Pinnawala Elephant Orphanage</p>
+                <p>Gregory Lake</p>
             </div>
 
-            <div class="place" data-name="d-5" style="background-image: url(<?php
+            <div class="place" data-name="d-10" style="background-image: url(<?php
 
-                                                                            // Assuming you want to display the image with ID = 5
-                                                                            $specificImageID = 5;
+                                                                                // Assuming you want to display the image with ID = 5
+                                                                                $specificImageID = 5;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                            $result = $conn->query($sql);
+                                                                                $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                                $result = $conn->query($sql);
 
-                                                                            if ($result->num_rows > 0) {
-                                                                                $row = $result->fetch_assoc();
-                                                                                $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
+                                                                                if ($result->num_rows > 0) {
+                                                                                    $row = $result->fetch_assoc();
+                                                                                    $imageData = base64_encode($row['image_data']);
+                                                                                    $imageName = $row['image_name'];
 
-                                                                                echo 'data:image/jpeg;base64,' . $imageData;
-                                                                            } else {
-                                                                                echo "Image not found.";
-                                                                            }
+                                                                                    echo 'data:image/jpeg;base64,' . $imageData;
+                                                                                } else {
+                                                                                    echo "Image not found.";
+                                                                                }
 
-                                                                            ?>)">
+                                                                                ?>)">
 
-                <p>Bahirawakanda Temple</p>
+                <p>Hakgala Botanical Garden</p>
             </div>
         </div>
 
@@ -428,1474 +426,73 @@ $result = $conn->query($sql);
 
 
                 <h3>Temple of The Tooth Relic</h3>
-                <h4>Center Province, Kandy City</h4>
+                <h4>Center Province, Kandy</h4>
 
                 <div class="div-slider">
                     <div class="tab-box">
                         <button class="tab-btn active2">Info</button>
                         <button class="tab-btn">Location</button>
                         <button class="tab-btn">Emergency Contacts</button>
-                        <div class="line"></div>
                     </div>
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum eius
-                                nesciunt
-                                molestiae impedit
-                                pariatur laborum nam consequatur aperiam quibusdam, omnis voluptatem quaerat
-                                neque,
-                                illum dolorem
-                                laudantium doloremque praesentium inventore.</p>
+                            <p>The Temple of the Tooth Relic is one of the most notable destinations to visit in Kandy, Sri Lanka, and is regarded as one of
+                                the most significant Buddhist temples in the country. It is situated to the north of Kandy Lake. One of the most well-known tourist
+                                attractions in Kandy is the temple, which houses the precious tooth of Lord Buddha. Devotees are welcome to pray in the room where
+                                the tooth is kept. The teeth, however, is hidden behind a stupa-like structure in a golden casket, so no one can see it.
+                                The temple is located within the old Kingdom of Kandy's royal palace complex.
+                                This temple, which is among the top attractions in Kandy, is very significant because of the national obsession with teeth.
+                                Three times a day, the temple holds rites. In 1988, the temple received the UNESCO World Heritage Site designation.
+                                To truly appreciate the architecture, visitors must go inside the temple in addition to the exterior. There are openings in the walls that house
+                                lamps that are lit with coconut oil. Visitors should go between 5:30 AM and 8:00 PM and must pay the entrance fee.Two attacks later, the temple is
+                                still standing strong.</p>
 
                             </br>
-                            <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
-
+                            <h2>Current Weather</h2>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d2980d63/kandy/" data-label_1="KANDY" data-theme="original">KANDY</a>
                         </div>
-
-
 
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
                                     <h2>Directions</h2>
-                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                        </iframe>
+                                    <p>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="400" style="border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
                                     <h2>Accommodation</h2>
-                                    <ul class="accordian">
-                                        <li>
-                                            <input type="radio" name="accordian" id="first" checked>
-                                            <label for="first">Hotel 1</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="second">
-                                            <label for="second">Hotel 2</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="third">
-                                            <label for="third">Hotel 3</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                                    <div class="acc-item">
+                                        <h5>Lotus Lake Residence</h5>
+                                        <p>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
+                                            <a href="tel:+94 77 345 3277">+94 77 345 3277</a><br>
 
-
-                        <div class="slide">
-                            <div class="card">
-                                <img src="Images/det/hospital.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Hospitals</h2>
-                                        <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
-                                            <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
-                                        </div>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
+                                            0.6 km from Sri Dalada Maligawa
+                                        </p>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="Images/det/police.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Police Stations</h2>
-                                        <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
-                                            <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
-                                        </div>
+                                    <div class="acc-item">
+                                        <h5>Janora Hills</h5>
+                                        <p>
+                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <a href="tel:+94 77 307 4575">+94 77 307 4575</a><br>
+
+                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            0.5 km from Sri Dalada Maligawa
+                                        </p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
+                                    <div class="acc-item">
+                                        <h5>Townhouse Rest</h5>
+                                        <p>
+                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <a href="tel:+94 77 600 9187">+94 77 600 9187</a><br>
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="preview" data-target="d-2">
-                <i class="fas fa-times"></i>
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 17;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 18;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 19;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 20;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 21;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 22;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 23;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-
-
-
-                <h3>Horton Plains National Park</h3>
-                <h4>Center Province, Nuwara Eliya City</h4>
-
-                <div class="div-slider">
-                    <div class="tab-box">
-                        <button class="tab-btn active2">Info</button>
-                        <button class="tab-btn">Location</button>
-                        <button class="tab-btn">Emergency Contacts</button>
-                        <div class="line"></div>
-                    </div>
-                    <div class="slider-box">
-                        <div class="slide active2">
-                            <h2>Overview</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum eius
-                                nesciunt
-                                molestiae impedit
-                                pariatur laborum nam consequatur aperiam quibusdam, omnis voluptatem quaerat
-                                neque,
-                                illum dolorem
-                                laudantium doloremque praesentium inventore.</p>
-
-                            </br>
-                            <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
-
-                        </div>
-
-                        <div class="slide">
-                            <div class="div1">
-                                <div class="dir">
-                                    <h2>Derections</h2>
-                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                        </iframe>
-                                    </p>
-                                </div>
-                                <div class="acc">
-                                    <h2>Accommodation</h2>
-                                    <ul class="accordian">
-                                        <li>
-                                            <input type="radio" name="accordian" id="first" checked>
-                                            <label for="first">Hotel 1</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="second">
-                                            <label for="second">Hotel 2</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="third">
-                                            <label for="third">Hotel 3</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide">
-                            <div class="card">
-                                <img src="Images/det/hospital.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Hospitals</h2>
-                                        <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
-                                            <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
-                                        </div>
+                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            0.8 km from Sri Dalada Maligawa<br>
+                                        </p>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="Images/det/police.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Police Stations</h2>
-                                        <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
-                                            <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="preview" data-target="d-3">
-                <i class="fas fa-times"></i>
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-
-                                                                    $specificImageID = 24;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 25;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 26;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 27;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 28;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 29;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 30;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-
-                <h3>Royal Botanic Garden</h3>
-                <h4>Center Province, Kandy City</h4>
-
-                <div class="div-slider">
-                    <div class="tab-box">
-                        <button class="tab-btn active2">Info</button>
-                        <button class="tab-btn">Location</button>
-                        <button class="tab-btn">Emergency Contacts</button>
-                        <div class="line"></div>
-                    </div>
-                    <div class="slider-box">
-                        <div class="slide active2">
-                            <h2>Overview</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum eius
-                                nesciunt
-                                molestiae impedit
-                                pariatur laborum nam consequatur aperiam quibusdam, omnis voluptatem quaerat
-                                neque,
-                                illum dolorem
-                                laudantium doloremque praesentium inventore.</p>
-
-                            </br>
-                            <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
-
-                        </div>
-
-                        <div class="slide">
-                            <div class="div1">
-                                <div class="dir">
-                                    <h2>Derections</h2>
-                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                        </iframe>
-                                    </p>
-                                </div>
-                                <div class="acc">
-                                    <h2>Accommodation</h2>
-                                    <ul class="accordian">
-                                        <li>
-                                            <input type="radio" name="accordian" id="first" checked>
-                                            <label for="first">Hotel 1</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="second">
-                                            <label for="second">Hotel 2</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="third">
-                                            <label for="third">Hotel 3</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide">
-                            <div class="card">
-                                <img src="Images/det/hospital.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Hospitals</h2>
-                                        <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
-                                            <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="Images/det/police.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Police Stations</h2>
-                                        <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
-                                            <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="preview" data-target="d-4">
-                <i class="fas fa-times"></i>
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-
-                                                                    $specificImageID = 38;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 39;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 40;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 41;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 42;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 43;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 44;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-
-
-                <h3>Pinnawala Elephant Orphanage</h3>
-                <h4>Center Province, Pinnawala City</h4>
-
-                <div class="div-slider">
-                    <div class="tab-box">
-                        <button class="tab-btn active2">Info</button>
-                        <button class="tab-btn">Location</button>
-                        <button class="tab-btn">Emergency Contacts</button>
-                        <div class="line"></div>
-                    </div>
-                    <div class="slider-box">
-                        <div class="slide active2">
-                            <h2>Overview</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum eius
-                                nesciunt
-                                molestiae impedit
-                                pariatur laborum nam consequatur aperiam quibusdam, omnis voluptatem quaerat
-                                neque,
-                                illum dolorem
-                                laudantium doloremque praesentium inventore.</p>
-
-                            </br>
-                            <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
-
-                        </div>
-
-                        <div class="slide">
-                            <div class="div1">
-                                <div class="dir">
-                                    <h2>Derections</h2>
-                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                        </iframe>
-                                    </p>
-                                </div>
-                                <div class="acc">
-                                    <h2>Accommodation</h2>
-                                    <ul class="accordian">
-                                        <li>
-                                            <input type="radio" name="accordian" id="first" checked>
-                                            <label for="first">Hotel 1</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="second">
-                                            <label for="second">Hotel 2</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="third">
-                                            <label for="third">Hotel 3</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide">
-                            <div class="card">
-                                <img src="Images/det/hospital.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Hospitals</h2>
-                                        <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
-                                            <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="Images/det/police.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Police Stations</h2>
-                                        <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
-                                            <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="preview" data-target="d-5">
-                <i class="fas fa-times"></i>
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 45;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 46;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 47;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 48;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 49;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 50;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 51;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-
-
-                <h3>Bahirawakanda</h3>
-                <h4>Center Province, Kandy City</h4>
-
-                <div class="div-slider">
-                    <div class="tab-box">
-                        <button class="tab-btn active2">Info</button>
-                        <button class="tab-btn">Location</button>
-                        <button class="tab-btn">Emergency Contacts</button>
-                        <div class="line"></div>
-                    </div>
-                    <div class="slider-box">
-                        <div class="slide active2">
-                            <h2>Overview</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum eius
-                                nesciunt
-                                molestiae impedit
-                                pariatur laborum nam consequatur aperiam quibusdam, omnis voluptatem quaerat
-                                neque,
-                                illum dolorem
-                                laudantium doloremque praesentium inventore.</p>
-
-                            </br>
-                            <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
-
-                        </div>
-
-                        <div class="slide">
-                            <div class="div1">
-                                <div class="dir">
-                                    <h2>Derections</h2>
-                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                        </iframe>
-                                    </p>
-                                </div>
-                                <div class="acc">
-                                    <h2>Accommodation</h2>
-                                    <ul class="accordian">
-                                        <li>
-                                            <input type="radio" name="accordian" id="first" checked>
-                                            <label for="first">Hotel 1</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="second">
-                                            <label for="second">Hotel 2</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="third">
-                                            <label for="third">Hotel 3</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide">
-                            <div class="card">
-                                <img src="Images/det/hospital.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Hospitals</h2>
-                                        <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
-                                            <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="Images/det/police.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Police Stations</h2>
-                                        <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
-                                            <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="preview" data-target="d-6">
-                <i class="fas fa-times"></i>
-                
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-
-                                                                    $specificImageID = 31;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 32;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 33;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 34;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 35;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 36;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 37;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-
-                                                                    ?>" alt="">
-
-                
-
-                <h3>Sigiriya</h3>
-                <h4>Center Province, Dambulla City</h4>
-
-                <div class="div-slider">
-                    <div class="tab-box">
-                        <button class="tab-btn active2">Info</button>
-                        <button class="tab-btn">Location</button>
-                        <button class="tab-btn">Emergency Contacts</button>
-                        <div class="line"></div>
-                    </div>
-                    <div class="slider-box">
-                        <div class="slide active2">
-                            <h2>Overview</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum eius
-                                nesciunt
-                                molestiae impedit
-                                pariatur laborum nam consequatur aperiam quibusdam, omnis voluptatem quaerat
-                                neque,
-                                illum dolorem
-                                laudantium doloremque praesentium inventore.</p>
-
-                            </br>
-                            <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
-
-                        </div>
-
-                        <div class="slide">
-                            <div class="div1">
-                                <div class="dir">
-                                    <h2>Derections</h2>
-                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                        </iframe>
-                                    </p>
-                                </div>
-                                <div class="acc">
-                                    <h2>Accommodation</h2>
-                                    <ul class="accordian">
-                                        <li>
-                                            <input type="radio" name="accordian" id="first" checked>
-                                            <label for="first">Hotel 1</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="second">
-                                            <label for="second">Hotel 2</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="third">
-                                            <label for="third">Hotel 3</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide">
-                            <div class="card">
-                                <img src="Images/det/hospital.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Hospitals</h2>
-                                        <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
-                                            <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="Images/det/police.png">
-                                <div class="cont">
-                                    <div class="details">
-                                        <h2>Police Stations</h2>
-                                        <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
-                                            <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="preview" data-target="d-7">
-                <i class="fas fa-times"></i>
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-
-                                                                    $specificImageID = 52;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 53;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 54;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 55;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 56;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 57;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    ?>" alt="">
-                <img class="prewImg" src="data:image/jpeg;base64,<?php
-                                                                    $specificImageID = 58;
-
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                    $result = $conn->query($sql);
-
-                                                                    if ($result->num_rows > 0) {
-                                                                        $row = $result->fetch_assoc();
-                                                                        $imageData = base64_encode($row['image_data']);
-                                                                        echo $imageData;
-                                                                    } else {
-                                                                        echo "Image not found or an error occurred.";
-                                                                    }
-
-                                                                    $conn->close();
-                                                                    ?>" alt="">
-
-
-
-                <h3>Ambuluwawa Tower</h3>
-                <h4>Center Province, Gampola City</h4>
-
-                <div class="div-slider">
-                    <div class="tab-box">
-                        <button class="tab-btn active2">Info</button>
-                        <button class="tab-btn">Location</button>
-                        <button class="tab-btn">Emergency Contacts</button>
-                        <div class="line"></div>
-                    </div>
-                    <div class="slider-box">
-                        <div class="slide active2">
-                            <h2>Overview</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum eius
-                                nesciunt
-                                molestiae impedit
-                                pariatur laborum nam consequatur aperiam quibusdam, omnis voluptatem quaerat
-                                neque,
-                                illum dolorem
-                                laudantium doloremque praesentium inventore.</p>
-
-                            </br>
-                            <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
-
-                        </div>
-
-                        <div class="slide">
-                            <div class="div1">
-                                <div class="dir">
-                                    <h2>Derections</h2>
-                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                        </iframe>
-                                    </p>
-                                </div>
-                                <div class="acc">
-                                    <h2>Accommodation</h2>
-                                    <ul class="accordian">
-                                        <li>
-                                            <input type="radio" name="accordian" id="first" checked>
-                                            <label for="first">Hotel 1</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="second">
-                                            <label for="second">Hotel 2</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <input type="radio" name="accordian" id="third">
-                                            <label for="third">Hotel 3</label>
-                                            <div class="content">
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                    Dolorum
-                                                    ipsa quis enim provident
-                                                    praesentium ipsum, facere minus ducimus maxime recusandae
-                                                    accusamus
-                                                    saepe alias beatae
-                                                    nihil.
-                                                </p>
-                                            </div>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -2039,13 +636,14 @@ $result = $conn->query($sql);
                 });
                 tab.classList.add('active2');
 
-                var line = document.querySelector('.line');
-                line.style.width = e.target.offsetWidth + "px";
-                line.style.left = e.target.offsetLeft + "px";
+                // var line = document.querySelector('.line');
+                // line.style.width = e.target.offsetWidth + "px";
+                // line.style.left = e.target.offsetLeft + "px";
 
                 all_slide.forEach(slide => {
                     slide.classList.remove('active2')
                 });
+
                 all_slide[index].classList.add('active2');
             })
         })
@@ -2053,10 +651,22 @@ $result = $conn->query($sql);
 
     <!--Animation Scripts-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script> AOS.init();</script>
-
+    <script>
+        AOS.init();
+    </script>
+    
     <!--Weather Widget-->
-    <script async src="https://app2.weatherwidget.org/js/?id=ww_6c16ac5251888"></script>
+    <script>
+        !function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://weatherwidget.io/js/widget.min.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, 'script', 'weatherwidget-io-js');
+    </script>
 
 </body>
 
