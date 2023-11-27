@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta tags for character set, compatibility, and viewport -->
     <meta charset="utf-8">
@@ -26,6 +27,8 @@
     <!-- Favicon for the webpage -->
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
 </head>
+
+<!-- --------------------------------------- -->
 
 
 <body>

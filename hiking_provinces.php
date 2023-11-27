@@ -328,6 +328,8 @@
     </div>
 
 
+    <!-- --------------------------------------- -->
+
     <!-- Footer Section -->
     <footer class="footer-distributed">
         <!-- Left section with logo and links -->
