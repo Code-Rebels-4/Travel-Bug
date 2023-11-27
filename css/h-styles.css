@@ -22,7 +22,6 @@ section {
   padding-top: 300px;
 }
 
-
 .home .content .text1 {
   font-size: 3em;
   font-weight: 600;
@@ -83,7 +82,6 @@ section {
   font-weight: 60;
 }
 
-
 /* second page*/
 .second-page {
   margin-top: 0px;
@@ -119,12 +117,12 @@ section {
   justify-content: center;
 }
 
-
 .second-page .second-page-content .card-one p {
   font-size: 16.5px;
-  font-family: Comic Sans MS;
+  text-align: justify; /* Use text-align to align the text within the paragraph */
+  font-family: "Comic Sans MS";
   font-style: italic;
-  color: #44686F;
+  color: #44686f;
   margin: 10px 10px 10px 250px;
 }
 
@@ -146,13 +144,11 @@ section {
   transition: fill 0.3s;
 }
 
-
 /* map provinces */
 .central {
-  fill: #FFA1A1;
+  fill: #ffa1a1;
   stroke: #000000;
 }
-
 
 .eastern {
   fill: #818100;
@@ -160,37 +156,37 @@ section {
 }
 
 .nothern {
-  fill: #FF9571;
+  fill: #ff9571;
   stroke: #000000;
 }
 
 .northcentral {
-  fill: #FFFF91;
+  fill: #ffff91;
   stroke: #000000;
 }
 
 .northwestern {
-  fill: #71A1FF;
+  fill: #71a1ff;
   stroke: #000000;
 }
 
 .southern {
-  fill: #B4FF3E;
+  fill: #b4ff3e;
   stroke: #000000;
 }
 
 .sabara {
-  fill: #FF81C1;
+  fill: #ff81c1;
   stroke: #000000;
 }
 
 .uva {
-  fill: #00F0F0;
+  fill: #00f0f0;
   stroke: #000000;
 }
 
 .western {
-  fill: #FFC100;
+  fill: #ffc100;
   stroke: #000000;
 }
 
@@ -401,8 +397,6 @@ section {
   }
 }
 
-
-
 /* explore */
 
 .explore {
@@ -450,9 +444,7 @@ figure {
   margin: 48px;
   margin-top: 10px;
   margin-left: 13px;
-
 }
-
 
 figure:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -513,7 +505,6 @@ figcaption h3 {
 figcaption p {
   font-size: 20px;
   line-height: 1.55;
-
 }
 
 figcaption button {
@@ -533,7 +524,7 @@ figcaption button {
 
 figcaption button:hover {
   color: white;
-  background-color: #7FC5F6;
+  background-color: #7fc5f6;
   /* box-shadow: 0px 0px 3px 3px #6e7679; */
 }
 
@@ -545,11 +536,9 @@ figcaption button a {
   color: white;
 } */
 
-
-
 /* Map Popup */
 .my-swal-container {
-  font-family: 'Arial, sans-serif';
+  font-family: "Arial, sans-serif";
 }
 
 .my-swal-title {
@@ -563,9 +552,8 @@ figcaption button a {
   padding: 20px;
 }
 
-
 .my-swal-confirm-button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   border: none;
   padding: 15px 30px;
@@ -577,7 +565,6 @@ figcaption button a {
   cursor: pointer;
   border-radius: 4px;
 }
-
 
 /* Festival Slider */
 .container {
@@ -634,7 +621,7 @@ figcaption button a {
   left: calc(50% + 440px);
 }
 
-.item:nth-child(n+6) {
+.item:nth-child(n + 6) {
   left: calc(50% + 660px);
   opacity: 0;
 }
@@ -661,20 +648,20 @@ figcaption button a {
   font-size: 40px;
   font-weight: bold;
   opacity: 0;
-  animation: showcontent 1s ease-in-out 1 forwards
+  animation: showcontent 1s ease-in-out 1 forwards;
 }
 
 .item .des {
   margin: 20px 0;
   opacity: 0;
-  animation: showcontent 1s ease-in-out 0.3s 1 forwards
+  animation: showcontent 1s ease-in-out 0.3s 1 forwards;
 }
 
 .item button {
   padding: 10px 20px;
   border: none;
   opacity: 0;
-  animation: showcontent 1s ease-in-out 0.6s 1 forwards
+  animation: showcontent 1s ease-in-out 0.6s 1 forwards;
 }
 
 @keyframes showcontent {

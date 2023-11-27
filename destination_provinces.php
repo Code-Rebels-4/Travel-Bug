@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/p-styles.css" />
+    <link rel="stylesheet" href="css/province_styles.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Font Awesome script -->
@@ -394,40 +394,40 @@
     <script src="js/mscript.js"></script>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Add a click event listener to the "View More Details" button in Card 1
-            const button1 = document.getElementById("viewDetailsBtn1");
+    document.addEventListener("DOMContentLoaded", function() {
+        // Add a click event listener to the "View More Details" button in Card 1
+        const button1 = document.getElementById("viewDetailsBtn1");
 
-            button1.addEventListener("click", function () {
-                // Navigate to page1 (replace 'd-details-CP.php' with the actual URL)
-                window.location.href = 'd-details-CP.php';
-            });
+        button1.addEventListener("click", function() {
+            // Navigate to page1 (replace 'd-details-CP.php' with the actual URL)
+            window.location.href = 'd-details-CP.php';
         });
+    });
 
-        // If you have Card 2, you can add similar code for its button
-        document.addEventListener("DOMContentLoaded", function () {
-            const button2 = document.getElementById("viewDetailsBtn2");
+    // If you have Card 2, you can add similar code for its button
+    document.addEventListener("DOMContentLoaded", function() {
+        const button2 = document.getElementById("viewDetailsBtn2");
 
-            button2.addEventListener("click", function () {
-                window.location.href = 'd-details-CP.php';
-            });
+        button2.addEventListener("click", function() {
+            window.location.href = 'd-details-CP.php';
         });
+    });
     </script>
 
 
 
     <script>
-        // Example: Adding a click event listener to the button
-        document.addEventListener('DOMContentLoaded', function () {
-            var readMoreButton = document.getElementById('readMoreButton');
+    // Example: Adding a click event listener to the button
+    document.addEventListener('DOMContentLoaded', function() {
+        var readMoreButton = document.getElementById('readMoreButton');
 
-            if (readMoreButton) {
-                readMoreButton.addEventListener('click', function () {
-                    // Handle the click event
-                    window.location.href = 'd-details-CP.php';
-                });
-            }
-        });
+        if (readMoreButton) {
+            readMoreButton.addEventListener('click', function() {
+                // Handle the click event
+                window.location.href = 'd-details-CP.php';
+            });
+        }
+    });
     </script>
 
 
@@ -435,7 +435,7 @@
     <!-- AOS (Animate On Scroll) library initialization -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+    AOS.init();
     </script>
 
 </body>

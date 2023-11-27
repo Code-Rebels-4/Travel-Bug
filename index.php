@@ -146,9 +146,9 @@
             <div class="second-page-content">
 
                 <div class="card-one">
-                    <div class="text2" data-aos="fade-right" data-aos-delay="300" data-aos-duration="2000">More
+                    <div class="text2" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">More
                         Information <br>About Sri Lanka</div>
-                    <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                    <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">
                         Sri Lanka is a stunning island nation situated in the Indian Ocean, known for its incredible
                         natural beauty and rich cultural heritage. The country's diverse landscapes offer something for
                         every kind of traveler, from golden sandy beaches to misty mountains, ancient ruins, and
@@ -407,7 +407,7 @@
                     </p>
                     <button>
 
-                        <a href="d-provinces.php">Click Here</a>
+                        <a href="destination_provinces.php">Click Here</a>
                     </button>
                 </figcaption>
             </figure>
@@ -422,7 +422,7 @@
                     <p>Discover Sri Lanka's Best Hiking Trails - Experience Adventure Like Never Before!</p>
                     <button>
 
-                        <a href="h-provinces.php">Click Here</a>
+                        <a href="hiking_provinces.php">Click Here</a>
 
                     </button>
                 </figcaption>
@@ -441,7 +441,7 @@
                         the Island!</p>
                     <button>
 
-                        <a href="c-provinces.php">Click Here</a>
+                        <a href="camping_provinces.php">Click Here</a>
 
                     </button>
                 </figcaption>
@@ -595,12 +595,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-        var typed = new Typed(".auto-type", {
-            strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
-            typeSpeed: 100,
-            backSpeed: 100,
-            loop: true,
-        })
+    var typed = new Typed(".auto-type", {
+        strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+    })
     </script>
     <script src="js/mscript.js"></script>
     <script src="js/fest-script.js"></script>
@@ -609,44 +609,42 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script>
-        AOS.init();
+    AOS.init();
     </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
+    // Get all anchor tags inside the mapdiv
+    const anchorTags = document.querySelectorAll('.mapdiv a');
 
-        // Get all anchor tags inside the mapdiv
-        const anchorTags = document.querySelectorAll('.mapdiv a');
+    // Add a click event listener to each anchor tag
+    anchorTags.forEach(anchor => {
+        anchor.addEventListener('click', function(event) {
+            event.preventDefault();
 
-        // Add a click event listener to each anchor tag
-        anchorTags.forEach(anchor => {
-            anchor.addEventListener('click', function (event) {
-                event.preventDefault();
+            const districtName = anchor.getAttribute('data-district');
+            const districtDescription = anchor.getAttribute('data-description');
 
-                const districtName = anchor.getAttribute('data-district');
-                const districtDescription = anchor.getAttribute('data-description');
-
-                Swal.fire({
-                    title: 'District: ' + districtName,
-                    html: '<p class="my-swal-text">' + districtDescription + '</p>',
-                    icon: 'success',
-                    width: '40%',
-                    height: '80%',
-                    heightAuto: false,
-                    imageWidth: 50,
-                    imageHeight: 50,
-                    customClass: {
-                        container: 'my-swal-container',
-                        title: 'my-swal-title',
-                        text: 'my-swal-text',
-                        confirmButton: 'my-swal-confirm-button'
-                    }
-                });
+            Swal.fire({
+                title: 'District: ' + districtName,
+                html: '<p class="my-swal-text">' + districtDescription + '</p>',
+                icon: 'success',
+                width: '40%',
+                height: '80%',
+                heightAuto: false,
+                imageWidth: 50,
+                imageHeight: 50,
+                customClass: {
+                    container: 'my-swal-container',
+                    title: 'my-swal-title',
+                    text: 'my-swal-text',
+                    confirmButton: 'my-swal-confirm-button'
+                }
             });
         });
-
+    });
     </script>
 
 
