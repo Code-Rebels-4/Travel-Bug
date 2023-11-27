@@ -1,5 +1,4 @@
 <?php
-
 // Include your database connection code here
 $servername = "localhost";
 $username = "root";
@@ -16,6 +15,7 @@ $sql = "SELECT id, image_data, image_name FROM images";
 $result = $conn->query($sql);
 
 ?>
+
 <!DOCTYPE html>
 <html>
 
