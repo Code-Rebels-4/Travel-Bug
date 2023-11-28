@@ -453,7 +453,7 @@
     <section id="cards" class="cards">
         <div class="card-one">
 
-            <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">Dscover some of the Most
+            <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">Discover some of the Most
                 Popular Festivals in Sri Lanka</div>
 
         </div>
@@ -531,6 +531,22 @@
                             prayers, family gatherings, and gift exchanges, fostering social bonds and renewal. Discover
                             the vibrant traditions and cultural richness of Pongal, a joyful celebration of harvest and
                             community.</div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(Images/home/kataragama.jpg);">
+                    <div class="content">
+                        <div class="name">Kataragama Perahera</div>
+                        <div class="des" style="font-size: 15px;">The Sri Lanka Kataragama Perahera is an annual
+                            two-week festival in July/August honoring the Hindu God Skanda. It takes place in
+                            Kataragama, Southern Sri Lanka, involving a grand procession from the Kataragama Temple to
+                            the Valli Amman Temple. The event attracts participants of all religions and Veddahs
+                            (aboriginals) who engage in rituals, cleanse themselves in the Menik River, and make
+                            offerings. The festival includes unique acts like hook swinging and walking on hot embers.
+                            Kavadi Dancing, with a two-piece structure on a pole, symbolizes gratitude for vows or
+                            favors. Tailored travel programs in Sri Lanka can include the Kataragama Perahera, along
+                            with diverse cultural, natural, wildlife, archaeological, and beach experiences. July/August
+                            is an ideal beach season on the Eastern coast (e.g., Nilaveli, Trincomalee) and pleasant on
+                            the Western coast (e.g., Unawatuna, Hikkaduwa).</div>
                     </div>
                 </div>
             </div>

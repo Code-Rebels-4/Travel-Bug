@@ -1,4 +1,5 @@
 <?php
+
 // Include your database connection code here
 $servername = "localhost";
 $username = "root";
@@ -15,10 +16,6 @@ $sql = "SELECT id, image_data, image_name FROM images";
 $result = $conn->query($sql);
 
 ?>
-
-<!-- --------------------------------------- -->
-
-
 <!DOCTYPE html>
 <html>
 
@@ -29,7 +26,7 @@ $result = $conn->query($sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="css/details-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/d-styles.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
