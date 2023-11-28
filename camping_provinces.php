@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta tags for character set, compatibility, and viewport -->
     <meta charset="utf-8">
@@ -70,8 +71,8 @@
 
     <!-- Information box at the top -->
     <br><br><br><br><br><br>
-    <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="450" data-aos-duration="400">
-        <h1>Shelter and Comfort:</h1>
+    <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="250" data-aos-duration="200">
+        <h1>Shelter and Comfort:</h1><br>
         <p>
         <ul type="none">
             <li>
@@ -96,8 +97,8 @@
     <!-- Three boxes in the container section -->
     <div class="container">
         <!-- Left box -->
-        <div class="left-box information-box" data-aos="fade-right" data-aos-delay="450" data-aos-duration="400">
-            <h1>Tools and Repair:</h1>
+        <div class="left-box information-box" data-aos="fade-right" data-aos-delay="250" data-aos-duration="200">
+            <h1>Tools and Repair:</h1><br>
             <p>
             <ul type="none">
                 <li>
@@ -125,8 +126,8 @@
         </div>
 
         <!-- Right box -->
-        <div class="right-box information-box" data-aos="fade-left" data-aos-delay="450" data-aos-duration="400">
-            <h1>Cooking and Eating:</h1>
+        <div class="right-box information-box" data-aos="fade-left" data-aos-delay="250" data-aos-duration="200">
+            <h1>Cooking and Eating:</h1><br>
             <p>
             <ul type="none">
                 <li>
@@ -156,8 +157,8 @@
     </div>
 
     <!-- Bottom box with coastal allure and wildlife adventures -->
-    <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="450" data-aos-duration="400">
-        <h1>Miscellaneous:</h1>
+    <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="250" data-aos-duration="200">
+        <h1>Miscellaneous:</h1><br>
         <p>
         <ul type="none">
             <li>
@@ -168,7 +169,7 @@
     </div>
 
     <!-- Additional heading -->
-    <h1 class="text2" data-aos="flip-up" data-aos-delay="900" data-aos-duration="800">Discover the wonders of each
+    <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="400">Discover the wonders of each
         province with just a click!</h1>
 
 

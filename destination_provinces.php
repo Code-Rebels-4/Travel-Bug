@@ -80,8 +80,8 @@
     <!-- Three boxes in the container section -->
     <div class="container">
         <!-- Left box -->
-        <div class="left-box information-box" data-aos="fade-right" data-aos-delay="450" data-aos-duration="400">
-            <h1>Discover Historical and Cultural Odyssey:</h1>
+        <div class="left-box information-box" data-aos="fade-right" data-aos-delay="250" data-aos-duration="200">
+            <h1>Discover Historical and Cultural Odyssey</h1> <br>
             <p>Uncover the secrets of Sri Lanka's rich heritage as you explore the ancient marvels of Sigiriya and the
                 cultural significance of Kandy's Temple of the Tooth Relic. Immerse yourself in centuries-old stories
                 etched in stone and tradition.</p>
@@ -93,8 +93,8 @@
         </div>
 
         <!-- Right box -->
-        <div class="right-box information-box" data-aos="fade-left" data-aos-delay="450" data-aos-duration="400">
-            <h1>Traverse Diverse Landscapes and Tranquil Escapes:</h1>
+        <div class="right-box information-box" data-aos="fade-left" data-aos-delay="250" data-aos-duration="200">
+            <h1>Traverse Diverse Landscapes and Tranquil Escapes</h1><br>
             <p>Traverse the emerald hills of Ella, breathe in the crisp mountain air, and lose yourself in the
                 mist-covered beauty of Ella Gap. From rolling hills to tropical beaches, Sri Lanka's landscapes promise
                 a symphony of visual delights and tranquil retreats.</p>
@@ -102,15 +102,15 @@
     </div>
 
     <!-- Bottom box with coastal allure and wildlife adventures -->
-    <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="450" data-aos-duration="400">
-        <h1>Observe Coastal Allure and Wildlife Adventures:</h1>
+    <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="250" data-aos-duration="200">
+        <h1>Observe Coastal Allure and Wildlife Adventures</h1><br>
         <p>Immerse yourself in the colonial charm of Galle, where cobbled streets wind through a historic fort, offering
             boutique shops and the scent of the sea. Then, relax on Mirissa's golden sands and embark on a wildlife
             adventure in Yala National Park, where untamed beauty and exotic creatures await.</p>
     </div>
 
     <!-- Additional heading -->
-    <h1 class="text2" data-aos="flip-up" data-aos-delay="900" data-aos-duration="800">Discover the wonders of each
+    <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="400">Discover the wonders of each
         province with just a click!</h1>
 
 
