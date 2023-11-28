@@ -1,19 +1,29 @@
 .back {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../Images/wall/wall10.png);
-  background-size: cover;
+  background-image: url(../Images/contact/Bg_Image.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: right; /* Set the background position to the right */
   height: 101vh;
-  padding-top: 130px;
-  padding-left: 150px;
-  color: #939f8a;
+  padding-top: 190px;
+  color: #000000;
   font-size: 42px;
   font-weight: 60;
   text-align: left;
 }
 
 .back p {
-  color: #81c54e;
+  color: #0021fb;
   font-size: 2.5rem;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.back h1 {
+  margin-left: 30px;
+}
+
+.back h5 {
+  margin-left: 30px;
   margin-top: 30px;
 }
 
@@ -76,7 +86,7 @@
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
-  transition: .6s;
+  transition: 0.6s;
   margin: 0 60px;
 }
 
@@ -89,7 +99,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  transition: .6s;
+  transition: 0.6s;
   z-index: 1;
 }
 
@@ -100,14 +110,14 @@
 .img img {
   width: 100%;
   border-radius: 20px;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 .caption {
   text-align: center;
   transform: translateY(-65px);
   opacity: 0;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 .profile-card:hover .caption {
@@ -138,7 +148,7 @@ a #fb {
   color: #0c52a1;
   margin-right: 8px;
   font-size: 21px;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 a #fb:hover {
@@ -149,7 +159,7 @@ a #ins {
   color: #b70e92;
   margin-right: 8px;
   font-size: 21px;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 a #ins:hover {
@@ -171,13 +181,12 @@ a #you {
   color: #ff0000;
   margin-right: 8px;
   font-size: 21px;
-  transition: .6s;
+  transition: 0.6s;
 }
 
 a #you:hover {
   color: #333;
 }
-
 
 /* email */
 
@@ -240,7 +249,7 @@ a #you:hover {
 
 .image #email table td form .btn:hover {
   color: #ffff;
-  background-color: #12395F;
+  background-color: #12395f;
   transform: translate(1px, 1px);
 }
 
@@ -307,7 +316,6 @@ a #you:hover {
   }
 }
 
-
 /* essential */
 footer {
   margin-top: 450px;
@@ -322,15 +330,19 @@ footer {
   height: max-content;
 } */
 
-
 /* Responsive styling */
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+}
 
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+}
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+}
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+}
