@@ -132,7 +132,7 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Horton Plains</p>
+                <p>Horton Plains National Park</p>
             </div>
 
             <div class="place" data-name="d-3" style="background-image: url(<?php
@@ -154,7 +154,7 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Royal Botanic Gardens</p>
+                <p>Royal Botanic Gardens,Peradeniya</p>
             </div>
 
             <div class="place" data-name="d-4" style="background-image: url(<?php
@@ -177,7 +177,7 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Pinnawala Elephant Orphanage</p>
+                <p>Gregory Lake</p>
             </div>
 
             <div class="place" data-name="d-5" style="background-image: url(<?php
@@ -223,7 +223,7 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Sigiriya</p>
+                <p>Sigiriya Rock Fortress</p>
             </div>
 
             <div class="place" data-name="d-7" style="background-image: url(<?php
@@ -248,7 +248,7 @@ $result = $conn->query($sql);
                 <p>Ambuluwawa Tower</p>
             </div>
 
-            <div class="place" data-name="d-3" style="background-image: url(<?php
+            <div class="place" data-name="d-8" style="background-image: url(<?php
 
                                                                             // Assuming you want to display the image with ID = 3
                                                                             $specificImageID = 3;
@@ -268,10 +268,10 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Royal Botanic Gardens</p>
+                <p>Hakgala Botanical Garden</p>
             </div>
 
-            <div class="place" data-name="d-4" style="background-image: url(<?php
+            <div class="place" data-name="d-9" style="background-image: url(<?php
 
                                                                             // Assuming you want to display the image with ID = 4
                                                                             $specificImageID = 4;
@@ -291,30 +291,30 @@ $result = $conn->query($sql);
 
                                                                             ?>)">
 
-                <p>Pinnawala Elephant Orphanage</p>
+                <p>Aluvihare Rock Temple</p>
             </div>
 
-            <div class="place" data-name="d-5" style="background-image: url(<?php
+            <div class="place" data-name="d-10" style="background-image: url(<?php
 
-                                                                            // Assuming you want to display the image with ID = 5
-                                                                            $specificImageID = 5;
+                                                                                // Assuming you want to display the image with ID = 5
+                                                                                $specificImageID = 5;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                            $result = $conn->query($sql);
+                                                                                $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                                $result = $conn->query($sql);
 
-                                                                            if ($result->num_rows > 0) {
-                                                                                $row = $result->fetch_assoc();
-                                                                                $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
+                                                                                if ($result->num_rows > 0) {
+                                                                                    $row = $result->fetch_assoc();
+                                                                                    $imageData = base64_encode($row['image_data']);
+                                                                                    $imageName = $row['image_name'];
 
-                                                                                echo 'data:image/jpeg;base64,' . $imageData;
-                                                                            } else {
-                                                                                echo "Image not found.";
-                                                                            }
+                                                                                    echo 'data:image/jpeg;base64,' . $imageData;
+                                                                                } else {
+                                                                                    echo "Image not found.";
+                                                                                }
 
-                                                                            ?>)">
+                                                                                ?>)">
 
-                <p>Bahirawakanda Temple</p>
+                <p>Dambulla Cave Temple</p>
             </div>
         </div>
 
