@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta tags for character set, compatibility, and viewport -->
     <meta charset="utf-8">
@@ -15,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/p-styles.css" />
+    <link rel="stylesheet" href="css/province_styles.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Font Awesome script -->
@@ -312,7 +311,7 @@
                     <div class="info card2info">
                         <h1 class="text name">Western Province</h1>
                         <p class="text description">Colombo <br> Gampaha <br> Kalutara <br><br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
+                            <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
                         </p>
                     </div>
 
@@ -320,7 +319,7 @@
                     <div class="info card3info">
                         <h1 class="text name">Southern Province</h1>
                         <p class="text description">Galle <br> Matara <br> Hambantota <br><br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton3">VIEW</a>
+                            <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton3">VIEW</a>
                         </p>
                     </div>
 
@@ -328,7 +327,7 @@
                     <div class="info card4info">
                         <h1 class="text name">Eastern Province</h1>
                         <p class="text description">Ampara <br> batticaloa <br> Trincomalee <br><br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
+                            <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -338,7 +337,7 @@
                         <h1 class="text name">Northen Province</h1>
                         <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br> Vavuniya
                             <br><br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
+                            <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -347,7 +346,7 @@
                     <div class="info card6info">
                         <h1 class="text name">Uva Province </h1>
                         <p class="text description">Badulla <br> Moneragala <br><br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
+                            <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -356,7 +355,7 @@
                     <div class="info card7info">
                         <h1 class="text name">North Central <br>Province </h1>
                         <p class="text description">Anuradhapura <br> Polonnaruwa <br><br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
+                            <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -365,7 +364,7 @@
                     <div class="info card8info">
                         <h1 class="text name">North Western <br>Province </h1>
                         <p class="text description">Kurunegala <br> Puttalam <br><br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
+                            <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -374,7 +373,7 @@
                     <div class="info card9info">
                         <h1 class="text name">Sabaragamuwa <br>Province </h1>
                         <p class="text description">Ratnapura <br> Kegalle <br><br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton9">VIEW</a>
+                            <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton9">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -383,10 +382,11 @@
 
 
 
-
         </div>
     </div>
 
+
+    <!-- --------------------------------------- -->
 
     <!-- Footer Section -->
     <footer class="footer-distributed">
@@ -460,7 +460,7 @@
     <!-- AOS (Animate On Scroll) library initialization -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+    AOS.init();
     </script>
 
 </body>

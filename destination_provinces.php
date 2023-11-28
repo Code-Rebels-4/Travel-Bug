@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/p-styles.css" />
+    <link rel="stylesheet" href="css/province_styles.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Font Awesome script -->
@@ -27,6 +27,8 @@
     <!-- Favicon for the webpage -->
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
 </head>
+
+<!-- --------------------------------------- -->
 
 
 <body>
@@ -244,7 +246,7 @@
                     <div class="info card1info">
                         <h1 class="text name">Central Province</h1>
                         <p class="text description">Kandy <br> Nuwara Eliya <br> Matale <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton1">VIEW</a>
+                            <a href="dest_cp_details.php" class="blog-slider__button" id="readMoreButton1">VIEW</a>
                         </p>
                     </div>
 
@@ -252,7 +254,7 @@
                     <div class="info card2info">
                         <h1 class="text name">Western Province</h1>
                         <p class="text description">Colombo <br> Gampaha <br> Kalutara <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
+                            <a href="dest_cp_details.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
                         </p>
                     </div>
 
@@ -260,7 +262,7 @@
                     <div class="info card3info">
                         <h1 class="text name">Southern Province</h1>
                         <p class="text description">Galle <br> Matara <br> Hambantota <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton3">VIEW</a>
+                            <a href="dest_cp_details.php" class="blog-slider__button" id="readMoreButton3">VIEW</a>
                         </p>
                     </div>
 
@@ -268,7 +270,7 @@
                     <div class="info card4info">
                         <h1 class="text name">Eastern Province</h1>
                         <p class="text description">Ampara <br> batticaloa <br> Trincomalee <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
+                            <a href="dest_cp_details.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -278,16 +280,15 @@
                         <h1 class="text name">Northen Province</h1>
                         <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br> Vavuniya
                             <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
+                            <a href="dest_cp_details.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
                         </p>
                         </p>
                     </div>
 
-
                     <div class="info card6info">
                         <h1 class="text name">Uva Province </h1>
                         <p class="text description">Badulla <br> Moneragala <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
+                            <a href="dest_cp_details.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -296,7 +297,7 @@
                     <div class="info card7info">
                         <h1 class="text name">North Central <br>Province </h1>
                         <p class="text description">Anuradhapura <br> Polonnaruwa <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
+                            <a href="dest_cp_details.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -305,7 +306,7 @@
                     <div class="info card8info">
                         <h1 class="text name">North Western <br>Province </h1>
                         <p class="text description">Kurunegala <br> Puttalam <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
+                            <a href="dest_cp_details.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -314,7 +315,7 @@
                     <div class="info card9info">
                         <h1 class="text name">Sabaragamuwa <br>Province </h1>
                         <p class="text description">Ratnapura <br> Kegalle <br><br>
-                            <a href="d-details-CP.php" class="blog-slider__button" id="readMoreButton9">VIEW</a>
+                            <a href="dest_cp_details.php" class="blog-slider__button" id="readMoreButton9">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -394,40 +395,40 @@
     <script src="js/mscript.js"></script>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Add a click event listener to the "View More Details" button in Card 1
-            const button1 = document.getElementById("viewDetailsBtn1");
+    document.addEventListener("DOMContentLoaded", function() {
+        // Add a click event listener to the "View More Details" button in Card 1
+        const button1 = document.getElementById("viewDetailsBtn1");
 
-            button1.addEventListener("click", function () {
-                // Navigate to page1 (replace 'd-details-CP.php' with the actual URL)
-                window.location.href = 'd-details-CP.php';
-            });
+        button1.addEventListener("click", function() {
+            // Navigate to page1 (replace 'd-details-CP.php' with the actual URL)
+            window.location.href = 'd-details-CP.php';
         });
+    });
 
-        // If you have Card 2, you can add similar code for its button
-        document.addEventListener("DOMContentLoaded", function () {
-            const button2 = document.getElementById("viewDetailsBtn2");
+    // If you have Card 2, you can add similar code for its button
+    document.addEventListener("DOMContentLoaded", function() {
+        const button2 = document.getElementById("viewDetailsBtn2");
 
-            button2.addEventListener("click", function () {
-                window.location.href = 'd-details-CP.php';
-            });
+        button2.addEventListener("click", function() {
+            window.location.href = 'd-details-CP.php';
         });
+    });
     </script>
 
 
 
     <script>
-        // Example: Adding a click event listener to the button
-        document.addEventListener('DOMContentLoaded', function () {
-            var readMoreButton = document.getElementById('readMoreButton');
+    // Example: Adding a click event listener to the button
+    document.addEventListener('DOMContentLoaded', function() {
+        var readMoreButton = document.getElementById('readMoreButton');
 
-            if (readMoreButton) {
-                readMoreButton.addEventListener('click', function () {
-                    // Handle the click event
-                    window.location.href = 'd-details-CP.php';
-                });
-            }
-        });
+        if (readMoreButton) {
+            readMoreButton.addEventListener('click', function() {
+                // Handle the click event
+                window.location.href = 'd-details-CP.php';
+            });
+        }
+    });
     </script>
 
 
@@ -435,7 +436,7 @@
     <!-- AOS (Animate On Scroll) library initialization -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+    AOS.init();
     </script>
 
 </body>

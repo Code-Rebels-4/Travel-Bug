@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Meta tags for character set, compatibility, and viewport -->
     <meta charset="utf-8">
@@ -15,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/p-styles.css" />
+    <link rel="stylesheet" href="css/province_styles.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Font Awesome script -->
@@ -61,8 +60,10 @@
         <br><br><br>
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Camping Grounds</h1>
-        <p style="color: aquamarine" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Discover the enchanting allure of your favorite camping grounds,
-            <br> thoughtfully categorized by their corresponding provinces!</p><br>
+        <p style="color: aquamarine" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Discover the
+            enchanting allure of your favorite camping grounds,
+            <br> thoughtfully categorized by their corresponding provinces!
+        </p><br>
     </div>
 
     <!-- Additional content sections with animations -->
@@ -71,25 +72,25 @@
     <br><br><br><br><br><br>
     <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="450" data-aos-duration="400">
         <h1>Shelter and Comfort:</h1>
-            <p>
-                <ul type="none">
-                    <li>
-                        Tent
-                    </li>
-                    <li>
-                        Tent Poles
-                    </li>
-                    <li>
-                        Sleeping bags
-                    </li>
-                    <li>
-                        Flashlights (with extra batteries)
-                    </li>
-                    <li>
-                        Lantern
-                    </li>
-                </ul>
-            </p>
+        <p>
+        <ul type="none">
+            <li>
+                Tent
+            </li>
+            <li>
+                Tent Poles
+            </li>
+            <li>
+                Sleeping bags
+            </li>
+            <li>
+                Flashlights (with extra batteries)
+            </li>
+            <li>
+                Lantern
+            </li>
+        </ul>
+        </p>
     </div>
 
     <!-- Three boxes in the container section -->
@@ -97,25 +98,25 @@
         <!-- Left box -->
         <div class="left-box information-box" data-aos="fade-right" data-aos-delay="450" data-aos-duration="400">
             <h1>Tools and Repair:</h1>
-                <p>
-                    <ul type="none">
-                        <li>
-                            Multi-Tool Kit
-                        </li>
-                        <li>
-                            Duct Tape
-                        </li>
-                        <li>
-                            Tent-pole repair sleeve
-                        </li>
-                        <li>
-                            Mallet or hammer
-                        </li>
-                        <li>
-                            Saw or axe                        
-                        </li>
-                    </ul>
-                </p>
+            <p>
+            <ul type="none">
+                <li>
+                    Multi-Tool Kit
+                </li>
+                <li>
+                    Duct Tape
+                </li>
+                <li>
+                    Tent-pole repair sleeve
+                </li>
+                <li>
+                    Mallet or hammer
+                </li>
+                <li>
+                    Saw or axe
+                </li>
+            </ul>
+            </p>
         </div>
 
         <!-- Animated image -->
@@ -125,45 +126,45 @@
 
         <!-- Right box -->
         <div class="right-box information-box" data-aos="fade-left" data-aos-delay="450" data-aos-duration="400">
-        <h1>Cooking and Eating:</h1>
-                <p>
-                    <ul type="none">
-                        <li>
-                            Stove and fuel
-                        </li>
-                        <li>
-                            Matches/light/firestarter
-                        </li>
-                        <li>
-                            Cook pots
-                        </li>
-                        <li>
-                            Sharp knife
-                        </li>
-                        <li>
-                            Plates and Cups                      
-                        </li>
-                        <li>
-                            Water bottles                       
-                        </li>
-                        <li>
-                            Recycling bags                       
-                        </li>
-                    </ul>
-                </p>
+            <h1>Cooking and Eating:</h1>
+            <p>
+            <ul type="none">
+                <li>
+                    Stove and fuel
+                </li>
+                <li>
+                    Matches/light/firestarter
+                </li>
+                <li>
+                    Cook pots
+                </li>
+                <li>
+                    Sharp knife
+                </li>
+                <li>
+                    Plates and Cups
+                </li>
+                <li>
+                    Water bottles
+                </li>
+                <li>
+                    Recycling bags
+                </li>
+            </ul>
+            </p>
         </div>
     </div>
 
     <!-- Bottom box with coastal allure and wildlife adventures -->
     <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="450" data-aos-duration="400">
         <h1>Miscellaneous:</h1>
-            <p>
-                <ul type="none">
-                    <li>
-                        Firewood sourced near campsite                      
-                    </li>
-                </ul>
-            </p>
+        <p>
+        <ul type="none">
+            <li>
+                Firewood sourced near campsite
+            </li>
+        </ul>
+        </p>
     </div>
 
     <!-- Additional heading -->
@@ -303,7 +304,7 @@
                     <div class="info card1info">
                         <h1 class="text name">Central Province</h1>
                         <p class="text description">Kandy <br> Nuwara Eliya <br> Matale <br><br>
-                            <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton1">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton1">VIEW</a>
                         </p>
                     </div>
 
@@ -311,7 +312,7 @@
                     <div class="info card2info">
                         <h1 class="text name">Western Province</h1>
                         <p class="text description">Colombo <br> Gampaha <br> Kalutara <br><br>
-                            <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
                         </p>
                     </div>
 
@@ -319,7 +320,7 @@
                     <div class="info card3info">
                         <h1 class="text name">Southern Province</h1>
                         <p class="text description">Galle <br> Matara <br> Hambantota <br><br>
-                            <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton3">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton3">VIEW</a>
                         </p>
                     </div>
 
@@ -327,7 +328,7 @@
                     <div class="info card4info">
                         <h1 class="text name">Eastern Province</h1>
                         <p class="text description">Ampara <br> batticaloa <br> Trincomalee <br><br>
-                            <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -335,8 +336,9 @@
 
                     <div class="info card5info">
                         <h1 class="text name">Northen Province</h1>
-                        <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br> Vavuniya <br><br>
-                            <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
+                        <p class="text description">Jaffna <br> Kilinochchi <br> Mannar <br> Mullaitivu <br> Vavuniya
+                            <br><br>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -345,7 +347,7 @@
                     <div class="info card6info">
                         <h1 class="text name">Uva Province </h1>
                         <p class="text description">Badulla <br> Moneragala <br><br>
-                            <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -354,7 +356,7 @@
                     <div class="info card7info">
                         <h1 class="text name">North Central <br>Province </h1>
                         <p class="text description">Anuradhapura <br> Polonnaruwa <br><br>
-                            <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -363,7 +365,7 @@
                     <div class="info card8info">
                         <h1 class="text name">North Western <br>Province </h1>
                         <p class="text description">Kurunegala <br> Puttalam <br><br>
-                            <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
                         </p>
                         </p>
                     </div>
@@ -372,13 +374,12 @@
                     <div class="info card9info">
                         <h1 class="text name">Sabaragamuwa <br>Province </h1>
                         <p class="text description">Ratnapura <br> Kegalle <br><br>
-                            <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton9">READ MORE</a>
+                            <a href="cam_cp_details.php" class="blog-slider__button" id="readMoreButton9">READ MORE</a>
                         </p>
                         </p>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 

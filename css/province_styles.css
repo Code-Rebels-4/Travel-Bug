@@ -1,8 +1,4 @@
 .back {
-  /* background-image: url(Images/wall/travel.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 101vh; */
   padding-top: 250px;
   padding-left: 150px;
   color: #ffffff;
@@ -217,11 +213,14 @@ button:focus {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-58%, -60%) translateX(var(--card-translateX-offset)) translateY(var(--card-translateY-offset)) rotateY(var(--card-rotation-offset)) scale(var(--card-scale-offset));
+  transform: translate(-58%, -60%) translateX(var(--card-translateX-offset))
+    translateY(var(--card-translateY-offset))
+    rotateY(var(--card-rotation-offset)) scale(var(--card-scale-offset));
   display: inline-block;
   width: var(--card-width);
   height: var(--card-height);
-  transition: transform var(--card-transition-duration) var(--card-transition-easing);
+  transition: transform var(--card-transition-duration)
+    var(--card-transition-easing);
   user-select: none;
 }
 
@@ -342,7 +341,8 @@ button:focus {
   margin-bottom: calc(var(--card-height) / 3.5);
   margin-left: calc(var(--card-width) / 1.135);
   transform: translateZ(0);
-  transition: transform var(--card-transition-duration) var(--card-transition-easing);
+  transition: transform var(--card-transition-duration)
+    var(--card-transition-easing);
   position: fixed;
 }
 
@@ -483,8 +483,6 @@ button:focus {
   heightauto: true;
   border-radius: 10px;
 }
-
-
 
 /* 
 ------------------------------------------------------------------------------ */
