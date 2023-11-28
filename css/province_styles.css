@@ -424,6 +424,7 @@ button:focus {
 .information-box p {
   color: #000000;
   font-size: 17px;
+  text-align: justify;
 }
 
 .information-box ul {
