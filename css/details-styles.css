@@ -240,6 +240,9 @@
 .slider-box .slide.active2 {
   display: block;
 }
+.slider-box .slide.active2 p {
+  text-align: justify;
+}
 .slider-box .slide h2 {
   margin-bottom: 10px;
   color: #00443f;
