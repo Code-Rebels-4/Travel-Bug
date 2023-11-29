@@ -476,20 +476,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>Oak Ray City Hotel</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 81 222 7727">+94 81 222 7727</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             6.2km from Hanthana
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Old Town Hotel</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 666 4446">+94 77 666 4446</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             8.1km from Hanthana
                                         </p>
                                     </div>
@@ -691,20 +691,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>Meemure Adventure Tours</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 692 0572">+94 77 692 0572</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             In Meemure
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Meemure Isabulana Resort</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 71 679 9124">+94 71 679 9124</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             2.3km from Meemure
                                         </p>
                                     </div>
@@ -905,20 +905,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>Central City Hostel</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 76 705 9575">+94 76 705 9575</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             38km from Knuckles
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Kandy city house</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 75 787 6339">+94 75 787 6339</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             39.5km from Knuckles
                                         </p>
                                     </div>
@@ -1125,20 +1125,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>One More Night Hostel</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 70 254 7385">+94 70 254 7385</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             3.6km from Pidurangala
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>The Thick Forest</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 70 404 5006">+94 70 404 5006</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             1.2km from Pidurangala
                                         </p>
                                     </div>
@@ -1340,20 +1340,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>Golden Rainbow Guesthouse</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 307 9437">+94 77 307 9437</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             19.7km from Arangala Mountain Peak
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Kashyapa Kingdom View Home</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 71 447 7903">+94 71 447 7903</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             38.8km from Arangala Mountain Peak
                                         </p>
                                     </div>
@@ -1563,20 +1563,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>Hotel Clover Grange</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 66 223 1144">+94 66 223 1144</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             28.2km from Riverston
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Paradise Forest Garden</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 66 312 4033">+94 66 312 4033</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             34.9km from Riverston
                                         </p>
                                     </div>
@@ -1781,20 +1781,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>Elkaduwa Bungalow</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 71 835 8353">+94 71 835 8353</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             3.3km from Hunnasgiriya Waterfall
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Hotel Elkaduwa Loft</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 710 6702">+94 77 710 6702</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             4.7km from Hunnasgiriya Waterfall
                                         </p>
                                     </div>
@@ -1991,20 +1991,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>Zion White House</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 734 3858">+94 77 734 3858</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             8.7km from Conical Hill
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Eco Creations Nuwaraeliya</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 773 3561">+94 77 773 3561</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             7.1km from Conical Hill
                                         </p>
                                     </div>
@@ -2019,10 +2019,10 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;">Co-operative Hospital+94 52 222 2487</h3>
-                                            <a href="tel:"></a>
-                                            <h3 style="color: #e20059;">District General Hospital Nuwara Eliya+94 52 222 2261</h3>
-                                            <a href="tel:"></a>
+                                            <h3 style="color: #e20059;">Co-operative Hospital</h3>
+                                            <a href="tel:+94 52 222 2487">+94 52 222 2487</a>
+                                            <h3 style="color: #e20059;">District General Hospital Nuwara Eliya</h3>
+                                            <a href="tel:+94 52 222 2261">+94 52 222 2261</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2210,20 +2210,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>Omenco Hote</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 52 222 0848">+94 52 222 0848</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             8.4km from Piduruthalagala Mountain
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Shiny View</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 76 613 3069">+94 76 613 3069</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             9.2km from Piduruthalagala Mountain
                                         </p>
                                     </div>
@@ -2423,20 +2423,20 @@ $result = $conn->query($sql);
                                     <div class="acc-item">
                                         <h5>Lover's Leap Cabin & Villa</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 71 996 6608">+94 71 996 6608</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             850m from Lovers Leap Waterfall
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>The Green Savanna Holiday Bungalow</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 71 923 6638">+94 71 923 6638</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance" style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             9.7km from Lovers Leap Waterfall
                                         </p>
                                     </div>

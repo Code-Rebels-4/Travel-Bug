@@ -336,7 +336,7 @@ input[type="radio"] {
   );
 }
 .card:hover {
-  height: 200px;
+  height: 300px;
 }
 
 .card:hover img {
