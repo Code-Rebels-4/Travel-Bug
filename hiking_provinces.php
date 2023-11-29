@@ -304,7 +304,7 @@
                     <div class="info card1info">
                         <h1 class="text name">Central Province</h1>
                         <p class="text description">Kandy <br> Nuwara Eliya <br> Matale <br><br>
-                            <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton1">VIEW</a>
+                            <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton1">VIEW</a>
                         </p>
                     </div>
 
