@@ -92,14 +92,14 @@ html {
 }
 
 .navbar .logo {
-  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 50px;
-  color: #fff;
+  color: #00bfff;
 }
 
 .navbar .logo i {
   font-size: 40px;
-  color: #fff;
+  color: #00bfff;
 }
 
 .navbar .logo a span {
@@ -122,7 +122,7 @@ html {
 }
 
 .navbar .menu li a {
-  color: #fff;
+  color: #00bfff;
   font-size: 17px;
   font-weight: bolder;
   padding: 12px 20px;
@@ -170,12 +170,12 @@ html {
 
 /* footer */
 .footer-distributed {
-  background: rgb(245, 243, 243);
+  background: #e8f1f4;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   padding: 20px 50px;
 }
 
@@ -184,6 +184,7 @@ html {
 .footer-distributed .footer-right {
   display: inline-block;
   vertical-align: top;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /* Footer left */
@@ -193,13 +194,14 @@ html {
 
 /* The company logo */
 .footer-distributed h3 {
+  font-family: "Josefin Sans", sans-serif;
   color: #000000;
-  font: normal 36px "Open Sans", cursive;
+  font-size: 45px;
   margin: 0;
 }
 
 .footer-distributed h3 span {
-  color: lightseagreen;
+  color: #00bfff;
 }
 
 /* Footer links */
@@ -245,17 +247,17 @@ html {
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
   line-height: 38px;
-  background-color: lightseagreen;
+  background-color: #00bfff;
 }
 
 .footer-distributed .footer-center i.fa-map-marker {
-  background-color: lightseagreen;
+  background-color: #00bfff;
   font-size: 17px;
   line-height: 38px;
 }
 
 .footer-distributed .footer-center i.fa-phone {
-  background-color: lightseagreen;
+  background-color: #00bfff;
   font-size: 17px;
   line-height: 38px;
 }
@@ -329,13 +331,13 @@ html {
   color: #000000;
   text-align: center;
   line-height: 35px;
-  background-color: lightseagreen;
+  background-color: #00bfff;
   margin-right: 3px;
   margin-bottom: 5px;
 }
 
 .footer-distributed .footer-icons a .fa-facebook:hover {
-  color: #052244;
+  color: #0077ff;
 }
 
 .footer-distributed .footer-icons a .fa-instagram:hover {
@@ -441,14 +443,14 @@ html {
   }
 
   .navbar .logo {
-    font-family: "Dancing Script", cursive;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 50px;
-    color: #fff;
+    color: #00bfff;
   }
 
   .navbar .logo i {
     font-size: 40px;
-    color: #fff;
+    color: #00bfff;
   }
 
   .navbar .logo a span {
@@ -471,7 +473,7 @@ html {
   }
 
   .navbar .menu li a {
-    color: #fff;
+    color: #00bfff;
     font-size: 17px;
     font-weight: bolder;
     padding: 12px 20px;
@@ -519,7 +521,7 @@ html {
 
   /* footer */
   .footer-distributed {
-    background: rgb(245, 243, 243);
+    background: #e8f1f4;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -543,12 +545,12 @@ html {
   /* The company logo */
   .footer-distributed h3 {
     color: #000000;
-    font: normal 36px "Open Sans", cursive;
+    font-family: "Josefin Sans", sans-serif;
     margin: 0;
   }
 
   .footer-distributed h3 span {
-    color: lightseagreen;
+    color: #00bfff;
   }
 
   /* Footer links */
@@ -594,17 +596,17 @@ html {
   .footer-distributed .footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
-    background-color: lightseagreen;
+    background-color: #00bfff;
   }
 
   .footer-distributed .footer-center i.fa-map-marker {
-    background-color: lightseagreen;
+    background-color: #00bfff;
     font-size: 17px;
     line-height: 38px;
   }
 
   .footer-distributed .footer-center i.fa-phone {
-    background-color: lightseagreen;
+    background-color: #00bfff;
     font-size: 17px;
     line-height: 38px;
   }
@@ -678,7 +680,7 @@ html {
     color: #000000;
     text-align: center;
     line-height: 35px;
-    background-color: lightseagreen;
+    background-color: #00bfff;
     margin-right: 3px;
     margin-bottom: 5px;
   }
