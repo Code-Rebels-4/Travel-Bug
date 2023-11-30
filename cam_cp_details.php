@@ -678,7 +678,7 @@ if ($result->num_rows > 0) {
                                         <h2>Hospitals</h2>
                                         <div class="data">
                                             <h3 style="color: #e20059;">Nawalapitiya District General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">0542 222 261</a><br>
+                                            <a href="tel:+94 54 222 2261">+94 54 222 2261</a><br>
                                     
                                         </div>
                                     </div>
@@ -691,7 +691,7 @@ if ($result->num_rows > 0) {
                                         <h2>Police Stations</h2>
                                         <div class="data">
                                             <h3 style="color: #ffaa20;">Nawalapitiya Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">054-2222222</a><br>
+                                            <a href="tel:+94 54 222 2222">+94 54 222 2222</a><br>
                                             
                                         </div>
                                     </div>
@@ -1040,10 +1040,10 @@ if ($result->num_rows > 0) {
                                         <h2>Hospitals</h2>
                                         <div class="data">
                                             <h3 style="color: #e20059;">Kandy General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">081 223 3337</a><br>
-                                            <a href="tel:+94 81 222 2261">081 222 2261</a>
+                                            <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
+                                            <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
                                             <h3 style="color: #e20059;">Udadumbara General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">0812 402 461</a><br>
+                                            <a href="tel:+94 812 402 461">+94 812 402 461</a><br>
                                             
                                         </div>
                                     </div>
@@ -1056,10 +1056,10 @@ if ($result->num_rows > 0) {
                                         <h2>Police Stations</h2>
                                         <div class="data">
                                             <h3 style="color: #ffaa20;">Kandy Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">081 222 2222</a><br>
-                                            <a href="tel:+94 81 222 2223">081 222 2223</a>
+                                            <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
+                                            <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
                                             <h3 style="color: #ffaa20;">Udadumbara Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">0812 402 222</a><br>
+                                            <a href="tel:+94 812 402 222">+94 812 402 222</a><br>
                                         </div>
                                     </div>
                                 </div>
@@ -1223,10 +1223,10 @@ if ($result->num_rows > 0) {
                                         <h2>Hospitals</h2>
                                         <div class="data">
                                             <h3 style="color: #e20059;">Kandy General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">081 223 3337</a><br>
-                                            <a href="tel:+94 81 222 2261">081 222 2261</a>
+                                            <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
+                                            <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
                                             <h3 style="color: #e20059;">Thalathuoya Divisional Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">0812 404 261</a>
+                                            <a href="tel:+94 81 240 4261">+94 81 240 4261</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1238,10 +1238,10 @@ if ($result->num_rows > 0) {
                                         <h2>Police Stations</h2>
                                         <div class="data">
                                             <h3 style="color: #ffaa20;">Kandy Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">081 222 2222</a><br>
-                                            <a href="tel:+94 81 222 2223">081 222 2223</a>
+                                            <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
+                                            <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
                                             <h3 style="color: #ffaa20;">Thalathuoya Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">0812 404 384</a>
+                                            <a href="tel:+94 81 240 4384">+94 81 240 4384</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1407,9 +1407,9 @@ if ($result->num_rows > 0) {
                                         <h2>Hospitals</h2>
                                         <div class="data">
                                             <h3 style="color: #e20059;">Madulkelle General Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">081-236-3261</a>
+                                            <a href="tel:+94 812 363 261">+94 81 236 3261</a>
                                             <h3 style="color: #e20059;">Katugastota Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">081-249-9261 </a>
+                                            <a href="tel:+94 81 223 3337">+94 81 223 3337 </a>
                                         </div>
                                     </div>
                                 </div>
@@ -1421,9 +1421,9 @@ if ($result->num_rows > 0) {
                                         <h2>Police Stations</h2>
                                         <div class="data">
                                         <h3 style="color: #ffaa20;">Panwila police station </h3>
-                                            <a href="tel:+94 81 222 2222">0812 472 222</a>
+                                            <a href="tel:+94 81 247 2222">+94 81 247 2222</a>
                                             <h3 style="color: #ffaa20;">Katugasthota Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">0812 499 222</a>
+                                            <a href="tel:+94 81 249 9222">+94 81 249 9222</a>
                                             
                                         </div>
                                     </div>
@@ -1589,7 +1589,7 @@ if ($result->num_rows > 0) {
                                         <h2>Hospitals</h2>
                                         <div class="data">
                                             <h3 style="color: #e20059;">Nalanda Divisional Hospital</h3>
-                                            <a href="tel:+94 81 223 3337">066 2246161</a>
+                                            <a href="tel:+94 66 224 6161">+94 66 224 6161</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1601,7 +1601,7 @@ if ($result->num_rows > 0) {
                                         <h2>Police Stations</h2>
                                         <div class="data">
                                             <h3 style="color: #ffaa20;">Naula Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">0662 246 222</a>
+                                            <a href="tel:+94 66 224 6222">+94 66 224 6222</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1768,7 +1768,7 @@ if ($result->num_rows > 0) {
                                         <h2>Hospitals</h2>
                                         <div class="data">
                                             <h3 style="color: #e20059;">Matale District General Hospital </h3>
-                                            <a href="tel:+94 81 223 3337">0662 222 261</a>
+                                            <a href="tel:+94 66 222 2261">+94 66 222 2261</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1780,7 +1780,7 @@ if ($result->num_rows > 0) {
                                         <h2>Police Stations</h2>
                                         <div class="data">
                                             <h3 style="color: #ffaa20;">Matale Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">0662 222 222</a>
+                                            <a href="tel:+94 66 222 2222">+94 66 222 2222</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1948,7 +1948,7 @@ if ($result->num_rows > 0) {
                                         <h2>Hospitals</h2>
                                         <div class="data">
                                             <h3 style="color: #e20059;"> Bagawanthalawa Divisional Hospital </h3>
-                                            <a href="tel:+94 81 223 3337"> 0522 267 561</a>
+                                            <a href="tel:+94 52 226 7561"> +94 52 226 7561</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1960,7 +1960,7 @@ if ($result->num_rows > 0) {
                                         <h2>Police Stations</h2>
                                         <div class="data">
                                             <h3 style="color: #ffaa20;">Bagawantalawa Police Station</h3>
-                                            <a href="tel:+94 81 222 2222">0522 267 522</a>
+                                            <a href="tel:+94 52 226 7522">+94 52 226 7522</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2129,7 +2129,7 @@ $conn->close();
                                         <h2>Hospitals</h2>
                                         <div class="data">
                                             <h3 style="color: #e20059;"> Nuwara Eliya District General Hospital   </h3>
-                                            <a href="tel:+94 81 223 3337">0522 222 261</a>
+                                            <a href="tel:+94 52 222 2261">+94 52 222 2261</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2141,7 +2141,7 @@ $conn->close();
                                         <h2>Police Stations</h2>
                                         <div class="data">
                                             <h3 style="color: #ffaa20;">Nuwara Eliya Police Station</h3>
-                                            <a href="tel:+94 81 222 2222"> 0522 222 222</a>
+                                            <a href="tel:+94 52 222 2222">+94 52 222 2222</a>
                                         </div>
                                     </div>
                                 </div>
