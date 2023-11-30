@@ -981,10 +981,11 @@ if ($result->num_rows > 0) {
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
+                                            <h3 style="color: #ffaa20;">Panwila police station </h3>
+                                            <a href="tel:+94 81 222 2222">0812 472 222</a>
                                             <h3 style="color: #ffaa20;">Katugasthota Police Station</h3>
                                             <a href="tel:+94 81 249 9222">+94 81 249 9222</a>
-                                            <h3 style="color: #ffaa20;">Manikhinna Police Station</h3>
-                                            <a href="tel:+94 81 237 4222">+94 81 237 4222</a>
+                                            
                                         </div>
                                     </div>
                                 </div>
