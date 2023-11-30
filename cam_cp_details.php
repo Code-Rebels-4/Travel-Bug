@@ -31,7 +31,7 @@ $result = $conn->query($sql);
 
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
     <script src=" https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <script src="js/3.5.1.min.js"></script>
+    <script src="js/NavigationBar_scroll.js"></script>
 
     <title>Camping Grounds - CP</title>
 </head>
@@ -69,7 +69,7 @@ $result = $conn->query($sql);
 
     <!--Back Arrow / Quote-->
     <div class="d1">
-        <a href="d-provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img
+        <a href="camping_provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img
                 src="Images/arrow.png" title="Go back to Provinces"></a>
 
         <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">
@@ -85,7 +85,11 @@ $result = $conn->query($sql);
             <input type="text" name="" id="find" placeholder="search here...." onkeyup="search()">
         </div>
 
-        <!--Place Cards-->
+
+        <!------------------------------------------------------------------------------------------------------------------------------->
+        <!-----------------------------------------------------Place Cards--------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------------------->
+
         <div class="places-container" data-aos="fade-up" data-aos-delay="650" data-aos-duration="400">
 
             <div class="place" data-name="d-1" style="background-image: url(<?php
@@ -317,7 +321,12 @@ if ($result->num_rows > 0) {
             </div>
         </div>
 
-        <!--Pop-Up Models-->
+
+        <!------------------------------------------------------------------------------------------------------------------------------->
+        <!---------------------------------------------------Pop-Up Models--------------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------------------->
+
+
         <div class="places-preview" style="font-family:Arial, Helvetica, sans-serif;">
             <div class="preview" data-target="d-1">
                 <i class="fas fa-times"></i>
@@ -510,6 +519,7 @@ if ($result->num_rows > 0) {
                     </div>
                 </div>
             </div>
+
 
             <div class="preview" data-target="d-2">
                 <i class="fas fa-times"></i>

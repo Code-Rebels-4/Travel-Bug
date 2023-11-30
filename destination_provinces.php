@@ -22,7 +22,7 @@
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
 
     <!-- jQuery script -->
-    <script type="text/javascript" src="js/3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/NavigationBar_scroll.js"></script>
 
     <!-- Favicon for the webpage -->
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
@@ -40,7 +40,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents"></i>&nbsp;Travel Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;Travel Bug</div>
             <!-- Navigation menu items -->
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>

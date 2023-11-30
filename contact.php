@@ -31,7 +31,7 @@ if ($conn->connect_error) {
 
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <script src="js/3.5.1.min.js"></script>
+    <script src="js/NavigationBar_scroll.js"></script>
     <title>Contact</title>
 </head>
 
@@ -42,7 +42,7 @@ if ($conn->connect_error) {
 
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents"></i>&nbsp;Travel Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;Travel Bug</div>
             <ul class="menu">
 
                 <li><a href="index.php">Home</a></li>
