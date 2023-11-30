@@ -44,17 +44,11 @@ if ($conn->connect_error) {
         <div class="max-width">
             <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;Travel Bug</div>
             <ul class="menu">
-
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php#explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
-
             </ul>
-
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </nav>
 
