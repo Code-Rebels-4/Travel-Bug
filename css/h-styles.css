@@ -120,7 +120,7 @@
 .second-page .second-page-content .card-one .text2 {
   font-size: 30px;
   font-weight: bold;
-  color:#0a0443;
+  color: #0a0443;
   margin: -130px 10px 30px 250px;
   justify-content: center;
 }
@@ -128,7 +128,7 @@
 .second-page .second-page-content .card-one p {
   font-size: 16.5px;
   line-height: 1.5;
-  text-align: justify; 
+  text-align: justify;
   color: #0a0443;
   margin: 10px 10px 10px 250px;
 }
@@ -202,7 +202,7 @@
 
 /*-------- Map Popup ---------*/
 
-.my-swal-container { 
+.my-swal-container {
 }
 
 .my-swal-title {
