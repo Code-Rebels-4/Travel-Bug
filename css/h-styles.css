@@ -91,7 +91,7 @@
 
 /* second page*/
 .second-page {
-  margin-top: 0px;
+  margin-top: 50px;
   padding: 75px 0;
   /* background-color: rgb(98, 63, 63); */
   /* background-image: url(); */
@@ -442,7 +442,7 @@
 
 .explore {
   /* background-color: #de1515; */
-  margin-top: 0px;
+  margin-top: -50px;
   height: 800px;
   width: 100%;
   margin-bottom: 20px;
@@ -580,7 +580,7 @@ figcaption button:hover a {
 }
 
 .cards .text2 {
-  margin-top: -20px;
+  margin-top: 30px;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
