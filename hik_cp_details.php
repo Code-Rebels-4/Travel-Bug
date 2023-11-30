@@ -30,7 +30,7 @@ $result = $conn->query($sql);
 
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
     <script src=" https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <script src="js/NavigationBar_scroll.js"></script>
+    <script type="text/javascript" src="js/navscroll.js"></script>
 
     <title>Hiking Places - CP</title>
 </head>
@@ -43,7 +43,7 @@ $result = $conn->query($sql);
     <!--Navigation Bar-->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;Travel Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;TravelBug</div>
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php#explore">Explore</a></li>
@@ -982,7 +982,7 @@ if ($result->num_rows > 0) {
                                         <h2>Police Stations</h2>
                                         <div class="data">
                                             <h3 style="color: #ffaa20;">Panwila police station </h3>
-                                            <a href="tel:+94 81 222 2222">0812 472 222</a>
+                                            <a href="tel:+94 81 247 2222">+94 81 247 2222</a>
                                             <h3 style="color: #ffaa20;">Katugasthota Police Station</h3>
                                             <a href="tel:+94 81 249 9222">+94 81 249 9222</a>
 

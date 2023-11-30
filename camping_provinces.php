@@ -22,7 +22,7 @@
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
 
     <!-- jQuery script -->
-    <script type="text/javascript" src="js/NavigationBar_scroll.js"></script>
+    <script type="text/javascript" src="js/navscroll.js"></script>
 
     <!-- Favicon for the webpage -->
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
@@ -38,7 +38,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;Travel Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;TravelBug</div>
             <!-- Navigation menu items -->
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
@@ -57,8 +57,8 @@
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Camping Grounds</h1>
         <p style="color: aquamarine" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Discover the
-            enchanting allure of your favorite camping grounds,
-            <br> thoughtfully categorized by their corresponding provinces!
+            enchanting allure of your favorite <br> camping grounds,
+            thoughtfully categorized by <br> their corresponding provinces!
         </p><br>
     </div>
 

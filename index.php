@@ -16,10 +16,10 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/4a7f9535df.js"></script>
-    <script src="js/NavigationBar_scroll.js"></script>
+    <script type="text/javascript" src="js/navscroll.js"></script>
     <script src="js/card.js"></script>
 
-    <title>Travel Bug</title>
+    <title>TravelBug</title>
 </head>
 
 <body>
@@ -377,12 +377,12 @@
 
     <!--Explore-->
     <section id="explore" class="explore">
-        <div class="text2" data-aos="flip-up" data-aos-delay="600" data-aos-duration="1000">
+        <div class="text2" data-aos="flip-up" data-aos-delay="300" data-aos-duration="500">
             Discover the Most Attractive Locations!
         </div>
 
         <div class="card-one">
-            <figure class="image-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+            <figure class="image-block" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
                 <h1>Travel <br> Destinations</h1>
 
                 <img src="Images/home/destination.png" alt="An image of temple of the tooth" />
@@ -395,7 +395,7 @@
                 </figcaption>
             </figure>
 
-            <figure class="image-block" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
+            <figure class="image-block" data-aos="fade-down" data-aos-delay="500" data-aos-duration="500">
                 <h1>Hiking <br> Places</h1>
                 <img src="Images/home/hiking places.jpg" alt="An image of people hiking on a mountain" />
                 <figcaption>
@@ -411,7 +411,7 @@
                 </figcaption>
             </figure>
 
-            <figure class="image-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+            <figure class="image-block" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
                 <h1>Camping <br> Grounds</h1>
 
                 <img src="Images/home/camping.png" alt="An image of a person in a tent" />
@@ -435,11 +435,11 @@
 
     <!--Festivals-->
     <section id="cards" class="cards">
-        <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">
+        <div class="text2" data-aos="flip-up" data-aos-delay="300" data-aos-duration="500">
             Discover some of the Most Popular Festivals in Sri Lanka
         </div>
 
-        <div class="container" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
+        <div class="container" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500">
             <div id="slide">
                 <div class="item" style="background-image: url(Images/home/ny.jpg);">
                     <div class="content">
@@ -597,7 +597,7 @@
     </script>
 
     <script src="js/mscript.js"></script>
-    <script src="js/fest-script.js"></script>
+    <script src="js/fest_script.js"></script>
 
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

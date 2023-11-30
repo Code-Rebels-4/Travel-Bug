@@ -30,7 +30,7 @@ if ($conn->connect_error) {
 
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <script src="js/NavigationBar_scroll.js"></script>
+    <script type="text/javascript" src="js/navscroll.js"></script>
 
     <title>About</title>
 </head>
@@ -42,7 +42,7 @@ if ($conn->connect_error) {
 
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;Travel Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;TravelBug</div>
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php#explore">Explore</a></li>
@@ -57,7 +57,7 @@ if ($conn->connect_error) {
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">About</h1>
         <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">Who We Are...</p><br>
 
-        <div data-aos="fade" data-aos-delay="1300" data-aos-duration="1600">Designers, Thinkers & Collaborators</div>
+        <div data-aos="fade" data-aos-delay="1300" data-aos-duration="1600">Designers, Thinkers <br> & Collaborators</div>
 
     </div>
 

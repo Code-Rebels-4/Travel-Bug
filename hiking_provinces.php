@@ -20,7 +20,7 @@
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
 
     <!-- jQuery script -->
-    <script type="text/javascript" src="js/NavigationBar_scroll.js"></script>
+    <script type="text/javascript" src="js/navscroll.js"></script>
 
     <!-- Favicon for the webpage -->
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
@@ -36,7 +36,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;Travel Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;TravelBug</div>
             <!-- Navigation menu items -->
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
@@ -50,13 +50,13 @@
 
     <!-- Main Content Section -->
     <div class="back"
-        style="background-image: url('Images/wall/hk_1.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+        style="background-image: url('Images/home/h_bg_4Copy.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
         <br><br><br>
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Hiking Places</h1>
         <p style="color: aquamarine;" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Embark on the
-            exhilarating trails of your cherished hiking destinations,
-            <br> meticulously arranged by their associated provinces!
+            exhilarating trails of your cherished <br> hiking destinations,
+             meticulously arranged <br> by their associated provinces!
         </p><br>
     </div>
 
