@@ -38,6 +38,7 @@
   letter-spacing: 5px;
   line-height: 75px;
   font-family: 'Roboto', sans-serif;
+  margin-top: -200px;
 }
 
 .home .content .text2 {
@@ -52,6 +53,7 @@
   background-position: 0 0;
   animation: back 20s linear infinite;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .home .content .text2 h1 {
