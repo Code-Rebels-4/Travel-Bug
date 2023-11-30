@@ -92,10 +92,10 @@
 
 /* second page*/
 .second-page {
-  margin-top: 0px;
+  margin-top: 50px;
   padding: 75px 0;
   /* background-color: rgb(98, 63, 63); */
-  background-image: url();
+  /* background-image: url(); */
 }
 
 .second-page .second-page-content {
@@ -120,17 +120,16 @@
 .second-page .second-page-content .card-one .text2 {
   font-size: 30px;
   font-weight: bold;
-  color: hsl(190deg 64% 18%);
+  color: #0a0443;
   margin: -130px 10px 30px 250px;
   justify-content: center;
 }
 
 .second-page .second-page-content .card-one p {
   font-size: 16.5px;
-  text-align: justify; /* Use text-align to align the text within the paragraph */
-  font-family: "Comic Sans MS";
-  font-style: italic;
-  color: #44686f;
+  line-height: 1.5;
+  text-align: justify;
+  color: #0a0443;
   margin: 10px 10px 10px 250px;
 }
 
@@ -204,7 +203,6 @@
 /*-------- Map Popup ---------*/
 
 .my-swal-container {
-  font-family: "Arial, sans-serif";
 }
 
 .my-swal-title {
@@ -445,7 +443,7 @@
 
 .explore {
   /* background-color: #de1515; */
-  margin-top: 0px;
+  margin-top: -50px;
   height: 800px;
   width: 100%;
   margin-bottom: 20px;
@@ -456,7 +454,7 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: 10px;
-  color: hsl(190deg 64% 18%);
+  color: #0a0443;
 }
 
 .explore .card-one {
@@ -583,20 +581,20 @@ figcaption button:hover a {
 }
 
 .cards .text2 {
-  margin-top: -20px;
+  margin-top: 30px;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 85px;
-  color: hsl(190deg 64% 18%);
+  color: #0a0443;
 }
 
-.card-text p {
+/* .card-text p {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   color: hsl(190deg 64% 18%);
-}
+} */
 
 .container {
   position: relative;
@@ -669,7 +667,6 @@ figcaption button:hover a {
   color: #eee;
   transform: translate(0, -50%);
   display: none;
-  font-family: system-ui;
 }
 
 .item:nth-child(2) .content {
