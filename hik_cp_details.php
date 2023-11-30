@@ -31,7 +31,7 @@ $result = $conn->query($sql);
 
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
     <script src=" https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <script src="js/3.5.1.min.js"></script>
+    <script src="js/NavigationBar_scroll.js"></script>
 
     <title>Hiking Places - CP</title>
 </head>
@@ -59,7 +59,8 @@ $result = $conn->query($sql);
     </nav>
 
     <!--Banner-->
-    <div class="image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/H-CP.jpg);">
+    <div class="image"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/H-CP.jpg);">
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
             Central Province
         </h1>
@@ -72,7 +73,8 @@ $result = $conn->query($sql);
             <img src="Images/arrow.png" title="Go back to Provinces"></a>
 
         <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">
-            Traverse breathtaking trails and discover the allure of Central Province<br>through its enchanting and challenging hiking destinations.
+            Traverse breathtaking trails and discover the allure of Central Province<br>through its enchanting and
+            challenging hiking destinations.
         </h1>
     </div>
 
@@ -440,17 +442,25 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Start at Ceylon Tea Museum on Hantana Estate, once a tea factory. Easy ascent with notable spots
-                                like Hill Country Sport Shooting Club, Sugarcane Quarantine Station, and a Buddhist temple. Panoramic
-                                views of central tea plantations, Victoria Reservoir, and Knuckles Range. Highest point at 1008m, total
-                                gain 383m. Descend to Galaha, passing a Buddha statue, a lush forest, and residential areas. Cross the
-                                bridge at 10.8 km (754m), choose a track or road to Galaha Road. End at Galaha's Post Office, 900 meters
-                                away.<br>Ambuluwawa, Peacock Hills, Kukulagala, Alagalla, Bathalegala, Knuckles Mountain Range, Pettigala,
-                                and Dolosbage are some of the peaks that you can observe from the top of the Hanthana.</p>
+                            <p>Start at Ceylon Tea Museum on Hantana Estate, once a tea factory. Easy ascent with
+                                notable spots
+                                like Hill Country Sport Shooting Club, Sugarcane Quarantine Station, and a Buddhist
+                                temple. Panoramic
+                                views of central tea plantations, Victoria Reservoir, and Knuckles Range. Highest point
+                                at 1008m, total
+                                gain 383m. Descend to Galaha, passing a Buddha statue, a lush forest, and residential
+                                areas. Cross the
+                                bridge at 10.8 km (754m), choose a track or road to Galaha Road. End at Galaha's Post
+                                Office, 900 meters
+                                away.<br>Ambuluwawa, Peacock Hills, Kukulagala, Alagalla, Bathalegala, Knuckles Mountain
+                                Range, Pettigala,
+                                and Dolosbage are some of the peaks that you can observe from the top of the Hanthana.
+                            </p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d2980d63/kandy/" data-label_1="KANDY" data-label_2="WEATHER">KANDY WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d2980d63/kandy/"
+                                data-label_1="KANDY" data-label_2="WEATHER">KANDY WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -458,7 +468,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.082949503238!2d80.63617160000001!3d7.231379400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae365b3f7ebf293%3A0xef81fb1241761734!2zSGFudGhhbmEgTW91bnRhaW4gUmFuZ2UgfCDgt4TgtrHgt4rgtq3gt4_gtrEg4Laa4Laz4LeUIOC2tOC2seC3iuC2reC3kuC2ug!5e0!3m2!1sen!2sus!4v1701177681553!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.082949503238!2d80.63617160000001!3d7.231379400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae365b3f7ebf293%3A0xef81fb1241761734!2zSGFudGhhbmEgTW91bnRhaW4gUmFuZ2UgfCDgt4TgtrHgt4rgtq3gt4_gtrEg4Laa4Laz4LeUIOC2tOC2seC3iuC2reC3kuC2ug!5e0!3m2!1sen!2sus!4v1701177681553!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -658,14 +671,19 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Meemure is a secluded village in Sri Lanka known for its traditional culture, stunning natural beauty,
-                                and remote location. The village is surrounded by lush green forests, waterfalls, and eco-friendly houses
-                                built with clay and 'Illuk' (a type of grass).<br>Meemure provides an authentic experience of rural
-                                mountain life and offers a glimpse into a society striving to preserve its unique culture.</p>
+                            <p>Meemure is a secluded village in Sri Lanka known for its traditional culture, stunning
+                                natural beauty,
+                                and remote location. The village is surrounded by lush green forests, waterfalls, and
+                                eco-friendly houses
+                                built with clay and 'Illuk' (a type of grass).<br>Meemure provides an authentic
+                                experience of rural
+                                mountain life and offers a glimpse into a society striving to preserve its unique
+                                culture.</p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d3180d88/udadumbara/" data-label_1="UDADUMBARA" data-label_2="WEATHER">UDADUMBARA WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d3180d88/udadumbara/"
+                                data-label_1="UDADUMBARA" data-label_2="WEATHER">UDADUMBARA WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -673,7 +691,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31650.50672754918!2d80.84542745000002!3d7.430535900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4a72d0d2c4cd1%3A0x320831c36bcc0e6!2sMeemure%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1701177776942!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31650.50672754918!2d80.84542745000002!3d7.430535900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4a72d0d2c4cd1%3A0x320831c36bcc0e6!2sMeemure%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1701177776942!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -872,14 +893,18 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Embark on the Knuckles 5-Peak Hike via Bambarella, starting at a trailhead accessible with an off-road
-                                vehicle. The journey begins past Cargills Kist Knuckles Water Plant, transitioning from pavement to a
-                                rocky, muddy, and rough dirt road.<br>The entire trail, covering all 5 peaks, can be completed in 5 hours.
+                            <p>Embark on the Knuckles 5-Peak Hike via Bambarella, starting at a trailhead accessible
+                                with an off-road
+                                vehicle. The journey begins past Cargills Kist Knuckles Water Plant, transitioning from
+                                pavement to a
+                                rocky, muddy, and rough dirt road.<br>The entire trail, covering all 5 peaks, can be
+                                completed in 5 hours.
                                 This includes breaks for breathtaking views and snack pauses.</p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d4780d62/matale/" data-label_1="MATALE" data-label_2="WEATHER">MATALE WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d4780d62/matale/"
+                                data-label_1="MATALE" data-label_2="WEATHER">MATALE WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -887,7 +912,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15824.825942472931!2d80.78096089999997!3d7.442392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae35f659beee899%3A0x3bf7cc23068a888d!2sKnuckles!5e0!3m2!1sen!2sus!4v1701177823348!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15824.825942472931!2d80.78096089999997!3d7.442392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae35f659beee899%3A0x3bf7cc23068a888d!2sKnuckles!5e0!3m2!1sen!2sus!4v1701177823348!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -1089,17 +1117,23 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Pidurangala, the less-famous counterpart to the renowned Sigiriya Rock Fortress, may be slightly shorter
-                                in stature, but its ascent is more demanding. Along the climb, a staircase facilitates the journey,
-                                leading up to a temple nestled 500 meters above ground. Beyond this point, the ascent requires navigating
-                                boulders and rocky walls.<br>Enthusiasts of cultural exploration will find a sleeping Buddha statue within
-                                the rocky cavern, among the largest of its kind in the country. Despite the challenging climb, the reward
+                            <p>Pidurangala, the less-famous counterpart to the renowned Sigiriya Rock Fortress, may be
+                                slightly shorter
+                                in stature, but its ascent is more demanding. Along the climb, a staircase facilitates
+                                the journey,
+                                leading up to a temple nestled 500 meters above ground. Beyond this point, the ascent
+                                requires navigating
+                                boulders and rocky walls.<br>Enthusiasts of cultural exploration will find a sleeping
+                                Buddha statue within
+                                the rocky cavern, among the largest of its kind in the country. Despite the challenging
+                                climb, the reward
                                 lies in the breathtaking panoramic view of the countryside from the summit.
                             </p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d9580d75/sigiriya/" data-label_1="SIGIRIYA" data-label_2="WEATHER">SIGIRIYA WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d9580d75/sigiriya/"
+                                data-label_1="SIGIRIYA" data-label_2="WEATHER">SIGIRIYA WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -1107,7 +1141,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31610.35676692802!2d80.76542895!3d7.968476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afca11e2f54be0d%3A0x71eb27ad54b1c9d0!2sPidurangala%2C%20Dambulla%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1701177858150!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31610.35676692802!2d80.76542895!3d7.968476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afca11e2f54be0d%3A0x71eb27ad54b1c9d0!2sPidurangala%2C%20Dambulla%2C%20Sri%20Lanka!5e0!3m2!1sen!2sus!4v1701177858150!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -1299,22 +1336,34 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Arangala stands as a favored hiking destination along the Kandy - Jaffna Highway in Naula. Its name,
-                                'Arangala,' is derived from its shape, reminiscent of 'arungal,' or earrings. Often referred to as
-                                'Nalanda Rock,' this mountain is closely linked to Nalanda village. Steeped in history, Arangala
-                                holds significance in the context of Weera Keppetipola and Gongale Goda Banda, who assembled their
-                                troops at this site. With three peaks, the highest reaching approximately 750 meters, Arangala offers
-                                both a scenic hike and a glimpse into historical narratives.<br>The hike to Arangala peak takes around
-                                3 hours. On the southern side, a pagoda, unfortunately damaged by visitors, offers a viewpoint showcasing
-                                Matale, Bowatenna reservoir, and Nalanda reservoir. Another peak provides a 360-degree view. From the
-                                summit, enjoy panoramic scenes of Matale, Dambulla, Kandy, Wiltshire, Etipola, Brandy rock, Ambokka,
-                                the entire Knuckles mountain range with Reverston peak, Karagahatenna peak, Bowatenna reservoir, Nalanda
-                                reservoir, Dolukanda Mountain, Galgamuwa peaks, Galgiriyawa, Hakwetuna Oya, Ibbagamuwa, Wemedilla lake,
+                            <p>Arangala stands as a favored hiking destination along the Kandy - Jaffna Highway in
+                                Naula. Its name,
+                                'Arangala,' is derived from its shape, reminiscent of 'arungal,' or earrings. Often
+                                referred to as
+                                'Nalanda Rock,' this mountain is closely linked to Nalanda village. Steeped in history,
+                                Arangala
+                                holds significance in the context of Weera Keppetipola and Gongale Goda Banda, who
+                                assembled their
+                                troops at this site. With three peaks, the highest reaching approximately 750 meters,
+                                Arangala offers
+                                both a scenic hike and a glimpse into historical narratives.<br>The hike to Arangala
+                                peak takes around
+                                3 hours. On the southern side, a pagoda, unfortunately damaged by visitors, offers a
+                                viewpoint showcasing
+                                Matale, Bowatenna reservoir, and Nalanda reservoir. Another peak provides a 360-degree
+                                view. From the
+                                summit, enjoy panoramic scenes of Matale, Dambulla, Kandy, Wiltshire, Etipola, Brandy
+                                rock, Ambokka,
+                                the entire Knuckles mountain range with Reverston peak, Karagahatenna peak, Bowatenna
+                                reservoir, Nalanda
+                                reservoir, Dolukanda Mountain, Galgamuwa peaks, Galgiriyawa, Hakwetuna Oya, Ibbagamuwa,
+                                Wemedilla lake,
                                 and more landmarks.</p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d6980d65/arangala/" data-label_1="ARANGALA" data-label_2="WEATHER">ARANGALA WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d6980d65/arangala/"
+                                data-label_1="ARANGALA" data-label_2="WEATHER">ARANGALA WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -1322,7 +1371,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.887131352626!2d80.63910340000001!3d7.695260599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcad5a3b07756b%3A0x3055376d27326848!2sArangala%20Mountain%20Peak!5e0!3m2!1sen!2sus!4v1701177892790!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.887131352626!2d80.63910340000001!3d7.695260599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcad5a3b07756b%3A0x3055376d27326848!2sArangala%20Mountain%20Peak!5e0!3m2!1sen!2sus!4v1701177892790!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -1518,26 +1570,43 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Riverston, nestled within the Matale district and part of the esteemed Knuckles Mountain Range,
-                                is a cherished destination for hikers. Recognized as a UNESCO World Heritage site, Riverston spans
-                                the boundary between Matale and Kandy districts. Its renowned feature is the ever-changing weather,
-                                with locals often quipping that it shifts every five minutes. The summit, surpassing the cloud line,
-                                distinguishes Riverston as an untouched and unpolluted haven, capturing the fascination of avid hikers.
-                                Characterized by a serene atmosphere, crisp breezes, fresh air, lush greenery, and mist, Riverston is
-                                often likened to a slice of paradise. Its universal allure makes it a captivating destination for both
-                                locals and tourists alike.<br>To reach the Riverston viewpoint, a 2 km hike amidst misty greenery leads
-                                to the cliff. Along the way, small rocks line the road, offering natural resting spots. Despite the
-                                absence of facilities, tranquil spots provide rest during the journey.The forest of Knuckles boasts
-                                streams, freshwater springs, and waterfalls, enhancing the hike's allure. Cold weather mitigates fatigue,
-                                especially during the dry season. Exercise caution near streams, adhering to safety signboards.While no
-                                animal attacks are reported, daytime hikes are advisable. Solo hiking poses low risks, but a companion
-                                or guide is recommended. Be prepared for unpredictable weather with a cap, raincoat, sweater, and
-                                umbrella. Comfortable hiking shoes are essential, considering potential leeches in bushy areas. <br>The
-                                breathtaking 360-degree view from the top is worth the effort, and camping can enhance the overall experience.</p>
+                            <p>Riverston, nestled within the Matale district and part of the esteemed Knuckles Mountain
+                                Range,
+                                is a cherished destination for hikers. Recognized as a UNESCO World Heritage site,
+                                Riverston spans
+                                the boundary between Matale and Kandy districts. Its renowned feature is the
+                                ever-changing weather,
+                                with locals often quipping that it shifts every five minutes. The summit, surpassing the
+                                cloud line,
+                                distinguishes Riverston as an untouched and unpolluted haven, capturing the fascination
+                                of avid hikers.
+                                Characterized by a serene atmosphere, crisp breezes, fresh air, lush greenery, and mist,
+                                Riverston is
+                                often likened to a slice of paradise. Its universal allure makes it a captivating
+                                destination for both
+                                locals and tourists alike.<br>To reach the Riverston viewpoint, a 2 km hike amidst misty
+                                greenery leads
+                                to the cliff. Along the way, small rocks line the road, offering natural resting spots.
+                                Despite the
+                                absence of facilities, tranquil spots provide rest during the journey.The forest of
+                                Knuckles boasts
+                                streams, freshwater springs, and waterfalls, enhancing the hike's allure. Cold weather
+                                mitigates fatigue,
+                                especially during the dry season. Exercise caution near streams, adhering to safety
+                                signboards.While no
+                                animal attacks are reported, daytime hikes are advisable. Solo hiking poses low risks,
+                                but a companion
+                                or guide is recommended. Be prepared for unpredictable weather with a cap, raincoat,
+                                sweater, and
+                                umbrella. Comfortable hiking shoes are essential, considering potential leeches in bushy
+                                areas. <br>The
+                                breathtaking 360-degree view from the top is worth the effort, and camping can enhance
+                                the overall experience.</p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d5280d67/rattota/" data-label_1="RATTOTA" data-label_2="WEATHER">RATTOTA WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d5280d67/rattota/"
+                                data-label_1="RATTOTA" data-label_2="WEATHER">RATTOTA WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -1545,7 +1614,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.441996143849!2d80.7370517!3d7.526674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3574548c1552d%3A0x87dcbb639681b33!2sRiverston!5e0!3m2!1sen!2sus!4v1701177924326!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.441996143849!2d80.7370517!3d7.526674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3574548c1552d%3A0x87dcbb639681b33!2sRiverston!5e0!3m2!1sen!2sus!4v1701177924326!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -1739,23 +1811,36 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Among the renowned waterfalls in Sri Lanka, the Hunnasgiriya Waterfall, also recognized as Hunas Falls,
-                                stands out. Nestled in Elkaduwa within the Kandy district, this waterfall boasts a height of 48 meters,
-                                cascading in two distinct parts. Popular among locals, it is not only a scenic attraction but also a
-                                well-known bathing spot.<br>Hunnasgiriya Waterfall, a man-made cascade affiliated with the hotel of the
-                                same name, is complemented by 32 hectares of hotel-owned land featuring an artificial lake. Originating
-                                from the nearby "Hunnasgiriya mountain," the waterfall holds a central position within the Hunnasgiriya
-                                Estate, experiencing diverse climate conditions. The journey to the waterfall offers a picturesque drive
-                                with captivating views. Popular among honeymooners due to its proximity, the waterfall attracts both local
-                                and international travelers seeking the unspoiled beauty of Sri Lanka, enhanced by breathtaking mountain
-                                views.<br>The surrounding woods harbor unique Sri Lankan trees and serve as a sanctuary for diverse wildlife
-                                and flora. Before visiting, checking the local rainfall is advisable, as water flow may vary in the dry
-                                season. Even with reduced water, the waterfall's natural splendor remains, making it a highlight in the
+                            <p>Among the renowned waterfalls in Sri Lanka, the Hunnasgiriya Waterfall, also recognized
+                                as Hunas Falls,
+                                stands out. Nestled in Elkaduwa within the Kandy district, this waterfall boasts a
+                                height of 48 meters,
+                                cascading in two distinct parts. Popular among locals, it is not only a scenic
+                                attraction but also a
+                                well-known bathing spot.<br>Hunnasgiriya Waterfall, a man-made cascade affiliated with
+                                the hotel of the
+                                same name, is complemented by 32 hectares of hotel-owned land featuring an artificial
+                                lake. Originating
+                                from the nearby "Hunnasgiriya mountain," the waterfall holds a central position within
+                                the Hunnasgiriya
+                                Estate, experiencing diverse climate conditions. The journey to the waterfall offers a
+                                picturesque drive
+                                with captivating views. Popular among honeymooners due to its proximity, the waterfall
+                                attracts both local
+                                and international travelers seeking the unspoiled beauty of Sri Lanka, enhanced by
+                                breathtaking mountain
+                                views.<br>The surrounding woods harbor unique Sri Lankan trees and serve as a sanctuary
+                                for diverse wildlife
+                                and flora. Before visiting, checking the local rainfall is advisable, as water flow may
+                                vary in the dry
+                                season. Even with reduced water, the waterfall's natural splendor remains, making it a
+                                highlight in the
                                 Kandy district and a must-visit destination in Sri Lanka.</p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d3080d85/hunnasgiriya/" data-label_1="HUNNASGIRIYA" data-label_2="WEATHER">HUNNASGIRIYA WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/7d3080d85/hunnasgiriya/"
+                                data-label_1="HUNNASGIRIYA" data-label_2="WEATHER">HUNNASGIRIYA WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -1763,7 +1848,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.5716212595366!2d80.6898511!3d7.4018004999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae35c433096918d%3A0x8ef520ba342a0651!2zSHVubmFzZ2lyaXlhIFdhdGVyIEZhbGwgLSDgrrngr4Hgrqngr43grqngrrjgr43grpXgrr_grrDgrr_grq8!5e0!3m2!1sen!2sus!4v1701177969622!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.5716212595366!2d80.6898511!3d7.4018004999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae35c433096918d%3A0x8ef520ba342a0651!2zSHVubmFzZ2lyaXlhIFdhdGVyIEZhbGwgLSDgrrngr4Hgrqngr43grqngrrjgr43grpXgrr_grrDgrr_grq8!5e0!3m2!1sen!2sus!4v1701177969622!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -1955,17 +2043,24 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Conical is a mountain range housing two prominent peaks: Conical Hill and Waterfall Point. Waterfall
-                                Point, situated on the opposite side of Conical Hill, falls within the Nuwara Eliya region.<br>Scaling
-                                the summit is a challenging hike, marked by the absence of a clearly defined path to the mountain's
-                                peak. The Conical Hill mountain range is enveloped by a forest reserve, serving as a natural habitat for
-                                various wildlife, including leopards and wild bears. A captivating sight from the summit includes the
-                                picturesque Hakgala mountain.<br>From Nuwara Eliya, Blackpool Magastota road, and the Blackpool Ambewela
+                            <p>Conical is a mountain range housing two prominent peaks: Conical Hill and Waterfall
+                                Point. Waterfall
+                                Point, situated on the opposite side of Conical Hill, falls within the Nuwara Eliya
+                                region.<br>Scaling
+                                the summit is a challenging hike, marked by the absence of a clearly defined path to the
+                                mountain's
+                                peak. The Conical Hill mountain range is enveloped by a forest reserve, serving as a
+                                natural habitat for
+                                various wildlife, including leopards and wild bears. A captivating sight from the summit
+                                includes the
+                                picturesque Hakgala mountain.<br>From Nuwara Eliya, Blackpool Magastota road, and the
+                                Blackpool Ambewela
                                 Pattipola Horton Plane road to Meepilimana to reach Conical Mountain range.</p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/6d9580d79/nuwara-eliya/" data-label_1="NUWARA ELIYA" data-label_2="WEATHER">NUWARA ELIYA WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/6d9580d79/nuwara-eliya/"
+                                data-label_1="NUWARA ELIYA" data-label_2="WEATHER">NUWARA ELIYA WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -1973,7 +2068,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8071544567433!2d80.77538489999999!3d6.9136465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3876145052017%3A0x2c117b4d83ccd6eb!2sConical%20Hill!5e0!3m2!1sen!2sus!4v1701178002654!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8071544567433!2d80.77538489999999!3d6.9136465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3876145052017%3A0x2c117b4d83ccd6eb!2sConical%20Hill!5e0!3m2!1sen!2sus!4v1701178002654!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -2169,22 +2267,35 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Piduruthalagala Mountain and the accompanying Forest Reserve are located in close proximity to the center
-                                of Nuwara Eliya Town.<br>Nuwara Eliya, nestled within a mountain valley, features an elliptically shaped
-                                plateau. The mountains on this plateau rise to approximately 2000 feet, forming distinct ridges. The plateau
-                                itself, positioned at 6240 feet above sea level, is home to the highest mountain peak, Pidurutalagala,
-                                reaching an elevation of 8292 feet (2527 meters) above sea level.<br>Pidurutalagala's summit differs from
-                                typical rocky peaks, featuring a flattened top covered in pale green patna. The single man-made path to the
-                                summit winds through an untouched forest frequented by elephants for centuries. The trees near the top appear
-                                dwarfed due to high winds, displaying a flattened effect resembling well-trimmed hedges. The forest showcases
-                                cloud forest characteristics with gnarled trunks and moss-covered branches.Stone posts mark the ascent at
-                                intervals, indicating elevations like 7500 feet and 8000 feet. In the 1940s, the summit housed a "Toposcope,"
-                                a map pointing to distant landmarks like Colombo, Adam’s Peak, and Horton’s Plains.<br>This allowed clear views
-                                of faraway places such as Yala, Hambantota, Bintenna, Namunukula, Horabora Wewa, and the Bay of Trincomalee.</p>
+                            <p>Piduruthalagala Mountain and the accompanying Forest Reserve are located in close
+                                proximity to the center
+                                of Nuwara Eliya Town.<br>Nuwara Eliya, nestled within a mountain valley, features an
+                                elliptically shaped
+                                plateau. The mountains on this plateau rise to approximately 2000 feet, forming distinct
+                                ridges. The plateau
+                                itself, positioned at 6240 feet above sea level, is home to the highest mountain peak,
+                                Pidurutalagala,
+                                reaching an elevation of 8292 feet (2527 meters) above sea level.<br>Pidurutalagala's
+                                summit differs from
+                                typical rocky peaks, featuring a flattened top covered in pale green patna. The single
+                                man-made path to the
+                                summit winds through an untouched forest frequented by elephants for centuries. The
+                                trees near the top appear
+                                dwarfed due to high winds, displaying a flattened effect resembling well-trimmed hedges.
+                                The forest showcases
+                                cloud forest characteristics with gnarled trunks and moss-covered branches.Stone posts
+                                mark the ascent at
+                                intervals, indicating elevations like 7500 feet and 8000 feet. In the 1940s, the summit
+                                housed a "Toposcope,"
+                                a map pointing to distant landmarks like Colombo, Adam’s Peak, and Horton’s
+                                Plains.<br>This allowed clear views
+                                of faraway places such as Yala, Hambantota, Bintenna, Namunukula, Horabora Wewa, and the
+                                Bay of Trincomalee.</p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/6d9580d79/nuwara-eliya/" data-label_1="NUWARA ELIYA" data-label_2="WEATHER">NUWARA ELIYA WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/6d9580d79/nuwara-eliya/"
+                                data-label_1="NUWARA ELIYA" data-label_2="WEATHER">NUWARA ELIYA WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -2192,7 +2303,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.0706041766307!2d80.7735799!3d7.000967999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae38029c7c92d13%3A0x9bb8abf0e9787c75!2sPiduruthalagala%20Mountain!5e0!3m2!1sen!2sus!4v1701178028288!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.0706041766307!2d80.7735799!3d7.000967999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae38029c7c92d13%3A0x9bb8abf0e9787c75!2sPiduruthalagala%20Mountain!5e0!3m2!1sen!2sus!4v1701178028288!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -2388,16 +2502,21 @@ $result = $conn->query($sql);
                     <div class="slider-box">
                         <div class="slide active2">
                             <h2>Overview</h2>
-                            <p>Lovers Leap is a captivating waterfall renowned for its romantic folklore. Accessible by navigating through
-                                the tea factory and reaching the tea manager’s bungalow via a dirt road, visitors can follow the signs to
-                                reach a rock face and a Shiva shrine. Just beyond the shrine, the cascading waterfall comes into view.
-                                <br>According to legend, the name "Lovers Leap" originates from stories of lovers leaping to their deaths from
+                            <p>Lovers Leap is a captivating waterfall renowned for its romantic folklore. Accessible by
+                                navigating through
+                                the tea factory and reaching the tea manager’s bungalow via a dirt road, visitors can
+                                follow the signs to
+                                reach a rock face and a Shiva shrine. Just beyond the shrine, the cascading waterfall
+                                comes into view.
+                                <br>According to legend, the name "Lovers Leap" originates from stories of lovers
+                                leaping to their deaths from
                                 this waterfall.
                             </p>
 
                             </br>
                             <h2>Current Weather</h2>
-                            <a class="weatherwidget-io" href="https://forecast7.com/en/6d9580d79/nuwara-eliya/" data-label_1="NUWARA ELIYA" data-label_2="WEATHER">NUWARA ELIYA WEATHER</a>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/6d9580d79/nuwara-eliya/"
+                                data-label_1="NUWARA ELIYA" data-label_2="WEATHER">NUWARA ELIYA WEATHER</a>
                         </div>
 
                         <div class="slide">
@@ -2405,7 +2524,10 @@ $result = $conn->query($sql);
                                 <div class="dir">
                                     <h2>Directions</h2>
                                     <p>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.262850978862!2d80.7866097!3d6.978281099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3817127474d71%3A0x4f61d826176de317!2sLover&#39;s%20Leap%20Waterfall!5e0!3m2!1sen!2sus!4v1701178077718!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.262850978862!2d80.7866097!3d6.978281099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3817127474d71%3A0x4f61d826176de317!2sLover&#39;s%20Leap%20Waterfall!5e0!3m2!1sen!2sus!4v1701178077718!5m2!1sen!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
                                 </div>
                                 <div class="acc">
@@ -2531,82 +2653,82 @@ $result = $conn->query($sql);
 
     <!--Search Function-->
     <script type="text/javascript">
-        function search() {
-            let filter = document.getElementById('find').value.toUpperCase();
-            let item = document.querySelectorAll('.place');
-            let l = document.getElementsByTagName('p');
-            for (var i = 0; i <= l.length; i++) {
-                let a = item[i].getElementsByTagName('p')[0];
-                let value = a.innerHTML || a.innerText || a.textContent;
-                if (value.toUpperCase().indexOf(filter) > -1) {
-                    item[i].style.display = "";
-                } else {
-                    item[i].style.display = "none";
-                }
+    function search() {
+        let filter = document.getElementById('find').value.toUpperCase();
+        let item = document.querySelectorAll('.place');
+        let l = document.getElementsByTagName('p');
+        for (var i = 0; i <= l.length; i++) {
+            let a = item[i].getElementsByTagName('p')[0];
+            let value = a.innerHTML || a.innerText || a.textContent;
+            if (value.toUpperCase().indexOf(filter) > -1) {
+                item[i].style.display = "";
+            } else {
+                item[i].style.display = "none";
             }
         }
+    }
     </script>
 
     <!--Pop-Up Model-->
     <script type="text/javascript">
-        let preveiwContainer = document.querySelector('.places-preview');
-        let previewBox = preveiwContainer.querySelectorAll('.preview');
+    let preveiwContainer = document.querySelector('.places-preview');
+    let previewBox = preveiwContainer.querySelectorAll('.preview');
 
-        document.querySelectorAll('.places-container .place').forEach(place => {
-            place.onclick = () => {
-                preveiwContainer.style.display = 'flex';
-                let name = place.getAttribute('data-name');
-                previewBox.forEach(preview => {
-                    let target = preview.getAttribute('data-target');
-                    if (name == target) {
-                        preview.classList.add('active');
-                    }
-                });
-            };
-        });
+    document.querySelectorAll('.places-container .place').forEach(place => {
+        place.onclick = () => {
+            preveiwContainer.style.display = 'flex';
+            let name = place.getAttribute('data-name');
+            previewBox.forEach(preview => {
+                let target = preview.getAttribute('data-target');
+                if (name == target) {
+                    preview.classList.add('active');
+                }
+            });
+        };
+    });
 
-        previewBox.forEach(close => {
-            close.querySelector('.fa-times').onclick = () => {
-                close.classList.remove('active');
-                preveiwContainer.style.display = 'none';
-            };
-        });
+    previewBox.forEach(close => {
+        close.querySelector('.fa-times').onclick = () => {
+            close.classList.remove('active');
+            preveiwContainer.style.display = 'none';
+        };
+    });
 
-        const tabs = document.querySelectorAll('.tab-btn');
-        const all_slide = document.querySelectorAll('.slide');
+    const tabs = document.querySelectorAll('.tab-btn');
+    const all_slide = document.querySelectorAll('.slide');
 
-        tabs.forEach((tab, index) => {
-            tab.addEventListener('click', (e) => {
-                tabs.forEach(tab => {
-                    tab.classList.remove('active2')
-                });
-                tab.classList.add('active2');
+    tabs.forEach((tab, index) => {
+        tab.addEventListener('click', (e) => {
+            tabs.forEach(tab => {
+                tab.classList.remove('active2')
+            });
+            tab.classList.add('active2');
 
-                all_slide.forEach(slide => {
-                    slide.classList.remove('active2')
-                });
-                all_slide[index].classList.add('active2');
-            })
+            all_slide.forEach(slide => {
+                slide.classList.remove('active2')
+            });
+            all_slide[index].classList.add('active2');
         })
+    })
     </script>
 
     <!--Animation Scripts-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+    AOS.init();
     </script>
 
     <!--Weather Widget-->
     <script>
-        ! function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (!d.getElementById(id)) {
-                js = d.createElement(s);
-                js.id = id;
-                js.src = 'https://weatherwidget.io/js/widget.min.js';
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-        }(document, 'script', 'weatherwidget-io-js');
+    ! function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://weatherwidget.io/js/widget.min.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'weatherwidget-io-js');
     </script>
 </body>
 

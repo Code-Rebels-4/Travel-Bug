@@ -16,7 +16,7 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/4a7f9535df.js"></script>
-    <script src="js/3.5.1.min.js"></script>
+    <script src="js/NavigationBar_scroll.js"></script>
     <script src="js/card.js"></script>
 
     <title>Travel Bug</title>
@@ -33,7 +33,7 @@
                 Bug</div>
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="index.php#explore">Explore</a></li>
+                <li><a href="index.php #explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
 
