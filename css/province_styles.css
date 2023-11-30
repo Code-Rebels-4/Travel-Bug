@@ -260,6 +260,18 @@ button:focus {
   border-radius: 40px;
 }
 
+.card__image::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 15%);
+  border-radius: 40px;
+}
+
+
 .card.card1 {
   --current-card-rotation-offset: 0;
   --card-translateX-offset: 0;
