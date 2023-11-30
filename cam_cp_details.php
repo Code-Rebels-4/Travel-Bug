@@ -43,7 +43,7 @@ $result = $conn->query($sql);
     <!--Navigation Bar-->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents"></i>&nbsp;Travel Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents"></i>&nbsp;TravelBug</div>
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php#explore">Explore</a></li>
