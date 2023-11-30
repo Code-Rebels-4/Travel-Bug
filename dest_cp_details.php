@@ -72,7 +72,7 @@ $result = $conn->query($sql);
 
     <!--Back Arrow / Quote-->
     <div class="d1">
-        <a href="d-provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img
+        <a href="destination_provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img
                 src="Images/arrow.png" title="Go back to Provinces"></a>
 
         <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">
@@ -298,7 +298,7 @@ if ($result->num_rows > 0) {
 
             <div class="place" data-name="d-10" style="background-image: url(<?php
 
-// Assuming you want to display the image with ID = 5
+// Assuming you want to display the image with ID = 73
 $specificImageID = 73;
 
 $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
@@ -316,6 +316,7 @@ if ($result->num_rows > 0) {
 
 ?>)">
 
+                ?>)">
 
                 <p>Dambulla Cave Temple</p>
             </div>
@@ -497,24 +498,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>Janora Hills</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 307 4575">+94 77 307 4575</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             0.5 km from Sri Dalada Maligawa
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Townhouse Rest</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 600 9187">+94 77 600 9187</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             0.8 km from Sri Dalada Maligawa<br>
                                         </p>
                                     </div>
@@ -724,24 +721,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>The Capoe House</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 887 2992">+94 77 887 2992</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             18.5 km from Horton Plains National Park
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Eco Wild Glamping</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 600 9187">+94 77 600 9187</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             12.7 km from Horton Plains National Park<br>
                                         </p>
                                     </div>
@@ -951,24 +944,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>Kandy Green Mount Villa</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 199 0715">+94 77 199 0715</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             1.7 km from Kandy Royal Botanic Gardens
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>GT Homes</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 787 2280">+94 77 787 2280</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             2.2 km from Kandy Royal Botanic Gardens
                                         </p>
                                     </div>
@@ -1171,24 +1160,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>Lakeside Cottages</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 70 244 0514">+94 70 244 0514</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             350 m from Gregory Lake
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Nuwaraeliya Holiday Bungalow</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 399 7504">+94 77 399 7504</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             0.5 km from Gregory Lake
                                         </p>
                                     </div>
@@ -1395,24 +1380,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>Windy Ridge Kandy</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 304 7771">+94 77 304 7771</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             300m from Bahirawakanda Temple
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Sevana City Hotel</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 81 222 2861">+94 81 222 2861</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             450m from Bahirawakanda Temple
                                         </p>
                                     </div>
@@ -1618,24 +1599,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>Sigiriya Village Home Hostel</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 76 582 2358">+94 76 582 2358</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             1km from Sigiriya Rock Fortress
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>EKHO Sigiriya</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 66 228 62997">+94 66 228 6299</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             800m from Sigiriya Rock Fortress
                                         </p>
                                     </div>
@@ -1844,24 +1821,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>Leaf Holiday Resort</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 343 4428">+94 77 343 4428</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             8.3km from Ambuluwawa
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Villa Nilmalee</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 954 2117">+94 77 954 2117</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             7.8km from Ambuluwawa
                                         </p>
                                     </div>
@@ -2062,24 +2035,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>Akiko Rest</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 761 0997">+94 77 761 0997</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             1.7km from Hakgala Botanical Garden
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Miliya Guest House</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 77 123 6688">+94 77 123 6688</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             1.8km from Hakgala Botanical Garden
                                         </p>
                                     </div>
@@ -2282,24 +2251,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>Man Mountain Villa</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 76 838 0480">+94 76 838 0480</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             4.2km from Aluvihare Rock Temple
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Hilltop Retreat</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 66 223 0015">+94 66 223 0015</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             4.6km from Aluvihare Rock Temple
                                         </p>
                                     </div>
@@ -2502,24 +2467,20 @@ if ($result->num_rows > 0) {
                                     <div class="acc-item">
                                         <h5>Heritage Rangiri Villa</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 71 396 4599">+94 71 396 4599</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             260m from Dambulla Cave Temple
                                         </p>
                                     </div>
                                     <div class="acc-item">
                                         <h5>Sundaras Resort & Spa</h5>
                                         <p>
-                                            <iconify-icon inline icon="tdesign:call-1"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon inline icon="tdesign:call-1"></iconify-icon>
                                             <a href="tel:+94 72 708 6000">+94 72 708 6000</a><br>
 
-                                            <iconify-icon icon="game-icons:path-distance"
-                                                style="font-size: 20px; color:#a1fff9"></iconify-icon>
+                                            <iconify-icon icon="game-icons:path-distance"></iconify-icon>
                                             400m from Dambulla Cave Temple
                                         </p>
                                     </div>

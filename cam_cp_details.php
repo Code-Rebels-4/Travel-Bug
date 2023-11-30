@@ -59,8 +59,7 @@ $result = $conn->query($sql);
     </nav>
 
     <!--Banner-->
-    <div class="image"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/C-CP.jpg);">
+    <div class="image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/C-CP.jpg);">
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
             Central Province
         </h1>
@@ -69,8 +68,7 @@ $result = $conn->query($sql);
 
     <!--Back Arrow / Quote-->
     <div class="d1">
-        <a href="d-provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img
-                src="Images/arrow.png" title="Go back to Provinces"></a>
+        <a href="camping_provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"><img src="Images/arrow.png" title="Go back to Provinces"></a>
 
         <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">
             Set up camp in Central Province's serene grounds, where nature's embrace<br> and starlit skies create
@@ -89,228 +87,228 @@ $result = $conn->query($sql);
         <div class="places-container" data-aos="fade-up" data-aos-delay="650" data-aos-duration="400">
 
             <div class="place" data-name="d-1" style="background-image: url(<?php
-// Assuming you want to display the image with ID = 2
-$specificImageID = 1;
+                                                                            // Assuming you want to display the image with ID = 2
+                                                                            $specificImageID = 1;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Temple of The Tooth Relic</p>
             </div>
 
             <div class="place" data-name="d-2" style="background-image: url(<?php
 
-// Assuming you want to display the image with ID = 2
-$specificImageID = 2;
+                                                                            // Assuming you want to display the image with ID = 2
+                                                                            $specificImageID = 2;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Horton Plains</p>
             </div>
 
             <div class="place" data-name="d-3" style="background-image: url(<?php
-// Assuming you want to display the image with ID = 3
-$specificImageID = 3;
+                                                                            // Assuming you want to display the image with ID = 3
+                                                                            $specificImageID = 3;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Royal Botanic Gardens</p>
             </div>
 
             <div class="place" data-name="d-4" style="background-image: url(<?php
 
-// Assuming you want to display the image with ID = 4
-$specificImageID = 4;
+                                                                            // Assuming you want to display the image with ID = 4
+                                                                            $specificImageID = 4;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Pinnawala Elephant Orphanage</p>
             </div>
 
             <div class="place" data-name="d-5" style="background-image: url(<?php
 
-// Assuming you want to display the image with ID = 5
-$specificImageID = 5;
+                                                                            // Assuming you want to display the image with ID = 5
+                                                                            $specificImageID = 5;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Bahirawakanda Temple</p>
             </div>
 
             <div class="place" data-name="d-6" style="background-image: url(<?php
 
-// Assuming you want to display the image with ID = 31
-$specificImageID = 31;
+                                                                            // Assuming you want to display the image with ID = 31
+                                                                            $specificImageID = 31;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Sigiriya</p>
             </div>
 
             <div class="place" data-name="d-7" style="background-image: url(<?php
-// Assuming you want to display the image with ID = 2
-$specificImageID = 55;
+                                                                            // Assuming you want to display the image with ID = 2
+                                                                            $specificImageID = 55;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Ambuluwawa Tower</p>
             </div>
 
             <div class="place" data-name="d-3" style="background-image: url(<?php
 
-// Assuming you want to display the image with ID = 3
-$specificImageID = 3;
+                                                                            // Assuming you want to display the image with ID = 3
+                                                                            $specificImageID = 3;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Royal Botanic Gardens</p>
             </div>
 
             <div class="place" data-name="d-4" style="background-image: url(<?php
 
-// Assuming you want to display the image with ID = 4
-$specificImageID = 4;
+                                                                            // Assuming you want to display the image with ID = 4
+                                                                            $specificImageID = 4;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Pinnawala Elephant Orphanage</p>
             </div>
 
             <div class="place" data-name="d-5" style="background-image: url(<?php
 
-// Assuming you want to display the image with ID = 5
-$specificImageID = 5;
+                                                                            // Assuming you want to display the image with ID = 5
+                                                                            $specificImageID = 5;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                            if ($result->num_rows > 0) {
+                                                                                $row = $result->fetch_assoc();
+                                                                                $imageData = base64_encode($row['image_data']);
+                                                                                $imageName = $row['image_name'];
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                echo 'data:image/jpeg;base64,' . $imageData;
+                                                                            } else {
+                                                                                echo "Image not found.";
+                                                                            }
 
-?>)">
+                                                                            ?>)">
 
                 <p>Bahirawakanda Temple</p>
             </div>
@@ -321,111 +319,111 @@ if ($result->num_rows > 0) {
             <div class="preview" data-target="d-1">
                 <i class="fas fa-times"></i>
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 8;
+                                                                    $specificImageID = 8;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 9;
+                                                                    $specificImageID = 9;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 10;
+                                                                    $specificImageID = 10;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 11;
+                                                                    $specificImageID = 11;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 12;
+                                                                    $specificImageID = 12;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 13;
+                                                                    $specificImageID = 13;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 14;
+                                                                    $specificImageID = 14;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
 
 
@@ -453,10 +451,8 @@ if ($result->num_rows > 0) {
 
                             </br>
                             <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id'
-                                a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/"
-                                    id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
+                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
 
                         </div>
 
@@ -466,11 +462,7 @@ if ($result->num_rows > 0) {
                             <div class="div1">
                                 <div class="dir">
                                     <h2>Directions</h2>
-                                    <p><iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus"
-                                            width="100%" height="450" class="map"
-                                            style="border:2px solid black; border-radius: 10px;" allowfullscreen=""
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                         </iframe>
                                     </p>
                                 </div>
@@ -561,111 +553,111 @@ if ($result->num_rows > 0) {
             <div class="preview" data-target="d-2">
                 <i class="fas fa-times"></i>
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 17;
+                                                                    $specificImageID = 17;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 18;
+                                                                    $specificImageID = 18;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 19;
+                                                                    $specificImageID = 19;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 20;
+                                                                    $specificImageID = 20;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 21;
+                                                                    $specificImageID = 21;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 22;
+                                                                    $specificImageID = 22;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 23;
+                                                                    $specificImageID = 23;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
 
 
@@ -693,10 +685,8 @@ if ($result->num_rows > 0) {
 
                             </br>
                             <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id'
-                                a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/"
-                                    id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
+                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
 
                         </div>
 
@@ -704,11 +694,7 @@ if ($result->num_rows > 0) {
                             <div class="div1">
                                 <div class="dir">
                                     <h2>Derections</h2>
-                                    <p><iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus"
-                                            width="100%" height="450" class="map"
-                                            style="border:2px solid black; border-radius: 10px;" allowfullscreen=""
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                         </iframe>
                                     </p>
                                 </div>
@@ -798,111 +784,111 @@ if ($result->num_rows > 0) {
                 <i class="fas fa-times"></i>
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
-$specificImageID = 24;
+                                                                    $specificImageID = 24;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 25;
+                                                                    $specificImageID = 25;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 26;
+                                                                    $specificImageID = 26;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 27;
+                                                                    $specificImageID = 27;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 28;
+                                                                    $specificImageID = 28;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 29;
+                                                                    $specificImageID = 29;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 30;
+                                                                    $specificImageID = 30;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
 
                 <h3>Royal Botanic Garden</h3>
@@ -928,10 +914,8 @@ if ($result->num_rows > 0) {
 
                             </br>
                             <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id'
-                                a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/"
-                                    id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
+                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
 
                         </div>
 
@@ -939,11 +923,7 @@ if ($result->num_rows > 0) {
                             <div class="div1">
                                 <div class="dir">
                                     <h2>Derections</h2>
-                                    <p><iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus"
-                                            width="100%" height="450" class="map"
-                                            style="border:2px solid black; border-radius: 10px;" allowfullscreen=""
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                         </iframe>
                                     </p>
                                 </div>
@@ -1033,112 +1013,112 @@ if ($result->num_rows > 0) {
                 <i class="fas fa-times"></i>
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
-$specificImageID = 38;
+                                                                    $specificImageID = 38;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
 
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 39;
+                                                                    $specificImageID = 39;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 40;
+                                                                    $specificImageID = 40;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 41;
+                                                                    $specificImageID = 41;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 42;
+                                                                    $specificImageID = 42;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 43;
+                                                                    $specificImageID = 43;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 44;
+                                                                    $specificImageID = 44;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
 
 
@@ -1165,10 +1145,8 @@ if ($result->num_rows > 0) {
 
                             </br>
                             <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id'
-                                a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/"
-                                    id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
+                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
 
                         </div>
 
@@ -1176,11 +1154,7 @@ if ($result->num_rows > 0) {
                             <div class="div1">
                                 <div class="dir">
                                     <h2>Derections</h2>
-                                    <p><iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus"
-                                            width="100%" height="450" class="map"
-                                            style="border:2px solid black; border-radius: 10px;" allowfullscreen=""
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                         </iframe>
                                     </p>
                                 </div>
@@ -1269,112 +1243,112 @@ if ($result->num_rows > 0) {
             <div class="preview" data-target="d-5">
                 <i class="fas fa-times"></i>
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 45;
+                                                                    $specificImageID = 45;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
 
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 46;
+                                                                    $specificImageID = 46;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 47;
+                                                                    $specificImageID = 47;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 48;
+                                                                    $specificImageID = 48;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 49;
+                                                                    $specificImageID = 49;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 50;
+                                                                    $specificImageID = 50;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 51;
+                                                                    $specificImageID = 51;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
 
 
@@ -1401,10 +1375,8 @@ if ($result->num_rows > 0) {
 
                             </br>
                             <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id'
-                                a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/"
-                                    id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
+                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
 
                         </div>
 
@@ -1412,11 +1384,7 @@ if ($result->num_rows > 0) {
                             <div class="div1">
                                 <div class="dir">
                                     <h2>Derections</h2>
-                                    <p><iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus"
-                                            width="100%" height="450" class="map"
-                                            style="border:2px solid black; border-radius: 10px;" allowfullscreen=""
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                         </iframe>
                                     </p>
                                 </div>
@@ -1507,111 +1475,111 @@ if ($result->num_rows > 0) {
 
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
-$specificImageID = 31;
+                                                                    $specificImageID = 31;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 32;
+                                                                    $specificImageID = 32;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 33;
+                                                                    $specificImageID = 33;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 34;
+                                                                    $specificImageID = 34;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 35;
+                                                                    $specificImageID = 35;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 36;
+                                                                    $specificImageID = 36;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 37;
+                                                                    $specificImageID = 37;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
 
 
@@ -1638,10 +1606,8 @@ if ($result->num_rows > 0) {
 
                             </br>
                             <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id'
-                                a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/"
-                                    id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
+                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
 
                         </div>
 
@@ -1649,11 +1615,7 @@ if ($result->num_rows > 0) {
                             <div class="div1">
                                 <div class="dir">
                                     <h2>Derections</h2>
-                                    <p><iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus"
-                                            width="100%" height="450" class="map"
-                                            style="border:2px solid black; border-radius: 10px;" allowfullscreen=""
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                         </iframe>
                                     </p>
                                 </div>
@@ -1743,112 +1705,112 @@ if ($result->num_rows > 0) {
                 <i class="fas fa-times"></i>
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
-$specificImageID = 52;
+                                                                    $specificImageID = 52;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
 
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 53;
+                                                                    $specificImageID = 53;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 54;
+                                                                    $specificImageID = 54;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 55;
+                                                                    $specificImageID = 55;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 56;
+                                                                    $specificImageID = 56;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 57;
+                                                                    $specificImageID = 57;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-?>" alt="">
+                                                                    ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
-$specificImageID = 58;
+                                                                    $specificImageID = 58;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    echo $imageData;
-} else {
-    echo "Image not found or an error occurred.";
-}
+                                                                    if ($result->num_rows > 0) {
+                                                                        $row = $result->fetch_assoc();
+                                                                        $imageData = base64_encode($row['image_data']);
+                                                                        echo $imageData;
+                                                                    } else {
+                                                                        echo "Image not found or an error occurred.";
+                                                                    }
 
-$conn->close();
-?>" alt="">
+                                                                    $conn->close();
+                                                                    ?>" alt="">
 
 
 
@@ -1875,10 +1837,8 @@ $conn->close();
 
                             </br>
                             <h1>Current Weather</h1>
-                            <div id="ww_6c16ac5251888" v='1.3' loc='id'
-                                a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
-                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/"
-                                    id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
+                            <div id="ww_6c16ac5251888" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl11753"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+                                More forecasts: <a href="https://weatherlabs.in/हिंदी/दिल्ली_का_मौसम/कल/" id="ww_6c16ac5251888_u" target="_blank">दिल्ली में कल मौसम</a></div>
 
                         </div>
 
@@ -1886,11 +1846,7 @@ $conn->close();
                             <div class="div1">
                                 <div class="dir">
                                     <h2>Derections</h2>
-                                    <p><iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus"
-                                            width="100%" height="450" class="map"
-                                            style="border:2px solid black; border-radius: 10px;" allowfullscreen=""
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.53514320401!2d80.63875007473406!3d7.293608992713885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3662db149fbf5%3A0x8165d70ac115e887!2sSri%20Dalada%20Maligawa!5e0!3m2!1sen!2sus!4v1699954655823!5m2!1sen!2sus" width="100%" height="450" class="map" style="border:2px solid black; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                         </iframe>
                                     </p>
                                 </div>
@@ -2032,73 +1988,73 @@ $conn->close();
 
     <!--Search Function-->
     <script type="text/javascript">
-    function search() {
-        let filter = document.getElementById('find').value.toUpperCase();
-        let item = document.querySelectorAll('.place');
-        let l = document.getElementsByTagName('p');
-        for (var i = 0; i <= l.length; i++) {
-            let a = item[i].getElementsByTagName('p')[0];
-            let value = a.innerHTML || a.innerText || a.textContent;
-            if (value.toUpperCase().indexOf(filter) > -1) {
-                item[i].style.display = "";
-            } else {
-                item[i].style.display = "none";
+        function search() {
+            let filter = document.getElementById('find').value.toUpperCase();
+            let item = document.querySelectorAll('.place');
+            let l = document.getElementsByTagName('p');
+            for (var i = 0; i <= l.length; i++) {
+                let a = item[i].getElementsByTagName('p')[0];
+                let value = a.innerHTML || a.innerText || a.textContent;
+                if (value.toUpperCase().indexOf(filter) > -1) {
+                    item[i].style.display = "";
+                } else {
+                    item[i].style.display = "none";
+                }
             }
         }
-    }
     </script>
 
     <!--Pop-Up Model-->
     <script type="text/javascript">
-    let preveiwContainer = document.querySelector('.places-preview');
-    let previewBox = preveiwContainer.querySelectorAll('.preview');
+        let preveiwContainer = document.querySelector('.places-preview');
+        let previewBox = preveiwContainer.querySelectorAll('.preview');
 
-    document.querySelectorAll('.places-container .place').forEach(place => {
-        place.onclick = () => {
-            preveiwContainer.style.display = 'flex';
-            let name = place.getAttribute('data-name');
-            previewBox.forEach(preview => {
-                let target = preview.getAttribute('data-target');
-                if (name == target) {
-                    preview.classList.add('active');
-                }
-            });
-        };
-    });
+        document.querySelectorAll('.places-container .place').forEach(place => {
+            place.onclick = () => {
+                preveiwContainer.style.display = 'flex';
+                let name = place.getAttribute('data-name');
+                previewBox.forEach(preview => {
+                    let target = preview.getAttribute('data-target');
+                    if (name == target) {
+                        preview.classList.add('active');
+                    }
+                });
+            };
+        });
 
-    previewBox.forEach(close => {
-        close.querySelector('.fa-times').onclick = () => {
-            close.classList.remove('active');
-            preveiwContainer.style.display = 'none';
-        };
-    });
+        previewBox.forEach(close => {
+            close.querySelector('.fa-times').onclick = () => {
+                close.classList.remove('active');
+                preveiwContainer.style.display = 'none';
+            };
+        });
 
-    const tabs = document.querySelectorAll('.tab-btn');
-    const all_slide = document.querySelectorAll('.slide');
+        const tabs = document.querySelectorAll('.tab-btn');
+        const all_slide = document.querySelectorAll('.slide');
 
-    tabs.forEach((tab, index) => {
-        tab.addEventListener('click', (e) => {
-            tabs.forEach(tab => {
-                tab.classList.remove('active2')
-            });
-            tab.classList.add('active2');
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', (e) => {
+                tabs.forEach(tab => {
+                    tab.classList.remove('active2')
+                });
+                tab.classList.add('active2');
 
-            var line = document.querySelector('.line');
-            line.style.width = e.target.offsetWidth + "px";
-            line.style.left = e.target.offsetLeft + "px";
+                var line = document.querySelector('.line');
+                line.style.width = e.target.offsetWidth + "px";
+                line.style.left = e.target.offsetLeft + "px";
 
-            all_slide.forEach(slide => {
-                slide.classList.remove('active2')
-            });
-            all_slide[index].classList.add('active2');
+                all_slide.forEach(slide => {
+                    slide.classList.remove('active2')
+                });
+                all_slide[index].classList.add('active2');
+            })
         })
-    })
     </script>
 
     <!--Animation Scripts-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 
     <!--Weather Widget-->
