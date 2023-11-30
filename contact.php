@@ -56,7 +56,7 @@ if ($conn->connect_error) {
 
     <div class="back">
         <br><br><br>
-        <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="400">Contact us..</h1>
+        <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="400">Contact Us..</h1>
         <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">If you have a question...</p>
         <h5 data-aos="fade" data-aos-delay="600" data-aos-duration="700">
             Our team is available to assist you<br>with any inquiries or concerns you may have!</h5>
