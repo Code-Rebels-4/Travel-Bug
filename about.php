@@ -42,7 +42,7 @@ if ($conn->connect_error) {
 
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents"></i>&nbsp;Travel Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;Travel Bug</div>
             <ul class="menu">
 
                 <li><a href="index.php">Home</a></li>
