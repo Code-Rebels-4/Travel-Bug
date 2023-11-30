@@ -1,6 +1,5 @@
 .image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../Images/wall/wall9.jpg);
+  background-image: url(../Images/wall/wall10.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 101vh;
@@ -123,12 +122,17 @@
 
 /* Responsive styling */
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+}
 
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+}
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+}
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+}

@@ -57,7 +57,7 @@
 
     <!-- Main Content Section -->
     <div class="back"
-        style="background-image: url('Images/wall/hike.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+        style="background-image: url('Images/wall/hk_1.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
         <br><br><br>
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Hiking Places</h1>
