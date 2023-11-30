@@ -22,7 +22,7 @@
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
 
     <!-- jQuery script -->
-    <script type="text/javascript" src="js/NavigationBar_scroll.js"></script>
+    <script type="text/javascript" src="js/navscroll.js"></script>
 
     <!-- Favicon for the webpage -->
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
