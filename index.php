@@ -29,23 +29,15 @@
 
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>Travel
-                Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>TravelBug</div>
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php #explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
-
             </ul>
-
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
         </div>
     </nav>
-
-
 
     <section class="home">
         <video class="video" src="Videos/beach_1.mp4" autoplay muted loop></video>
@@ -64,12 +56,11 @@
 
     <!--second page-->
     <section class="second-page" id="second-page">
-
         <div class="second-page-content">
-
             <div class="card-one">
-                <div class="text2" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">More
-                    Information <br>About Sri Lanka</div>
+                <div class="text2" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+                    More Information About<br>Sri Lanka
+                </div>
                 <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">
                     Sri Lanka is a stunning island nation situated in the Indian Ocean, known for its incredible
                     natural beauty and rich cultural heritage. The country's diverse landscapes offer something for
@@ -306,9 +297,7 @@
                 </svg>
 
             </div>
-
         </div>
-
 
         <svg id="svg-sprite">
             <symbol id="paw" viewBox="0 0 249 209.32">
@@ -317,7 +306,6 @@
                     x="0" y="0" height="100px" width="100px" />
             </symbol>
         </svg>
-
         <div class="ajax-loader2">
             <div class="paw"><svg class="icon">
                     <use xlink:href="#paw" />
@@ -351,7 +339,6 @@
                     <use xlink:href="#paw" />
                 </svg></div>
         </div>
-
         <div class="ajax-loader3">
             <div class="paw"><svg class="icon">
                     <use xlink:href="#paw" />
@@ -389,11 +376,10 @@
     </section>
 
     <!--Explore-->
-
     <section id="explore" class="explore">
-        <div class="text2" data-aos="flip-up" data-aos-delay="600" data-aos-duration="1000">Discover the Most
-            Attractive Locations!</div>
-
+        <div class="text2" data-aos="flip-up" data-aos-delay="600" data-aos-duration="1000">
+            Discover the Most Attractive Locations!
+        </div>
 
         <div class="card-one">
             <figure class="image-block" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
@@ -401,13 +387,9 @@
 
                 <img src="Images/home/destination.png" alt="An image of temple of the tooth" />
                 <figcaption>
-                    <h3>
-                        Travel Destinations
-                    </h3>
-                    <p>Explore Sri Lanka Like Never Before - Your One-Stop Guide to the Island's Diverse Destinations!
-                    </p>
+                    <h3>Travel Destinations</h3>
+                    <p>Explore Sri Lanka Like Never Before - Your One-Stop Guide to the Island's Diverse Destinations!</p>
                     <button>
-
                         <a href="destination_provinces.php">Click Here</a>
                     </button>
                 </figcaption>
@@ -451,11 +433,11 @@
     </section>
 
 
+    <!--Festivals-->
     <section id="cards" class="cards">
-        <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">Discover some of the
-            Most
-            Popular Festivals in Sri Lanka</div>
-
+        <div class="text2" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">
+            Discover some of the Most Popular Festivals in Sri Lanka
+        </div>
 
         <div class="container" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
             <div id="slide">
@@ -554,16 +536,11 @@
                 <button id="next"><i class="fa-solid fa-angle-right"></i></button>
             </div>
         </div>
-
-
     </section>
 
 
-
     <!--Footer-->
-
     <footer class="footer-distributed">
-
         <div class="footer-left">
             <h3>Travel<span>Bug</span></h3>
             <p class="footer-links">
@@ -609,6 +586,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
     <script>
     var typed = new Typed(".auto-type", {
         strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
@@ -617,6 +595,7 @@
         loop: true,
     })
     </script>
+
     <script src="js/mscript.js"></script>
     <script src="js/fest-script.js"></script>
 
@@ -661,7 +640,6 @@
         });
     });
     </script>
-
 
 </body>
 

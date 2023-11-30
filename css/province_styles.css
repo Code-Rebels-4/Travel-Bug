@@ -348,7 +348,7 @@ button:focus {
 
 .info .text {
   position: relative;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-size: calc(var(--card-width) * var(--text-size-offset, 0.15));
   white-space: nowrap;
   color: #fff;
