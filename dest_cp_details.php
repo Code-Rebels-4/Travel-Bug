@@ -134,7 +134,7 @@ if ($result->num_rows > 0) {
 
 ?>)">
 
-                <p>Horton Plains</p>
+                <p>Horton Plains National Park</p>
             </div>
 
             <div class="place" data-name="d-3" style="background-image: url(<?php
@@ -156,7 +156,7 @@ if ($result->num_rows > 0) {
 
 ?>)">
 
-                <p>Royal Botanic Gardens</p>
+                <p>Royal Botanic Gardens,Peradeniya</p>
             </div>
 
             <div class="place" data-name="d-4" style="background-image: url(<?php
@@ -179,7 +179,7 @@ if ($result->num_rows > 0) {
 
 ?>)">
 
-                <p>Pinnawala Elephant Orphanage</p>
+                <p>Gregory Lake</p>
             </div>
 
             <div class="place" data-name="d-5" style="background-image: url(<?php
@@ -225,7 +225,7 @@ if ($result->num_rows > 0) {
 
 ?>)">
 
-                <p>Sigiriya</p>
+                <p>Sigiriya Rock Fortress</p>
             </div>
 
             <div class="place" data-name="d-7" style="background-image: url(<?php
@@ -298,23 +298,25 @@ if ($result->num_rows > 0) {
 
             <div class="place" data-name="d-10" style="background-image: url(<?php
 
-// Assuming you want to display the image with ID = 5
-$specificImageID = 73;
 
-$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-$result = $conn->query($sql);
+                                                                                // Assuming you want to display the image with ID = 5
+                                                                                $specificImageID = 5;
 
-if ($result->num_rows > 0) {
-    $row = $result->fetch_assoc();
-    $imageData = base64_encode($row['image_data']);
-    $imageName = $row['image_name'];
+                                                                                $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                                $result = $conn->query($sql);
 
-    echo 'data:image/jpeg;base64,' . $imageData;
-} else {
-    echo "Image not found.";
-}
+                                                                                if ($result->num_rows > 0) {
+                                                                                    $row = $result->fetch_assoc();
+                                                                                    $imageData = base64_encode($row['image_data']);
+                                                                                    $imageName = $row['image_name'];
 
-?>)">
+                                                                                    echo 'data:image/jpeg;base64,' . $imageData;
+                                                                                } else {
+                                                                                    echo "Image not found.";
+                                                                                }
+
+                                                                                ?>)">
+
 
                 <p>Dambulla Cave Temple</p>
             </div>
