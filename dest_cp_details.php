@@ -298,24 +298,23 @@ if ($result->num_rows > 0) {
 
             <div class="place" data-name="d-10" style="background-image: url(<?php
 
+// Assuming you want to display the image with ID = 5
+$specificImageID = 73;
 
-                                                                                // Assuming you want to display the image with ID = 5
-                                                                                $specificImageID = 5;
+$sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+$result = $conn->query($sql);
 
-                                                                                $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
-                                                                                $result = $conn->query($sql);
+if ($result->num_rows > 0) {
+    $row = $result->fetch_assoc();
+    $imageData = base64_encode($row['image_data']);
+    $imageName = $row['image_name'];
 
-                                                                                if ($result->num_rows > 0) {
-                                                                                    $row = $result->fetch_assoc();
-                                                                                    $imageData = base64_encode($row['image_data']);
-                                                                                    $imageName = $row['image_name'];
+    echo 'data:image/jpeg;base64,' . $imageData;
+} else {
+    echo "Image not found.";
+}
 
-                                                                                    echo 'data:image/jpeg;base64,' . $imageData;
-                                                                                } else {
-                                                                                    echo "Image not found.";
-                                                                                }
-
-                                                                                ?>)">
+?>)">
 
 
                 <p>Dambulla Cave Temple</p>
