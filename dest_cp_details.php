@@ -34,7 +34,7 @@ $result = $conn->query($sql);
 
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
     <script src=" https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    <script src="js/3.5.1.min.js"></script>
+    <script src="js/NavigationBar_scroll.js"></script>
 
     <title>Travel Destinations - CP</title>
 </head>

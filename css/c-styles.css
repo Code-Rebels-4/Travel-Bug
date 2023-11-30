@@ -1,6 +1,6 @@
 .back {
   background-image: url(../Images/contact/Bg_Image.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: right; /* Set the background position to the right */
   height: 101vh;
@@ -20,9 +20,11 @@
 
 .back h1 {
   margin-left: 30px;
+  margin-top: 60px;
 }
 
 .back h5 {
+  font-size: 28px;
   margin-left: 30px;
   margin-top: 30px;
 }
