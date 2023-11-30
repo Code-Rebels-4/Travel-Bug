@@ -392,7 +392,7 @@
 
     <section id="explore" class="explore">
         <div class="text2" data-aos="flip-up" data-aos-delay="600" data-aos-duration="1000">Discover the Most
-            Attractive Places</div>
+            Attractive Locations!</div>
 
 
         <div class="card-one">
