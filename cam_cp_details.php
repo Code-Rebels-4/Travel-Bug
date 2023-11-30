@@ -90,7 +90,6 @@ $result = $conn->query($sql);
             <div class="place" data-name="d-1" style="background-image: url(<?php
 // Assuming you want to display the image with ID = 2
 $specificImageID = 87;
-
                                                                             $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
@@ -111,7 +110,6 @@ $specificImageID = 87;
 
 
             <div class="place" data-name="d-2" style="background-image: url(<?php
-
 
 // Assuming you want to display the image with ID = 2
 $specificImageID = 94;
@@ -161,7 +159,6 @@ $specificImageID = 101;
 
 // Assuming you want to display the image with ID = 4
 $specificImageID = 108
-
                                                                             $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
@@ -181,6 +178,7 @@ $specificImageID = 108
             </div>
 
             <div class="place" data-name="d-5" style="background-image: url(<?php
+
 // Assuming you want to display the image with ID = 5
 $specificImageID = 115;
 
@@ -605,7 +603,6 @@ $specificImageID = 98;
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
 $specificImageID = 99;
-
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
@@ -636,7 +633,6 @@ $specificImageID = 100;
                                                                     ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 $specificImageID = 94;
-
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
@@ -1096,7 +1092,6 @@ $specificImageID = 108;
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.7744575155903!2d80.86867117385198!3d7.379155612631361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4a10ae07f4c93%3A0xf30669426fdd6d3a!2sKalugala%20Gerandi%20Ella%20Waterfall!5e0!3m2!1sen!2slk!4v1701274835644!5m2!1sen!2slk"
                                             width="1200" height="450" style="border:0;" allowfullscreen=""
                                             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
                                     </p>
                                 </div>
 
@@ -1342,7 +1337,6 @@ $specificImageID = 115;
 
 
 $specificImageID = 123;
-
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
@@ -1873,6 +1867,7 @@ $specificImageID = 129;
                                 its name from the dense covering of reeds on its western slope. Embarking on the climb
                                 from the picturesque Rathinda village enhances the journey, providing glimpses of
                                 authentic rural life with paddy fields,
+
                                 plantations, and the overall rustic charm of the countryside.</p>
 
                             </br>
@@ -1952,6 +1947,7 @@ $specificImageID = 137;
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
 $specificImageID = 138;
+
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
@@ -1967,6 +1963,7 @@ $specificImageID = 138;
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
 $specificImageID = 139;
+
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
@@ -1982,6 +1979,7 @@ $specificImageID = 139;
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
 $specificImageID = 140;
+
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
@@ -1998,6 +1996,7 @@ $specificImageID = 140;
 
 $specificImageID = 141;
 
+
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
@@ -2013,6 +2012,7 @@ $specificImageID = 141;
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
 $specificImageID = 142;
+
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
@@ -2028,6 +2028,7 @@ $specificImageID = 142;
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
 $specificImageID = 136;
+
 
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
@@ -2083,7 +2084,6 @@ $specificImageID = 136;
                             <div class="div1">
                                 <div class="dir">
                                     <h2>Derections</h2>
-
                                     <p><iframe
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15846.758642344375!2d80.6774659793719!3d6.8075536476132275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae38f133e3dc071%3A0x6c72f8edb36c3da!2sGreen%20Mountain%20%2F%20Haritha%20Kanda%20%2F%20Bopath%20Thalawa!5e0!3m2!1sen!2slk!4v1701275332348!5m2!1sen!2slk"
                                             width="1200" height="450" style="border:0;" allowfullscreen=""
@@ -2165,6 +2165,7 @@ $specificImageID = 145;
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
 $specificImageID = 146;
+
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
@@ -2179,7 +2180,8 @@ $specificImageID = 146;
                                                                     ?>" alt="">
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
 
-$specificImageID = 147;
+$specificImageID = 147;             
+
 
                                                                     $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
