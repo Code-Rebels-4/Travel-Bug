@@ -16,10 +16,10 @@
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/4a7f9535df.js"></script>
-    <script src="js/NavigationBar_scroll.js"></script>
+    <script type="text/javascript" src="js/navscroll.js"></script>
     <script src="js/card.js"></script>
 
-    <title>Travel Bug</title>
+    <title>TravelBug</title>
 </head>
 
 <body>
@@ -597,7 +597,7 @@
     </script>
 
     <script src="js/mscript.js"></script>
-    <script src="js/fest-script.js"></script>
+    <script src="js/fest_script.js"></script>
 
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
