@@ -18,7 +18,7 @@
   justify-content: center;
   padding: 100px;
   flex-direction: column;
-  background-image: url(../Images/home/h_bg_6.jpg);
+  background-image: url(../Images/home/h_bg_6Copy.jpg);
   background-size: cover;
 }
 
@@ -725,6 +725,6 @@ figcaption button:hover a {
 }
 
 .buttons button:hover {
-  background-color: #bac383;
+  background-color: #0077ff;
   cursor: pointer;
 }
