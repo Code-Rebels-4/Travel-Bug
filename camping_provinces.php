@@ -52,7 +52,7 @@
 
     <!-- Main Content Section -->
     <div class="back"
-        style="background-image: url('Images/wall/camp.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+        style="background-image: url('Images/wall/cam_1.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
         <br><br><br>
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Camping Grounds</h1>

@@ -40,7 +40,7 @@
     </nav>
 
     <section class="home">
-        <video class="video" src="Videos/beach_1.mp4" autoplay muted loop></video>
+        <!-- <video class="video" src="Videos/beach_1.mp4" autoplay muted loop></video> -->
         <div class="content">
             <div class="text1" data-aos="fade-right" data-aos-delay="200" data-aos-duration="2000">Welcome to</div>
             <div class="text2" data-aos="fade-left" data-aos-delay="200" data-aos-duration="2000">
