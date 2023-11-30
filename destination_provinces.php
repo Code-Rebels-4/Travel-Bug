@@ -22,7 +22,7 @@
     <script src="https://kit.fontawesome.com/b11fc013a7.js" crossorigin="anonymous"></script>
 
     <!-- jQuery script -->
-    <script type="text/javascript" src="js/NavigationBar_scroll.js"></script>
+    <script type="text/javascript" src="js/navscroll.js"></script>
 
     <!-- Favicon for the webpage -->
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
@@ -40,7 +40,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;Travel Bug</div>
+            <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>&nbsp;TravelBug</div>
             <!-- Navigation menu items -->
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
@@ -54,12 +54,12 @@
 
     <!-- Main Content Section -->
     <div class="back"
-        style="background-image: url('Images/wall/travel.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+        style="background-image: url('Images/home/h_bg_3Copy.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
         <br><br><br>
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Travel Destinations</h1>
         <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Explore the wonders of your treasured
-            travel spots, <br> neatly organized by their respective provinces!</p><br>
+            <br>travel spots, neatly organized by their <br> respective provinces!</p><br>
     </div>
 
     <!-- Additional content sections with animations -->

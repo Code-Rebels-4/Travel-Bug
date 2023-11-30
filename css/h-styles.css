@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
 *body {
   margin: 0;
   padding: 0;
@@ -18,7 +20,7 @@
   justify-content: center;
   padding: 100px;
   flex-direction: column;
-  background-image: url(../Images/home/h_bg_6.jpg);
+  background-image: url(../Images/home/h_bg_6Copy.jpg);
   background-size: cover;
 }
 
@@ -35,6 +37,7 @@
   font-weight: 600;
   letter-spacing: 5px;
   line-height: 75px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .home .content .text2 {
@@ -51,6 +54,10 @@
   justify-content: center;
 }
 
+.home .content .text2 h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
 @keyframes back {
   100% {
     background-position: 2000px 0;
@@ -62,6 +69,7 @@
   font-weight: 700;
   letter-spacing: 2px;
   line-height: 75px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .home .content a {
@@ -88,6 +96,7 @@
   color: #0077ff;
   font-size: 1.2em;
   font-weight: 60;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* second page*/
@@ -725,6 +734,6 @@ figcaption button:hover a {
 }
 
 .buttons button:hover {
-  background-color: #bac383;
+  background-color: #0077ff;
   cursor: pointer;
 }
