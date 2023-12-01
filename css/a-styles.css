@@ -11,10 +11,18 @@
   text-align: left;
 }
 
+.image h1 {
+  color: black;
+}
+
 .image p {
-  color: #81c54e;
+  color: #0021fb;
   font-size: 2.5rem;
   margin-top: 30px;
+}
+
+.image .phrase {
+  color: black;
 }
 
 .text2 {

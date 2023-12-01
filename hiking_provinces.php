@@ -54,7 +54,7 @@
         <br><br><br>
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Hiking Places</h1>
-        <p style="color: aquamarine;" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Embark on the
+        <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Embark on the
             exhilarating trails of your cherished <br> hiking destinations,
              meticulously arranged <br> by their associated provinces!
         </p><br>

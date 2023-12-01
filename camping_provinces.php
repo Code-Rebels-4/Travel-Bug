@@ -56,7 +56,7 @@
         <br><br><br>
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Camping Grounds</h1>
-        <p style="color: aquamarine" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Discover the
+        <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Discover the
             enchanting allure of your favorite <br> camping grounds,
             thoughtfully categorized by <br> their corresponding provinces!
         </p><br>
