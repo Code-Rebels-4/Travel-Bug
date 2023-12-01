@@ -18,7 +18,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0077ff;
+  background: #272643;
   border-radius: 5px;
 }
 
@@ -353,7 +353,7 @@ html {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #0077ff;
+    background: #272643;
     border-radius: 5px;
   }
 

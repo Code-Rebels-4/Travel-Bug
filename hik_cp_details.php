@@ -62,11 +62,8 @@ $result = $conn->query($sql);
 
     </div>
 
-    <!--Back Arrow / Quote-->
+    <!--Quote-->
     <div class="d1">
-        <a href="hiking_provinces.php" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">
-            <img src="Images/arrow.png" title="Go back to Provinces"></a>
-
         <h1 class="text2" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">
             Traverse breathtaking trails and discover the allure of Central Province<br>through its enchanting and
             challenging hiking destinations.
