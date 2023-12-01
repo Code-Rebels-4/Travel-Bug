@@ -117,14 +117,14 @@ if ($conn->connect_error) {
                                 data-aos-delay="600" data-aos-duration="300"></td>
                         <td>
                             <div style="padding: 10px; text-align: left;">
-                                <form action="mail.php" method="post" enctype="text/plain">
-                                    <input type="text" class="input-field" placeholder="Type your name here..."
+                                <form action="mail.php" method="post">
+                                    <input type="text" name="name" class="input-field" placeholder="Type your name here..."
                                         required><br>
-                                    <input type="email" class="input-field"
+                                    <input type="email" name="email" class="input-field"
                                         placeholder="Type your email address here..." required><br>
-                                    <input type="text" class="input-field" placeholder="Type the subject here..."
+                                    <input type="text" name="subject" class="input-field" placeholder="Type the subject here..."
                                         required><br>
-                                    <textarea type="text" class="input-field textarea-field"
+                                    <textarea type="text" name="message" class="input-field textarea-field"
                                         placeholder="Type your message here..." required></textarea><br>
 
                                     <button type="submit" class="btn" id="bt" onclick="myFunction()">Send Message
