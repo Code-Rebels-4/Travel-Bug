@@ -127,7 +127,7 @@ if ($conn->connect_error) {
                                     <textarea type="text" name="message" class="input-field textarea-field"
                                         placeholder="Type your message here..." required></textarea><br>
 
-                                    <button type="submit" class="btn" id="bt" onclick="myFunction()">Send Message
+                                    <button type="submit" class="btn" id="bt">Send Message
                                         <span class="popuptext" id="myPopup">Thank you for your response!</span>
                                     </button>
                                     <button type="reset" class="btn">Reset</button>
@@ -162,12 +162,6 @@ if ($conn->connect_error) {
     AOS.init();
     </script>
 
-    <script>
-    function myFunction() {
-        var popup = document.getElementById("myPopup");
-        popup.classList.toggle("show");
-    }
-    </script>
 </body>
 
 </html>
