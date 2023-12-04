@@ -440,24 +440,11 @@
 
         <div class="container" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500">
             <div id="slide">
-                <div class="item" style="background-image: url(Images/home/ny.jpg);">
-                    <div class="content">
-                        <div class="name" style="color: black;">Sinhala and Tamil New Year</div>
-                        <div class="des" style="font-size: 15px; color: black;">Sinhala and Tamil New Year, locally
-                            known as Aluth Avurudda, is a significant celebration in Sri Lanka, embracing the
-                            traditional New Year of both the Sinhalese and Tamil communities. Widely observed by people
-                            of diverse backgrounds, this festive occasion aligns with the new year festivities of
-                            various South and Southeast Asian calendars. The festival, marked by the sighting of the new
-                            moon, is a public holiday in Sri Lanka, often observed on either April 13 or 14. During this
-                            time, many businesses close for about a week, creating a vibrant and joyous atmosphere
-                            across the country. Join in the festivities as Sri Lankans come together to usher in the New
-                            Year with cultural richness and traditional customs.</div>
-                    </div>
-                </div>
+                
                 <div class="item" style="background-image: url(Images/home/vesak.jpg);">
                     <div class="content">
                         <div class="name">Vesak</div>
-                        <div class="des" style="font-size: 15px;">Vesak, also known as Buddha Jayanti or Buddha Purnima,
+                        <div class="des" >Vesak, also known as Buddha Jayanti or Buddha Purnima,
                             is the most important Buddhist festival celebrated across South Asia, Southeast Asia, Tibet,
                             and Mongolia. It honors the birth, enlightenment, and passing of Gautama Buddha in
                             Theravada, Tibetan Buddhism, and Navayana traditions. The festival's name is derived from
@@ -469,24 +456,11 @@
                             of Gautama Buddha.</div>
                     </div>
                 </div>
-                <div class="item" style="background-image: url(Images/home/diwali.jpg);">
-                    <div class="content">
-                        <div class="name">Deepavali</div>
-                        <div class="des" style="font-size: 15px;">Diwali, the Hindu festival of lights, signifies the
-                            triumph of good over evil and knowledge over ignorance. Celebrated between mid-September and
-                            mid-November, it spans five to six days and is associated with events like Rama's return and
-                            revered deities like Lakshmi and Ganesha. While rooted in Hinduism, Diwali is embraced by
-                            Jains, Sikhs, Buddhists, and others. The festivities include illuminating spaces with lamps,
-                            ritual oil baths, fireworks, rangoli designs, and communal feasts. Diwali fosters family and
-                            community bonds, with diverse communities coming together for parades, fairs, and shared
-                            celebrations. It is a joyous occasion transcending religious boundaries, symbolizing light,
-                            unity, and cultural richness.</div>
-                    </div>
-                </div>
+
                 <div class="item" style="background-image: url(Images/home/kep.jpg);">
                     <div class="content">
                         <div class="name">Kandy Esala Perahera</div>
-                        <div class="des" style="font-size: 15px;">The Kandy Esala Perahera, also known as the Festival
+                        <div class="des">The Kandy Esala Perahera, also known as the Festival
                             of the Tooth, is a grand annual event held in July and August in Kandy, Sri Lanka. This
                             historic procession pays homage to the Sacred Tooth Relic of Buddha housed at the Sri Dalada
                             Maligawa. A symbol of Sri Lankan culture, the procession features traditional dances,
@@ -497,10 +471,41 @@
                             performances.</div>
                     </div>
                 </div>
+
+                <div class="item" style="background-image: url(Images/home/ny.jpg);">
+                    <div class="content">
+                        <div class="name" style="color: black;">Sinhala and Tamil New Year</div>
+                        <div class="des" style=" color: black;">Sinhala and Tamil New Year, locally
+                            known as Aluth Avurudda, is a significant celebration in Sri Lanka, embracing the
+                            traditional New Year of both the Sinhalese and Tamil communities. Widely observed by people
+                            of diverse backgrounds, this festive occasion aligns with the new year festivities of
+                            various South and Southeast Asian calendars. The festival, marked by the sighting of the new
+                            moon, is a public holiday in Sri Lanka, often observed on either April 13 or 14. During this
+                            time, many businesses close for about a week, creating a vibrant and joyous atmosphere
+                            across the country. Join in the festivities as Sri Lankans come together to usher in the New
+                            Year with cultural richness and traditional customs.</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(Images/home/diwali.jpg);">
+                    <div class="content">
+                        <div class="name">Deepavali</div>
+                        <div class="des">Diwali, the Hindu festival of lights, signifies the
+                            triumph of good over evil and knowledge over ignorance. Celebrated between mid-September and
+                            mid-November, it spans five to six days and is associated with events like Rama's return and
+                            revered deities like Lakshmi and Ganesha. While rooted in Hinduism, Diwali is embraced by
+                            Jains, Sikhs, Buddhists, and others. The festivities include illuminating spaces with lamps,
+                            ritual oil baths, fireworks, rangoli designs, and communal feasts. Diwali fosters family and
+                            community bonds, with diverse communities coming together for parades, fairs, and shared
+                            celebrations. It is a joyous occasion transcending religious boundaries, symbolizing light,
+                            unity, and cultural richness.</div>
+                    </div>
+                </div>
+               
                 <div class="item" style="background-image: url(Images/home/pongal.jpg);">
                     <div class="content">
                         <div class="name">Thai Pongal</div>
-                        <div class="des" style="font-size: 15px;">Pongal, also called Thai Pongal, is a multi-day Hindu
+                        <div class="des" >Pongal, also called Thai Pongal, is a multi-day Hindu
                             harvest festival celebrated by Tamils in the month of Thai. Typically occurring on January
                             14 or 15, it honors the Sun God, Surya, and corresponds to the broader Indian harvest
                             festival of Makar Sankranti. The festival includes three main days: Bhogi Pongal, Surya
@@ -516,7 +521,7 @@
                 <div class="item" style="background-image: url(Images/home/kataragama.jpg);">
                     <div class="content">
                         <div class="name">Kataragama Perahera</div>
-                        <div class="des" style="font-size: 15px;">The Sri Lanka Kataragama Perahera is an annual
+                        <div class="des" >The Sri Lanka Kataragama Perahera is an annual
                             two-week festival in July/August honoring the Hindu God Skanda. It takes place in
                             Kataragama, Southern Sri Lanka, involving a grand procession from the Kataragama Temple to
                             the Valli Amman Temple. The event attracts participants of all religions and Veddahs
@@ -529,6 +534,61 @@
                             the Western coast (e.g., Unawatuna, Hikkaduwa).</div>
                     </div>
                 </div>
+
+                <div class="item" style="background-image: url(Images/home/christmas.png);">
+                    <div class="content">
+                        <div class="name" style="color:black">Christmas</div>
+                        <div class="des" style=" color: black;">Christmas is an annual festival commemorating the birth 
+                        of Jesus Christ, primarily observed on December 25 as a religious and cultural celebration 
+                        among billions of people around the world.A feast central to the Christian liturgical 
+                        year, it follows the season of Advent (which begins four Sundays before) or the Nativity Fast, 
+                        and initiates the season of Christmastide, which historically in the West lasts twelve days and 
+                        culminates on Twelfth Night.Christmas Day is a public holiday in many countries, is 
+                        celebrated religiously by a majority of Christians,as well as culturally by many 
+                        non-Christians,and forms an integral part of the holiday season organized around it.</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(Images/home/easter.jpg);">
+                    <div class="content">
+                        <div class="name" style="color:black">Easter</div>
+                        <div class="des" style=" color: black;">The Easter story is at the heart of Christianity. 
+                        Easter is usually celebrated between March 22nd and April 25th.Easter commemorates the 
+                        resurrection of Jesus Christ. It is the most important Christian festival and celebrated 
+                        with the greatest joy.Easter Sunday is the culmination of Holy Week, which begins on 
+                        Palm Sunday – the week before Easter Sunday. Holy Thursday is the day of Jesus’ Last Supper.
+                        On Good Friday, Jesus Christ was crucified. His body was taken down from the cross, and 
+                        placed in a tomb, guarded by an enormous stone over the entrance.On the following Sunday, 
+                        some women visited the grave and found that the stone had been moved, and that the tomb 
+                        was empty.Jesus himself was seen that day, and for days afterwards by many people.
+                        His followers realised that God had raised Jesus from the dead..</div> 
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(Images/home/ramadan.jpg);">
+                    <div class="content">
+                        <div class="name">Ramadan</div>
+                        <div class="des" >The Ramadan Festival is an important religious holiday 
+                        celebrated by Muslims worldwide that marks the end of Ramadan, the Islamic holy month of fasting. The religious 
+                        Eid is a single day during which Muslims are not permitted to fast. The holiday celebrates the conclusion of 
+                        the 29 or 30 days of dawn-to-sunset fasting during the entire month of Ramadan. The day of Eid, therefore, 
+                        falls on the first day of the month of Shawwal.Celebrations center around the whole family and include the 
+                        wearing of new clothes, large feasts for meals and the exchanging of gifts.</div>
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url(Images/home/hujj.jpg);">
+                    <div class="content">
+                        <div class="name" style="color:black">Hajj</div>
+                        <div class="des" style="color:black" >Muslims in Sri Lanka will celebrate the Hajj festival (Eid-Ul- Adha) on the 29th of June as 
+                            the new moon for the month of Dhul Haj has been sighted, the Colombo Grand Mosque announced.The sighting 
+                            of the moon marks the beginning of the Islamic month of Dhu Al-Hijjah, during which the Hajj pilgrimage is 
+                            performed, and is followed by Eid-Ul- Adha.Hajj, one of Islam’s five pillars, is the pilgrimage to Makkah 
+                            in Saudi Arabia that every Muslim must make at least once in their lifetime if they are able.</div>
+                    </div>
+                </div>
+
+
             </div>
             <div class="buttons">
                 <button id="prev"><i class="fa-solid fa-angle-left"></i></button>

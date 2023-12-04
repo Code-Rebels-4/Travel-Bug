@@ -694,8 +694,12 @@ figcaption button:hover a {
 
 .item .des {
   margin: 20px 0;
+  font-family: "Josefin Sans", sans-serif;
   opacity: 0;
   animation: showcontent 1s ease-in-out 0.3s 1 forwards;
+  font-size: 15px;
+  font-style: bold;
+  
 }
 
 .item button {
