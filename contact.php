@@ -110,33 +110,49 @@ if ($conn->connect_error) {
         <section>
             <h1 class="text3" data-aos="flip-up" data-aos-delay="450" data-aos-duration="500">Reach Us</h1>
             <div id="email" data-aos="fade-up" data-aos-delay="600" data-aos-duration="500">
-                <table>
+                <!-- <table>
                     <tr>
-
                         <td><img src="Images/contact/mail9.gif" alt="mailgif" width="300px" data-aos="fade-right"
                                 data-aos-delay="600" data-aos-duration="300"></td>
                         <td>
-                            <div style="padding: 10px; text-align: left;">
-                                <form action="mail.php" method="post">
-                                    <input type="text" name="name" class="input-field" placeholder="Type your name here..."
-                                        required><br>
-                                    <input type="email" name="email" class="input-field"
-                                        placeholder="Type your email address here..." required><br>
-                                    <input type="text" name="subject" class="input-field" placeholder="Type the subject here..."
-                                        required><br>
-                                    <textarea type="text" name="message" class="input-field textarea-field"
-                                        placeholder="Type your message here..." required></textarea><br>
+                            <div>
+                                <form action="mail.php" method="post" enctype="multipart/form-data">
 
-                                    <button type="submit" class="btn" id="bt">Send Message
-                                        <span class="popuptext" id="myPopup">Thank you for your response!</span>
-                                    </button>
+                                    <input type="text" name="name" class="input-field"
+                                        placeholder="Type your name here..." required><br>
+                                    <input type="email" name="email" class="input-field"
+                                        placeholder="Type your Email Address here..." required><br>
+
+                                    <select name="feedback_type" id="feedbackType" class="input-field" required>
+                                        <option value="feedback">Feedback</option>
+                                        <option value="suggestion">New Place Suggestion</option>
+                                    </select><br>
+
+                                    <div id="feedbackFields">
+                                        <input type="text" name="subject" class="input-field"
+                                            placeholder="Type the subject here..." required><br>
+                                        <textarea type="text" name="message" class="input-field textarea-field"
+                                            placeholder="Type your message here..." required></textarea><br>
+                                    </div>
+
+                                    <div id="suggestionFields" style="display:none;">
+                                        <input type="text" name="place_name" class="input-field"
+                                            placeholder="Type the name of the suggested place here..." required><br>
+                                            <textarea type="text" name="place_description" class="input-field textarea-field"
+                                            placeholder="Type a breif description of the suggested place here... (Optional)"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn" id="bt">Send Message</button>
                                     <button type="reset" class="btn">Reset</button>
                                 </form>
                             </div>
                         </td>
                     </tr>
-                </table>
-            </div>
+                </table> -->
+
+                <div class="gform" id="ff-compose"></div>
+                <script async defer
+                    src="https://formfacade.com/include/103057688257495423502/form/1FAIpQLScEC0AKNVoO0tFy1ln0mYGoOnzej2zA-4qTrjFMfNfPiRemgQ/classic.js?div=ff-compose"></script>
         </section>
     </div>
 
@@ -159,7 +175,22 @@ if ($conn->connect_error) {
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
+    </script>
+
+    <script>
+        document.getElementById('feedbackType').addEventListener('change', function () {
+            var feedbackFields = document.getElementById('feedbackFields');
+            var suggestionFields = document.getElementById('suggestionFields');
+
+            if (this.value === 'feedback') {
+                feedbackFields.style.display = 'block';
+                suggestionFields.style.display = 'none';
+            } else if (this.value === 'suggestion') {
+                feedbackFields.style.display = 'none';
+                suggestionFields.style.display = 'block';
+            }
+        });
     </script>
 
 </body>

@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/circle cards.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
