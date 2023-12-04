@@ -387,10 +387,11 @@
                 <img src="Images/home/destination.png" alt="An image of temple of the tooth" />
                 <figcaption>
                     <h3>Travel Destinations</h3>
-                    <p>Explore Sri Lanka Like Never Before - Your One-Stop Guide to the Island's Diverse Destinations!</p>
-                    <button>
-                        <a href="destination_provinces.php">Click Here</a>
-                    </button>
+                    <p>Explore Sri Lanka Like Never Before - Your One-Stop Guide to the Island's Diverse Destinations!
+                    </p>
+                    <a href="destination_provinces.php">
+                        <button>Click Here</button>
+                    </a>
                 </figcaption>
             </figure>
 
@@ -402,11 +403,9 @@
                         Hiking Places
                     </h3>
                     <p>Discover Sri Lanka's Best Hiking Trails - Experience Adventure Like Never Before!</p>
-                    <button>
-
-                        <a href="hiking_provinces.php">Click Here</a>
-
-                    </button>
+                    <a href="hiking_provinces.php">
+                        <button>Click Here</button>
+                    </a>
                 </figcaption>
             </figure>
 
@@ -421,11 +420,9 @@
                     </h3>
                     <p>Pitch Your Tent and Explore Sri Lanka's Natural Wonders - Your Guide to Camping Grounds Across
                         the Island!</p>
-                    <button>
-
-                        <a href="camping_provinces.php">Click Here</a>
-
-                    </button>
+                    <a href="camping_provinces.php">
+                        <button>Click Here</button>
+                    </a>
                 </figcaption>
             </figure>
         </div>
@@ -440,11 +437,11 @@
 
         <div class="container" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="500">
             <div id="slide">
-                
+
                 <div class="item" style="background-image: url(Images/home/vesak.jpg);">
                     <div class="content">
                         <div class="name">Vesak</div>
-                        <div class="des" >Vesak, also known as Buddha Jayanti or Buddha Purnima,
+                        <div class="des">Vesak, also known as Buddha Jayanti or Buddha Purnima,
                             is the most important Buddhist festival celebrated across South Asia, Southeast Asia, Tibet,
                             and Mongolia. It honors the birth, enlightenment, and passing of Gautama Buddha in
                             Theravada, Tibetan Buddhism, and Navayana traditions. The festival's name is derived from
@@ -501,11 +498,11 @@
                             unity, and cultural richness.</div>
                     </div>
                 </div>
-               
+
                 <div class="item" style="background-image: url(Images/home/pongal.jpg);">
                     <div class="content">
                         <div class="name">Thai Pongal</div>
-                        <div class="des" >Pongal, also called Thai Pongal, is a multi-day Hindu
+                        <div class="des">Pongal, also called Thai Pongal, is a multi-day Hindu
                             harvest festival celebrated by Tamils in the month of Thai. Typically occurring on January
                             14 or 15, it honors the Sun God, Surya, and corresponds to the broader Indian harvest
                             festival of Makar Sankranti. The festival includes three main days: Bhogi Pongal, Surya
@@ -521,7 +518,7 @@
                 <div class="item" style="background-image: url(Images/home/kataragama.jpg);">
                     <div class="content">
                         <div class="name">Kataragama Perahera</div>
-                        <div class="des" >The Sri Lanka Kataragama Perahera is an annual
+                        <div class="des">The Sri Lanka Kataragama Perahera is an annual
                             two-week festival in July/August honoring the Hindu God Skanda. It takes place in
                             Kataragama, Southern Sri Lanka, involving a grand procession from the Kataragama Temple to
                             the Valli Amman Temple. The event attracts participants of all religions and Veddahs
@@ -538,53 +535,64 @@
                 <div class="item" style="background-image: url(Images/home/christmas.png);">
                     <div class="content">
                         <div class="name" style="color:black">Christmas</div>
-                        <div class="des" style=" color: black;">Christmas is an annual festival commemorating the birth 
-                        of Jesus Christ, primarily observed on December 25 as a religious and cultural celebration 
-                        among billions of people around the world.A feast central to the Christian liturgical 
-                        year, it follows the season of Advent (which begins four Sundays before) or the Nativity Fast, 
-                        and initiates the season of Christmastide, which historically in the West lasts twelve days and 
-                        culminates on Twelfth Night.Christmas Day is a public holiday in many countries, is 
-                        celebrated religiously by a majority of Christians,as well as culturally by many 
-                        non-Christians,and forms an integral part of the holiday season organized around it.</div>
+                        <div class="des" style=" color: black;">Christmas is an annual festival commemorating the birth
+                            of Jesus Christ, primarily observed on December 25 as a religious and cultural celebration
+                            among billions of people around the world.A feast central to the Christian liturgical
+                            year, it follows the season of Advent (which begins four Sundays before) or the Nativity
+                            Fast,
+                            and initiates the season of Christmastide, which historically in the West lasts twelve days
+                            and
+                            culminates on Twelfth Night.Christmas Day is a public holiday in many countries, is
+                            celebrated religiously by a majority of Christians,as well as culturally by many
+                            non-Christians,and forms an integral part of the holiday season organized around it.</div>
                     </div>
                 </div>
 
                 <div class="item" style="background-image: url(Images/home/easter.jpg);">
                     <div class="content">
                         <div class="name" style="color:black">Easter</div>
-                        <div class="des" style=" color: black;">The Easter story is at the heart of Christianity. 
-                        Easter is usually celebrated between March 22nd and April 25th.Easter commemorates the 
-                        resurrection of Jesus Christ. It is the most important Christian festival and celebrated 
-                        with the greatest joy.Easter Sunday is the culmination of Holy Week, which begins on 
-                        Palm Sunday – the week before Easter Sunday. Holy Thursday is the day of Jesus’ Last Supper.
-                        On Good Friday, Jesus Christ was crucified. His body was taken down from the cross, and 
-                        placed in a tomb, guarded by an enormous stone over the entrance.On the following Sunday, 
-                        some women visited the grave and found that the stone had been moved, and that the tomb 
-                        was empty.Jesus himself was seen that day, and for days afterwards by many people.
-                        His followers realised that God had raised Jesus from the dead..</div> 
+                        <div class="des" style=" color: black;">The Easter story is at the heart of Christianity.
+                            Easter is usually celebrated between March 22nd and April 25th.Easter commemorates the
+                            resurrection of Jesus Christ. It is the most important Christian festival and celebrated
+                            with the greatest joy.Easter Sunday is the culmination of Holy Week, which begins on
+                            Palm Sunday – the week before Easter Sunday. Holy Thursday is the day of Jesus’ Last Supper.
+                            On Good Friday, Jesus Christ was crucified. His body was taken down from the cross, and
+                            placed in a tomb, guarded by an enormous stone over the entrance.On the following Sunday,
+                            some women visited the grave and found that the stone had been moved, and that the tomb
+                            was empty.Jesus himself was seen that day, and for days afterwards by many people.
+                            His followers realised that God had raised Jesus from the dead..</div>
                     </div>
                 </div>
 
                 <div class="item" style="background-image: url(Images/home/ramadan.jpg);">
                     <div class="content">
                         <div class="name">Ramadan</div>
-                        <div class="des" >The Ramadan Festival is an important religious holiday 
-                        celebrated by Muslims worldwide that marks the end of Ramadan, the Islamic holy month of fasting. The religious 
-                        Eid is a single day during which Muslims are not permitted to fast. The holiday celebrates the conclusion of 
-                        the 29 or 30 days of dawn-to-sunset fasting during the entire month of Ramadan. The day of Eid, therefore, 
-                        falls on the first day of the month of Shawwal.Celebrations center around the whole family and include the 
-                        wearing of new clothes, large feasts for meals and the exchanging of gifts.</div>
+                        <div class="des">The Ramadan Festival is an important religious holiday
+                            celebrated by Muslims worldwide that marks the end of Ramadan, the Islamic holy month of
+                            fasting. The religious
+                            Eid is a single day during which Muslims are not permitted to fast. The holiday celebrates
+                            the conclusion of
+                            the 29 or 30 days of dawn-to-sunset fasting during the entire month of Ramadan. The day of
+                            Eid, therefore,
+                            falls on the first day of the month of Shawwal.Celebrations center around the whole family
+                            and include the
+                            wearing of new clothes, large feasts for meals and the exchanging of gifts.</div>
                     </div>
                 </div>
 
                 <div class="item" style="background-image: url(Images/home/hujj.jpg);">
                     <div class="content">
                         <div class="name" style="color:black">Hajj</div>
-                        <div class="des" style="color:black" >Muslims in Sri Lanka will celebrate the Hajj festival (Eid-Ul- Adha) on the 29th of June as 
-                            the new moon for the month of Dhul Haj has been sighted, the Colombo Grand Mosque announced.The sighting 
-                            of the moon marks the beginning of the Islamic month of Dhu Al-Hijjah, during which the Hajj pilgrimage is 
-                            performed, and is followed by Eid-Ul- Adha.Hajj, one of Islam’s five pillars, is the pilgrimage to Makkah 
-                            in Saudi Arabia that every Muslim must make at least once in their lifetime if they are able.</div>
+                        <div class="des" style="color:black">Muslims in Sri Lanka will celebrate the Hajj festival
+                            (Eid-Ul- Adha) on the 29th of June as
+                            the new moon for the month of Dhul Haj has been sighted, the Colombo Grand Mosque
+                            announced.The sighting
+                            of the moon marks the beginning of the Islamic month of Dhu Al-Hijjah, during which the Hajj
+                            pilgrimage is
+                            performed, and is followed by Eid-Ul- Adha.Hajj, one of Islam’s five pillars, is the
+                            pilgrimage to Makkah
+                            in Saudi Arabia that every Muslim must make at least once in their lifetime if they are
+                            able.</div>
                     </div>
                 </div>
 
@@ -645,14 +653,14 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    
+
     <script>
-    var typed = new Typed(".auto-type", {
-        strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
-        typeSpeed: 100,
-        backSpeed: 100,
-        loop: true,
-    })
+        var typed = new Typed(".auto-type", {
+            strings: ["Travel Destinations...", "Hiking Places...", "Camping Grounds..."],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        })
     </script>
 
     <script src="js/mscript.js"></script>
@@ -662,42 +670,42 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
-    // Get all anchor tags inside the mapdiv
-    const anchorTags = document.querySelectorAll('.mapdiv a');
+        // Get all anchor tags inside the mapdiv
+        const anchorTags = document.querySelectorAll('.mapdiv a');
 
-    // Add a click event listener to each anchor tag
-    anchorTags.forEach(anchor => {
-        anchor.addEventListener('click', function(event) {
-            event.preventDefault();
+        // Add a click event listener to each anchor tag
+        anchorTags.forEach(anchor => {
+            anchor.addEventListener('click', function (event) {
+                event.preventDefault();
 
-            const districtName = anchor.getAttribute('data-district');
-            const districtDescription = anchor.getAttribute('data-description');
+                const districtName = anchor.getAttribute('data-district');
+                const districtDescription = anchor.getAttribute('data-description');
 
-            Swal.fire({
-                title: 'District: ' + districtName,
-                html: '<p class="my-swal-text">' + districtDescription + '</p>',
-                icon: 'success',
-                width: '40%',
-                height: '80%',
-                heightAuto: false,
-                imageWidth: 50,
-                imageHeight: 50,
-                customClass: {
-                    container: 'my-swal-container',
-                    title: 'my-swal-title',
-                    text: 'my-swal-text',
-                    confirmButton: 'my-swal-confirm-button'
-                }
+                Swal.fire({
+                    title: 'District: ' + districtName,
+                    html: '<p class="my-swal-text">' + districtDescription + '</p>',
+                    icon: 'success',
+                    width: '40%',
+                    height: '80%',
+                    heightAuto: false,
+                    imageWidth: 50,
+                    imageHeight: 50,
+                    customClass: {
+                        container: 'my-swal-container',
+                        title: 'my-swal-title',
+                        text: 'my-swal-text',
+                        confirmButton: 'my-swal-confirm-button'
+                    }
+                });
             });
         });
-    });
     </script>
 
 </body>

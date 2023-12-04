@@ -150,9 +150,13 @@ if ($conn->connect_error) {
                     </tr>
                 </table> -->
 
-                <div class="gform" id="ff-compose"></div>
+                <div class="gform-container">
+                    <img src="Images/contact/mail9.gif" class="form-image">
+                    <div class="gform" id="ff-compose"></div>
+                </div>
                 <script async defer
                     src="https://formfacade.com/include/103057688257495423502/form/1FAIpQLScEC0AKNVoO0tFy1ln0mYGoOnzej2zA-4qTrjFMfNfPiRemgQ/classic.js?div=ff-compose"></script>
+
         </section>
     </div>
 
