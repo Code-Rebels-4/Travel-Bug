@@ -194,11 +194,11 @@ a #you:hover {
 
 /* g form */
 
-.gform {
+.gform-container {
   background-color: rgb(245, 243, 243);
   box-shadow: 0 0 20px 0 rgb(74, 74, 74);
   width: 55%;
-  max-height: 700px;
+  max-height: 1000px;
   min-height: 550px;
   margin-left: auto;
   margin-right: auto;
@@ -207,6 +207,13 @@ a #you:hover {
   vertical-align: middle;
   border-radius: 20px;
   overflow: auto;
+  text-align: center;
+}
+
+.gform-container img {
+  height: 40%;
+  width: 40%;
+  padding: 20px;
 }
 
 /* email */
@@ -304,7 +311,7 @@ a #you:hover {
 } */
 
 .footer-distributed {
-  margin-top: 600px;
+  margin-top: 900px;
 } 
 
 
