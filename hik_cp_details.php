@@ -49,6 +49,7 @@ $result = $conn->query($sql);
                 <li><a href="index.php#explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="contact.php">Admin Panel</a></li>
             </ul>
         </div>
     </nav>
@@ -2611,6 +2612,7 @@ if ($result->num_rows > 0) {
                 <a href="index.php#explore">Explore</a>
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
+                <a href="contact.php">Admin Panel</a>
 
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>
