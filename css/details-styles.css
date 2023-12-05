@@ -21,12 +21,6 @@
   justify-content: center;
 }
 
-.d1 a img {
-  margin-top: 7px;
-  margin-left: -160px;
-  width: 60px;
-}
-
 .text2 {
   font-size: 30px;
   font-weight: bold;
@@ -68,13 +62,13 @@
 
 /* Search input hover effect */
 .container .search input:hover {
-  border-color: #2ecc71; /* Green border color on hover */
+  border-color: #2c698d; /* Green border color on hover */
 }
 
 /* Search input focus styling */
 .container .search input:focus {
   outline: none;
-  border-color: #2ecc71;
+  border-color: #2c698d;
   box-shadow: 0 8px 16px rgba(46, 204, 113, 0.2),
     0 4px 4px rgba(46, 204, 113, 0.12);
 }
@@ -144,7 +138,7 @@
   display: none;
   overflow-y: scroll;
   height: 600px;
-  background: #00443f;
+  background: #2c698d;
   position: relative;
   margin: 10rem;
   width: 80%;
@@ -213,8 +207,7 @@
   cursor: pointer;
 }
 .tab-box .tab-btn.active2 {
-  color: #00443f;
-  text-shadow: 0 0 3px #01b1a6;
+  color: #00bfff;
 }
 
 .slider-box {
@@ -245,7 +238,7 @@
 }
 .slider-box .slide h2 {
   margin-bottom: 10px;
-  color: #00443f;
+  color: #272643;
 }
 
 .slider-box .slide .div1 {
@@ -268,54 +261,26 @@
   padding: 10px;
   border-radius: 8px;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.648);
-  background: linear-gradient(to bottom right, #01b1a6, #00443f);
+  background: linear-gradient(to bottom right, #ffffff, #bae8e8);
 }
 .acc-item h5 {
-  color: #a1fff9;
+  color: #2c698d;
   text-align: left;
   font-weight: bold;
   font-size: 20px;
 }
 .acc-item p {
-  color: white;
+  color: #272643;
   text-align: left;
   margin: 15px 0 5px 20px;
 }
 .acc-item p iconify-icon {
   font-size: 20px;
-  color: #a1fff9;
+  color: #2c698d;
   margin-right: 5px;
 }
-
-input[type="radio"] {
-  display: none;
-}
-
-.accordian .content {
-  color: white;
-  line-height: 26px;
-  margin-left: 20px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.7s, padding 0.7s;
-}
-
-.accordian a {
-  color: rgb(255, 255, 255);
-  font-style: italic;
-}
-
-.accordian input[type="radio"]:checked + label + .content {
-  max-height: 300px;
-  padding: 5px;
-}
-
-.accordian input[type="radio"]:checked + label::before {
-  content: "-";
-}
-
 .acc-item p a {
-  color: white;
+  color: #272643;
 }
 
 .card {
@@ -329,10 +294,10 @@ input[type="radio"] {
   transition: 0.5s;
   background: linear-gradient(
     to right,
-    #005f59 0%,
-    #005f59 50%,
-    #00443f 50%,
-    #00443f 100%
+    #e3f6f5 0%,
+    #e3f6f5 50%,
+    #bae8e8 50%,
+    #bae8e8 100%
   );
 }
 .card:hover {
@@ -372,7 +337,7 @@ input[type="radio"] {
 .card .cont .details h2 {
   font-size: 1.25em;
   font-weight: 600;
-  color: #ffffff;
+  color: #2c698d;
   line-height: 1.2em;
 }
 
@@ -382,6 +347,7 @@ input[type="radio"] {
   font-weight: 600;
   text-align: center;
   padding-top: 5px;
+  color: #272643;
 }
 
 .card .cont .details .data a {
@@ -390,5 +356,5 @@ input[type="radio"] {
   line-height: 1.2em;
   text-align: center;
   text-decoration: underline;
-  color: #ffffff;
+  color: #272643;
 }

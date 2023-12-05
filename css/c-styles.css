@@ -1,3 +1,4 @@
+
 .back {
   background-image: url(../Images/contact/Bg_Image.jpg);
   background-size: cover;
@@ -190,9 +191,34 @@ a #you:hover {
   color: #333;
 }
 
+
+/* g form */
+
+.gform-container {
+  background-color: rgb(245, 243, 243);
+  box-shadow: 0 0 20px 0 rgb(74, 74, 74);
+  width: 55%;
+  max-height: 1000px;
+  min-height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 20px;
+  vertical-align: middle;
+  border-radius: 20px;
+  overflow: auto;
+  text-align: center;
+}
+
+.gform-container img {
+  height: 40%;
+  width: 40%;
+  padding: 20px;
+}
+
 /* email */
 
-.image #email table {
+/* .image #email table {
   background-color: rgb(245, 243, 243);
   box-shadow: 0 0 20px 0 rgb(74, 74, 74);
   margin-left: auto;
@@ -238,8 +264,8 @@ a #you:hover {
 
 .image #email table td form .btn {
   border-radius: 20px;
-  color: #333;
-  margin-top: 18px;
+  color: #000000;
+  margin-top: 25px;
   margin-bottom: 25px;
   padding: 10px;
   background-color: #939f8a;
@@ -251,7 +277,7 @@ a #you:hover {
 
 .image #email table td form .btn:hover {
   color: #ffff;
-  background-color: #12395f;
+  background-color: #0021fb;
   transform: translate(1px, 1px);
 }
 
@@ -263,65 +289,32 @@ a #you:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+} */
+
+/* Additional styles for new form elements */
+/* .image #email table td form select.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 15px;
+  padding-left: 10px;
+  border: 2px solid black;
+  border-radius: 16px;
+  outline: none;
+  padding-right: 30px;
+  font-size: 17px;
 }
 
-/* popup */
-.image #email table td form #bt .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
+/* Adjust padding for dropdown options */
+/* .image #email table td form select.input-field option {
+  padding: 10px;
+  font-size: 17px;
+} */
 
-.image #email table td form #bt .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
+.footer-distributed {
+  margin-top: 900px;
+} 
 
-.image #email table td form #bt .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-/* essential */
-footer {
-  margin-top: 450px;
-}
 
 /* .copyright{
   font-size: 16px;

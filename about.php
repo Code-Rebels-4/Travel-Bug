@@ -48,6 +48,7 @@ if ($conn->connect_error) {
                 <li><a href="index.php#explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="contact.php">Admin Panel</a></li>
             </ul>
         </div>
     </nav>
@@ -56,8 +57,7 @@ if ($conn->connect_error) {
         <br><br><br>
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">About</h1>
         <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">Who We Are...</p><br>
-
-        <div data-aos="fade" data-aos-delay="1300" data-aos-duration="1600">Designers, Thinkers <br> & Collaborators</div>
+        <div class="phrase" data-aos="fade" data-aos-delay="1300" data-aos-duration="1600">Designers, Thinkers <br> & Collaborators</div>
 
     </div>
 
@@ -120,6 +120,7 @@ if ($conn->connect_error) {
                 <a href="index.php#explore">Explore</a>
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
+                <a href="contact.php">Admin Panel</a>
 
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>

@@ -20,7 +20,7 @@
   justify-content: center;
   padding: 100px;
   flex-direction: column;
-  background-image: url(../Images/home/h_bg_6Copy.jpg);
+  background-image: url(../Images/home/home.jpg);
   background-size: cover;
 }
 
@@ -38,6 +38,7 @@
   letter-spacing: 5px;
   line-height: 75px;
   font-family: 'Roboto', sans-serif;
+  margin-top: -200px;
 }
 
 .home .content .text2 {
@@ -52,6 +53,7 @@
   background-position: 0 0;
   animation: back 20s linear infinite;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .home .content .text2 h1 {
@@ -209,10 +211,26 @@
   text-align: justify;
 }
 
-/*-------- Map Popup ---------*/
-
-.my-swal-container {
+.map-message {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  font-size: 10pt;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: rgba(227, 227, 227, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  transition: opacity 0.5s ease-in-out;
 }
+
+.mapdiv:hover .map-message {
+  opacity: 0;
+}
+
+/*-------- Map Popup ---------*/
 
 .my-swal-title {
   color: #333;
@@ -489,7 +507,8 @@ figure {
   margin-top: 30px;
   margin-left: 60px;
   margin-right: 60px;
-  text-align: left; /* Center the figure content horizontally */
+  text-align: left;
+  /* Center the figure content horizontally */
 }
 
 figure:hover {
@@ -692,8 +711,12 @@ figcaption button:hover a {
 
 .item .des {
   margin: 20px 0;
+  font-family: "Josefin Sans", sans-serif;
   opacity: 0;
   animation: showcontent 1s ease-in-out 0.3s 1 forwards;
+  font-size: 15px;
+  font-style: bold;
+
 }
 
 .item button {

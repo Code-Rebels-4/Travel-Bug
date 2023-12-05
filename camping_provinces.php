@@ -45,6 +45,7 @@
                 <li><a href="index.php#explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="contact.php">Admin Panel</a></li>
             </ul>
         </div>
     </nav>
@@ -56,7 +57,7 @@
         <br><br><br>
         <!-- Main heading and subheading -->
         <h1 data-aos="fade-right" data-aos-delay="150" data-aos-duration="400">Camping Grounds</h1>
-        <p style="color: aquamarine" data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Discover the
+        <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="400">Discover the
             enchanting allure of your favorite <br> camping grounds,
             thoughtfully categorized by <br> their corresponding provinces!
         </p><br>
@@ -390,6 +391,7 @@
                 <a href="index.php#explore">Explore</a>
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
+                <a href="contact.php">Admin Panel</a>
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>
