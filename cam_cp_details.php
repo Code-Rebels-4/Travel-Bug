@@ -54,7 +54,7 @@ $result = $conn->query($sql);
     </nav>
 
     <!--Banner-->
-    <div class="image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/C-CP.jpg);">
+    <div class="image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/camp.jpg);">
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
             Central Province
         </h1>
