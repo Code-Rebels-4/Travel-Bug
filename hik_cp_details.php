@@ -49,13 +49,14 @@ $result = $conn->query($sql);
                 <li><a href="index.php#explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
+                <li><a href="contact.php">Admin Panel</a></li>
             </ul>
         </div>
     </nav>
 
     <!--Banner-->
     <div class="image"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/H-CP.jpg);">
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/wall/hikewall.jpg);">
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
             Central Province
         </h1>
@@ -2611,6 +2612,7 @@ if ($result->num_rows > 0) {
                 <a href="index.php#explore">Explore</a>
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
+                <a href="contact.php">Admin Panel</a>
 
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>
