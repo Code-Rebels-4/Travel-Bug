@@ -146,6 +146,9 @@
   padding: 30px;
   border-radius: 30px;
 }
+.container .places-preview .preview::-webkit-scrollbar{
+  display: none;
+}
 
 .container .places-preview .preview.active {
   display: inline-block;
