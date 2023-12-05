@@ -218,7 +218,9 @@
                     <circle cx="149.2" cy="439.8" id="2">
                     </circle>
                 </svg>
+
                 <div class="map-message">Click on a district to view more details.</div>
+
             </div>
         </div>
 
@@ -295,7 +297,7 @@
         </div>
 
     </section>
-
+    
     <!--Explore-->
     <section id="explore" class="explore">
         <div class="text2" data-aos="flip-up" data-aos-delay="300" data-aos-duration="500">
