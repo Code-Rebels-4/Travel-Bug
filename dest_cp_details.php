@@ -2546,17 +2546,29 @@ $result = $conn->query($sql);
 
     <!--Pop-Up Model-->
     <script type="text/javascript">
-        let preveiwContainer = document.querySelector('.places-preview');
-        let previewBox = preveiwContainer.querySelectorAll('.preview');
+        let previewContainer = document.querySelector('.places-preview');
+        let previewBox = previewContainer.querySelectorAll('.preview');
 
         document.querySelectorAll('.places-container .place').forEach(place => {
             place.onclick = () => {
-                preveiwContainer.style.display = 'flex';
+                previewContainer.style.display = 'flex';
                 let name = place.getAttribute('data-name');
+
                 previewBox.forEach(preview => {
                     let target = preview.getAttribute('data-target');
                     if (name == target) {
                         preview.classList.add('active');
+
+                        // Reset active state for tabs and slides
+                        const tabs = preview.querySelectorAll('.tab-btn');
+                        const slides = preview.querySelectorAll('.slide');
+
+                        tabs.forEach(tab => tab.classList.remove('active2'));
+                        slides.forEach(slide => slide.classList.remove('active2'));
+
+                        // Set the first tab and slide as active
+                        tabs[0].classList.add('active2');
+                        slides[0].classList.add('active2');
                     }
                 });
             };
@@ -2565,28 +2577,26 @@ $result = $conn->query($sql);
         previewBox.forEach(close => {
             close.querySelector('.fa-times').onclick = () => {
                 close.classList.remove('active');
-                preveiwContainer.style.display = 'none';
+                previewContainer.style.display = 'none';
             };
         });
 
-        const tabs = document.querySelectorAll('.tab-btn');
-        const all_slide = document.querySelectorAll('.slide');
+        previewBox.forEach(preview => {
+            const tabs = preview.querySelectorAll('.tab-btn');
+            const slides = preview.querySelectorAll('.slide');
 
-        tabs.forEach((tab, index) => {
-            tab.addEventListener('click', (e) => {
-                tabs.forEach(tab => {
-                    tab.classList.remove('active2')
+            tabs.forEach((tab, index) => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(tab => tab.classList.remove('active2'));
+                    tab.classList.add('active2');
+
+                    slides.forEach(slide => slide.classList.remove('active2'));
+                    slides[index].classList.add('active2');
                 });
-                tab.classList.add('active2');
-
-                all_slide.forEach(slide => {
-                    slide.classList.remove('active2')
-                });
-
-                all_slide[index].classList.add('active2');
-            })
-        })
+            });
+        });
     </script>
+
 
     <!--Animation Scripts-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

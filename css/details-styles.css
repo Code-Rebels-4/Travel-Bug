@@ -161,7 +161,7 @@
 }
 
 .prewImg:hover {
-  transform: scale(1.2);
+  transform: scale(1.25);
   filter: saturate(1.5);
   z-index: 2;
 }
@@ -233,7 +233,7 @@
 .slider-box .slide.active2 {
   display: block;
 }
-.slider-box .slide.active2 p {
+.slider-box .slide p {
   text-align: justify;
 }
 .slider-box .slide h2 {
@@ -281,6 +281,7 @@
 }
 .acc-item p a {
   color: #272643;
+  text-decoration: underline;
 }
 
 .card {
@@ -352,7 +353,6 @@
 
 .card .cont .details .data a {
   font-size: 1em;
-  font-style: italic;
   line-height: 1.2em;
   text-align: center;
   text-decoration: underline;
