@@ -12,7 +12,8 @@ include "config.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dashboard-style.css">
     <link rel="icon" href="images/icon.png" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <title>Welcom to Admin Panel</title>
 
     <script src="js/date.js"></script>
@@ -24,7 +25,7 @@ include "config.php";
     <!------------------------Heder---------------------------->
     <div class="header">
         <div id="dateDisplay"></div>
-        <div id="siteName">Travel Bug</div>
+        <div id="siteName">TravelBug</div>
         <div class="user-info">
             <span class="username"></span>
             <span class="user-position"></span>
@@ -35,13 +36,13 @@ include "config.php";
         $result = $conn->query($sql);
 
         // Check if any rows are returned
-        if ($result->num_rows > 0) {
+        if($result->num_rows > 0) {
             // Output data of each row
-            while ($row = $result->fetch_assoc()) {
+            while($row = $result->fetch_assoc()) {
                 // Display user information in the specified container
                 echo '<div class="user-info">';
-                echo '<span class="username">' . htmlspecialchars($row["username"]) . '</span>';
-                echo '<span class="user-position">' . htmlspecialchars($row["position"]) . '</span>';
+                echo '<span class="username">'.htmlspecialchars($row["username"]).'</span>';
+                echo '<span class="user-position">'.htmlspecialchars($row["position"]).'</span>';
                 echo '</div>';
             }
         } else {
@@ -64,7 +65,7 @@ include "config.php";
 
             <div class="option">
                 <a href="travel_destination_edit.php">
-                    <img src="images/Travel_Destination.png" alt="Option 1 Icon">Travel Destination
+                    <img src="images/Travel_Destination.png" alt="Option 1 Icon">Travel Destinations
                 </a>
             </div>
 
@@ -112,7 +113,9 @@ include "config.php";
                         </div>
                         <div class="right">
                             <div class="text"> Website Reach</div>
-                            <div class="price"><?php echo number_format(25000); ?></div>
+                            <div class="count">
+                                <?php echo number_format(25000); ?>
+                            </div>
                         </div>
                         <!-- Content for the top-right div -->
                     </div>
@@ -124,8 +127,10 @@ include "config.php";
                             </div>
                         </div>
                         <div class="right">
-                            <div class="text"> Total Accounts </div>
-                            <div class="price"><?php echo number_format(45000); ?></div>
+                            <div class="text">Daily User Count</div>
+                            <div class="count">
+                                <?php echo number_format(45000); ?>
+                            </div>
                         </div>
                         <!-- Content for the top-right div -->
                     </div>
@@ -137,8 +142,10 @@ include "config.php";
                             </div>
                         </div>
                         <div class="right">
-                            <div class="text"> Total Employee </div>
-                            <div class="price"><?php echo number_format(10500); ?></div>
+                            <div class="text">Total Admin Accounts</div>
+                            <div class="count">
+                                <?php echo number_format(10500); ?>
+                            </div>
                         </div>
                         <!-- Content for the bottom-right div -->
                     </div>
@@ -151,7 +158,9 @@ include "config.php";
                         </div>
                         <div class="right">
                             <div class="text"> Notifications </div>
-                            <div class="price"><?php echo number_format(10200); ?></div>
+                            <div class="count">
+                                <?php echo number_format(10200); ?>
+                            </div>
                         </div>
                         <!-- Content for the bottom-right div -->
                     </div>
@@ -164,10 +173,13 @@ include "config.php";
 
             <div class="function-container">
 
-                <div class="pricecontainer">
+                <div class="photoContainer">
 
 
-                    <!-- Repeat more items as needed -->
+                    <div id="iframe-wrapper">
+                        <iframe
+                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF2JVKBQ_plGHudzSY4UpcmkM_TqrCxFASF769als7w9wxCag693ydwzvSg9VhFFGrDkmB39TiNimm/pubhtml?gid=1208719834&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                    </div>
 
                 </div>
             </div>
