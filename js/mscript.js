@@ -18,20 +18,10 @@ $(document).ready(function () {
   $('.scroll-up-btn').click(function () {
     $('html').animate({ scrollTop: 0 });
   });
-
-  // var typed = new Typed(".typing", {
-  //    strings: ["Youtuber", "Devalopper", "Blogger", "Dedingner"],
-  //    typeSpeed: 100,
-  //    backSpeed: 60,
-  //    loop:true
-  // });
-
-  // togle menu/navbar script
-  // $('.menu-btn').click(function () {
-  //   $('.navbar .menu').toggleClass("active");
-  //   $('.menu-btn i').toggleClass("active");
-  // });
+  
 });
+
+
 
 
 
