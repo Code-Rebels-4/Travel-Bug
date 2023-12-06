@@ -6,16 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Images/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="css/h-styles.css" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/h-styles.css" />
 
     <script src="https://kit.fontawesome.com/4a7f9535df.js"></script>
     <script type="text/javascript" src="js/navscroll.js"></script>
-    <script src="js/card.js"></script>
 
     <title>TravelBug</title>
 </head>
@@ -25,6 +23,7 @@
         <i class="fas fa-angle-up"></i>
     </div>
 
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><i class="fa-solid fa-tents fa-bounce" style="color: #08c1e4;"></i>TravelBug</div>
@@ -38,8 +37,8 @@
         </div>
     </nav>
 
+    <!-- Banner -->
     <section class="home">
-        <!-- <video class="video" src="Videos/beach_1.mp4" autoplay muted loop></video> -->
         <div class="content">
             <div class="text1" data-aos="fade-right" data-aos-delay="200" data-aos-duration="2000">Welcome to</div>
             <div class="text2" data-aos="fade-left" data-aos-delay="200" data-aos-duration="2000">
@@ -48,12 +47,11 @@
             <div class="text3" data-aos="fade" data-aos-delay="200" data-aos-duration="2000">View information about
                 <span class="auto-type"></span>
             </div>
-            <!-- <a href="#">Explore</a> -->
         </div>
 
     </section>
 
-    <!--second page-->
+    <!-- Info(Sri Lanka) -->
     <section class="second-page" id="second-page">
         <div class="second-page-content">
             <div class="card-one">
@@ -83,6 +81,7 @@
                 </p>
             </div>
 
+            <!-- SVG Map -->
             <div class="mapdiv" data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="1000">
                 <svg version="1.2" viewbox="0 0 1000 1745" xmlns="http://www.w3.org/2000/svg">
 
@@ -298,7 +297,7 @@
 
     </section>
 
-    <!--Explore-->
+    <!-- Explore Section -->
     <section id="explore" class="explore">
         <div class="text2" data-aos="flip-up" data-aos-delay="300" data-aos-duration="500">
             Discover the Most Attractive Locations!
@@ -307,12 +306,10 @@
         <div class="card-one">
             <figure class="image-block" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
                 <h1>Travel <br> Destinations</h1>
-
                 <img src="Images/home/destination.png" alt="An image of temple of the tooth" />
                 <figcaption>
                     <h3>Travel Destinations</h3>
-                    <p>Explore Sri Lanka Like Never Before - Your One-Stop Guide to the Island's Diverse Destinations!
-                    </p>
+                    <p>Explore Sri Lanka Like Never Before - Your One-Stop Guide to the Island's Diverse Destinations!</p>
                     <a href="destination_provinces.php">
                         <button>Click Here</button>
                     </a>
@@ -323,9 +320,7 @@
                 <h1>Hiking <br> Places</h1>
                 <img src="Images/home/hiking places.jpg" alt="An image of people hiking on a mountain" />
                 <figcaption>
-                    <h3>
-                        Hiking Places
-                    </h3>
+                    <h3>Hiking Places</h3>
                     <p>Discover Sri Lanka's Best Hiking Trails - Experience Adventure Like Never Before!</p>
                     <a href="hiking_provinces.php">
                         <button>Click Here</button>
@@ -335,15 +330,10 @@
 
             <figure class="image-block" data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">
                 <h1>Camping <br> Grounds</h1>
-
                 <img src="Images/home/camping.png" alt="An image of a person in a tent" />
-
                 <figcaption>
-                    <h3>
-                        Camping Grounds
-                    </h3>
-                    <p>Pitch Your Tent and Explore Sri Lanka's Natural Wonders - Your Guide to Camping Grounds Across
-                        the Island!</p>
+                    <h3>Camping Grounds</h3>
+                    <p>Pitch Your Tent and Explore Sri Lanka's Natural Wonders - Your Guide to Camping Grounds Across the Island!</p>
                     <a href="camping_provinces.php">
                         <button>Click Here</button>
                     </a>
@@ -352,8 +342,7 @@
         </div>
     </section>
 
-
-    <!--Festivals-->
+    <!-- Festivals Section -->
     <section id="cards" class="cards">
         <div class="text2" data-aos="flip-up" data-aos-delay="300" data-aos-duration="500">
             Discover some of the Most Popular Festivals in Sri Lanka
@@ -377,7 +366,6 @@
                             of Gautama Buddha.</div>
                     </div>
                 </div>
-
                 <div class="item" style="background-image: url(Images/home/kep.jpg);">
                     <div class="content">
                         <div class="name">Kandy Esala Perahera</div>
@@ -392,7 +380,6 @@
                             performances.</div>
                     </div>
                 </div>
-
                 <div class="item" style="background-image: url(Images/home/ny.jpg);">
                     <div class="content">
                         <div class="name" style="color: black;">Sinhala and Tamil New Year</div>
@@ -407,7 +394,6 @@
                             Year with cultural richness and traditional customs.</div>
                     </div>
                 </div>
-
                 <div class="item" style="background-image: url(Images/home/diwali.jpg);">
                     <div class="content">
                         <div class="name">Deepavali</div>
@@ -422,7 +408,6 @@
                             unity, and cultural richness.</div>
                     </div>
                 </div>
-
                 <div class="item" style="background-image: url(Images/home/pongal.jpg);">
                     <div class="content">
                         <div class="name">Thai Pongal</div>
@@ -455,7 +440,6 @@
                             the Western coast (e.g., Unawatuna, Hikkaduwa).</div>
                     </div>
                 </div>
-
                 <div class="item" style="background-image: url(Images/home/christmas.png);">
                     <div class="content">
                         <div class="name" style="color:black">Christmas</div>
@@ -471,7 +455,6 @@
                             non-Christians,and forms an integral part of the holiday season organized around it.</div>
                     </div>
                 </div>
-
                 <div class="item" style="background-image: url(Images/home/easter.jpg);">
                     <div class="content">
                         <div class="name" style="color:black">Easter</div>
@@ -487,7 +470,6 @@
                             His followers realised that God had raised Jesus from the dead..</div>
                     </div>
                 </div>
-
                 <div class="item" style="background-image: url(Images/home/ramadan.jpg);">
                     <div class="content">
                         <div class="name">Ramadan</div>
@@ -503,7 +485,6 @@
                             wearing of new clothes, large feasts for meals and the exchanging of gifts.</div>
                     </div>
                 </div>
-
                 <div class="item" style="background-image: url(Images/home/hujj.jpg);">
                     <div class="content">
                         <div class="name" style="color:black">Hajj</div>
@@ -520,8 +501,8 @@
                     </div>
                 </div>
 
-
             </div>
+
             <div class="buttons">
                 <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
                 <button id="next"><i class="fa-solid fa-angle-right"></i></button>
@@ -565,9 +546,7 @@
         <div class="footer-right">
             <p class="footer-company-about">
                 <span>About the Team</span>
-
                 As a group of Software Engineering undergraduates, we engage in coding, website and software application
-
             </p>
             <div class="footer-icons">
                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -589,8 +568,7 @@
     </script>
 
     <script src="js/mscript.js"></script>
-    <script src="js/fest_script.js"></script>
-
+    <script src="js/festivals_script.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
