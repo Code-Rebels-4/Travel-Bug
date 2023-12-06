@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="places.css">
     <link rel="icon" href="images/icon.png" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Welcom to Travel Destination</title>
+    <title>Welcome to Travel Destinations!</title>
 
     <script src="js/date.js"></script>
     <script src="js/upload_image.js"></script>
@@ -19,7 +19,7 @@
     <!------------------------Heder---------------------------->
     <div class="header">
         <div id="dateDisplay"></div>
-        <div id="siteName">Travel Bug</div>
+        <div id="siteName">TravelBug</div>
         <div class="user-info">
             <span class="username"></span>
             <span class="user-position"></span>

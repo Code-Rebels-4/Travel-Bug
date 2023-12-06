@@ -54,7 +54,7 @@ $conn->close();
 
 <body>
     <div class="Headline">
-        <h1>Welcome to Admin Panel <br> Travel Bug</h1>
+        <h1>Welcome to Admin Panel of <br> TravelBug</h1>
     </div>
 
     <div class="container">
