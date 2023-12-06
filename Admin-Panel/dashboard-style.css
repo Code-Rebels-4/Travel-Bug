@@ -167,7 +167,7 @@ html {
   align-items: center;
   padding: 10px;
   max-width: 1245px;
-  height: 80%;
+  height: 95%;
   overflow: auto; /* Enable scrolling for content */
   border: 1px solid rgb(255, 255, 255);
 }
@@ -251,18 +251,17 @@ html {
 /* Response Section */
 
 #iframe-wrapper {
-  height: 350px;
-  width: 1150px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  vertical-align: middle;
-  border-radius: 20px;
-  overflow: auto;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Adjust this percentage based on your iframe content */
+  overflow: hidden;
 }
 
 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 340px;
-  border: none;
+  height: 90%;
+  border: 0; /* Remove iframe border if necessary */
 }
