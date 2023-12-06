@@ -43,7 +43,6 @@
                 <li><a href="index.php#explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="contact.php">Admin Panel</a></li>
             </ul>
         </div>
     </nav>
@@ -82,7 +81,7 @@
         <div class="left-box information-box" data-aos="fade-right" data-aos-delay="250" data-aos-duration="200">
             <h1>Personal Gear and Clothing:</h1> <br>
             <p>
-            <ul type="none">
+            <ul>
                 <li>
                     1.5-liter bottle of water
                 </li>
@@ -120,7 +119,7 @@
         <div class="right-box information-box" data-aos="fade-left" data-aos-delay="250" data-aos-duration="200">
             <h1>Essentials for Safety and Navigation:</h1><br>
             <p>
-            <ul type="none">
+            <ul>
                 <li>
                     Wear appropriate clothing and footwear
                 </li>
@@ -143,7 +142,7 @@
     <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="250" data-aos-duration="00">
         <h1>Miscellaneous Tips and Extras:</h1><br>
         <p>
-        <ul type="none">
+        <ul>
             <li>
                 Ensure appropriate behavior by refraining from smoking, alcohol, or drug use
             </li>
@@ -393,7 +392,6 @@
                 <a href="index.php#explore">Explore</a>
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
-                <a href="contact.php">Admin Panel</a>
             </p>
             <p class="footer-company-name">TravelBug © 2022</p>
         </div>
