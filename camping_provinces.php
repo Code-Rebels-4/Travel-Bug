@@ -70,7 +70,7 @@
     <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="250" data-aos-duration="200">
         <h1>Shelter and Comfort:</h1><br>
         <p>
-        <ul type="none">
+        <ul>
             <li>
                 Tent
             </li>
@@ -102,7 +102,7 @@
         <div class="left-box information-box" data-aos="fade-right" data-aos-delay="250" data-aos-duration="200">
             <h1>Tools and Repair:</h1><br>
             <p>
-            <ul type="none">
+            <ul>
                 <li>
                     Multi-Tool Kit
                 </li>
@@ -140,7 +140,7 @@
         <div class="right-box information-box" data-aos="fade-left" data-aos-delay="250" data-aos-duration="200">
             <h1>Cooking and Eating:</h1><br>
             <p>
-            <ul type="none">
+            <ul>
                 <li>
                     Stove and fuel
                 </li>
@@ -171,7 +171,7 @@
     <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="250" data-aos-duration="200">
         <h1>Miscellaneous:</h1><br>
         <p>
-        <ul type="none">
+        <ul>
             <li>
                 Firewood sourced near campsite
             </li>

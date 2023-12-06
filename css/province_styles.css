@@ -429,6 +429,9 @@ button:focus {
   margin: 20px auto;
   max-width: 500px;
   heightauto: true;
+}
+
+.information-box h1 {
   text-align: center;
 }
 
@@ -457,29 +460,24 @@ button:focus {
 .right-box,
 .center-box {
   flex: 1;
-  margin: 0 10px;
+  margin: 0 40px;
   /* Adjust margin as needed */
 }
 
 .top-box {
-  text-align: center;
 }
 
 .left-box {
-  text-align: center;
   margin-right: 150px;
   heightauto: true;
 }
 
 .right-box {
-  text-align: center;
   margin-left: 150px;
   heightauto: true;
 }
 
 .center-box {
-  text-align: center;
-  align-self: center;
 }
 
 /* new styles for the animated image */
