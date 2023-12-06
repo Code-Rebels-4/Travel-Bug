@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eaecf0;
+  font-family: "Inter", Arial, sans-serif;
+  /* Apply Inter font family */
+}
+
+/*------- Header Section Open--------*/
+.header {
+  position: relative;
+  height: 80px;
+  background-color: #007dfe;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.username {
+  font-size: 1.6em;
+  color: #fff;
+}
+
+.user-position {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+#dateDisplay {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  order: -1; /* This property moves #dateDisplay to the left */
+}
+
+#siteName {
+  font-family: "Arial", sans-serif;
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  order: -1; /* This property moves #dateDisplay to the left */
+}
+
+/*------------------------------------------------- Header Section Closed----------------------------------------------------*/
+
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* Horizontally center the options */
+}
+
+/* Example CSS to style scrollbars */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #c8c6c6;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 0) fff;
+}
+/*-------------------------------------------------Left Side Option Container Open--------------------------------------*/
+.options {
+  width: 300px;
+  height: 670px;
+  background-color: #ffffff;
+  /* Light gray background */
+  display: flex;
+  flex-direction: column;
+  /* Stack options vertically */
+  align-items: stretch;
+  /* Stretch options to fill container */
+  padding-top: 5px;
+  /* Increased padding */
+  border-radius: 0px;
+  /* Rounded corners */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+/* Style for the Dashboard heading */
+.options h2 {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  /* Center the text horizontally */
+  margin-bottom: 10px;
+}
+
+.option {
+  width: 100%;
+  height: 55px;
+  /* Increased height */
+  background-color: #f4f3f3;
+  /* background */
+  margin-bottom: 2px;
+  /* Increased spacing between options */
+  display: flex;
+  justify-content: flex-start;
+  /* Align content to the left */
+  align-items: center;
+  border-radius: 0px;
+  /* Slightly rounded corners */
+  transition: background-color 0.3s ease;
+  /* Smooth color transition */
+}
+
+.option:hover {
+  background-color: #f1d6d6;
+  /* Darker on hover */
+}
+
+.option a {
+  text-decoration: none;
+  font-size: 12px;
+  /* Slightly larger font size */
+  color: #000000;
+}
+
+.option a img {
+  vertical-align: middle;
+  margin-right: 2px;
+  /* Increased spacing between icon and text */
+  width: 24px;
+  /* Slightly larger icon */
+  height: 24px;
+  margin-left: 5px;
+  /* Increased spacing on the left */
+}
+
+/*-------------------------------------------------Left Side Option Container Closed--------------------------------------*/
+
+/*-----------------display container------------------*/
+.display-container {
+  width: 100%;
+  height: 670px;
+}
+.function-container {
+  width: 100%;
+  max-width: 1275px;
+  height: 450px;
+  margin: 5px auto;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pricecontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  padding: 10px;
+  max-width: 1245px;
+  height: 80%;
+  overflow: auto; /* Enable scrolling for content */
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Decreased margin value */
+  padding: 10px; /* Decreased padding value */
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px; /* Decreased border radius value */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); /* Adjusted box shadow values */
+}
+
+.left {
+  margin-left: 10px;
+  flex: 0 0 auto;
+  margin-right: 15px;
+}
+
+.right {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon img {
+  max-width: 60px;
+  height: auto;
+}
+
+.text {
+  font-weight: bold;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.price {
+  margin-top: auto;
+  color: #4caf50;
+  font-size: 1.2rem;
+}
+/* -----------------------------------Bottom container------------------------ */
+.new_bottom_container {
+  width: 1275px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 8px auto;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bottom_container_text {
+  display: flex;
+  flex-direction: column; /* Content arranged vertically */
+  font-size: 0.7rem;
+  margin: 5px;
+  margin-bottom: 0px;
+  color: #333;
+}
+
+.new_right_column {
+  flex: 1;
+  display: flex;
+  flex-direction: row; /* Adjusted to arrange items vertically */
+}
+
+.new_column_item {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
