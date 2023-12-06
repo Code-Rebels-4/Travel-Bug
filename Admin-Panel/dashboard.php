@@ -80,7 +80,7 @@ include "config.php";
             </div>
 
             <div class="option"><a href="../index.php">
-                    <img src="images/camping.png" alt="Option 1 Icon">Logout
+                    <img src="images/logout.png" alt="Option 1 Icon">Logout
                 </a>
             </div>
             <!-- Add more options here -->

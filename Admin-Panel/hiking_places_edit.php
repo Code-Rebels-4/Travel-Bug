@@ -63,7 +63,7 @@ include "config.php";
         <!--------------------------------------------------------->
         <!---------------------Side Category----------------------->
         <div class="options">
-            <h2>Dashboard</h2>
+            <h2><a href="dashboard.php">Dashboard</a></h2>
 
             <div class="option">
                 <a href="travel_destination_edit.php">
