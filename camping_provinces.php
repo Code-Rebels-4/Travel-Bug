@@ -63,10 +63,10 @@
         </p><br>
     </div>
 
-    <!-- Additional content sections with animations -->
+    <h1 class="text2" data-aos="flip-up" data-aos-delay="200" data-aos-duration="400">Essential Camping Gear</h1>
 
     <!-- Information box at the top -->
-    <br><br><br><br><br><br>
+    <br>
     <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="250" data-aos-duration="200">
         <h1>Shelter and Comfort:</h1><br>
         <p>
@@ -85,6 +85,12 @@
             </li>
             <li>
                 Lantern
+            </li>
+            <li>
+                Footwear
+            </li>
+            <li>
+                Rain Gear
             </li>
         </ul>
         </p>
@@ -111,6 +117,15 @@
                 </li>
                 <li>
                     Saw or axe
+                </li>
+                <li>
+                    Multimeter
+                </li>
+                <li>
+                    Safety Gear
+                </li>
+                <li>
+                    Utility Knife
                 </li>
             </ul>
             </p>
@@ -159,6 +174,9 @@
         <ul type="none">
             <li>
                 Firewood sourced near campsite
+            </li>
+            <li>
+                Mosquito Net
             </li>
         </ul>
         </p>
@@ -451,40 +469,40 @@
     <script src="js/mscript.js"></script>
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Add a click event listener to the "View More Details" button in Card 1
-        const button1 = document.getElementById("viewDetailsBtn1");
+        document.addEventListener("DOMContentLoaded", function () {
+            // Add a click event listener to the "View More Details" button in Card 1
+            const button1 = document.getElementById("viewDetailsBtn1");
 
-        button1.addEventListener("click", function() {
-            // Navigate to page1 (replace 'c-details-CP.php' with the actual URL)
-            window.location.href = 'c-details-CP.php';
+            button1.addEventListener("click", function () {
+                // Navigate to page1 (replace 'c-details-CP.php' with the actual URL)
+                window.location.href = 'c-details-CP.php';
+            });
         });
-    });
 
-    // If you have Card 2, you can add similar code for its button
-    document.addEventListener("DOMContentLoaded", function() {
-        const button2 = document.getElementById("viewDetailsBtn2");
+        // If you have Card 2, you can add similar code for its button
+        document.addEventListener("DOMContentLoaded", function () {
+            const button2 = document.getElementById("viewDetailsBtn2");
 
-        button2.addEventListener("click", function() {
-            window.location.href = 'c-details-CP.php';
+            button2.addEventListener("click", function () {
+                window.location.href = 'c-details-CP.php';
+            });
         });
-    });
     </script>
 
 
 
     <script>
-    // Example: Adding a click event listener to the button
-    document.addEventListener('DOMContentLoaded', function() {
-        var readMoreButton = document.getElementById('readMoreButton');
+        // Example: Adding a click event listener to the button
+        document.addEventListener('DOMContentLoaded', function () {
+            var readMoreButton = document.getElementById('readMoreButton');
 
-        if (readMoreButton) {
-            readMoreButton.addEventListener('click', function() {
-                // Handle the click event
-                window.location.href = 'c-details-CP.php';
-            });
-        }
-    });
+            if (readMoreButton) {
+                readMoreButton.addEventListener('click', function () {
+                    // Handle the click event
+                    window.location.href = 'c-details-CP.php';
+                });
+            }
+        });
     </script>
 
 
@@ -492,9 +510,10 @@
     <!-- AOS (Animate On Scroll) library initialization -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 
 </body>
 
 </html>
+

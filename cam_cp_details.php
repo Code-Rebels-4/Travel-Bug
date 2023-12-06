@@ -485,10 +485,10 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
+                                            <h3>Kandy General Hospital</h3>
                                             <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
                                             <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
-                                            <h3 style="color: #e20059;">Peradeniya Hospital</h3>
+                                            <h3>Peradeniya Hospital</h3>
                                             <a href="tel:+94 81 238 8001">+94 81 238 8001</a><br>
                                             <a href="tel:+94 81 238 8005">+94 81 238 8005</a>
                                         </div>
@@ -501,10 +501,10 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
+                                            <h3>Kandy Police Station</h3>
                                             <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
                                             <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
-                                            <h3 style="color: #ffaa20;">Peradeniya Police Station</h3>
+                                            <h3>Peradeniya Police Station</h3>
                                             <a href="tel:+94 81 238 8222">+94 81 238 8222</a><br>
                                             <a href="tel:+94 81 238 8033">+94 81 238 8033</a>
                                         </div>
@@ -674,7 +674,7 @@ $result = $conn->query($sql);
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
-                                    <h2>Derections</h2>
+                                    <h2>Directions</h2>
 
                                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15848.34583070817!2d80.23763882936633!3d6.759311550505008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3b0e9eccdbefb%3A0x5e7540e279813db8!2sKabaragala!5e0!3m2!1sen!2slk!4v1701274762504!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -691,7 +691,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;">Nawalapitiya District General Hospital</h3>
+                                            <h3>Nawalapitiya District General Hospital</h3>
                                             <a href="tel:+94 54 222 2261">+94 54 222 2261</a><br>
 
                                         </div>
@@ -704,7 +704,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Nawalapitiya Police Station</h3>
+                                            <h3>Nawalapitiya Police Station</h3>
                                             <a href="tel:+94 54 222 2222">+94 54 222 2222</a><br>
 
                                         </div>
@@ -865,7 +865,7 @@ $result = $conn->query($sql);
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
-                                    <h2>Derections</h2>
+                                    <h2>Directions</h2>
                                     <p>
 
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.46680043738!2d80.48853547384957!3d7.0717515165519025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae374859de3dbb5%3A0x986bfbe846e9d063!2sRaksagala%20-%20Kinihira%20Kanda!5e0!3m2!1sen!2slk!4v1701274803244!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -883,7 +883,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
+                                            <h3>Kandy General Hospital</h3>
                                             <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
                                             <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
 
@@ -897,7 +897,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
+                                            <h3>Kandy Police Station</h3>
                                             <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
                                             <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
 
@@ -1060,7 +1060,7 @@ $result = $conn->query($sql);
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
-                                    <h2>Derections</h2>
+                                    <h2>Directions</h2>
 
                                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.7744575155903!2d80.86867117385198!3d7.379155612631361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4a10ae07f4c93%3A0xf30669426fdd6d3a!2sKalugala%20Gerandi%20Ella%20Waterfall!5e0!3m2!1sen!2slk!4v1701274835644!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </p>
@@ -1076,10 +1076,10 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
+                                            <h3>Kandy General Hospital</h3>
                                             <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
                                             <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
-                                            <h3 style="color: #e20059;">Udadumbara General Hospital</h3>
+                                            <h3>Udadumbara General Hospital</h3>
                                             <a href="tel:+94 812 402 461">+94 812 402 461</a><br>
 
                                         </div>
@@ -1092,10 +1092,10 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
+                                            <h3>Kandy Police Station</h3>
                                             <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
                                             <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
-                                            <h3 style="color: #ffaa20;">Udadumbara Police Station</h3>
+                                            <h3>Udadumbara Police Station</h3>
                                             <a href="tel:+94 812 402 222">+94 812 402 222</a><br>
                                         </div>
                                     </div>
@@ -1251,7 +1251,7 @@ $result = $conn->query($sql);
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
-                                    <h2>Derections</h2>
+                                    <h2>Directions</h2>
 
                                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7916.375395771247!2d80.6708339250318!3d7.219419451298689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae364539e8d108d%3A0x1936c9e63dae4008!2sBellwood%2C%20Moragolla!5e0!3m2!1sen!2slk!4v1701274950707!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -1268,10 +1268,10 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;">Kandy General Hospital</h3>
+                                            <h3>Kandy General Hospital</h3>
                                             <a href="tel:+94 81 223 3337">+94 81 223 3337</a><br>
                                             <a href="tel:+94 81 222 2261">+94 81 222 2261</a>
-                                            <h3 style="color: #e20059;">Thalathuoya Divisional Hospital</h3>
+                                            <h3>Thalathuoya Divisional Hospital</h3>
                                             <a href="tel:+94 81 240 4261">+94 81 240 4261</a>
                                         </div>
                                     </div>
@@ -1283,10 +1283,10 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Kandy Police Station</h3>
+                                            <h3>Kandy Police Station</h3>
                                             <a href="tel:+94 81 222 2222">+94 81 222 2222</a><br>
                                             <a href="tel:+94 81 222 2223">+94 81 222 2223</a>
-                                            <h3 style="color: #ffaa20;">Thalathuoya Police Station</h3>
+                                            <h3>Thalathuoya Police Station</h3>
                                             <a href="tel:+94 81 240 4384">+94 81 240 4384</a>
                                         </div>
                                     </div>
@@ -1447,7 +1447,7 @@ $result = $conn->query($sql);
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
-                                    <h2>Derections</h2>
+                                    <h2>Directions</h2>
 
                                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15824.825179098936!2d80.77066112945106!3d7.442413158180637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae35f659beee899%3A0x3bf7cc23068a888d!2sKnuckles!5e0!3m2!1sen!2slk!4v1701275034782!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -1464,9 +1464,9 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;">Madulkelle General Hospital</h3>
+                                            <h3>Madulkelle General Hospital</h3>
                                             <a href="tel:+94 812 363 261">+94 81 236 3261</a>
-                                            <h3 style="color: #e20059;">Katugastota Hospital</h3>
+                                            <h3>Katugastota Hospital</h3>
                                             <a href="tel:+94 81 223 3337">+94 81 223 3337 </a>
                                         </div>
                                     </div>
@@ -1478,9 +1478,9 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Panwila police station </h3>
+                                            <h3>Panwila police station </h3>
                                             <a href="tel:+94 81 247 2222">+94 81 247 2222</a>
-                                            <h3 style="color: #ffaa20;">Katugasthota Police Station</h3>
+                                            <h3>Katugasthota Police Station</h3>
                                             <a href="tel:+94 81 249 9222">+94 81 249 9222</a>
 
                                         </div>
@@ -1641,7 +1641,7 @@ $result = $conn->query($sql);
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
-                                    <h2>Derections</h2>
+                                    <h2>Directions</h2>
 
                                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.8870818541454!2d80.63652847385468!3d7.69526590844095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcad5a3b07756b%3A0x3055376d27326848!2sArangala%20Mountain%20Peak!5e0!3m2!1sen!2slk!4v1701275258686!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -1658,7 +1658,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;">Nalanda Divisional Hospital</h3>
+                                            <h3>Nalanda Divisional Hospital</h3>
                                             <a href="tel:+94 66 224 6161">+94 66 224 6161</a>
                                         </div>
                                     </div>
@@ -1670,7 +1670,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Naula Police Station</h3>
+                                            <h3>Naula Police Station</h3>
                                             <a href="tel:+94 66 224 6222">+94 66 224 6222</a>
                                         </div>
                                     </div>
@@ -1833,7 +1833,7 @@ $result = $conn->query($sql);
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
-                                    <h2>Derections</h2>
+                                    <h2>Directions</h2>
 
                                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7911.059551161756!2d80.76182843671776!3d7.517044406660674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3577f4ed2d779%3A0x9fcbbce8b165f9ce!2sManigala!5e0!3m2!1sen!2slk!4v1701275287379!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -1850,7 +1850,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;">Matale District General Hospital </h3>
+                                            <h3>Matale District General Hospital </h3>
                                             <a href="tel:+94 66 222 2261">+94 66 222 2261</a>
                                         </div>
                                     </div>
@@ -1862,7 +1862,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Matale Police Station</h3>
+                                            <h3>Matale Police Station</h3>
                                             <a href="tel:+94 66 222 2222">+94 66 222 2222</a>
                                         </div>
                                     </div>
@@ -2028,7 +2028,7 @@ $result = $conn->query($sql);
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
-                                    <h2>Derections</h2>
+                                    <h2>Directions</h2>
                                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15846.758642344375!2d80.6774659793719!3d6.8075536476132275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae38f133e3dc071%3A0x6c72f8edb36c3da!2sGreen%20Mountain%20%2F%20Haritha%20Kanda%20%2F%20Bopath%20Thalawa!5e0!3m2!1sen!2slk!4v1701275332348!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                                     </p>
@@ -2044,7 +2044,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;"> Bagawanthalawa Divisional Hospital </h3>
+                                            <h3> Bagawanthalawa Divisional Hospital </h3>
                                             <a href="tel:+94 52 226 7561"> +94 52 226 7561</a>
                                         </div>
                                     </div>
@@ -2056,7 +2056,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Bagawantalawa Police Station</h3>
+                                            <h3>Bagawantalawa Police Station</h3>
                                             <a href="tel:+94 52 226 7522">+94 52 226 7522</a>
                                         </div>
                                     </div>
@@ -2226,7 +2226,7 @@ $result = $conn->query($sql);
                         <div class="slide">
                             <div class="div1">
                                 <div class="dir">
-                                    <h2>Derections</h2>
+                                    <h2>Directions</h2>
 
                                     <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63364.63968001724!2d80.65391725905685!3d6.975073712844701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae382413f5cf14b%3A0xa55560811c29af87!2sGreat%20Western%20Mountain!5e0!3m2!1sen!2slk!4v1701335491703!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -2243,7 +2243,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Hospitals</h2>
                                         <div class="data">
-                                            <h3 style="color: #e20059;"> Nuwara Eliya District General Hospital </h3>
+                                            <h3> Nuwara Eliya District General Hospital </h3>
                                             <a href="tel:+94 52 222 2261">+94 52 222 2261</a>
                                         </div>
                                     </div>
@@ -2255,7 +2255,7 @@ $result = $conn->query($sql);
                                     <div class="details">
                                         <h2>Police Stations</h2>
                                         <div class="data">
-                                            <h3 style="color: #ffaa20;">Nuwara Eliya Police Station</h3>
+                                            <h3>Nuwara Eliya Police Station</h3>
                                             <a href="tel:+94 52 222 2222">+94 52 222 2222</a>
                                         </div>
                                     </div>
@@ -2320,87 +2320,14 @@ $result = $conn->query($sql);
         </div>
     </footer>
 
-    <!--Main Scripts-->
+    <!--Function Scripts-->
     <script src="js/mscript.js"></script>
-
-    <!--Search Function-->
-    <script type="text/javascript">
-        function search() {
-            let filter = document.getElementById('find').value.toUpperCase();
-            let item = document.querySelectorAll('.place');
-            let l = document.getElementsByTagName('p');
-            for (var i = 0; i <= l.length; i++) {
-                let a = item[i].getElementsByTagName('p')[0];
-                let value = a.innerHTML || a.innerText || a.textContent;
-                if (value.toUpperCase().indexOf(filter) > -1) {
-                    item[i].style.display = "";
-                } else {
-                    item[i].style.display = "none";
-                }
-            }
-        }
-    </script>
-
-    <!--Pop-Up Model-->
-    <script type="text/javascript">
-        let preveiwContainer = document.querySelector('.places-preview');
-        let previewBox = preveiwContainer.querySelectorAll('.preview');
-
-        document.querySelectorAll('.places-container .place').forEach(place => {
-            place.onclick = () => {
-                preveiwContainer.style.display = 'flex';
-                let name = place.getAttribute('data-name');
-                previewBox.forEach(preview => {
-                    let target = preview.getAttribute('data-target');
-                    if (name == target) {
-                        preview.classList.add('active');
-                    }
-                });
-            };
-        });
-
-        previewBox.forEach(close => {
-            close.querySelector('.fa-times').onclick = () => {
-                close.classList.remove('active');
-                preveiwContainer.style.display = 'none';
-            };
-        });
-
-        const tabs = document.querySelectorAll('.tab-btn');
-        const all_slide = document.querySelectorAll('.slide');
-
-        tabs.forEach((tab, index) => {
-            tab.addEventListener('click', (e) => {
-                tabs.forEach(tab => {
-                    tab.classList.remove('active2')
-                });
-                tab.classList.add('active2');
-
-                all_slide.forEach(slide => {
-                    slide.classList.remove('active2')
-                });
-                all_slide[index].classList.add('active2');
-            })
-        })
-    </script>
+    <script src="js/dscript.js"></script>
 
     <!--Animation Scripts-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script>
-
-    <!--Weather Widget-->
-    <script>
-        ! function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (!d.getElementById(id)) {
-                js = d.createElement(s);
-                js.id = id;
-                js.src = 'https://weatherwidget.io/js/widget.min.js';
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-        }(document, 'script', 'weatherwidget-io-js');
     </script>
 </body>
 

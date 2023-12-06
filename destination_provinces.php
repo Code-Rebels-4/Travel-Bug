@@ -63,10 +63,10 @@
             <br>travel spots, neatly organized by their <br> respective provinces!</p><br>
     </div>
 
-    <!-- Additional content sections with animations -->
+    <h1 class="text2" data-aos="flip-up" data-aos-delay="200" data-aos-duration="400">Essential Information about Travel Destinations</h1>
 
     <!-- Information box at the top -->
-    <br><br><br><br><br><br>
+    <br>
     <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="450" data-aos-duration="400">
         <p><b>Embark on an unforgettable journey through the mesmerizing travel destinations of Sri Lanka, a land where
                 ancient wonders and natural beauty converge in perfect harmony. Brace yourself for an adventure that

@@ -61,10 +61,10 @@
         </p><br>
     </div>
 
-    <!-- Additional content sections with animations -->
+    <h1 class="text2" data-aos="flip-up" data-aos-delay="200" data-aos-duration="400">Essential Hiking Gear</h1>
 
     <!-- Information box at the top -->
-    <br><br><br><br><br><br>
+    <br>
     <div id="information-box" class="information-box" data-aos="fade-down" data-aos-delay="250" data-aos-duration="200">
         <p><b>Embark on an unforgettable hiking adventure through the mesmerizing landscapes of Sri Lanka. Explore the
                 stunning peaks of Ella Rock, traverse the lush trails of Horton Plains National Park, and immerse
