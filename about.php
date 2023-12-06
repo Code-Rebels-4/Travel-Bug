@@ -57,14 +57,44 @@ if ($conn->connect_error) {
         <br><br><br>
         <h1 data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">About</h1>
         <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="800">Who We Are...</p><br>
-        <div class="phrase" data-aos="fade" data-aos-delay="1300" data-aos-duration="1600">Designers, Thinkers <br> & Collaborators</div>
+        <div class="phrase" data-aos="fade" data-aos-delay="1300" data-aos-duration="1600">Designers, Thinkers <br> &
+            Collaborators</div>
 
     </div>
 
+    <div class="ab">
+        <h1 class="text2" data-aos="flip-up" data-aos-delay="300" data-aos-duration="800">About TravelBug</h1>
+        <br><br><br><br>
+        <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">Welcome to <b>TravelBug</b>, your gateway to a personalized and enriching travel experience in the beautiful
+            landscapes of Sri Lanka. At <b>TravelBug</b>, we understand that every traveler is unique, with diverse needs,
+            preferences, and levels of experience. Our meticulously designed system is crafted to cater to individuals
+            across various financial situations and interests, ensuring that Sri Lanka is accessible to all.
+            <br>
+            Our mission is to empower users with a wealth of information, leveraging the latest technology to categorize
+            it according to the provinces in Sri Lanka. Whether you're a seasoned globetrotter or a first-time
+            adventurer, <b>TravelBug</b> is here to make your journey easier, more enjoyable, and truly memorable.
+            <br>
+            The driving force behind <b>TravelBug</b> is our unwavering desire to enhance your travel experience. We go beyond
+            conventional travel planning, providing comprehensive descriptions of points of interest, complete with
+            essential details like contact information. Our goal is to assist you in efficiently preparing for your
+            trip, ensuring that you have all the necessary information at your fingertips.
+            <br>
+            Whether you find yourself already in Sri Lanka or are in the early stages of planning your journey,
+            <b>TravelBug</b> promises to be your invaluable travel companion. With an intuitive and practical design, coupled
+            with an extensive database, our platform allows you to explore new destinations, create detailed travel
+            plans, and learn about the unique qualities of each place.
+            <br>
+            At <b>TravelBug</b>, we aspire to contribute to the creation of lifelong memories for travelers in Sri Lanka. We
+            believe in making travel experiences not only accessible but also pleasurable. Join us on this exciting
+            journey, and let <b>TravelBug</b> be your guide to discovering the wonders of Sri Lanka, ensuring that every step
+            of your adventure is informed, enjoyable, and truly unforgettable.</p>
+    </div>
+
+    <br><br><br><br><br>
     <div class="d1">
         <h1 class="text2" data-aos="flip-up" data-aos-delay="300" data-aos-duration="800">Meet Our Team</h1>
         <div class="main">
-            <div class="ani" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+            <div class="ani" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                 <div class="profile-card">
                     <div class="img">
                         <img src="Images\team\tharindu.png">
@@ -161,7 +191,7 @@ if ($conn->connect_error) {
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 </body>
 
