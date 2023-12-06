@@ -182,7 +182,7 @@ if ($conn->connect_error) {
         AOS.init();
     </script>
 
-    <script>
+    <!-- <script>
         document.getElementById('feedbackType').addEventListener('change', function () {
             var feedbackFields = document.getElementById('feedbackFields');
             var suggestionFields = document.getElementById('suggestionFields');
@@ -195,7 +195,7 @@ if ($conn->connect_error) {
                 suggestionFields.style.display = 'block';
             }
         });
-    </script>
+    </script> -->
 
 </body>
 
