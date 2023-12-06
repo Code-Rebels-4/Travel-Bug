@@ -12,7 +12,7 @@ include "config.php";
     <link rel="stylesheet" href="places.css">
     <link rel="icon" href="images/icon.png" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Welcom to Hiking Places</title>
+    <title>Welcome to Hiking Places!</title>
 
     <script src="js/date.js"></script>
     <script src="js/upload_image.js"></script>
@@ -24,7 +24,7 @@ include "config.php";
     <!------------------------Heder---------------------------->
     <div class="header">
         <div id="dateDisplay"></div>
-        <div id="siteName">Travel Bug</div>
+        <div id="siteName">TravelBug</div>
         <div class="user-info">
             <span class="username"></span>
             <span class="user-position"></span>
@@ -67,7 +67,7 @@ include "config.php";
 
             <div class="option">
                 <a href="travel_destination_edit.php">
-                    <img src="images/Travel_Destination.png" alt="Option 1 Icon">Travel Destination
+                    <img src="images/Travel_Destination.png" alt="Option 1 Icon">Travel Destinations
                 </a>
             </div>
 
