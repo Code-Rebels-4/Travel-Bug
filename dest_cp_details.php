@@ -11,9 +11,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, image_data, image_name FROM images";
-$result = $conn->query($sql);
-
 ?>
 
 <!DOCTYPE html>
@@ -86,13 +83,12 @@ $result = $conn->query($sql);
                                                                             // Assuming you want to display the image with ID = 2
                                                                             $specificImageID = 1;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
                                                                             if ($result->num_rows > 0) {
                                                                                 $row = $result->fetch_assoc();
                                                                                 $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
 
                                                                                 echo 'data:image/jpeg;base64,' . $imageData;
                                                                             } else {
@@ -109,13 +105,13 @@ $result = $conn->query($sql);
                                                                             // Assuming you want to display the image with ID = 2
                                                                             $specificImageID = 2;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
                                                                             if ($result->num_rows > 0) {
                                                                                 $row = $result->fetch_assoc();
                                                                                 $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
+
 
                                                                                 echo 'data:image/jpeg;base64,' . $imageData;
                                                                             } else {
@@ -131,13 +127,13 @@ $result = $conn->query($sql);
                                                                             // Assuming you want to display the image with ID = 3
                                                                             $specificImageID = 3;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
                                                                             if ($result->num_rows > 0) {
                                                                                 $row = $result->fetch_assoc();
                                                                                 $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
+
 
                                                                                 echo 'data:image/jpeg;base64,' . $imageData;
                                                                             } else {
@@ -154,13 +150,13 @@ $result = $conn->query($sql);
                                                                             // Assuming you want to display the image with ID = 4
                                                                             $specificImageID = 4;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
                                                                             if ($result->num_rows > 0) {
                                                                                 $row = $result->fetch_assoc();
                                                                                 $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
+
 
                                                                                 echo 'data:image/jpeg;base64,' . $imageData;
                                                                             } else {
@@ -177,13 +173,13 @@ $result = $conn->query($sql);
                                                                             // Assuming you want to display the image with ID = 5
                                                                             $specificImageID = 5;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
                                                                             if ($result->num_rows > 0) {
                                                                                 $row = $result->fetch_assoc();
                                                                                 $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
+
 
                                                                                 echo 'data:image/jpeg;base64,' . $imageData;
                                                                             } else {
@@ -200,13 +196,13 @@ $result = $conn->query($sql);
                                                                             // Assuming you want to display the image with ID = 31
                                                                             $specificImageID = 31;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
                                                                             if ($result->num_rows > 0) {
                                                                                 $row = $result->fetch_assoc();
                                                                                 $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
+
 
                                                                                 echo 'data:image/jpeg;base64,' . $imageData;
                                                                             } else {
@@ -222,13 +218,12 @@ $result = $conn->query($sql);
                                                                             // Assuming you want to display the image with ID = 2
                                                                             $specificImageID = 55;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
                                                                             if ($result->num_rows > 0) {
                                                                                 $row = $result->fetch_assoc();
                                                                                 $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
 
                                                                                 echo 'data:image/jpeg;base64,' . $imageData;
                                                                             } else {
@@ -245,13 +240,13 @@ $result = $conn->query($sql);
                                                                             // Assuming you want to display the image with ID = 3
                                                                             $specificImageID = 59;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
                                                                             if ($result->num_rows > 0) {
                                                                                 $row = $result->fetch_assoc();
                                                                                 $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
+
 
                                                                                 echo 'data:image/jpeg;base64,' . $imageData;
                                                                             } else {
@@ -268,13 +263,13 @@ $result = $conn->query($sql);
                                                                             // Assuming you want to display the image with ID = 4
                                                                             $specificImageID = 66;
 
-                                                                            $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                            $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                             $result = $conn->query($sql);
 
                                                                             if ($result->num_rows > 0) {
                                                                                 $row = $result->fetch_assoc();
                                                                                 $imageData = base64_encode($row['image_data']);
-                                                                                $imageName = $row['image_name'];
+
 
                                                                                 echo 'data:image/jpeg;base64,' . $imageData;
                                                                             } else {
@@ -291,13 +286,13 @@ $result = $conn->query($sql);
                                                                                 // Assuming you want to display the image with ID = 73
                                                                                 $specificImageID = 73;
 
-                                                                                $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                                $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                                 $result = $conn->query($sql);
 
                                                                                 if ($result->num_rows > 0) {
                                                                                     $row = $result->fetch_assoc();
                                                                                     $imageData = base64_encode($row['image_data']);
-                                                                                    $imageName = $row['image_name'];
+
 
                                                                                     echo 'data:image/jpeg;base64,' . $imageData;
                                                                                 } else {
@@ -305,8 +300,6 @@ $result = $conn->query($sql);
                                                                                 }
 
                                                                                 ?>)">
-
-                ?>)">
 
                 <p>Dambulla Cave Temple</p>
             </div>
@@ -322,7 +315,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 8;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -338,7 +331,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 9;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -353,7 +346,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 10;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -368,7 +361,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 11;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -383,7 +376,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 12;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -398,7 +391,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 13;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -413,7 +406,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 14;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -541,7 +534,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 17;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -557,7 +550,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 18;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -572,7 +565,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 19;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -587,7 +580,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 20;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -602,7 +595,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 21;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -617,7 +610,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 22;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -632,7 +625,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 23;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -760,7 +753,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 24;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -776,7 +769,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 25;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -791,7 +784,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 26;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -806,7 +799,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 27;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -821,7 +814,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 28;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -836,7 +829,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 29;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -851,7 +844,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 30;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -979,7 +972,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 8;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -995,7 +988,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 9;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1010,7 +1003,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 10;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1025,7 +1018,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 11;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1040,7 +1033,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 12;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1055,7 +1048,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 13;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1070,7 +1063,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 14;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1190,7 +1183,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 45;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1206,7 +1199,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 46;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1221,7 +1214,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 47;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1236,7 +1229,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 48;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1251,7 +1244,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 49;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1266,7 +1259,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 50;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1281,7 +1274,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 51;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1408,7 +1401,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 31;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1424,7 +1417,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 32;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1439,7 +1432,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 33;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1454,7 +1447,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 34;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1469,7 +1462,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 35;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1484,7 +1477,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 36;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1499,7 +1492,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 37;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1622,7 +1615,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 52;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1638,7 +1631,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 53;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1653,7 +1646,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 54;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1668,7 +1661,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 55;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1683,7 +1676,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 56;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1698,7 +1691,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 57;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1713,7 +1706,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 58;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1839,7 +1832,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 60;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1855,7 +1848,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 61;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1870,7 +1863,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 62;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1885,7 +1878,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 63;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1900,7 +1893,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 64;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1915,7 +1908,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 65;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -1930,7 +1923,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 59;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2050,7 +2043,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 67;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2066,7 +2059,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 68;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2081,7 +2074,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 69;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2096,7 +2089,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 70;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2111,7 +2104,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 71;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2126,7 +2119,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 72;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2141,7 +2134,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 66;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2261,7 +2254,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 74;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2277,7 +2270,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 75;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2292,7 +2285,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 76;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2307,7 +2300,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 77;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2322,7 +2315,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 78;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2337,7 +2330,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 79;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {
@@ -2352,7 +2345,7 @@ $result = $conn->query($sql);
                 <img class="prewImg" src="data:image/jpeg;base64,<?php
                                                                     $specificImageID = 73;
 
-                                                                    $sql = "SELECT id, image_data, image_name FROM images WHERE id = $specificImageID";
+                                                                    $sql = "SELECT id, image_data FROM images WHERE id = $specificImageID";
                                                                     $result = $conn->query($sql);
 
                                                                     if ($result->num_rows > 0) {

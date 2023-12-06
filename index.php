@@ -33,7 +33,7 @@
                 <li><a href="index.php #explore">Explore</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="contact.php">Admin Panel</a></li>
+                <li><a href="admin-panel/login.php">Admin Panel</a></li>
             </ul>
         </div>
     </nav>
@@ -297,7 +297,7 @@
         </div>
 
     </section>
-    
+
     <!--Explore-->
     <section id="explore" class="explore">
         <div class="text2" data-aos="flip-up" data-aos-delay="300" data-aos-duration="500">

@@ -517,7 +517,3 @@
 
 </html>
 
-
-
-<!-- <a href="c-details-CP.php" class="blog-slider__button" id="readMoreButton">READ MORE</a> -->
-<!-- <button id="viewDetailsBtn1" class="view-details-btn">View More </button> -->
