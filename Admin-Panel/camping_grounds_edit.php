@@ -91,7 +91,7 @@
 
             <div class="Header-container">
                 <div class="header-left">
-                    <h2>Travel Destination</h2>
+                    <h2>Camping Grounds</h2>
                 </div>
                 <div class="header-right">
                     <button id="openPopup">Upload Image</button>
