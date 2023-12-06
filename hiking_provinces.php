@@ -6,12 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <!-- Title for the webpage -->
-    <title>Hiking Places Provinces</title>
+    <title>Explore Hiking Places</title>
 
     <!-- External CSS and Font Awesome stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/province_styles.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -138,7 +139,7 @@
     </div>
     </div>
 
-    <!-- Bottom box with coastal allure and wildlife adventures -->
+    <!-- Bottom box -->
     <div class="bottom-box information-box" data-aos="fade-up" data-aos-delay="250" data-aos-duration="00">
         <h1>Miscellaneous Tips and Extras:</h1><br>
         <p>
@@ -165,7 +166,7 @@
         province with just a click!</h1>
 
 
-    <!-- Main application section with cards and information -->
+    <!--Provinces Slider-->
     <div class="mid">
         <div class="app">
             <!-- Card list with left and right buttons -->
@@ -255,7 +256,6 @@
             </div>
 
 
-
             <!-- Background images for each card -->
             <div class="app__bg">
                 <!-- Background image for Card 1, Background image for Card 2, ..., Background image for Card 9 -->
@@ -289,7 +289,6 @@
             </div>
 
 
-
             <!-- Information list with details about each province -->
             <div class="infoList">
                 <div class="info__wrapper">
@@ -301,14 +300,12 @@
                         </p>
                     </div>
 
-
                     <div class="info card2info">
                         <h1 class="text name">Western Province</h1>
                         <p class="text description">Colombo <br> Gampaha <br> Kalutara <br><br>
                             <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton2">VIEW</a>
                         </p>
                     </div>
-
 
                     <div class="info card3info">
                         <h1 class="text name">Southern Province</h1>
@@ -317,15 +314,12 @@
                         </p>
                     </div>
 
-
                     <div class="info card4info">
                         <h1 class="text name">Eastern Province</h1>
                         <p class="text description">Ampara <br> batticaloa <br> Trincomalee <br><br>
                             <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton4">VIEW</a>
                         </p>
-                        </p>
                     </div>
-
 
                     <div class="info card5info">
                         <h1 class="text name">Northen Province</h1>
@@ -333,54 +327,40 @@
                             <br><br>
                             <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton5">VIEW</a>
                         </p>
-                        </p>
                     </div>
-
 
                     <div class="info card6info">
                         <h1 class="text name">Uva Province </h1>
                         <p class="text description">Badulla <br> Moneragala <br><br>
                             <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton6">VIEW</a>
                         </p>
-                        </p>
                     </div>
-
 
                     <div class="info card7info">
                         <h1 class="text name">North Central <br>Province </h1>
                         <p class="text description">Anuradhapura <br> Polonnaruwa <br><br>
                             <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton7">VIEW</a>
                         </p>
-                        </p>
                     </div>
-
 
                     <div class="info card8info">
                         <h1 class="text name">North Western <br>Province </h1>
                         <p class="text description">Kurunegala <br> Puttalam <br><br>
                             <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton8">VIEW</a>
                         </p>
-                        </p>
                     </div>
-
 
                     <div class="info card9info">
                         <h1 class="text name">Sabaragamuwa <br>Province </h1>
                         <p class="text description">Ratnapura <br> Kegalle <br><br>
                             <a href="hik_cp_details.php" class="blog-slider__button" id="readMoreButton9">VIEW</a>
                         </p>
-                        </p>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 
-
-    <!-- --------------------------------------- -->
 
     <!-- Footer Section -->
     <footer class="footer-distributed">
@@ -414,7 +394,6 @@
             </div>
         </div>
 
-
         <!-- Right section with about the team and social icons -->
         <div class="footer-right">
             <!-- About the Team information and social icons -->
@@ -447,12 +426,13 @@
     <!-- External JavaScript libraries and custom scripts -->
     <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
-    <script type="text/javascript" src="js/p.script.js"></script>
+    <script type="text/javascript" src="js/provinces_script.js"></script>
     <script src="js/mscript.js"></script>
 
 
     <!-- AOS (Animate On Scroll) library initialization -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
     <script>
     AOS.init();
     </script>
@@ -460,8 +440,3 @@
 </body>
 
 </html>
-
-
-
-<!-- <a href="h-details-CP.php" class="blog-slider__button" id="readMoreButton">READ MORE</a> -->
-<!-- <button id="viewDetailsBtn1" class="view-details-btn">View More </button> -->
