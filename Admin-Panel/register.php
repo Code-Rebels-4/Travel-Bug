@@ -1,5 +1,4 @@
 <?php
-// Include the configuration file
 include "config.php";
 
 // Check if the form is submitted using the POST method and the correct secret word is entered

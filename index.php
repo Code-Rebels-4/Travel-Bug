@@ -567,7 +567,6 @@
         })
     </script>
 
-    <script src="js/mscript.js"></script>
     <script src="js/festivals_script.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

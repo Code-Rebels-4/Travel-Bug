@@ -175,7 +175,6 @@ if ($conn->connect_error) {
         </div>
     </footer>
 
-    <script src="js/mscript.js"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

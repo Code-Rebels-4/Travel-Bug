@@ -1,5 +1,4 @@
 <?php
-// Include the configuration file
 include "config.php";
 ?>
 
@@ -84,7 +83,6 @@ include "config.php";
                     <img src="images/logout.png" alt="Option 1 Icon">Logout
                 </a>
             </div>
-            <!-- Add more options here -->
         </div>
         <!---------------------Side Category----------------------->
         <!--------------------------------------------------------->

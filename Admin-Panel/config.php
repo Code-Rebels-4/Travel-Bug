@@ -1,9 +1,9 @@
 <?php
 
-$host = "localhost"; // Change this to your database host
-$username = "root"; // Change this to your database username
-$password = ""; // Change this to your database password
-$database = "travelbug"; // Change this to your database name
+$host = "localhost"; // database host
+$username = "root"; // database username
+$password = ""; // database password
+$database = "travelbug"; // database name
 
 $conn = new mysqli($host, $username, $password, $database);
 

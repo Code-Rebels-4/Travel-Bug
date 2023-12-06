@@ -76,7 +76,6 @@
                     <img src="images/camping.png" alt="Option 1 Icon">Camping Grounds
                 </a>
             </div>
-            <!-- Add more options here -->
         </div>
         <!---------------------Side Category----------------------->
         <!--------------------------------------------------------->
@@ -118,7 +117,6 @@
                                     <option value="southern">Southern</option>
                                     <option value="uva">Uva</option>
                                     <option value="western">Western</option>
-                                    <!-- Add more options as needed -->
                                 </select>
 
                                 <label for="placeName">Place Name:</label>

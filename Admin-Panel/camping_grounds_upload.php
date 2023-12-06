@@ -33,7 +33,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             echo "File $name has been uploaded and data inserted into the database successfully.<br>";
 
-            // Optionally, you can unlink the file after it's been uploaded and inserted into the database
             unlink($targetFile);
         } else {
             echo "Error uploading $name.<br>";

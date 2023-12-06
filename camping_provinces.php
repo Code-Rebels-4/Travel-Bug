@@ -449,7 +449,6 @@
     <script type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
     <script type="text/javascript" src="js/provinces_script.js"></script>
-    <script src="js/mscript.js"></script>
 
 
     <!-- AOS (Animate On Scroll) library initialization -->

@@ -2591,7 +2591,6 @@ if ($conn->connect_error) {
     </footer>
 
     <!--Function Scripts-->
-    <script src="js/mscript.js"></script>
     <script src="js/details_script.js"></script>
 
     <!--Animation Scripts-->
