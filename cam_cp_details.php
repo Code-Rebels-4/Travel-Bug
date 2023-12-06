@@ -2307,7 +2307,7 @@ if ($conn->connect_error) {
 
     <!--Function Scripts-->
     <script src="js/mscript.js"></script>
-    <script src="js/dscript.js"></script>
+    <script src="js/details_script.js"></script>
 
     <!--Animation Scripts-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
